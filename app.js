@@ -161,7 +161,7 @@ function download(name, text) {
 }
 
 async function main() {
-  const { updated, tournaments } = await (await fetch("data/tournaments.json")).json();
+  const { updated, tournaments } = await (await fetch("data/tournaments.json", { cache: "no-cache" })).json();
   const byId = Object.fromEntries(tournaments.map((t) => [t.id, t]));
   document.getElementById("updated").textContent = updated;
 
