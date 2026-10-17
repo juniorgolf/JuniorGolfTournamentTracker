@@ -1210,4 +1210,12 @@ DTEND;VALUE=DATE:20270112
 SUMMARY:【申込締切】JJGT 日韓国際ジュニア 日本代表選抜 関東予選会（千葉）
 DESCRIPTION:https://www.jjgt.net/tour-info/
 END:VEVENT
+BEGIN:VEVENT
+UID:sainokuni-junior-2025@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251226
+DTEND;VALUE=DATE:20251227
+SUMMARY:【大会】第21回 彩の国ジュニア（小・中学生）ゴルフ大会
+DESCRIPTION:吉見ゴルフ場\nhttps://saitama-dr-fed.com/%e7%ac%ac%ef%bc%92%ef%bc%91%e5%9b%9e%e3%80%80%e5%bd%a9%e3%81%ae%e5%9b%bd%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e5%b0%8f%e3%83%bb%e4%b8%ad%e5%ad%a6%e7%94%9f%e3%82%b4%e3%83%ab%e3%83%95%e5%a4%a7%e4%bc%9a/
+END:VEVENT
 END:VCALENDAR
