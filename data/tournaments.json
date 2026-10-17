@@ -11859,6 +11859,749 @@
    ]
   },
   {
+   "id": "jhs-kansai-kgu-junior-51-q",
+   "name": "2026年度（第51回）関西ジュニアゴルフ選手権競技 予選（12〜14歳の部）",
+   "organizer": "関西ゴルフ連盟（KGU）／関西高等学校・中学校ゴルフ連盟／スポーツニッポン新聞社",
+   "pref": "兵庫",
+   "venue": "ダンロップゴルフコース",
+   "start": "2026-07-15",
+   "end": "2026-07-15",
+   "entry_open": "2026-05-29",
+   "entry_close": "2026-06-12",
+   "entry_state": null,
+   "grades": "12〜14歳（中学生、男女別）※15〜17歳の部の予選は7/13・14",
+   "stage": "予選",
+   "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/golf-341448/",
+   "note": "JTBスポーツステーションで申込（参加料5,500円）。JGAジュニア会員で原則関西在住の者、または関西高等学校・中学校ゴルフ連盟加盟の中学生が対象で、団体加盟校の選手は学校から申込。予選から保護者の観戦は禁止。和歌山県高等学校・中学校ゴルフ連盟の年間予定では全国中学校ゴルフ選手権の予選も兼ねる。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（男子12〜14歳 予選）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2026/04/男子12-14（確定）.pdf"
+    },
+    {
+     "label": "成績（女子12〜14歳 予選）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2026/04/女子12-14（確定）-1.pdf"
+    }
+   ],
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-kgu-junior-51-final",
+   "name": "2026年度（第51回）関西ジュニアゴルフ選手権競技 決勝（日本ジュニアゴルフ選手権 関西予選）",
+   "organizer": "関西ゴルフ連盟（KGU）／関西高等学校・中学校ゴルフ連盟／スポーツニッポン新聞社",
+   "pref": "兵庫",
+   "venue": "宝塚ゴルフ倶楽部（男子 新コース／女子 旧コース）",
+   "start": "2026-07-23",
+   "end": "2026-07-24",
+   "entry_open": "2026-05-29",
+   "entry_close": "2026-06-12",
+   "entry_state": null,
+   "grades": "12〜14歳（中学生）／15〜17歳（高校生）（男女別）",
+   "stage": "決勝",
+   "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/golf-341448/",
+   "note": "予選通過者と決勝シード選手が出場（シード選手も申込期間内のエントリーが必要）。上位は日本ジュニアゴルフ選手権に進出。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（男子12〜14歳 最終日）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2026/04/男子1214歳の部（確定）-2.pdf"
+    },
+    {
+     "label": "成績（女子12〜14歳 最終日）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2026/04/女子1214歳の部（確定）-1.pdf"
+    }
+   ],
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "w-jhs-kansai-kgu-junior-52",
+   "name": "2027年度（第52回）関西ジュニアゴルフ選手権競技（日本ジュニアゴルフ選手権 関西予選）",
+   "organizer": "関西ゴルフ連盟（KGU）／関西高等学校・中学校ゴルフ連盟／スポーツニッポン新聞社",
+   "pref": "兵庫",
+   "venue": "決勝は宝塚ゴルフ倶楽部 新/旧コース、予選は未発表（前年はダンロップゴルフコース）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "12〜14歳（中学生）／15〜17歳（高校生）（前年、男女別）",
+   "stage": "発表待ち",
+   "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/",
+   "note": "前年はJTBスポーツステーションで申込、参加料5,500円。JGAジュニア会員であることが条件だった。",
+   "verified": "2026-10-17",
+   "expected": "開催：決勝は2027/7/28〜（宝塚ゴルフ倶楽部 新/旧、KGU 2027年競技日程）、予選は未発表（前年は12〜14歳の部が7/15）　申込：前年は5/29開始・6/12締切",
+   "window_from": "2027-05-15",
+   "window_to": "2027-06-12",
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-khgu-jhs-final-2026",
+   "name": "関西中学校ゴルフ選手権決勝大会（兼 全国中学校ゴルフ選手権春季大会 関西予選）2026",
+   "organizer": "関西高等学校・中学校ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "三木ゴルフ倶楽部",
+   "start": "2026-12-16",
+   "end": "2026-12-17",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（男女）",
+   "stage": "決勝",
+   "url": "https://www.hyogo-golf.com/news/766/",
+   "note": "府県の秋季大会（関西決勝大会予選）で出場権を得た、各府県の高等学校・中学校ゴルフ連盟登録の中学生が対象。申込は関西高等学校・中学校ゴルフ連盟HP（khgu.jp）で受付予定（10/14時点「近日開始予定」）。指定ラウンドは12/15。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-hyogo-jhs-2026",
+   "name": "令和8年度 兵庫県中学校ゴルフ選手権大会（兼 関西中学校ゴルフ選手権大会 予選）",
+   "organizer": "兵庫県高等学校・中学校ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "山東カントリークラブ",
+   "start": "2026-05-30",
+   "end": "2026-05-30",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（男女）",
+   "stage": "予選",
+   "url": "https://www.hyogo-golf.com/news/656/",
+   "note": "兵庫県高等学校・中学校ゴルフ連盟への登録が必要（ゴルフ部のある指定校は部単位、それ以外は連盟HPから個人登録）。2026年は県内の中学生69名が出場。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.hyogo-golf.com/wp-content/uploads/2026/04/R8中学生大会サマリ3.pdf"
+    }
+   ],
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-hyogo-jhs-autumn-2026",
+   "name": "令和8年度 兵庫県高等学校・中学校ゴルフ選手権秋季大会（中学生の部）",
+   "organizer": "兵庫県高等学校・中学校ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "花屋敷ゴルフ倶楽部 ひろのコース",
+   "start": "2026-10-06",
+   "end": "2026-10-06",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（男女）※高校生の部は10/13",
+   "stage": "予選",
+   "url": "https://www.hyogo-golf.com/news/722/",
+   "note": "兵庫県高等学校・中学校ゴルフ連盟の登録者が対象。公式指定ラウンドは10/2。12月の関西中学校ゴルフ選手権決勝大会への予選を兼ねる。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "w-jhs-kansai-hyogo-jhs-shinjin-2027",
+   "name": "令和8年度 兵庫県中学校ゴルフ選手権新人大会",
+   "organizer": "兵庫県高等学校・中学校ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "未発表",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（男女）",
+   "stage": "発表待ち",
+   "url": "https://www.hyogo-golf.com/schedule/",
+   "note": "兵庫県高等学校・中学校ゴルフ連盟の登録者が対象。連盟の大会予定では要項は12月下旬に掲載予定。前年は保護者のクラブハウス立ち入り禁止。",
+   "verified": "2026-10-17",
+   "expected": "開催：連盟予定表では2027年1月または2月（前年は2/14、三木ゴルフ倶楽部）　申込：要項は12月下旬掲載予定（前年の告知は12/15）",
+   "window_from": "2026-12-10",
+   "window_to": "2027-01-31",
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-hyogo-jhs-shinjin-r7",
+   "name": "令和7年度 兵庫県中学校ゴルフ選手権新人大会（中学新人戦）",
+   "organizer": "兵庫県高等学校・中学校ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "三木ゴルフ倶楽部",
+   "start": "2026-02-14",
+   "end": "2026-02-14",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（男女）",
+   "stage": "単独",
+   "url": "https://www.hyogo-golf.com/news/604/",
+   "note": "兵庫県高等学校・中学校ゴルフ連盟の登録者が対象。公式指定ラウンドは2/7限定。保護者はクラブハウス立ち入り禁止。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-kyoto-hs-jhs-spring-2026",
+   "name": "2026年度 京都府高等学校・中学校ゴルフ選手権 春季大会（関西大会 京都予選）",
+   "organizer": "京都府高等学校ゴルフ連盟",
+   "pref": "京都",
+   "venue": "城陽カントリー倶楽部 西コース",
+   "start": "2026-05-16",
+   "end": "2026-05-16",
+   "entry_open": null,
+   "entry_close": "2026-04-22",
+   "entry_state": null,
+   "grades": "中学生・高校生（連盟の個人加盟登録者）",
+   "stage": "予選",
+   "url": "https://sites.google.com/view/kyoto-kougoren/%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A%E6%83%85%E5%A0%B1",
+   "note": "連盟の個人加盟登録が必要（新規登録者はルールマナー講習会の受講が条件）。申込フォーム締切4/22、申込書PDF提出と参加費振込は5/1まで。公式指定練習日は5/15。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://drive.google.com/file/d/1v7JHUwEK2ZhUECCciB_DZQPTVCp-bSBV/view?usp=drive_link"
+    }
+   ],
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-kyoto-hs-jhs-autumn-2026",
+   "name": "2026年度 京都府高等学校・中学校ゴルフ選手権 秋季大会（関西決勝大会 京都予選）",
+   "organizer": "京都府高等学校ゴルフ連盟",
+   "pref": "京都",
+   "venue": "瑞穂ゴルフ倶楽部",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（連盟の個人加盟登録者）",
+   "stage": "予選",
+   "url": "https://sites.google.com/view/kyoto-kougoren/%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A%E6%83%85%E5%A0%B1",
+   "note": "連盟の個人加盟登録者が対象で、連盟サイトの申込フォーム（仮登録）から申込。組み合わせは発表済み。公式指定練習日は10/22。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-osaka-hs-jhs-2026-m",
+   "name": "令和8年度 大阪府高等学校・中学校ゴルフ選手権大会 男子（兼 国スポ大阪府代表（少年）選考会・関西大会予選）",
+   "organizer": "大阪府高等学校・中学校ゴルフ連盟",
+   "pref": "大阪",
+   "venue": "アートレイクゴルフ倶楽部",
+   "start": "2026-05-11",
+   "end": "2026-05-11",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（男子）",
+   "stage": "予選",
+   "url": "https://www.osaka-kogoren.com/plan/",
+   "note": "大阪府高等学校・中学校ゴルフ連盟の登録者が対象。上位は関西高等学校・中学校ゴルフ選手権大会に進出（出場権獲得者は参加費を振込んでエントリー）。参加費等は連盟事務局に確認。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（中学男子）",
+     "url": "https://www.osaka-kogoren.com/news/493"
+    }
+   ],
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-osaka-hs-jhs-2026-w",
+   "name": "令和8年度 大阪府高等学校・中学校ゴルフ選手権大会 女子（兼 国スポ大阪府代表（少年）選考会・関西大会予選）",
+   "organizer": "大阪府高等学校・中学校ゴルフ連盟",
+   "pref": "大阪",
+   "venue": "アートレイクゴルフ倶楽部",
+   "start": "2026-05-18",
+   "end": "2026-05-18",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（女子）",
+   "stage": "予選",
+   "url": "https://www.osaka-kogoren.com/plan/",
+   "note": "大阪府高等学校・中学校ゴルフ連盟の登録者が対象。上位は関西高等学校・中学校ゴルフ選手権大会に進出（出場権獲得者は参加費を振込んでエントリー）。参加費等は連盟事務局に確認。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（中学女子）",
+     "url": "https://www.osaka-kogoren.com/news/495"
+    }
+   ],
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-osaka-shigaku-jhs-29",
+   "name": "令和8年度 第29回 大阪府中学校私学総合体育大会（ゴルフ競技の部）",
+   "organizer": "大阪府高等学校・中学校ゴルフ連盟／大阪府私立中学高等学校体育連盟",
+   "pref": "大阪",
+   "venue": "大阪ゴルフクラブ",
+   "start": "2026-09-07",
+   "end": "2026-09-07",
+   "entry_open": null,
+   "entry_close": "2026-08-14",
+   "entry_state": null,
+   "grades": "中学生（大阪府の私立中学在籍、男女別）",
+   "stage": "単独",
+   "url": "https://www.osaka-kogoren.com/news/501",
+   "note": "私学体育連盟加盟校に在籍し、連盟登録済みで平均130以内の生徒が対象。連盟サイトから申込、参加費3,000円（8/14までに振込）＋プレー費8,500円。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（男子）",
+     "url": "https://www.osaka-kogoren.com/news/511"
+    },
+    {
+     "label": "成績（女子）",
+     "url": "https://www.osaka-kogoren.com/news/514"
+    }
+   ],
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-osaka-wakayama-jhs-autumn-2026-m",
+   "name": "令和8年度 大阪府・和歌山県中学校ゴルフ選手権秋季大会 男子（兼 全国中学校ゴルフ選手権春季大会 大阪府・和歌山県予選）",
+   "organizer": "大阪府高等学校・中学校ゴルフ連盟／和歌山県高等学校・中学校ゴルフ連盟",
+   "pref": "大阪",
+   "venue": "太子カントリー倶楽部",
+   "start": "2026-10-19",
+   "end": "2026-10-19",
+   "entry_open": "2026-09-02",
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（男子）",
+   "stage": "予選",
+   "url": "https://www.osaka-kogoren.com/news/508",
+   "note": "大阪府または和歌山県の高等学校・中学校ゴルフ連盟に登録済みで、セルフプレー経験があり平均130以内の中学生が対象。大阪府連盟HPから申込（和歌山の選手は備考欄に記載）、参加料3,000円は9/11までに振込、プレー費8,000円。公式指定練習は9/28。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-osaka-wakayama-jhs-autumn-2026-w",
+   "name": "令和8年度 大阪府・和歌山県中学校ゴルフ選手権秋季大会 女子（兼 全国中学校ゴルフ選手権春季大会 大阪府・和歌山県予選）",
+   "organizer": "大阪府高等学校・中学校ゴルフ連盟／和歌山県高等学校・中学校ゴルフ連盟",
+   "pref": "大阪",
+   "venue": "太子カントリー倶楽部",
+   "start": "2026-10-26",
+   "end": "2026-10-26",
+   "entry_open": "2026-09-02",
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（女子）",
+   "stage": "予選",
+   "url": "https://www.osaka-kogoren.com/news/508",
+   "note": "大阪府または和歌山県の高等学校・中学校ゴルフ連盟に登録済みで、セルフプレー経験があり平均130以内の中学生が対象。大阪府連盟HPから申込（和歌山の選手は備考欄に記載）、参加料3,000円は9/11までに振込、プレー費8,000円。公式指定練習は10/5。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-khgu-matchplay-18-q",
+   "name": "第18回 朝日新聞杯 関西高等学校・中学校ゴルフマッチプレー選手権 予選",
+   "organizer": "関西高等学校・中学校ゴルフ連盟",
+   "pref": "大阪",
+   "venue": "大阪ゴルフクラブ",
+   "start": "2026-01-13",
+   "end": "2026-01-14",
+   "entry_open": null,
+   "entry_close": "2025-12-05",
+   "entry_state": null,
+   "grades": "高校生（連盟登録・平均120以内）／中学1・2年（2025年度 関西決勝大会の出場者）",
+   "stage": "予選",
+   "url": "https://www.hyogo-golf.com/news/594/",
+   "note": "1/13・14のどちらか1日に出場。申込フォームから申込（書類郵送不要）、参加費は振込。決勝（1/24・25）に出られない選手は予選に出場不可。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-khgu-matchplay-18-final",
+   "name": "第18回 朝日新聞杯 関西高等学校・中学校ゴルフマッチプレー選手権 決勝",
+   "organizer": "関西高等学校・中学校ゴルフ連盟",
+   "pref": "大阪",
+   "venue": "大阪ゴルフクラブ",
+   "start": "2026-01-24",
+   "end": "2026-01-25",
+   "entry_open": null,
+   "entry_close": "2025-12-05",
+   "entry_state": null,
+   "grades": "高校生／中学1・2年（予選通過者）",
+   "stage": "決勝",
+   "url": "https://www.hyogo-golf.com/news/594/",
+   "note": "予選（1/13・14）の通過者によるマッチプレー。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-khgu-matchplay-2027-q",
+   "name": "関西高等学校・中学校ゴルフマッチプレー選手権 予選（2027年1月）",
+   "organizer": "関西高等学校・中学校ゴルフ連盟",
+   "pref": "大阪",
+   "venue": "大阪ゴルフクラブ",
+   "start": "2027-01-12",
+   "end": "2027-01-13",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "高校生／中学1・2年（前年は関西中学校ゴルフ選手権決勝大会の出場者が対象）",
+   "stage": "予選",
+   "url": "https://www.osaka-kogoren.com/plan/",
+   "note": "大阪府高等学校・中学校ゴルフ連盟の年間予定表に掲載（要項は未掲載）。前年は12/5締切で申込フォームから申込、12月の関西中学校ゴルフ選手権決勝大会に出場した中学1・2年が出場できた。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-khgu-matchplay-2027-final",
+   "name": "関西高等学校・中学校ゴルフマッチプレー選手権 決勝（2027年1月）",
+   "organizer": "関西高等学校・中学校ゴルフ連盟",
+   "pref": "大阪",
+   "venue": "大阪ゴルフクラブ",
+   "start": "2027-01-23",
+   "end": "2027-01-24",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "高校生／中学1・2年（予選通過者）",
+   "stage": "決勝",
+   "url": "https://www.osaka-kogoren.com/plan/",
+   "note": "大阪府高等学校・中学校ゴルフ連盟の年間予定表に掲載。予選（1/12・13）の通過者が出場。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-khgu-hs-jhs-2026",
+   "name": "令和8年度 関西高等学校・中学校ゴルフ選手権大会（全国高等学校・中学校ゴルフ選手権 関西予選）",
+   "organizer": "関西高等学校・中学校ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "太平洋クラブ宝塚コース",
+   "start": "2026-06-22",
+   "end": "2026-06-22",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（府県予選の通過者、男女）",
+   "stage": "予選",
+   "url": "https://www.hyogo-golf.com/news/712/",
+   "note": "府県の春の選手権（兵庫県中学校ゴルフ選手権など）で出場権を得た連盟登録者が対象。出場権獲得者は府県連盟経由でエントリー（兵庫は6/6締切・参加費5,000円、大阪は6/5までに振込）。公式指定ラウンドは6/21。日程・会場は和歌山県高等学校・中学校ゴルフ連盟の2026年間予定（wakayamakougoren.sakura.ne.jp/G1/2026schedule.pdf）による。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-nara-kokusupo-1st-2026",
+   "name": "第80回青森国民スポーツ大会 奈良県代表選手一次選考会 兼 関西高等学校・中学校ゴルフ選手権大会 奈良県予選",
+   "organizer": "奈良県ゴルフ協会（NGA）",
+   "pref": "奈良",
+   "venue": "飛鳥カンツリー倶楽部",
+   "start": "2026-04-27",
+   "end": "2026-04-27",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（男女別）",
+   "stage": "予選",
+   "url": "https://www.nga.cc/jr_game.html",
+   "note": "奈良県内の中学・高校在籍者などが対象。上位は国スポ選考会決勝（5/9・10）と関西高等学校・中学校ゴルフ選手権大会へ。申込方法は協会の要項で確認。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "jhs-kansai-nara-hs-jhs-autumn-29",
+   "name": "第29回 奈良県高等学校・中学校ゴルフ秋季大会 兼 関西高等学校・中学校ゴルフ選手権大会 奈良県予選",
+   "organizer": "奈良県高等学校ゴルフ連盟",
+   "pref": "奈良",
+   "venue": "KOMAカントリークラブ",
+   "start": "2026-10-26",
+   "end": "2026-10-26",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（奈良県高等学校ゴルフ連盟加盟者）",
+   "stage": "予選",
+   "url": "https://www.nga.cc/jr_game.html",
+   "note": "奈良県高等学校ゴルフ連盟の加盟者が対象（奈良県ゴルフ協会のジュニア競技日程に掲載）。12月の関西中学校ゴルフ選手権決勝大会につながる県予選。",
+   "verified": "2026-10-17",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "w-jhs-kansai-khgu-hs-jhs-2027",
+   "name": "令和9年度 関西高等学校・中学校ゴルフ選手権大会（全国高等学校・中学校ゴルフ選手権 関西予選）",
+   "organizer": "関西高等学校・中学校ゴルフ連盟",
+   "pref": "関西",
+   "venue": "未発表（前年は太平洋クラブ宝塚コース）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（府県予選の通過者、前年）",
+   "stage": "発表待ち",
+   "url": "https://www.hyogo-golf.com/schedule/",
+   "note": "府県の春の選手権（兵庫県中学校ゴルフ選手権など）で出場権を得る必要がある。前年は府県連盟経由でエントリー（兵庫は参加費5,000円）。",
+   "verified": "2026-10-17",
+   "expected": "開催：前年は6/22　申込：前年は出場権獲得者が6月上旬（兵庫6/6・大阪6/5）までにエントリー",
+   "window_from": "2027-05-20",
+   "window_to": "2027-06-05",
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "w-jhs-kansai-hyogo-jhs-2027",
+   "name": "令和9年度 兵庫県中学校ゴルフ選手権大会（兼 関西中学校ゴルフ選手権大会 予選）",
+   "organizer": "兵庫県高等学校・中学校ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "未発表（前年は山東カントリークラブ）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（男女）",
+   "stage": "発表待ち",
+   "url": "https://www.hyogo-golf.com/",
+   "note": "兵庫県高等学校・中学校ゴルフ連盟への年度登録が必要（前年は3/23に登録案内）。",
+   "verified": "2026-10-17",
+   "expected": "開催：前年は5/30　申込：前年は4/1に要項掲載",
+   "window_from": "2027-03-20",
+   "window_to": "2027-04-30",
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "w-jhs-kansai-kyoto-hs-jhs-spring-2027",
+   "name": "2027年度 京都府高等学校・中学校ゴルフ選手権 春季大会（関西大会 京都予選）",
+   "organizer": "京都府高等学校ゴルフ連盟",
+   "pref": "京都",
+   "venue": "未発表（前年は城陽カントリー倶楽部 西コース）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（連盟の個人加盟登録者）",
+   "stage": "発表待ち",
+   "url": "https://sites.google.com/view/kyoto-kougoren/%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A%E6%83%85%E5%A0%B1",
+   "note": "連盟の個人加盟登録が必要（前年は事前登録フォーム4/10締切、新規登録者はルールマナー講習会の受講が条件）。",
+   "verified": "2026-10-17",
+   "expected": "開催：前年は5/16　申込：前年は申込フォーム4/22締切、PDF提出・振込5/1締切",
+   "window_from": "2027-03-01",
+   "window_to": "2027-04-20",
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "w-jhs-kansai-osaka-hs-jhs-2027",
+   "name": "令和9年度 大阪府高等学校・中学校ゴルフ選手権大会（兼 国スポ大阪府代表（少年）選考会・関西大会予選）",
+   "organizer": "大阪府高等学校・中学校ゴルフ連盟",
+   "pref": "大阪",
+   "venue": "未発表（前年はアートレイクゴルフ倶楽部）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（男女別日程）",
+   "stage": "発表待ち",
+   "url": "https://www.osaka-kogoren.com/plan/",
+   "note": "大阪府高等学校・中学校ゴルフ連盟への登録が必要。前年はルールマナー講習会が4/18。",
+   "verified": "2026-10-17",
+   "expected": "開催：前年は男子5/11・女子5/18",
+   "window_from": "2027-03-15",
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "w-jhs-kansai-nara-kokusupo-1st-2027",
+   "name": "国民スポーツ大会 奈良県代表選手一次選考会 兼 関西高等学校・中学校ゴルフ選手権大会 奈良県予選（2027）",
+   "organizer": "奈良県ゴルフ協会（NGA）",
+   "pref": "奈良",
+   "venue": "未発表（前年は飛鳥カンツリー倶楽部）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（男女別）",
+   "stage": "発表待ち",
+   "url": "https://www.nga.cc/jr_game.html",
+   "note": "前年は奈良県内の中学・高校在籍者などが対象。",
+   "verified": "2026-10-17",
+   "expected": "開催：前年は4/27",
+   "window_from": "2027-03-01",
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "w-jhs-kansai-osaka-shigaku-jhs-30",
+   "name": "令和9年度 第30回 大阪府中学校私学総合体育大会（ゴルフ競技の部）",
+   "organizer": "大阪府高等学校・中学校ゴルフ連盟／大阪府私立中学高等学校体育連盟",
+   "pref": "大阪",
+   "venue": "未発表（前年は大阪ゴルフクラブ）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（大阪府の私立中学在籍、男女別）",
+   "stage": "発表待ち",
+   "url": "https://www.osaka-kogoren.com/plan/",
+   "note": "前年は参加費3,000円＋プレー費8,500円、連盟サイトから申込。",
+   "verified": "2026-10-17",
+   "expected": "開催：前年は9/7　申込：前年は8/3要項掲載・8/14締切",
+   "window_from": "2027-07-25",
+   "window_to": "2027-08-14",
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "w-jhs-kansai-hyogo-jhs-autumn-2027",
+   "name": "令和9年度 兵庫県高等学校・中学校ゴルフ選手権秋季大会（中学生の部）",
+   "organizer": "兵庫県高等学校・中学校ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "未発表（前年は花屋敷ゴルフ倶楽部 ひろのコース）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（男女）",
+   "stage": "発表待ち",
+   "url": "https://www.hyogo-golf.com/",
+   "note": "兵庫県高等学校・中学校ゴルフ連盟の登録者が対象。",
+   "verified": "2026-10-17",
+   "expected": "開催：前年は10/6（中学生）　申込：前年は8/12に要項掲載",
+   "window_from": "2027-08-05",
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
    "id": "jhs-kanto-khga-jh-boys-qual-2026",
    "name": "2026年度 関東中学校ゴルフ選手権 個人予選・団体決勝（男子）",
    "organizer": "関東高等学校・中学校ゴルフ連盟（KHGA）",
