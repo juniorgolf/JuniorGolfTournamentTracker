@@ -419,6 +419,14 @@ SUMMARY:【申込締切】第10回 那須高原ジュニアゴルフ大会 ロ�
 DESCRIPTION:https://www.town.nasu.lg.jp/0021/info-0000004475-1.html
 END:VEVENT
 BEGIN:VEVENT
+UID:papipo-137@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:【大会】第137回 パピポジュニア月例競技会
+DESCRIPTION:JGMセベ・バレステロスゴルフクラブ\nhttps://www.papipo.org/competition
+END:VEVENT
+BEGIN:VEVENT
 UID:toyoko-region-2026-09-26@kanto-junior-golf
 DTSTAMP:20261017T000000Z
 DTSTART;VALUE=DATE:20260926
@@ -489,6 +497,14 @@ DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:【申込締切】JJGT 関東地区予選会（神奈川）
 DESCRIPTION:https://www.jjgt.net/tour-info/
+END:VEVENT
+BEGIN:VEVENT
+UID:papipo-138@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:【大会】第138回 パピポジュニア月例競技会
+DESCRIPTION:JGMセベ・バレステロスゴルフクラブ\nhttps://www.papipo.org/competition
 END:VEVENT
 BEGIN:VEVENT
 UID:jjgt-2026-10-18-murasaki@kanto-junior-golf
@@ -833,6 +849,14 @@ DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:【申込締切】JGAIカップ
 DESCRIPTION:https://www.jgai.or.jp/ijgt202611/
+END:VEVENT
+BEGIN:VEVENT
+UID:papipo-139@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:【大会】第139回 パピポジュニア月例競技会
+DESCRIPTION:JGMセベ・バレステロスゴルフクラブ\nhttps://www.papipo.org/competition-139
 END:VEVENT
 BEGIN:VEVENT
 UID:jjgt-2026-11-29-asaka@kanto-junior-golf
