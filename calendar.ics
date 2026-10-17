@@ -4642,4 +4642,2604 @@ DTEND;VALUE=DATE:20260808
 SUMMARY:【大会】Jack Bunny!! Junior Golf Tour 2026 CHALLENGE CUP（九州）
 DESCRIPTION:太宰府ゴルフ倶楽部\nhttps://jb-cup.com/calendar/
 END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-cga-jr-51@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+SUMMARY:【大会】第51回 中部ジュニアゴルフ選手権競技（日本ジュニアゴルフ選手権 中部予選）
+DESCRIPTION:東名古屋カントリークラブ（西・東コース）\nhttps://www.golfgenius.com/pages/12580185524460869225?locale=jp
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-cga-jr-51-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:【申込開始】第51回 中部ジュニアゴルフ選手権競技（日本ジュニアゴルフ選手権 中部予選）
+DESCRIPTION:https://www.golfgenius.com/pages/12580185524460869225?locale=jp
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-cga-jr-51-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:【申込締切】第51回 中部ジュニアゴルフ選手権競技（日本ジュニアゴルフ選手権 中部予選）
+DESCRIPTION:https://www.golfgenius.com/pages/12580185524460869225?locale=jp
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-chsga-team-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260606
+SUMMARY:【大会】2026年度 全国中学校ゴルフ選手権団体の部 中部地区予選 兼 第11回 中部中学校ゴルフ対抗戦
+DESCRIPTION:呉羽カントリークラブ（立山コース）\nhttps://www.chsga.info/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-chsga-winter-49@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270107
+SUMMARY:【大会】第47回 全国中学校ゴルフ選手権春季大会 中部地区予選 兼 第49回 中部中学校ゴルフ選手権冬季大会
+DESCRIPTION:品野台カントリークラブ\nhttps://www.chsga.info/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-aichi-jhs-summer-14@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SUMMARY:【大会】第14回 愛知県中学校ゴルフ夏季大会 兼 令和8年度 中部中学校ゴルフ選手権冬季大会 愛知県予選
+DESCRIPTION:名古屋グリーンカントリークラブ\nhttps://www.chsga.info/aichi/aichi-index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-gifu-jhs-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20260928
+SUMMARY:【大会】2026年度 全国中学校ゴルフ選手権春季大会（岐阜地区予選）兼 中部中学校ゴルフ選手権（岐阜県予選）
+DESCRIPTION:麗澤瑞浪ゴルフ倶楽部（屏風山コース）\nhttps://www.chsga.info/gifu/index-gifu.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-ishikawa-jhs-14@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:【大会】第14回 石川県中学校ゴルフ選手権大会（兼 全国中学校ゴルフ選手権春季大会・中部中学校ゴルフ選手権冬季大会 石川県予選）
+DESCRIPTION:金沢カントリー倶楽部（中・西コース）\nhttps://www.chsga.info/ishikawa/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-jhs-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:【大会】第47回 全国中学校ゴルフ選手権春季大会 三重県予選／第49回 中部中学校ゴルフ選手権冬季大会 三重県予選
+DESCRIPTION:津カントリー倶楽部\nhttps://mga-golf.jp/info/?wt=mg&dcat=77&p=31937
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-jhs-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:【申込締切】第47回 全国中学校ゴルフ選手権春季大会 三重県予選／第49回 中部中学校ゴルフ選手権冬季大会 三重県予選
+DESCRIPTION:https://mga-golf.jp/info/?wt=mg&dcat=77&p=31937
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-yonex-jcs-chubu-2@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:【大会】第2回 ヨネックスジュニアチャンピオンシップ 中部地区予選
+DESCRIPTION:品野台カントリークラブ\nhttps://mga-golf.jp/nmgh/wp-content/uploads/2026/02/2026_Yonex_JCS_details.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-yonex-jcs-chubu-2-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260310
+DTEND;VALUE=DATE:20260311
+SUMMARY:【申込締切】第2回 ヨネックスジュニアチャンピオンシップ 中部地区予選
+DESCRIPTION:https://mga-golf.jp/nmgh/wp-content/uploads/2026/02/2026_Yonex_JCS_details.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-tsuruya-chubu-24@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:【大会】第24回 TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ 中部大会
+DESCRIPTION:岐阜関カントリー倶楽部（西コース）\nhttps://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/24thchubu/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-tsuruya-chubu-24-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:【申込開始】第24回 TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ 中部大会
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/24thchubu/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-tsuruya-chubu-24-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+SUMMARY:【申込締切】第24回 TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ 中部大会
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/24thchubu/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-mga-shochu-2026-01@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260106
+DTEND;VALUE=DATE:20260107
+SUMMARY:【大会】三重県ゴルフ連盟 ジュニア育成小中学生ゴルフ大会（1月大会）
+DESCRIPTION:津カントリー倶楽部\nhttps://mga-golf.jp/info/?wt=mg&dcat=77&p=30002
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-mga-shochu-2026-01-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251216
+DTEND;VALUE=DATE:20251217
+SUMMARY:【申込締切】三重県ゴルフ連盟 ジュニア育成小中学生ゴルフ大会（1月大会）
+DESCRIPTION:https://mga-golf.jp/info/?wt=mg&dcat=77&p=30002
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-mga-shochu-2026-02@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260211
+DTEND;VALUE=DATE:20260212
+SUMMARY:【大会】令和8年 三重県ゴルフ連盟 ジュニア育成小中学生2月大会
+DESCRIPTION:三重白山GC\nhttps://mga-golf.jp/info/?wt=mg&dcat=77&p=30127
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-mga-shochu-2026-02-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260127
+DTEND;VALUE=DATE:20260128
+SUMMARY:【申込締切】令和8年 三重県ゴルフ連盟 ジュニア育成小中学生2月大会
+DESCRIPTION:https://mga-golf.jp/info/?wt=mg&dcat=77&p=30127
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-team-2026-01@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260118
+DTEND;VALUE=DATE:20260119
+SUMMARY:【大会】令和8年 三重県ジュニアゴルフ育成団体戦競技会（1月競技会）
+DESCRIPTION:中日カントリークラブ\nhttps://mga-golf.jp/info/?wt=mg&dcat=77&p=30020
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-team-2026-01-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251223
+DTEND;VALUE=DATE:20251224
+SUMMARY:【申込締切】令和8年 三重県ジュニアゴルフ育成団体戦競技会（1月競技会）
+DESCRIPTION:https://mga-golf.jp/info/?wt=mg&dcat=77&p=30020
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-team-2026-02@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:【大会】令和8年 三重県ジュニアゴルフ育成団体戦競技会（2月競技会）
+DESCRIPTION:島ヶ原カントリー倶楽部\nhttps://mga-golf.jp/info/?wt=mg&dcat=77&p=30020
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-team-2026-02-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260119
+DTEND;VALUE=DATE:20260120
+SUMMARY:【申込締切】令和8年 三重県ジュニアゴルフ育成団体戦競技会（2月競技会）
+DESCRIPTION:https://mga-golf.jp/info/?wt=mg&dcat=77&p=30020
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-team-2026-03@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+SUMMARY:【大会】令和8年 三重県ジュニアゴルフ育成団体戦競技会（3月競技会）
+DESCRIPTION:白山ヴィレッジゴルフコース\nhttps://mga-golf.jp/info/?wt=mg&dcat=77&p=30020
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-team-2026-03-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260210
+SUMMARY:【申込締切】令和8年 三重県ジュニアゴルフ育成団体戦競技会（3月競技会）
+DESCRIPTION:https://mga-golf.jp/info/?wt=mg&dcat=77&p=30020
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-ikusei-5@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+SUMMARY:【大会】第5回 三重県ジュニアゴルフ育成大会
+DESCRIPTION:津カントリー倶楽部\nhttps://mga-golf.jp/info/?wt=mg&dcat=77&p=31608
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-ikusei-5-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+SUMMARY:【申込締切】第5回 三重県ジュニアゴルフ育成大会
+DESCRIPTION:https://mga-golf.jp/info/?wt=mg&dcat=77&p=31608
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-hiraishi-14@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:【大会】三重県ジュニアゴルフ 第14回 平石杯小中学生ゴルフ大会（兼 U15全国ジュニアアスリートゴルフクラブチーム選手権 三重県予選）
+DESCRIPTION:島ヶ原カントリー倶楽部 東コース\nhttps://mga-golf.jp/info/?wt=mg&dcat=77&p=31614
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-mie-hiraishi-14-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:【申込締切】三重県ジュニアゴルフ 第14回 平石杯小中学生ゴルフ大会（兼 U15全国ジュニアアスリートゴルフクラブチーム選手権 三重県予選）
+DESCRIPTION:https://mga-golf.jp/info/?wt=mg&dcat=77&p=31614
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-kani-jr-21@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:【大会】第21回 可児ジュニアゴルフ競技会
+DESCRIPTION:富士カントリー可児クラブ 織部コース\nhttps://www.chsga.info/gifu/document/2026kani001.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-kani-jr-21-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:【申込締切】第21回 可児ジュニアゴルフ競技会
+DESCRIPTION:https://www.chsga.info/gifu/document/2026kani001.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-shizuoka-kanto-jr-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:【大会】2026年度 関東ジュニアゴルフ選手権 静岡県予選
+DESCRIPTION:朝霧ジャンボリーゴルフクラブ\nhttps://shizu-golren.jp/event/kanto_junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-shizuoka-kanto-jr-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:【申込締切】2026年度 関東ジュニアゴルフ選手権 静岡県予選
+DESCRIPTION:https://shizu-golren.jp/event/kanto_junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-niigata-kanto-jr-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:【大会】2026 関東ジュニア 新潟ブロック予選
+DESCRIPTION:ヨネックスカントリークラブ\nhttps://www.n-golfrenmei.com/compe/?search_year=2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-niigata-kanto-jr-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:【申込開始】2026 関東ジュニア 新潟ブロック予選
+DESCRIPTION:https://www.n-golfrenmei.com/compe/?search_year=2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-niigata-kanto-jr-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+SUMMARY:【申込締切】2026 関東ジュニア 新潟ブロック予選
+DESCRIPTION:https://www.n-golfrenmei.com/compe/?search_year=2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-niigata-jr-senbatsu-28@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:【大会】第28回 新潟県ジュニア選抜競技会 兼 第47回 北信越国スポ 少年男子選手選考会
+DESCRIPTION:ヨネックスカントリークラブ\nhttps://www.n-golfrenmei.com/compe/?search_year=2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-niigata-jr-senbatsu-28-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:【申込開始】第28回 新潟県ジュニア選抜競技会 兼 第47回 北信越国スポ 少年男子選手選考会
+DESCRIPTION:https://www.n-golfrenmei.com/compe/?search_year=2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-niigata-jr-senbatsu-28-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+SUMMARY:【申込締切】第28回 新潟県ジュニア選抜競技会 兼 第47回 北信越国スポ 少年男子選手選考会
+DESCRIPTION:https://www.n-golfrenmei.com/compe/?search_year=2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-toyama-jhs-13@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260921
+SUMMARY:【大会】第13回 富山県中学校ゴルフ選手権大会（兼 全国中学校ゴルフ選手権春季大会 富山県予選会）
+DESCRIPTION:高岡カントリー倶楽部\nhttps://tga54.com/game/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-toyama-jhs-13-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:【申込締切】第13回 富山県中学校ゴルフ選手権大会（兼 全国中学校ゴルフ選手権春季大会 富山県予選会）
+DESCRIPTION:https://tga54.com/game/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-toyama-kenmin-79-shonen@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:【大会】第79回 富山県民スポーツ大会 ゴルフ競技 少年（高校男女・中学男女・小学生男女）
+DESCRIPTION:氷見カントリークラブ\nhttps://tga54.com/game/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chubu-ishikawa-jr-23@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】第23回 石川県ジュニアゴルフ選手権競技
+DESCRIPTION:片山津ゴルフ倶楽部 WEST あすなろコース\nhttp://iga5620.jp/info.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-kochi-jr-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:【大会】2026年度 高知県ジュニアゴルフ選手権競技（兼 国民スポーツ大会少年男子の部選考会）
+DESCRIPTION:スカイベイゴルフクラブ\nhttps://kochi-kga.com/pages/115/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-kochi-jr-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260426
+DTEND;VALUE=DATE:20260427
+SUMMARY:【申込締切】2026年度 高知県ジュニアゴルフ選手権競技（兼 国民スポーツ大会少年男子の部選考会）
+DESCRIPTION:https://kochi-kga.com/pages/115/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-sgu-jr-45@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260724
+SUMMARY:【大会】第45回 四国ジュニアゴルフ選手権競技（兼 令和8年度 四国高等学校・中学校ゴルフ選手権大会）
+DESCRIPTION:北条カントリー倶楽部\nhttps://sgu.gr.jp/competition/%e7%ac%ac45%e5%9b%9e%e5%9b%9b%e5%9b%bd%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%82%b4%e3%83%ab%e3%83%95%e9%81%b8%e6%89%8b%e6%a8%a9%e7%ab%b6%e6%8a%80/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-sgu-jr-45-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:【申込締切】第45回 四国ジュニアゴルフ選手権競技（兼 令和8年度 四国高等学校・中学校ゴルフ選手権大会）
+DESCRIPTION:https://sgu.gr.jp/competition/%e7%ac%ac45%e5%9b%9e%e5%9b%9b%e5%9b%bd%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%82%b4%e3%83%ab%e3%83%95%e9%81%b8%e6%89%8b%e6%a8%a9%e7%ab%b6%e6%8a%80/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-cgu-jr-31@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260725
+SUMMARY:【大会】2026年度（第31回）中国ジュニアゴルフ選手権競技
+DESCRIPTION:後楽ゴルフ倶楽部\nhttps://www.cgu.gr.jp/competition/result/7511.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-cgu-jr-31-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:【申込締切】2026年度（第31回）中国ジュニアゴルフ選手権競技
+DESCRIPTION:https://www.cgu.gr.jp/competition/result/7511.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-hiroshima-summer-29@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260806
+SUMMARY:【大会】第29回 広島県高等学校・中学校ゴルフ選手権夏季大会
+DESCRIPTION:久井カントリークラブ\nhttps://hiroshima.chsga.jp/c_detail.php?num=68&y=2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-hiroshima-summer-29-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:【申込締切】第29回 広島県高等学校・中学校ゴルフ選手権夏季大会
+DESCRIPTION:https://hiroshima.chsga.jp/c_detail.php?num=68&y=2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-okayama-jr-27@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:【大会】第27回 岡山県ジュニアゴルフ選手権競技
+DESCRIPTION:長船カントリークラブ\nhttps://okayama-ga.jp/association/news-jr/3659/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-chsga-shinjin-44@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:【大会】第44回 中国高等学校・中学校ゴルフ選手権 新人戦
+DESCRIPTION:グリーンバーズゴルフ倶楽部\nhttps://chsga.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-chsga-shinjin-44-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:【申込締切】第44回 中国高等学校・中学校ゴルフ選手権 新人戦
+DESCRIPTION:https://chsga.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-shikoku-jr-autumn-35@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:【大会】第35回 四国ジュニアゴルフ選手権秋季大会
+DESCRIPTION:チェリーゴルフ屋島コース\nhttps://www.shsga.jp/pdf/2026/R8aki_youkou.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-shikoku-jr-autumn-35-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:【申込締切】第35回 四国ジュニアゴルフ選手権秋季大会
+DESCRIPTION:https://www.shsga.jp/pdf/2026/R8aki_youkou.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-chsga-spring-47@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261219
+SUMMARY:【大会】2026年度（第47回）中国中学校ゴルフ選手権春季大会（中国高等学校・中学校ゴルフ選手権春季大会）
+DESCRIPTION:広島カンツリー倶楽部 西条コース\nhttps://jtbsports.jp/detail/vmj2l
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-chsga-spring-47-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:【申込開始】2026年度（第47回）中国中学校ゴルフ選手権春季大会（中国高等学校・中学校ゴルフ選手権春季大会）
+DESCRIPTION:https://jtbsports.jp/detail/vmj2l
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-chsga-spring-47-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:【申込締切】2026年度（第47回）中国中学校ゴルフ選手権春季大会（中国高等学校・中学校ゴルフ選手権春季大会）
+DESCRIPTION:https://jtbsports.jp/detail/vmj2l
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-okayama-jhs-12@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:【大会】第12回 岡山県中学校ゴルフ大会
+DESCRIPTION:後楽ゴルフ倶楽部\nhttps://okayama-ga.jp/association/news-jr/3964/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-okayama-jhs-12-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:【申込締切】第12回 岡山県中学校ゴルフ大会
+DESCRIPTION:https://okayama-ga.jp/association/news-jr/3964/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-hiroshima-shinjin-30@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261224
+SUMMARY:【大会】第30回 広島県高等学校・中学校ゴルフ選手権新人戦
+DESCRIPTION:郷原カントリークラブ\nhttps://hiroshima.chsga.jp/c_detail.php?num=69&y=2026
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-shikoku-spring-47@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261226
+SUMMARY:【大会】2026年度（第47回）四国中学校ゴルフ選手権春季大会（四国高等学校・中学校ゴルフ選手権春季大会）
+DESCRIPTION:Jクラシックゴルフクラブ\nhttps://jtbsports.jp/detail/igasq
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-shikoku-spring-47-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:【申込開始】2026年度（第47回）四国中学校ゴルフ選手権春季大会（四国高等学校・中学校ゴルフ選手権春季大会）
+DESCRIPTION:https://jtbsports.jp/detail/igasq
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-shikoku-spring-47-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:【申込締切】2026年度（第47回）四国中学校ゴルフ選手権春季大会（四国高等学校・中学校ゴルフ選手権春季大会）
+DESCRIPTION:https://jtbsports.jp/detail/igasq
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-chugoku-shikoku-cgu-jr-32-2027@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270723
+SUMMARY:【大会】2027年度（第32回）中国ジュニアゴルフ選手権競技
+DESCRIPTION:宇部72カントリークラブ 阿知須コース\nhttps://www.cgu.gr.jp/wp-content/uploads/info/2026/10/2027.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jhs-spring-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:【大会】令和8年度 北海道高等学校・中学校ゴルフ春季大会《中学生大会》
+DESCRIPTION:札幌ゴルフ倶楽部 由仁コース\nhttps://www.hga.gr.jp/juniorinfo/2026%e5%b9%b4%e5%ba%a6-%e5%8c%97%e6%b5%b7%e9%81%93%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e3%83%bb%e4%b8%ad%e5%ad%a6%e6%a0%a1%e3%82%b4%e3%83%ab%e3%83%95%e6%98%a5%e5%ad%a3%e5%a4%a7%e4%bc%9a/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jhs-spring-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260413
+DTEND;VALUE=DATE:20260414
+SUMMARY:【申込開始】令和8年度 北海道高等学校・中学校ゴルフ春季大会《中学生大会》
+DESCRIPTION:https://www.hga.gr.jp/juniorinfo/2026%e5%b9%b4%e5%ba%a6-%e5%8c%97%e6%b5%b7%e9%81%93%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e3%83%bb%e4%b8%ad%e5%ad%a6%e6%a0%a1%e3%82%b4%e3%83%ab%e3%83%95%e6%98%a5%e5%ad%a3%e5%a4%a7%e4%bc%9a/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jhs-spring-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+SUMMARY:【申込締切】令和8年度 北海道高等学校・中学校ゴルフ春季大会《中学生大会》
+DESCRIPTION:https://www.hga.gr.jp/juniorinfo/2026%e5%b9%b4%e5%ba%a6-%e5%8c%97%e6%b5%b7%e9%81%93%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e3%83%bb%e4%b8%ad%e5%ad%a6%e6%a0%a1%e3%82%b4%e3%83%ab%e3%83%95%e6%98%a5%e5%ad%a3%e5%a4%a7%e4%bc%9a/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jhs-champ-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:【大会】令和8年度 北海道高等学校・中学校ゴルフ選手権大会《中学生大会》
+DESCRIPTION:札幌ゴルフ倶楽部 由仁コース\nhttps://www.hga.gr.jp/juniorinfo/2026%e5%b9%b4%e5%ba%a6-%e5%8c%97%e6%b5%b7%e9%81%93%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e3%83%bb%e4%b8%ad%e5%ad%a6%e6%a0%a1%e3%82%b4%e3%83%ab%e3%83%95%e9%81%b8%e6%89%8b%e6%a8%a9/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jhs-champ-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+SUMMARY:【申込開始】令和8年度 北海道高等学校・中学校ゴルフ選手権大会《中学生大会》
+DESCRIPTION:https://www.hga.gr.jp/juniorinfo/2026%e5%b9%b4%e5%ba%a6-%e5%8c%97%e6%b5%b7%e9%81%93%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e3%83%bb%e4%b8%ad%e5%ad%a6%e6%a0%a1%e3%82%b4%e3%83%ab%e3%83%95%e9%81%b8%e6%89%8b%e6%a8%a9/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jhs-champ-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:【申込締切】令和8年度 北海道高等学校・中学校ゴルフ選手権大会《中学生大会》
+DESCRIPTION:https://www.hga.gr.jp/juniorinfo/2026%e5%b9%b4%e5%ba%a6-%e5%8c%97%e6%b5%b7%e9%81%93%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e3%83%bb%e4%b8%ad%e5%ad%a6%e6%a0%a1%e3%82%b4%e3%83%ab%e3%83%95%e9%81%b8%e6%89%8b%e6%a8%a9/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jr-46@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260702
+DTEND;VALUE=DATE:20260704
+SUMMARY:【大会】第46回 北海道ジュニアゴルフ選手権競技（12歳〜14歳の部）兼 第80回 国民スポーツ大会（少年男子）予選会
+DESCRIPTION:エミナゴルフクラブ（南）\nhttps://www.hga.gr.jp/kyogiinfo/%E7%AC%AC46%E5%9B%9E%E3%80%80%E5%8C%97%E6%B5%B7%E9%81%93%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%B4%E3%83%AB%E3%83%95%E9%81%B8%E6%89%8B%E6%A8%A9%E7%AB%B6%E6%8A%80%E3%80%80%E5%85%BC%E3%80%80%E7%AC%AC/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jr-46-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:【申込締切】第46回 北海道ジュニアゴルフ選手権競技（12歳〜14歳の部）兼 第80回 国民スポーツ大会（少年男子）予選会
+DESCRIPTION:https://www.hga.gr.jp/kyogiinfo/%E7%AC%AC46%E5%9B%9E%E3%80%80%E5%8C%97%E6%B5%B7%E9%81%93%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%B4%E3%83%AB%E3%83%95%E9%81%B8%E6%89%8B%E6%A8%A9%E7%AB%B6%E6%8A%80%E3%80%80%E5%85%BC%E3%80%80%E7%AC%AC/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jhs-shinjin-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:【大会】令和8年度 北海道高等学校・中学校ゴルフ新人大会《中学》兼 全国高等学校・中学校ゴルフ選手権春季大会 北海道予選
+DESCRIPTION:エムアール茨戸カントリークラブ\nhttps://www.hga.gr.jp/juniorinfo/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e5%ba%a6-%e5%8c%97%e6%b5%b7%e9%81%93%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e3%83%bb%e4%b8%ad%e5%ad%a6%e6%a0%a1%e3%82%b4%e3%83%ab%e3%83%95%e6%96%b0%e4%ba%ba%e5%a4%a7/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-hokkaido-jhs-shinjin-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:【申込締切】令和8年度 北海道高等学校・中学校ゴルフ新人大会《中学》兼 全国高等学校・中学校ゴルフ選手権春季大会 北海道予選
+DESCRIPTION:https://www.hga.gr.jp/juniorinfo/%e4%bb%a4%e5%92%8c%ef%bc%98%e5%b9%b4%e5%ba%a6-%e5%8c%97%e6%b5%b7%e9%81%93%e9%ab%98%e7%ad%89%e5%ad%a6%e6%a0%a1%e3%83%bb%e4%b8%ad%e5%ad%a6%e6%a0%a1%e3%82%b4%e3%83%ab%e3%83%95%e6%96%b0%e4%ba%ba%e5%a4%a7/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-tohoku-jr-1214-31@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260611
+DTEND;VALUE=DATE:20260613
+SUMMARY:【大会】第31回 東北ジュニアゴルフ選手権競技 12〜14歳の部（兼 東北高等学校・中学校ゴルフ選手権競技・春季大会）
+DESCRIPTION:宮古カントリークラブ\nhttps://www.tga.gr.jp/reports.php?q=1001797
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-tohoku-jr-1214-31-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+SUMMARY:【申込開始】第31回 東北ジュニアゴルフ選手権競技 12〜14歳の部（兼 東北高等学校・中学校ゴルフ選手権競技・春季大会）
+DESCRIPTION:https://www.tga.gr.jp/reports.php?q=1001797
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-hokkaido-tohoku-tohoku-jr-1214-31-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:【申込締切】第31回 東北ジュニアゴルフ選手権競技 12〜14歳の部（兼 東北高等学校・中学校ゴルフ選手権競技・春季大会）
+DESCRIPTION:https://www.tga.gr.jp/reports.php?q=1001797
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-kgu-junior-51-q@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:【大会】2026年度（第51回）関西ジュニアゴルフ選手権競技 予選（12〜14歳の部）
+DESCRIPTION:ダンロップゴルフコース\nhttps://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/golf-341448/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-kgu-junior-51-q-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
+SUMMARY:【申込開始】2026年度（第51回）関西ジュニアゴルフ選手権競技 予選（12〜14歳の部）
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/golf-341448/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-kgu-junior-51-q-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:【申込締切】2026年度（第51回）関西ジュニアゴルフ選手権競技 予選（12〜14歳の部）
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/golf-341448/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-kgu-junior-51-final@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260725
+SUMMARY:【大会】2026年度（第51回）関西ジュニアゴルフ選手権競技 決勝（日本ジュニアゴルフ選手権 関西予選）
+DESCRIPTION:宝塚ゴルフ倶楽部（男子 新コース／女子 旧コース）\nhttps://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/golf-341448/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-kgu-junior-51-final-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260529
+DTEND;VALUE=DATE:20260530
+SUMMARY:【申込開始】2026年度（第51回）関西ジュニアゴルフ選手権競技 決勝（日本ジュニアゴルフ選手権 関西予選）
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/golf-341448/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-kgu-junior-51-final-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:【申込締切】2026年度（第51回）関西ジュニアゴルフ選手権競技 決勝（日本ジュニアゴルフ選手権 関西予選）
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/golf-341448/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-khgu-jhs-final-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261218
+SUMMARY:【大会】関西中学校ゴルフ選手権決勝大会（兼 全国中学校ゴルフ選手権春季大会 関西予選）2026
+DESCRIPTION:三木ゴルフ倶楽部\nhttps://www.hyogo-golf.com/news/766/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-hyogo-jhs-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:【大会】令和8年度 兵庫県中学校ゴルフ選手権大会（兼 関西中学校ゴルフ選手権大会 予選）
+DESCRIPTION:山東カントリークラブ\nhttps://www.hyogo-golf.com/news/656/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-hyogo-jhs-autumn-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:【大会】令和8年度 兵庫県高等学校・中学校ゴルフ選手権秋季大会（中学生の部）
+DESCRIPTION:花屋敷ゴルフ倶楽部 ひろのコース\nhttps://www.hyogo-golf.com/news/722/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-hyogo-jhs-shinjin-r7@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260214
+DTEND;VALUE=DATE:20260215
+SUMMARY:【大会】令和7年度 兵庫県中学校ゴルフ選手権新人大会（中学新人戦）
+DESCRIPTION:三木ゴルフ倶楽部\nhttps://www.hyogo-golf.com/news/604/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-kyoto-hs-jhs-spring-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:【大会】2026年度 京都府高等学校・中学校ゴルフ選手権 春季大会（関西大会 京都予選）
+DESCRIPTION:城陽カントリー倶楽部 西コース\nhttps://sites.google.com/view/kyoto-kougoren/%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A%E6%83%85%E5%A0%B1
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-kyoto-hs-jhs-spring-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260422
+DTEND;VALUE=DATE:20260423
+SUMMARY:【申込締切】2026年度 京都府高等学校・中学校ゴルフ選手権 春季大会（関西大会 京都予選）
+DESCRIPTION:https://sites.google.com/view/kyoto-kougoren/%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A%E6%83%85%E5%A0%B1
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-kyoto-hs-jhs-autumn-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:【大会】2026年度 京都府高等学校・中学校ゴルフ選手権 秋季大会（関西決勝大会 京都予選）
+DESCRIPTION:瑞穂ゴルフ倶楽部\nhttps://sites.google.com/view/kyoto-kougoren/%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A%E6%83%85%E5%A0%B1
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-osaka-hs-jhs-2026-m@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260512
+SUMMARY:【大会】令和8年度 大阪府高等学校・中学校ゴルフ選手権大会 男子（兼 国スポ大阪府代表（少年）選考会・関西大会予選）
+DESCRIPTION:アートレイクゴルフ倶楽部\nhttps://www.osaka-kogoren.com/plan/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-osaka-hs-jhs-2026-w@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260518
+DTEND;VALUE=DATE:20260519
+SUMMARY:【大会】令和8年度 大阪府高等学校・中学校ゴルフ選手権大会 女子（兼 国スポ大阪府代表（少年）選考会・関西大会予選）
+DESCRIPTION:アートレイクゴルフ倶楽部\nhttps://www.osaka-kogoren.com/plan/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-osaka-shigaku-jhs-29@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:【大会】令和8年度 第29回 大阪府中学校私学総合体育大会（ゴルフ競技の部）
+DESCRIPTION:大阪ゴルフクラブ\nhttps://www.osaka-kogoren.com/news/501
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-osaka-shigaku-jhs-29-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SUMMARY:【申込締切】令和8年度 第29回 大阪府中学校私学総合体育大会（ゴルフ競技の部）
+DESCRIPTION:https://www.osaka-kogoren.com/news/501
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-osaka-wakayama-jhs-autumn-2026-m@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:【大会】令和8年度 大阪府・和歌山県中学校ゴルフ選手権秋季大会 男子（兼 全国中学校ゴルフ選手権春季大会 大阪府・和歌山県予選）
+DESCRIPTION:太子カントリー倶楽部\nhttps://www.osaka-kogoren.com/news/508
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-osaka-wakayama-jhs-autumn-2026-m-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:【申込開始】令和8年度 大阪府・和歌山県中学校ゴルフ選手権秋季大会 男子（兼 全国中学校ゴルフ選手権春季大会 大阪府・和歌山県予選）
+DESCRIPTION:https://www.osaka-kogoren.com/news/508
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-osaka-wakayama-jhs-autumn-2026-w@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:【大会】令和8年度 大阪府・和歌山県中学校ゴルフ選手権秋季大会 女子（兼 全国中学校ゴルフ選手権春季大会 大阪府・和歌山県予選）
+DESCRIPTION:太子カントリー倶楽部\nhttps://www.osaka-kogoren.com/news/508
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-osaka-wakayama-jhs-autumn-2026-w-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:【申込開始】令和8年度 大阪府・和歌山県中学校ゴルフ選手権秋季大会 女子（兼 全国中学校ゴルフ選手権春季大会 大阪府・和歌山県予選）
+DESCRIPTION:https://www.osaka-kogoren.com/news/508
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-khgu-matchplay-18-q@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260115
+SUMMARY:【大会】第18回 朝日新聞杯 関西高等学校・中学校ゴルフマッチプレー選手権 予選
+DESCRIPTION:大阪ゴルフクラブ\nhttps://www.hyogo-golf.com/news/594/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-khgu-matchplay-18-q-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251206
+SUMMARY:【申込締切】第18回 朝日新聞杯 関西高等学校・中学校ゴルフマッチプレー選手権 予選
+DESCRIPTION:https://www.hyogo-golf.com/news/594/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-khgu-matchplay-18-final@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260124
+DTEND;VALUE=DATE:20260126
+SUMMARY:【大会】第18回 朝日新聞杯 関西高等学校・中学校ゴルフマッチプレー選手権 決勝
+DESCRIPTION:大阪ゴルフクラブ\nhttps://www.hyogo-golf.com/news/594/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-khgu-matchplay-18-final-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251205
+DTEND;VALUE=DATE:20251206
+SUMMARY:【申込締切】第18回 朝日新聞杯 関西高等学校・中学校ゴルフマッチプレー選手権 決勝
+DESCRIPTION:https://www.hyogo-golf.com/news/594/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-khgu-matchplay-2027-q@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270114
+SUMMARY:【大会】関西高等学校・中学校ゴルフマッチプレー選手権 予選（2027年1月）
+DESCRIPTION:大阪ゴルフクラブ\nhttps://www.osaka-kogoren.com/plan/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-khgu-matchplay-2027-final@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270125
+SUMMARY:【大会】関西高等学校・中学校ゴルフマッチプレー選手権 決勝（2027年1月）
+DESCRIPTION:大阪ゴルフクラブ\nhttps://www.osaka-kogoren.com/plan/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-khgu-hs-jhs-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:【大会】令和8年度 関西高等学校・中学校ゴルフ選手権大会（全国高等学校・中学校ゴルフ選手権 関西予選）
+DESCRIPTION:太平洋クラブ宝塚コース\nhttps://www.hyogo-golf.com/news/712/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-nara-kokusupo-1st-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:【大会】第80回青森国民スポーツ大会 奈良県代表選手一次選考会 兼 関西高等学校・中学校ゴルフ選手権大会 奈良県予選
+DESCRIPTION:飛鳥カンツリー倶楽部\nhttps://www.nga.cc/jr_game.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kansai-nara-hs-jhs-autumn-29@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:【大会】第29回 奈良県高等学校・中学校ゴルフ秋季大会 兼 関西高等学校・中学校ゴルフ選手権大会 奈良県予選
+DESCRIPTION:KOMAカントリークラブ\nhttps://www.nga.cc/jr_game.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-boys-qual-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260526
+DTEND;VALUE=DATE:20260527
+SUMMARY:【大会】2026年度 関東中学校ゴルフ選手権 個人予選・団体決勝（男子）
+DESCRIPTION:スパ＆ゴルフリゾート久慈\nhttps://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-boys-qual-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+SUMMARY:【申込開始】2026年度 関東中学校ゴルフ選手権 個人予選・団体決勝（男子）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-boys-qual-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:【申込締切】2026年度 関東中学校ゴルフ選手権 個人予選・団体決勝（男子）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-girls-qual-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260616
+DTEND;VALUE=DATE:20260617
+SUMMARY:【大会】2026年度 関東中学校ゴルフ選手権 個人予選・団体決勝（女子）
+DESCRIPTION:シャトレーゼ ヴィンテージゴルフ倶楽部\nhttps://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-girls-qual-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+SUMMARY:【申込開始】2026年度 関東中学校ゴルフ選手権 個人予選・団体決勝（女子）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-girls-qual-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:【申込締切】2026年度 関東中学校ゴルフ選手権 個人予選・団体決勝（女子）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-final-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
+SUMMARY:【大会】2026年度 関東中学校ゴルフ選手権 個人決勝（男女）
+DESCRIPTION:森林公園ゴルフ倶楽部\nhttps://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-final-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:【申込開始】2026年度 関東中学校ゴルフ選手権 個人決勝（男女）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-final-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:【申込締切】2026年度 関東中学校ゴルフ選手権 個人決勝（男女）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-girls-a-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:【大会】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（女子A会場）
+DESCRIPTION:熊谷ゴルフクラブ\nhttps://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-girls-a-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:【申込開始】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（女子A会場）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-girls-a-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:【申込締切】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（女子A会場）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-boys-a-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:【大会】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（男子A会場）
+DESCRIPTION:那須野ヶ原カントリークラブ\nhttps://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-boys-a-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:【申込開始】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（男子A会場）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-boys-a-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:【申込締切】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（男子A会場）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-boys-b-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:【大会】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（男子B会場）
+DESCRIPTION:琵琶池ゴルフ倶楽部\nhttps://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-boys-b-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:【申込開始】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（男子B会場）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-boys-b-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:【申込締切】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（男子B会場）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-girls-b-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:【大会】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（女子B会場）
+DESCRIPTION:金砂郷カントリークラブ\nhttps://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-girls-b-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:【申込開始】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（女子B会場）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-girls-b-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:【申込締切】2026年度 関東中学校ゴルフ選手権 冬季大会 個人予選（女子B会場）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-final-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:【大会】2026年度 関東中学校ゴルフ選手権 冬季大会 決勝（男女・春の全国大会予選）
+DESCRIPTION:高根カントリー倶楽部\nhttps://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-final-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:【申込開始】2026年度 関東中学校ゴルフ選手権 冬季大会 決勝（男女・春の全国大会予選）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-final-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:【申込締切】2026年度 関東中学校ゴルフ選手権 冬季大会 決勝（男女・春の全国大会予選）
+DESCRIPTION:https://www.k-hga.jp/competition/kanto-jh.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-final-2025@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260114
+SUMMARY:【大会】2025年度 関東中学校ゴルフ選手権 冬季大会 個人決勝（男女）
+DESCRIPTION:鳩山カントリークラブ\nhttps://www.k-hga.jp/competition/past/kanto.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-final-2025-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251208
+DTEND;VALUE=DATE:20251209
+SUMMARY:【申込開始】2025年度 関東中学校ゴルフ選手権 冬季大会 個人決勝（男女）
+DESCRIPTION:https://www.k-hga.jp/competition/past/kanto.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-khga-jh-winter-final-2025-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251226
+DTEND;VALUE=DATE:20251227
+SUMMARY:【申込締切】2025年度 関東中学校ゴルフ選手権 冬季大会 個人決勝（男女）
+DESCRIPTION:https://www.k-hga.jp/competition/past/kanto.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kga-jr-final-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260725
+SUMMARY:【大会】2026年 関東ジュニアゴルフ選手権 決勝（12〜14歳の部・15〜17歳の部）
+DESCRIPTION:信州伊那国際ゴルフクラブ（男子 白樺コース／女子 唐松コース）\nhttps://www.kga.gr.jp/compe/junior_detail.php?year=2026&id=2629
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kga-jr-final-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260521
+DTEND;VALUE=DATE:20260522
+SUMMARY:【申込開始】2026年 関東ジュニアゴルフ選手権 決勝（12〜14歳の部・15〜17歳の部）
+DESCRIPTION:https://www.kga.gr.jp/compe/junior_detail.php?year=2026&id=2629
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kga-jr-final-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:【申込締切】2026年 関東ジュニアゴルフ選手権 決勝（12〜14歳の部・15〜17歳の部）
+DESCRIPTION:https://www.kga.gr.jp/compe/junior_detail.php?year=2026&id=2629
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-tokyo-jr-1214-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:【大会】東京都知事杯 第12回 東京都ジュニアゴルフ選手権 兼 関東ジュニア予選（12〜14歳の部）
+DESCRIPTION:青梅ゴルフ倶楽部\nhttps://www.golfgenius.com/pages/12319437076842968111
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-tokyo-jr-1214-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260303
+DTEND;VALUE=DATE:20260304
+SUMMARY:【申込開始】東京都知事杯 第12回 東京都ジュニアゴルフ選手権 兼 関東ジュニア予選（12〜14歳の部）
+DESCRIPTION:https://www.golfgenius.com/pages/12319437076842968111
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-tokyo-jr-1214-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:【申込締切】東京都知事杯 第12回 東京都ジュニアゴルフ選手権 兼 関東ジュニア予選（12〜14歳の部）
+DESCRIPTION:https://www.golfgenius.com/pages/12319437076842968111
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kanagawa-jr-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】神奈川アマ ジュニアの部（12〜14歳・15〜17歳）兼 関東ジュニア予選
+DESCRIPTION:レイクウッドゴルフクラブ 西コース\nhttps://ama.knga.org/youkou/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kanagawa-jr-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260209
+DTEND;VALUE=DATE:20260210
+SUMMARY:【申込開始】神奈川アマ ジュニアの部（12〜14歳・15〜17歳）兼 関東ジュニア予選
+DESCRIPTION:https://ama.knga.org/youkou/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kanagawa-jr-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260327
+DTEND;VALUE=DATE:20260328
+SUMMARY:【申込締切】神奈川アマ ジュニアの部（12〜14歳・15〜17歳）兼 関東ジュニア予選
+DESCRIPTION:https://ama.knga.org/youkou/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-chiba-jr-22-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】第22回 千葉県ジュニア選手権競技
+DESCRIPTION:南総カントリークラブ 西コース\nhttps://chiba-amagolf.jp/grades/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-chiba-jr-22-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:【申込開始】第22回 千葉県ジュニア選手権競技
+DESCRIPTION:https://chiba-amagolf.jp/grades/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-chiba-jr-22-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260406
+DTEND;VALUE=DATE:20260407
+SUMMARY:【申込締切】第22回 千葉県ジュニア選手権競技
+DESCRIPTION:https://chiba-amagolf.jp/grades/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-chiba-kanto-jr-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SUMMARY:【大会】2026年 関東ジュニアゴルフ選手権 千葉ブロック予選
+DESCRIPTION:藤ヶ谷カントリークラブ\nhttps://chiba-amagolf.jp/grades/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-chiba-kanto-jr-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:【申込開始】2026年 関東ジュニアゴルフ選手権 千葉ブロック予選
+DESCRIPTION:https://chiba-amagolf.jp/grades/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-chiba-kanto-jr-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:【申込締切】2026年 関東ジュニアゴルフ選手権 千葉ブロック予選
+DESCRIPTION:https://chiba-amagolf.jp/grades/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-saitama-kanto-jr-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:【大会】2026年 関東ジュニアゴルフ選手権 埼玉ブロック予選
+DESCRIPTION:高坂カントリークラブ 岩殿コース\nhttps://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2629_rule.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-saitama-kanto-jr-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260413
+DTEND;VALUE=DATE:20260414
+SUMMARY:【申込開始】2026年 関東ジュニアゴルフ選手権 埼玉ブロック予選
+DESCRIPTION:https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2629_rule.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-saitama-kanto-jr-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:【申込締切】2026年 関東ジュニアゴルフ選手権 埼玉ブロック予選
+DESCRIPTION:https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2629_rule.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-tochigi-kanto-jr-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
+SUMMARY:【大会】2026年 関東ジュニアゴルフ選手権 栃木ブロック予選
+DESCRIPTION:杉ノ郷カントリークラブ\nhttps://t-golf.jp/compe/compe_detail.php?year=2026&id=9
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-tochigi-kanto-jr-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:【申込開始】2026年 関東ジュニアゴルフ選手権 栃木ブロック予選
+DESCRIPTION:https://t-golf.jp/compe/compe_detail.php?year=2026&id=9
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-tochigi-kanto-jr-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:【申込締切】2026年 関東ジュニアゴルフ選手権 栃木ブロック予選
+DESCRIPTION:https://t-golf.jp/compe/compe_detail.php?year=2026&id=9
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-tochigi-jr-34@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:【大会】第34回 栃木県ジュニアゴルフ選手権大会
+DESCRIPTION:杉ノ郷カントリークラブ\nhttps://t-golf.jp/compe/compe_detail.php?year=2026&id=8
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-tochigi-jr-34-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+SUMMARY:【申込開始】第34回 栃木県ジュニアゴルフ選手権大会
+DESCRIPTION:https://t-golf.jp/compe/compe_detail.php?year=2026&id=8
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-tochigi-jr-34-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:【申込締切】第34回 栃木県ジュニアゴルフ選手権大会
+DESCRIPTION:https://t-golf.jp/compe/compe_detail.php?year=2026&id=8
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-gunma-jr-38@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】第38回 群馬県ジュニア選手権（兼）関東ジュニアゴルフ選手権 群馬予選
+DESCRIPTION:初穂カントリークラブ\nhttps://www.golf-gunma-asc.gr.jp/junior/2026/000752.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-gunma-jr-38-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:【申込開始】第38回 群馬県ジュニア選手権（兼）関東ジュニアゴルフ選手権 群馬予選
+DESCRIPTION:https://www.golf-gunma-asc.gr.jp/junior/2026/000752.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-gunma-jr-38-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+SUMMARY:【申込締切】第38回 群馬県ジュニア選手権（兼）関東ジュニアゴルフ選手権 群馬予選
+DESCRIPTION:https://www.golf-gunma-asc.gr.jp/junior/2026/000752.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-saitama-jr-36@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260430
+DTEND;VALUE=DATE:20260501
+SUMMARY:【大会】第36回 埼玉県ジュニアゴルフ選手権大会
+DESCRIPTION:こだまゴルフクラブ\nhttps://www.saitama-np.co.jp/information/amagolf/juniorhi.php
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-saitama-jr-36-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260323
+DTEND;VALUE=DATE:20260324
+SUMMARY:【申込開始】第36回 埼玉県ジュニアゴルフ選手権大会
+DESCRIPTION:https://www.saitama-np.co.jp/information/amagolf/juniorhi.php
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-saitama-jr-36-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260401
+DTEND;VALUE=DATE:20260402
+SUMMARY:【申込締切】第36回 埼玉県ジュニアゴルフ選手権大会
+DESCRIPTION:https://www.saitama-np.co.jp/information/amagolf/juniorhi.php
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-gunma-lesson-jr-37@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260402
+DTEND;VALUE=DATE:20260403
+SUMMARY:【大会】第37回 群馬県ジュニアゴルフ・レッスン＆競技大会
+DESCRIPTION:前橋ゴルフ場\nhttps://www.golf-gunma-asc.gr.jp/junior/2026/000814.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-gunma-summer-kusatsu-7@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260807
+DTEND;VALUE=DATE:20260808
+SUMMARY:【大会】第7回 群馬県ジュニアゴルフサマー大会 in 草津
+DESCRIPTION:草津カントリークラブ\nhttps://www.golf-gunma-asc.gr.jp/junior/2026/000856.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-gunma-summer-kusatsu-7-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:【申込開始】第7回 群馬県ジュニアゴルフサマー大会 in 草津
+DESCRIPTION:https://www.golf-gunma-asc.gr.jp/junior/2026/000856.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-gunma-summer-kusatsu-7-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:【申込締切】第7回 群馬県ジュニアゴルフサマー大会 in 草津
+DESCRIPTION:https://www.golf-gunma-asc.gr.jp/junior/2026/000856.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-yamanashi-jr-35@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:【大会】2026年度 第35回 山梨県ジュニアゴルフ大会
+DESCRIPTION:丘の公園清里ゴルフコース\nhttps://yamanashi-golf.net/2026/0805.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kga-cup-girls-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260820
+DTEND;VALUE=DATE:20260821
+SUMMARY:【大会】2026年 KGA杯ジュニアゴルフ大会 女子の部
+DESCRIPTION:カレドニアン・ゴルフクラブ\nhttps://www.kga.gr.jp/compe/junior_detail.php?year=2026&id=2633
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kga-cup-girls-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:【申込開始】2026年 KGA杯ジュニアゴルフ大会 女子の部
+DESCRIPTION:https://www.kga.gr.jp/compe/junior_detail.php?year=2026&id=2633
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kga-cup-girls-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:【申込締切】2026年 KGA杯ジュニアゴルフ大会 女子の部
+DESCRIPTION:https://www.kga.gr.jp/compe/junior_detail.php?year=2026&id=2633
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kga-cup-boys-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:【大会】2026年 KGA杯ジュニアゴルフ大会 男子の部
+DESCRIPTION:カレドニアン・ゴルフクラブ\nhttps://www.kga.gr.jp/compe/junior_detail.php?year=2026&id=2632
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kga-cup-boys-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:【申込開始】2026年 KGA杯ジュニアゴルフ大会 男子の部
+DESCRIPTION:https://www.kga.gr.jp/compe/junior_detail.php?year=2026&id=2632
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-kga-cup-boys-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+SUMMARY:【申込締切】2026年 KGA杯ジュニアゴルフ大会 男子の部
+DESCRIPTION:https://www.kga.gr.jp/compe/junior_detail.php?year=2026&id=2632
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-hochi-jr-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260813
+DTEND;VALUE=DATE:20260814
+SUMMARY:【大会】2026 報知ジュニアゴルフ中高生大会
+DESCRIPTION:東京よみうりカントリークラブ\nhttps://www.k-hga.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-hochi-jr-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:【申込開始】2026 報知ジュニアゴルフ中高生大会
+DESCRIPTION:https://www.k-hga.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kanto-hochi-jr-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:【申込締切】2026 報知ジュニアゴルフ中高生大会
+DESCRIPTION:https://www.k-hga.jp/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-boys-45@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260724
+SUMMARY:【大会】第45回 九州ジュニアゴルフ選手権競技（男子の部）（兼 日本ジュニア 九州予選）
+DESCRIPTION:久住高原ゴルフ倶楽部\nhttps://www.guk.jp/kyougi/23235
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-girls-45@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260731
+SUMMARY:【大会】第45回 九州ジュニアゴルフ選手権競技（女子の部）（兼 日本ジュニア 九州予選）
+DESCRIPTION:湯布高原ゴルフクラブ\nhttps://www.guk.jp/kyougi/23235
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-select-miyazaki-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】2026年度 九州ジュニアゴルフ選手権競技 地区選考会（宮崎県）
+DESCRIPTION:青島ゴルフ倶楽部\nhttps://www.guk.jp/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-select-kagoshima-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】2026年度 九州ジュニアゴルフ選手権競技 地区選考会（鹿児島県）
+DESCRIPTION:グリーンヒルカントリークラブ\nhttps://www.guk.jp/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-select-okinawa-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:【大会】2026年度 九州ジュニアゴルフ選手権競技 地区選考会（沖縄県）
+DESCRIPTION:カヌチャゴルフコース\nhttps://www.guk.jp/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-select-fukuoka-north-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】2026年度 九州ジュニアゴルフ選手権競技 地区選考会（福岡県北部）
+DESCRIPTION:若松ゴルフ倶楽部\nhttps://www.guk.jp/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-select-kumamoto-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:【大会】2026年度 九州ジュニアゴルフ選手権競技 地区選考会（熊本県）
+DESCRIPTION:ザ・マスターズ天草コース\nhttps://www.guk.jp/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-select-fukuoka-south-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+SUMMARY:【大会】2026年度 九州ジュニアゴルフ選手権競技 地区選考会（福岡県南部）
+DESCRIPTION:小郡カンツリー倶楽部\nhttps://www.guk.jp/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-select-saga-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】2026年度 九州ジュニアゴルフ選手権競技 地区選考会（佐賀県）
+DESCRIPTION:北山カントリー倶楽部\nhttps://www.guk.jp/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-select-nagasaki-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】2026年度 九州ジュニアゴルフ選手権競技 地区選考会（長崎県）
+DESCRIPTION:喜々津カントリー倶楽部\nhttps://www.guk.jp/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-guk-jr-select-oita-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】2026年度 九州ジュニアゴルフ選手権競技 地区選考会（大分県）
+DESCRIPTION:湯布高原ゴルフクラブ\nhttps://www.guk.jp/junior
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kougoren-challenge-31@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260602
+DTEND;VALUE=DATE:20260603
+SUMMARY:【大会】第31回 九州沖縄高等学校・中学校ゴルフ選手権大会（チャレンジゴルフ）（兼 全国中学校ゴルフ選手権 団体の部 予選）
+DESCRIPTION:かごしま空港36カントリークラブ（中学は横川コース）\nhttps://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/challenge-golf-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kougoren-challenge-31-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+SUMMARY:【申込開始】第31回 九州沖縄高等学校・中学校ゴルフ選手権大会（チャレンジゴルフ）（兼 全国中学校ゴルフ選手権 団体の部 予選）
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/challenge-golf-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kougoren-challenge-31-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260512
+SUMMARY:【申込締切】第31回 九州沖縄高等学校・中学校ゴルフ選手権大会（チャレンジゴルフ）（兼 全国中学校ゴルフ選手権 団体の部 予選）
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/challenge-golf-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kougoren-spring-47@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261226
+SUMMARY:【大会】第47回 九州沖縄高等学校・中学校ゴルフ選手権 春季大会（兼 全国選手権春季大会 予選）
+DESCRIPTION:かごしま空港36カントリークラブ\nhttps://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/kyushu/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kougoren-spring-47-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:【申込開始】第47回 九州沖縄高等学校・中学校ゴルフ選手権 春季大会（兼 全国選手権春季大会 予選）
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/kyushu/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kougoren-spring-47-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:【申込締切】第47回 九州沖縄高等学校・中学校ゴルフ選手権 春季大会（兼 全国選手権春季大会 予選）
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/kyushu/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-fukuoka-jr-7@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
+SUMMARY:【大会】第7回 福岡県ジュニアゴルフ大会（第19回 中学生の部・第12回 高校生の部）
+DESCRIPTION:若松ゴルフ倶楽部\nhttps://www.fga562.com/topics.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-fukuoka-jr-7-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:【申込開始】第7回 福岡県ジュニアゴルフ大会（第19回 中学生の部・第12回 高校生の部）
+DESCRIPTION:https://www.fga562.com/topics.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-fukuoka-jr-7-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:【申込締切】第7回 福岡県ジュニアゴルフ大会（第19回 中学生の部・第12回 高校生の部）
+DESCRIPTION:https://www.fga562.com/topics.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-saga-ama-32-jhs@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260824
+SUMMARY:【大会】第32回 佐賀県アマチュアゴルフ選手権大会 中学・高校生の部（男子・女子）
+DESCRIPTION:ブリヂストンカンツリー倶楽部\nhttps://saga-amagolf.net/wp/2026-2/32entry
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-saga-ama-32-jhs-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:【申込開始】第32回 佐賀県アマチュアゴルフ選手権大会 中学・高校生の部（男子・女子）
+DESCRIPTION:https://saga-amagolf.net/wp/2026-2/32entry
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-saga-ama-32-jhs-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+SUMMARY:【申込締切】第32回 佐賀県アマチュアゴルフ選手権大会 中学・高校生の部（男子・女子）
+DESCRIPTION:https://saga-amagolf.net/wp/2026-2/32entry
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kumanichi-jr-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260413
+SUMMARY:【大会】2026熊本ゴルフ選手権 熊日トーナメント ジュニアの部（男子・女子）
+DESCRIPTION:阿蘇リゾートグランヴィリオホテルゴルフ場\nhttps://kumanichi.com/jigyou/tgolf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kumanichi-jr-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+SUMMARY:【申込開始】2026熊本ゴルフ選手権 熊日トーナメント ジュニアの部（男子・女子）
+DESCRIPTION:https://kumanichi.com/jigyou/tgolf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kumanichi-jr-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260201
+DTEND;VALUE=DATE:20260202
+SUMMARY:【申込締切】2026熊本ゴルフ選手権 熊日トーナメント ジュニアの部（男子・女子）
+DESCRIPTION:https://kumanichi.com/jigyou/tgolf
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kanucha-match-13@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260330
+SUMMARY:【大会】第13回 カヌチャゴルフクラブ ジュニア・学生マッチプレー選手権大会
+DESCRIPTION:カヌチャゴルフコース\nhttps://www.kanucha.jp/golf/information/1511051
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-kanucha-match-13-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260309
+DTEND;VALUE=DATE:20260310
+SUMMARY:【申込締切】第13回 カヌチャゴルフクラブ ジュニア・学生マッチプレー選手権大会
+DESCRIPTION:https://www.kanucha.jp/golf/information/1511051
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-enagic-u22-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260117
+DTEND;VALUE=DATE:20260119
+SUMMARY:【大会】2026 エナジックオープンU-22（エナジックジュニアオープン）
+DESCRIPTION:エナジック瀬嵩カントリークラブ\nhttps://www.enagic-junioropen.com/tournament/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-enagic-u22-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251226
+DTEND;VALUE=DATE:20251227
+SUMMARY:【申込締切】2026 エナジックオープンU-22（エナジックジュニアオープン）
+DESCRIPTION:https://www.enagic-junioropen.com/tournament/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-okinawa-kenmin-jr-30@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:【大会】第30回 沖縄県民ゴルフジュニア選手権大会
+DESCRIPTION:オーシャンキャッスルカントリークラブ\nhttp://www.okinawakengolfasc.jp/kensyusaikyogi/430-2026-2.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-kyushu-okinawa-jhs-team-27@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:【大会】第27回 沖縄県中学校対抗ゴルフ大会
+DESCRIPTION:守礼カントリークラブ\nhttp://www.okinawakengolfasc.jp/kensyusaikyogi/430-2026-2.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-kougoren-spring-46@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260318
+DTEND;VALUE=DATE:20260321
+SUMMARY:【大会】2025年度 文部科学大臣楯争奪（第46回）全国中学校ゴルフ選手権春季大会
+DESCRIPTION:三木ゴルフ倶楽部\nhttps://nihon-kougoren.jp/schedule/schedule25.html
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-kougoren-summer-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260828
+SUMMARY:【大会】Sky presents 2026年度 文部科学大臣旗争奪（第34回男子・第19回女子）全国中学校ゴルフ選手権大会
+DESCRIPTION:ピートダイゴルフクラブ VIPコース\nhttps://nihon-kougoren.jp/summer/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-kougoren-summer-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260623
+DTEND;VALUE=DATE:20260624
+SUMMARY:【申込開始】Sky presents 2026年度 文部科学大臣旗争奪（第34回男子・第19回女子）全国中学校ゴルフ選手権大会
+DESCRIPTION:https://nihon-kougoren.jp/summer/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-kougoren-summer-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SUMMARY:【申込締切】Sky presents 2026年度 文部科学大臣旗争奪（第34回男子・第19回女子）全国中学校ゴルフ選手権大会
+DESCRIPTION:https://nihon-kougoren.jp/summer/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-kougoren-challenge-match-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260821
+SUMMARY:【大会】2026年度 全国中学校・高等学校選抜チャレンジマッチプレー選手権大会
+DESCRIPTION:サンコーカントリークラブ 東コース\nhttps://nihon-kougoren.jp/mcply/7307
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-kougoren-isps-match-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261128
+SUMMARY:【大会】ISPSハンダ 全国中学校・高等学校選抜ゴルフマッチプレー選手権大会（2026年度）
+DESCRIPTION:カヌチャリゾート カヌチャゴルフコース\nhttps://nihon-kougoren.jp/mcply/7308
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-kougoren-spring-47@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270321
+SUMMARY:【大会】2026年度 文部科学大臣楯争奪（第47回）全国中学校ゴルフ選手権春季大会
+DESCRIPTION:三木ゴルフ倶楽部\nhttps://nihon-kougoren.jp/spring/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-ajga-pathway-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:【大会】TaylorMade AJGA International Pathway Series JAPAN Supported by HIRAKAWA CORP.
+DESCRIPTION:KOMAカントリークラブ\nhttps://nihon-kougoren.jp/sptcmp/7785/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-ajga-pathway-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SUMMARY:【申込開始】TaylorMade AJGA International Pathway Series JAPAN Supported by HIRAKAWA CORP.
+DESCRIPTION:https://nihon-kougoren.jp/sptcmp/7785/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-ajga-pathway-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:【申込締切】TaylorMade AJGA International Pathway Series JAPAN Supported by HIRAKAWA CORP.
+DESCRIPTION:https://nihon-kougoren.jp/sptcmp/7785/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jga-japan-jr-70-1214@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260819
+DTEND;VALUE=DATE:20260822
+SUMMARY:【大会】2026年度（第70回）日本ジュニアゴルフ選手権競技 Presented by Sky 12〜14歳の部
+DESCRIPTION:千葉カントリークラブ 梅郷コース\nhttps://www.jga.or.jp/championship/2026_0721_1540/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-pga-jr-taiheiyo-9@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260814
+SUMMARY:【大会】第9回 PGAジュニアゴルフ選手権 太平洋クラブカップ
+DESCRIPTION:太平洋クラブ益子PGAコース\nhttps://sports.yahoo.co.jp/official/detail/2026081100081-spnaviow
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-east-final-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 東日本決勝大会
+DESCRIPTION:新宇都宮カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-west-final-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260629
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 西日本決勝大会
+DESCRIPTION:津カントリー倶楽部\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-east-final-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260706
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 東日本決勝大会
+DESCRIPTION:那須小川ゴルフクラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-final-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260907
+SUMMARY:【大会】PALMAX presents 小平智カップ 決勝大会
+DESCRIPTION:ウエストワンズカンツリー倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-toyoko-final-1218-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261117
+SUMMARY:【大会】東横イン ジュニアゴルフオープン 決勝大会（12〜18歳の部）
+DESCRIPTION:ニュー・セントアンドリュース ゴルフクラブ・ジャパン\nhttps://www.jjga.org/convention/2026/toyokoinn/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-ishikawa-final-jhs-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270309
+SUMMARY:【大会】キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 決勝大会（中高生の部）
+DESCRIPTION:ロイヤルメドウゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/ishikawaryocup/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-allstar-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261005
+SUMMARY:【大会】ジャパン ジュニア ゴルフ オールスター（2026）
+DESCRIPTION:那須小川ゴルフクラブ\nhttps://www.jjga.org/convention/2026/juniorallstar/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-richardmille-cup-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261207
+SUMMARY:【大会】RICHARD MILLE JAPAN Foundation presents 宮里優作・青木瀬令奈・成田美寿々カップ（2026）
+DESCRIPTION:新宇都宮カントリークラブ\nhttps://www.jjga.org/competition
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-gd-jrcup-1214-qual-29@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260804
+DTEND;VALUE=DATE:20260806
+SUMMARY:【大会】第29回 ゴルフダイジェスト ジャパンジュニアカップ 12〜14歳の部 選考会（A・B大会）
+DESCRIPTION:東名カントリークラブ\nhttps://golf-digest.co.jp/event/jrcup/outline/outline2/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-gd-jrcup-1214-qual-29-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SUMMARY:【申込開始】第29回 ゴルフダイジェスト ジャパンジュニアカップ 12〜14歳の部 選考会（A・B大会）
+DESCRIPTION:https://golf-digest.co.jp/event/jrcup/outline/outline2/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-gd-jrcup-1214-qual-29-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:【申込締切】第29回 ゴルフダイジェスト ジャパンジュニアカップ 12〜14歳の部 選考会（A・B大会）
+DESCRIPTION:https://golf-digest.co.jp/event/jrcup/outline/outline2/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-gd-jrcup-1214-final-29@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260808
+SUMMARY:【大会】第29回 ゴルフダイジェスト ジャパンジュニアカップ 12〜14歳の部 本選
+DESCRIPTION:東名カントリークラブ\nhttps://golf-digest.co.jp/event/jrcup/outline/outline2/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-02-21-rockhill@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260221
+DTEND;VALUE=DATE:20260222
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（茨城）
+DESCRIPTION:ロックヒルゴルフクラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-02-22-kasama@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（茨城）
+DESCRIPTION:ゴルフ5カントリーかさまフォレスト\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-02-23-asami@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（茨城）
+DESCRIPTION:浅見ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-02-28-nsaj@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260228
+DTEND;VALUE=DATE:20260301
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（栃木）
+DESCRIPTION:ニュー・セントアンドリュースゴルフクラブ・ジャパン\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-01-iwasesakuragawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（茨城）
+DESCRIPTION:岩瀬桜川カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-14-miyagino@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（宮城）
+DESCRIPTION:宮城野ゴルフクラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-15-iwasesakuragawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（茨城）
+DESCRIPTION:岩瀬桜川カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-20-shinutsu@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（栃木）
+DESCRIPTION:新宇都宮カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-21-nasuogawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（栃木）
+DESCRIPTION:那須小川ゴルフクラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-22-seven@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（栃木）
+DESCRIPTION:セブンハンドレッドクラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-24-funabashi@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（千葉）
+DESCRIPTION:船橋カントリー倶楽部\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-28-myogi@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（群馬）
+DESCRIPTION:妙義カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-29-jgmbelaire@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（群馬）
+DESCRIPTION:JGMベルエアゴルフクラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-30-shinrinkouen@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（埼玉）
+DESCRIPTION:森林公園ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-04-04-kanuma72@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260404
+DTEND;VALUE=DATE:20260405
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（栃木）
+DESCRIPTION:鹿沼72カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-04-05-biwaike@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（栃木）
+DESCRIPTION:琵琶池ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-02-21-fuzikani@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260221
+DTEND;VALUE=DATE:20260222
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（岐阜）
+DESCRIPTION:富士カントリー可児クラブ 可児ゴルフ場\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-02-21-fukuchiyama@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260221
+DTEND;VALUE=DATE:20260222
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（京都）
+DESCRIPTION:福知山カントリー倶楽部\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-02-22-oita@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（大分）
+DESCRIPTION:大分カントリークラブ 月形コース\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-02-23-tsu@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（三重）
+DESCRIPTION:津カントリー倶楽部\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-14-nihonrhine@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（岐阜）
+DESCRIPTION:日本ラインゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-21-otani@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260321
+DTEND;VALUE=DATE:20260322
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（兵庫）
+DESCRIPTION:オータニにしきカントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-22-kanucha@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260322
+DTEND;VALUE=DATE:20260323
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（沖縄）
+DESCRIPTION:カヌチャゴルフコース\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-24-higashinagoya@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（愛知）
+DESCRIPTION:東名古屋カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-25-jyonan@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260325
+DTEND;VALUE=DATE:20260326
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（熊本）
+DESCRIPTION:熊本ゴルフ倶樂部 城南コース\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-28-ikuno@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260328
+DTEND;VALUE=DATE:20260329
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（兵庫）
+DESCRIPTION:生野高原カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-29-nagoyaport@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260329
+DTEND;VALUE=DATE:20260330
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（愛知）
+DESCRIPTION:ウッドフレンズ名古屋港ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-30-thecountry@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260330
+DTEND;VALUE=DATE:20260331
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（滋賀）
+DESCRIPTION:ザ・カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-daito-2026-03-31-kumamoto@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:【大会】大東建託・いい部屋ネット ジュニアゴルフトーナメント 地区大会（熊本）
+DESCRIPTION:くまもと中央カントリークラブ\nhttps://www.jjga.org/convention/2026/spring_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-04-18-nasuogawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（栃木）
+DESCRIPTION:那須小川ゴルフクラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-04-19-iwasesakuragawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（茨城）
+DESCRIPTION:岩瀬桜川カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-04-29-rockhill@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（茨城）
+DESCRIPTION:ロックヒルゴルフクラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-02-tanakura@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260503
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（福島）
+DESCRIPTION:棚倉田舎倶楽部\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-09-seven@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（栃木）
+DESCRIPTION:セブンハンドレッドクラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-10-shinutsu@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260510
+DTEND;VALUE=DATE:20260511
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（栃木）
+DESCRIPTION:新宇都宮カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-16-nasuyoko@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（栃木）
+DESCRIPTION:那須陽光ゴルフクラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-17-makomanai@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（北海道）
+DESCRIPTION:真駒内カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-17-nsaj@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（栃木）
+DESCRIPTION:ニュー・セントアンドリュースゴルフクラブ・ジャパン\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-23-nasuogawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（栃木）
+DESCRIPTION:那須小川ゴルフクラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-24-biwaike@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（栃木）
+DESCRIPTION:琵琶池ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-30-kanuma72@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（栃木）
+DESCRIPTION:鹿沼72カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-31-iwasesakuragawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（茨城）
+DESCRIPTION:岩瀬桜川カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-06-06-myogi@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（群馬）
+DESCRIPTION:妙義カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-06-07-jgmbelaire@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（群馬）
+DESCRIPTION:JGMベルエアゴルフクラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-04-19-tsu@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（三重）
+DESCRIPTION:津カントリー倶楽部\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-04-19-oita@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（大分）
+DESCRIPTION:大分カントリークラブ 月形コース\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-04-29-nagoyaport@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（愛知）
+DESCRIPTION:ウッドフレンズ名古屋港ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-04-29-westones@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260429
+DTEND;VALUE=DATE:20260430
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（兵庫）
+DESCRIPTION:ウエストワンズカンツリー倶楽部\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-02-bizan@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260502
+DTEND;VALUE=DATE:20260503
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（徳島）
+DESCRIPTION:眉山カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-06-thecountry@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（滋賀）
+DESCRIPTION:ザ・カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-09-matsunaga@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（広島）
+DESCRIPTION:松永カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-09-kanucha@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（沖縄）
+DESCRIPTION:カヌチャゴルフコース\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-16-hiroshima@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260516
+DTEND;VALUE=DATE:20260517
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（広島）
+DESCRIPTION:広島ゴルフ倶楽部 鈴が峰コース\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-17-fukuchiyama@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（京都）
+DESCRIPTION:福知山カントリー倶楽部\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-24-aigi@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（岐阜）
+DESCRIPTION:愛岐カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-30-matsuyama@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（愛媛）
+DESCRIPTION:松山シーサイドカントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-30-kuju@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260530
+DTEND;VALUE=DATE:20260531
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（大分）
+DESCRIPTION:久住高原ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-31-tsu@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（三重）
+DESCRIPTION:津カントリー倶楽部\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-players-2026-05-31-osahune@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+SUMMARY:【大会】ジャパン ジュニア プレーヤーズ チャンピオンシップ 地区大会（岡山）
+DESCRIPTION:長船カントリークラブ\nhttps://www.jjga.org/convention/2026/juniorplayers/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-06-20-tanakura@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（福島）
+DESCRIPTION:棚倉田舎倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-06-20-tsu@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260620
+DTEND;VALUE=DATE:20260621
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（三重）
+DESCRIPTION:津カントリー倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-06-21-rockhill@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（茨城）
+DESCRIPTION:ロックヒルゴルフクラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-06-21-aono@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（兵庫）
+DESCRIPTION:青野運動公苑アオノゴルフコース\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-06-21-kuju@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260621
+DTEND;VALUE=DATE:20260622
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（大分）
+DESCRIPTION:久住高原ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-06-27-nasuogawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（栃木）
+DESCRIPTION:那須小川ゴルフクラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-06-28-iwasesakuragawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（茨城）
+DESCRIPTION:岩瀬桜川カントリークラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-05-ibuka@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（岐阜）
+DESCRIPTION:伊深の森カントリークラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-11-biwaike@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（栃木）
+DESCRIPTION:琵琶池ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-11-fukuchiyama@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（京都）
+DESCRIPTION:福知山カントリー倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-12-emina@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（北海道）
+DESCRIPTION:苫小牧ゴルフリゾート72 エミナゴルフクラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-12-seven@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（栃木）
+DESCRIPTION:セブンハンドレッドクラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-18-iwasesakuragawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（茨城）
+DESCRIPTION:岩瀬桜川カントリークラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-18-fuzikani-mino@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（岐阜）
+DESCRIPTION:富士カントリー可児クラブ 美濃ゴルフ場\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-18-kumamoto@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（熊本）
+DESCRIPTION:熊本ゴルフ倶樂部 城南コース\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-19-kanuma72@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（栃木）
+DESCRIPTION:鹿沼72カントリークラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-20-kitsuregawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（栃木）
+DESCRIPTION:喜連川カントリー倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-20-tsu@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（三重）
+DESCRIPTION:津カントリー倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-23-nukata@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（愛知）
+DESCRIPTION:額田ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-25-jgmbelaire@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（群馬）
+DESCRIPTION:JGMベルエアゴルフクラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-26-nsaj@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（栃木）
+DESCRIPTION:ニュー・セントアンドリュースゴルフクラブ・ジャパン\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-26-westones@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（兵庫）
+DESCRIPTION:ウエストワンズカンツリー倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-27-nishinihon@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（福岡）
+DESCRIPTION:西日本カントリークラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-07-30-tachikawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260730
+DTEND;VALUE=DATE:20260731
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（東京）
+DESCRIPTION:立川国際カントリー倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-08-01-rockhill@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（茨城）
+DESCRIPTION:ロックヒルゴルフクラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-08-01-akechi@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（岐阜）
+DESCRIPTION:明智ゴルフ倶楽部 明智ゴルフ場\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-08-01-kakogawa@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260802
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（兵庫）
+DESCRIPTION:加古川ゴルフ倶楽部\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-08-02-lakeland@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（栃木）
+DESCRIPTION:レイクランドカントリークラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-08-02-ginoza@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260802
+DTEND;VALUE=DATE:20260803
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（沖縄）
+DESCRIPTION:宜野座カントリークラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
+BEGIN:VEVENT
+UID:jhs-national-jjga-kodaira-2026-08-03-seve@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260804
+SUMMARY:【大会】PALMAX presents 小平智カップ 地区大会（茨城）
+DESCRIPTION:JGMセベバレステロスゴルフクラブ\nhttps://www.jjga.org/convention/2026/summer_junior/
+END:VEVENT
 END:VCALENDAR

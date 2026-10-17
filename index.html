@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>全国ジュニアゴルフ大会カレンダー</title>
-<meta name="description" content="全国の小学生が出られるジュニアゴルフ大会を、日程・会場・主催・申込期間でまとめた一覧です。">
+<meta name="description" content="全国の小学生・中学生が出られるジュニアゴルフ大会を、日程・会場・主催・申込期間でまとめた一覧です。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20261017i">
+<link rel="stylesheet" href="style.css?v=20261017k">
 </head>
 <body>
 <header class="site-head">
   <div class="wrap head-inner">
     <p class="eyebrow">JAPAN JUNIOR GOLF CALENDAR</p>
     <h1>全国ジュニアゴルフ<br class="sp">大会カレンダー</h1>
-    <p class="lead">小学生が出場できる大会を、日程・会場・主催・申込期間でひと目に。</p>
+    <p class="lead">小学生・中学生が出場できる大会を、日程・会場・主催・申込期間でひと目に。</p>
     <dl class="stats" id="stats"></dl>
   </div>
 </header>
@@ -31,6 +31,7 @@
       <button role="tab" data-view="past" aria-selected="false">終了した大会</button>
     </div>
     <div class="filters">
+      <label class="select"><span>対象</span><select id="f-level"><option value="">小・中学生</option><option value="小学生">小学生</option><option value="中学生">中学生</option></select></label>
       <label class="select"><span>エリア</span><select id="f-pref"><option value="">全国すべて</option></select></label>
       <label class="select"><span>主催</span><select id="f-org"><option value="">すべての主催</option></select></label>
     </div>
@@ -93,8 +94,8 @@
   </div>
 </dialog>
 
-<script src="map.js?v=20261017i"></script>
-<script src="cal.js?v=20261017i"></script>
-<script src="app.js?v=20261017i"></script>
+<script src="map.js?v=20261017k"></script>
+<script src="cal.js?v=20261017k"></script>
+<script src="app.js?v=20261017k"></script>
 </body>
 </html>

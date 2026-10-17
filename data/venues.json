@@ -2,6 +2,15 @@
  "updated": "2026-10-17",
  "note": "住所は各ゴルフ場の公式ページ等で確認し、緯度・経度は国土地理院の住所検索で求めた。",
  "venues": {
+  "JGMセベバレステロスゴルフクラブ": {
+   "name": "JGMセベバレステロスゴルフクラブ",
+   "pref": "茨城",
+   "address": "茨城県稲敷市四箇3043",
+   "lat": 35.96703,
+   "lng": 140.388794,
+   "precision": "番地",
+   "source": "https://golf-jalan.net/gc00487/info/"
+  },
   "JGMセベ・バレステロスゴルフクラブ": {
    "name": "JGMセベ・バレステロスゴルフクラブ",
    "pref": "茨城",
@@ -29,6 +38,15 @@
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/360005"
   },
+  "KOMAカントリークラブ": {
+   "name": "KOMAカントリークラブ",
+   "pref": "奈良",
+   "address": "奈良県奈良市月ヶ瀬石打1456",
+   "lat": 34.723244,
+   "lng": 136.057312,
+   "precision": "町名",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/290009"
+  },
   "UMKカントリークラブ": {
    "name": "UMKカントリークラブ",
    "pref": "宮崎",
@@ -37,6 +55,24 @@
    "lng": 131.430573,
    "precision": "番地",
    "source": "https://golf-jalan.net/gc02481/info/"
+  },
+  "かごしま空港36カントリークラブ": {
+   "name": "かごしま空港36カントリークラブ",
+   "pref": "鹿児島",
+   "address": "鹿児島県霧島市横川町下ノ高松1023",
+   "lat": 31.859797,
+   "lng": 130.715134,
+   "precision": "町名",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/460009"
+  },
+  "かごしま空港36カントリークラブ（中学は横川コース）": {
+   "name": "かごしま空港36カントリークラブ（中学は横川コース）",
+   "pref": "鹿児島",
+   "address": "鹿児島県霧島市横川町下ノ高松1023",
+   "lat": 31.859797,
+   "lng": 130.715134,
+   "precision": "町名",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/460009"
   },
   "くまもと中央カントリークラブ": {
    "name": "くまもと中央カントリークラブ",
@@ -110,6 +146,15 @@
    "precision": "町名",
    "source": "https://news.ksb.co.jp/article/16397677"
   },
+  "アートレイクゴルフ倶楽部": {
+   "name": "アートレイクゴルフ倶楽部",
+   "pref": "大阪",
+   "address": "〒563-0135 大阪府豊能郡能勢町野間西山95-3",
+   "lat": 34.951973,
+   "lng": 135.439392,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/270002/"
+  },
   "ウエストワンズカンツリー倶楽部": {
    "name": "ウエストワンズカンツリー倶楽部",
    "pref": "兵庫",
@@ -137,6 +182,42 @@
    "precision": "番地",
    "source": "https://www.shotnavi.jp/gcguide/gcinfo_2349.htm"
   },
+  "エナジック瀬嵩カントリークラブ": {
+   "name": "エナジック瀬嵩カントリークラブ",
+   "pref": "沖縄",
+   "address": "沖縄県名護市字瀬嵩463番地3",
+   "lat": 26.568281,
+   "lng": 128.056885,
+   "precision": "町名",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/520746"
+  },
+  "エミナゴルフクラブ（南）": {
+   "name": "エミナゴルフクラブ（南）",
+   "pref": "北海道",
+   "address": "北海道苫小牧市植苗341",
+   "lat": 42.689236,
+   "lng": 141.656937,
+   "precision": "番地",
+   "source": "https://golf-jalan.net/gc00042/info/"
+  },
+  "エムアール茨戸カントリークラブ": {
+   "name": "エムアール茨戸カントリークラブ",
+   "pref": "北海道",
+   "address": "〒061-3245 北海道石狩市生振九線南116-1",
+   "lat": 43.19273,
+   "lng": 141.364517,
+   "precision": "町名",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_2164.htm"
+  },
+  "オーシャンキャッスルカントリークラブ": {
+   "name": "オーシャンキャッスルカントリークラブ",
+   "pref": "沖縄",
+   "address": "沖縄県中頭郡中城村字登又60番地",
+   "lat": 26.27611,
+   "lng": 127.790459,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/520083"
+  },
   "オータニにしきカントリークラブ": {
    "name": "オータニにしきカントリークラブ",
    "pref": "兵庫",
@@ -155,6 +236,24 @@
    "precision": "番地",
    "source": "https://golf-jalan.net/gc02543/info/"
   },
+  "カヌチャリゾートカヌチャゴルフコース": {
+   "name": "カヌチャリゾート カヌチャゴルフコース",
+   "pref": "沖縄",
+   "address": "沖縄県名護市字安部156-2",
+   "lat": 26.549772,
+   "lng": 128.075607,
+   "precision": "番地",
+   "source": "https://golf-jalan.net/gc02543/info/"
+  },
+  "カレドニアン・ゴルフクラブ": {
+   "name": "カレドニアン・ゴルフクラブ",
+   "pref": "千葉",
+   "address": "千葉県山武郡横芝光町長倉1658",
+   "lat": 35.677185,
+   "lng": 140.444107,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/120032"
+  },
   "グリーンアカデミーカントリークラブ": {
    "name": "グリーンアカデミーカントリークラブ",
    "pref": "福島",
@@ -163,6 +262,15 @@
    "lng": 140.274353,
    "precision": "番地",
    "source": "https://www.lpga.or.jp/junior/alljapanjunior/"
+  },
+  "グリーンバーズゴルフ倶楽部": {
+   "name": "グリーンバーズゴルフ倶楽部",
+   "pref": "広島",
+   "address": "〒729-1211 広島県三原市大和町大草905-37",
+   "lat": 34.4995,
+   "lng": 132.967636,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_598.htm"
   },
   "グリーンヒルカントリークラブ": {
    "name": "グリーンヒルカントリークラブ",
@@ -209,6 +317,15 @@
    "precision": "番地",
    "source": "https://golf-jalan.net/gc00696/info/"
   },
+  "サンコーカントリークラブ東コース": {
+   "name": "サンコーカントリークラブ 東コース",
+   "pref": "群馬",
+   "address": "群馬県高崎市吉井町岩崎2179",
+   "lat": 36.283688,
+   "lng": 138.997192,
+   "precision": "番地",
+   "source": "https://golf-jalan.net/gc00696/info/"
+  },
   "ザ・カントリークラブ": {
    "name": "ザ・カントリークラブ",
    "pref": "滋賀",
@@ -226,6 +343,42 @@
    "lng": 137.906494,
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/220033"
+  },
+  "ザ・マスターズ天草コース": {
+   "name": "ザ・マスターズ天草コース",
+   "pref": "熊本",
+   "address": "熊本県天草市有明町上津浦2928",
+   "lat": 32.485447,
+   "lng": 130.308258,
+   "precision": "町名",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/430026"
+  },
+  "シャトレーゼヴィンテージゴルフ倶楽部": {
+   "name": "シャトレーゼ ヴィンテージゴルフ倶楽部",
+   "pref": "山梨",
+   "address": "〒408-0103 山梨県北杜市須玉町江草3072",
+   "lat": 35.811039,
+   "lng": 138.504684,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_919.htm"
+  },
+  "スカイベイゴルフクラブ": {
+   "name": "スカイベイゴルフクラブ",
+   "pref": "高知",
+   "address": "〒785-0172 高知県須崎市浦ノ内福良348-2",
+   "lat": 33.412388,
+   "lng": 133.399872,
+   "precision": "町名",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_674.htm"
+  },
+  "スパ＆ゴルフリゾート久慈": {
+   "name": "スパ＆ゴルフリゾート久慈",
+   "pref": "茨城",
+   "address": "〒313-0112 茨城県常陸太田市岩手町1398",
+   "lat": 36.56078,
+   "lng": 140.473862,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_129.htm"
   },
   "セブンハンドレッドクラブ": {
    "name": "セブンハンドレッドクラブ",
@@ -281,6 +434,15 @@
    "precision": "番地",
    "source": "https://golf-jalan.net/gc00560/info/"
   },
+  "ピートダイゴルフクラブVIPコース": {
+   "name": "ピートダイゴルフクラブ VIPコース",
+   "pref": "栃木",
+   "address": "栃木県日光市嘉多蔵668",
+   "lat": 36.712803,
+   "lng": 139.791931,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/90101"
+  },
   "フォレストヒルズゴルフ＆リゾート": {
    "name": "フォレストヒルズゴルフ＆リゾート",
    "pref": "広島",
@@ -289,6 +451,15 @@
    "lng": 132.921524,
    "precision": "番地",
    "source": "https://shotnavi.jp/gcguide/gcinfo_602.htm"
+  },
+  "ブリヂストンカンツリー倶楽部": {
+   "name": "ブリヂストンカンツリー倶楽部",
+   "pref": "佐賀",
+   "address": "佐賀県鳥栖市村田町朝日986",
+   "lat": 33.361874,
+   "lng": 130.48201,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/410013"
   },
   "ムーンレイクゴルフクラブ茂原コース": {
    "name": "ムーンレイクゴルフクラブ 茂原コース",
@@ -307,6 +478,15 @@
    "lng": 138.747955,
    "precision": "町名",
    "source": "https://shotnavi.jp/gcguide/gcinfo_1045.htm"
+  },
+  "レイクウッドゴルフクラブ西コース": {
+   "name": "レイクウッドゴルフクラブ 西コース",
+   "pref": "神奈川",
+   "address": "〒259-0105 神奈川県中郡大磯町黒岩169",
+   "lat": 35.332481,
+   "lng": 139.261871,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_1086.htm"
   },
   "レイクグリーンゴルフ倶楽部": {
    "name": "レイクグリーンゴルフ倶楽部",
@@ -389,6 +569,24 @@
    "precision": "番地",
    "source": "https://www.shotnavi.jp/gcguide/gcinfo_23.htm"
   },
+  "三木ゴルフ倶楽部": {
+   "name": "三木ゴルフ倶楽部",
+   "pref": "兵庫",
+   "address": "兵庫県三木市細川町垂穂字槙山894-827",
+   "lat": 34.81295,
+   "lng": 135.041443,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/280138/"
+  },
+  "三重白山GC": {
+   "name": "三重白山GC",
+   "pref": "三重",
+   "address": "〒515-2603 三重県津市白山町川口4907",
+   "lat": 34.625126,
+   "lng": 136.352844,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_826.htm"
+  },
   "上総モナークカントリークラブ": {
    "name": "上総モナークカントリークラブ",
    "pref": "千葉",
@@ -398,6 +596,15 @@
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/120024"
   },
+  "丘の公園清里ゴルフコース": {
+   "name": "丘の公園清里ゴルフコース",
+   "pref": "山梨",
+   "address": "山梨県北杜市高根町清里3545-5",
+   "lat": 35.923233,
+   "lng": 138.435074,
+   "precision": "町名",
+   "source": "https://golf-jalan.net/gc01171/info/"
+  },
   "中日カントリークラブ": {
    "name": "中日カントリークラブ",
    "pref": "三重",
@@ -406,6 +613,15 @@
    "lng": 136.465195,
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/240041"
+  },
+  "久井カントリークラブ": {
+   "name": "久井カントリークラブ",
+   "pref": "広島",
+   "address": "〒722-1414 広島県三原市久井町大字坂井原字絹掛755",
+   "lat": 34.483368,
+   "lng": 133.037872,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_610.htm"
   },
   "久住高原ゴルフ倶楽部": {
    "name": "久住高原ゴルフ倶楽部",
@@ -442,6 +658,24 @@
    "lng": 127.821907,
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/520144/"
+  },
+  "伊深の森カントリークラブ": {
+   "name": "伊深の森カントリークラブ",
+   "pref": "岐阜",
+   "address": "岐阜県美濃加茂市伊深町2345",
+   "lat": 35.512482,
+   "lng": 137.002151,
+   "precision": "番地",
+   "source": "https://golf-jalan.net/gc01452/info/"
+  },
+  "信州伊那国際ゴルフクラブ（男子白樺コース／女子唐松コース）": {
+   "name": "信州伊那国際ゴルフクラブ（男子 白樺コース／女子 唐松コース）",
+   "pref": "長野",
+   "address": "〒399-4501 長野県伊那市西箕輪3350",
+   "lat": 35.882446,
+   "lng": 137.904526,
+   "precision": "町名",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_1533.htm"
   },
   "倶楽部我山": {
    "name": "倶楽部我山",
@@ -497,6 +731,15 @@
    "precision": "番地",
    "source": "https://golf-jalan.net/gc00262/info/"
   },
+  "前橋ゴルフ場": {
+   "name": "前橋ゴルフ場",
+   "pref": "群馬",
+   "address": "群馬県前橋市川原町1丁目42-4",
+   "lat": 36.424534,
+   "lng": 139.040482,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/100067"
+  },
   "加古川ゴルフ倶楽部": {
    "name": "加古川ゴルフ倶楽部",
    "pref": "兵庫",
@@ -505,6 +748,24 @@
    "lng": 134.906509,
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/280038/"
+  },
+  "北山カントリー倶楽部": {
+   "name": "北山カントリー倶楽部",
+   "pref": "佐賀",
+   "address": "佐賀県佐賀市三瀬村杠609",
+   "lat": 33.42215,
+   "lng": 130.262009,
+   "precision": "町名",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/410014"
+  },
+  "北条カントリー倶楽部": {
+   "name": "北条カントリー倶楽部",
+   "pref": "愛媛",
+   "address": "〒799-2417 愛媛県松山市才之原乙76-2",
+   "lat": 33.970795,
+   "lng": 132.820862,
+   "precision": "町名",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_73.htm"
   },
   "北谷津ゴルフガーデン（ショートコース）": {
    "name": "北谷津ゴルフガーデン（ショートコース）",
@@ -524,6 +785,15 @@
    "precision": "番地",
    "source": "https://golf-jalan.net/gc00559/info/"
   },
+  "千葉カントリークラブ梅郷コース": {
+   "name": "千葉カントリークラブ 梅郷コース",
+   "pref": "千葉",
+   "address": "千葉県野田市堤根167",
+   "lat": 35.94091,
+   "lng": 139.893494,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/120074"
+  },
   "南筑波ゴルフ場": {
    "name": "南筑波ゴルフ場",
    "pref": "茨城",
@@ -532,6 +802,15 @@
    "lng": 140.052368,
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/1067"
+  },
+  "南総カントリークラブ西コース": {
+   "name": "南総カントリークラブ 西コース",
+   "pref": "千葉",
+   "address": "〒290-0243 千葉県市原市上高根1683-1",
+   "lat": 35.414757,
+   "lng": 140.094147,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_1389.htm"
   },
   "南部富士カントリークラブ": {
    "name": "南部富士カントリークラブ",
@@ -559,6 +838,15 @@
    "lng": 137.230621,
    "precision": "番地",
    "source": "https://www.shotnavi.jp/gcguide/gcinfo_46.htm"
+  },
+  "呉羽カントリークラブ（立山コース）": {
+   "name": "呉羽カントリークラブ（立山コース）",
+   "pref": "富山",
+   "address": "〒930-0155 富山県富山市三熊19-2",
+   "lat": 36.661102,
+   "lng": 137.111557,
+   "precision": "番地",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_1806.htm"
   },
   "周南カントリー倶楽部": {
    "name": "周南カントリー倶楽部",
@@ -614,6 +902,15 @@
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/300011"
   },
+  "城陽カントリー倶楽部西コース": {
+   "name": "城陽カントリー倶楽部 西コース",
+   "pref": "京都",
+   "address": "〒610-0121 京都府城陽市寺田奥山1-46",
+   "lat": 34.861382,
+   "lng": 135.796814,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/260017/"
+  },
   "大分カントリークラブ月形コース": {
    "name": "大分カントリークラブ 月形コース",
    "pref": "大分",
@@ -659,6 +956,15 @@
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/50008"
   },
+  "大阪ゴルフクラブ": {
+   "name": "大阪ゴルフクラブ",
+   "pref": "大阪",
+   "address": "〒599-0303 大阪府泉南郡岬町深日31",
+   "lat": 34.32452,
+   "lng": 135.151764,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/270010"
+  },
   "天童カントリークラブ": {
    "name": "天童カントリークラブ",
    "pref": "山形",
@@ -685,6 +991,24 @@
    "lng": 130.54332,
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/400031"
+  },
+  "太平洋クラブ宝塚コース": {
+   "name": "太平洋クラブ宝塚コース",
+   "pref": "兵庫",
+   "address": "〒669-1205 兵庫県宝塚市芝辻新田字花折7-2",
+   "lat": 34.908627,
+   "lng": 135.328918,
+   "precision": "町名",
+   "source": "https://reserve.golfdigest.co.jp/golf-course/detail/645209"
+  },
+  "太平洋クラブ益子PGAコース": {
+   "name": "太平洋クラブ益子PGAコース",
+   "pref": "栃木",
+   "address": "栃木県芳賀郡益子町七井3302-1",
+   "lat": 36.515568,
+   "lng": 140.103806,
+   "precision": "番地",
+   "source": "https://golf-jalan.net/gc00584/detail/"
   },
   "奈良ロイヤルゴルフクラブ": {
    "name": "奈良ロイヤルゴルフクラブ",
@@ -767,6 +1091,24 @@
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/280093/"
   },
+  "宝塚ゴルフ倶楽部（男子新コース／女子旧コース）": {
+   "name": "宝塚ゴルフ倶楽部（男子 新コース／女子 旧コース）",
+   "pref": "兵庫",
+   "address": "〒665-0023 兵庫県宝塚市蔵人字深谷1391-1",
+   "lat": 34.787846,
+   "lng": 135.341125,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/280093/"
+  },
+  "宮古カントリークラブ": {
+   "name": "宮古カントリークラブ",
+   "pref": "岩手",
+   "address": "〒027-0097 岩手県宮古市大字崎山4-86-3",
+   "lat": 39.693691,
+   "lng": 141.962051,
+   "precision": "町名",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_273.htm"
+  },
   "宮城野ゴルフクラブ": {
    "name": "宮城野ゴルフクラブ",
    "pref": "宮城",
@@ -784,6 +1126,33 @@
    "lng": 131.445435,
    "precision": "番地",
    "source": "https://golf-jalan.net/gc02480/info/"
+  },
+  "富士カントリー可児クラブ可児ゴルフ場": {
+   "name": "富士カントリー可児クラブ 可児ゴルフ場",
+   "pref": "岐阜",
+   "address": "岐阜県可児市久々利221-2",
+   "lat": 35.403873,
+   "lng": 137.110825,
+   "precision": "町名",
+   "source": "https://golf-jalan.net/gc01461/info/"
+  },
+  "富士カントリー可児クラブ織部コース": {
+   "name": "富士カントリー可児クラブ 織部コース",
+   "pref": "岐阜",
+   "address": "〒509-0224 岐阜県可児市久々利向平221-2",
+   "lat": 35.403873,
+   "lng": 137.110825,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_2443.htm"
+  },
+  "富士カントリー可児クラブ美濃ゴルフ場": {
+   "name": "富士カントリー可児クラブ 美濃ゴルフ場",
+   "pref": "岐阜",
+   "address": "岐阜県可児市久々利柿下入会字奥磯山3-88",
+   "lat": 35.380211,
+   "lng": 137.116821,
+   "precision": "番地",
+   "source": "https://golf-jalan.net/gc01467/info/"
   },
   "富士レイクサイドカントリー倶楽部": {
    "name": "富士レイクサイドカントリー倶楽部",
@@ -830,6 +1199,15 @@
    "precision": "町名",
    "source": "https://www.shotnavi.jp/gcguide/gcinfo_656.htm"
   },
+  "山東カントリークラブ": {
+   "name": "山東カントリークラブ",
+   "pref": "兵庫",
+   "address": "〒669-5153 兵庫県朝来市山東町大月1-1",
+   "lat": 35.304977,
+   "lng": 134.873749,
+   "precision": "町名",
+   "source": "https://reserve.golfdigest.co.jp/golf-course/detail/642107"
+  },
   "岐阜セントフィールドカントリー倶楽部": {
    "name": "岐阜セントフィールドカントリー倶楽部",
    "pref": "岐阜",
@@ -857,6 +1235,15 @@
    "precision": "町名",
    "source": "https://shotnavi.jp/gcguide/gcinfo_323.htm"
   },
+  "岐阜関カントリー倶楽部（西コース）": {
+   "name": "岐阜関カントリー倶楽部（西コース）",
+   "pref": "岐阜",
+   "address": "〒501-3944 岐阜県関市山田芳洞1691-1",
+   "lat": 35.467384,
+   "lng": 136.877335,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_323.htm"
+  },
   "岩瀬桜川カントリークラブ": {
    "name": "岩瀬桜川カントリークラブ",
    "pref": "茨城",
@@ -865,6 +1252,24 @@
    "lng": 140.118774,
    "precision": "番地",
    "source": "https://golf-jalan.net/gc00444/info/"
+  },
+  "島ヶ原カントリー倶楽部": {
+   "name": "島ヶ原カントリー倶楽部",
+   "pref": "三重",
+   "address": "〒519-1700 三重県伊賀市島ケ原8300",
+   "lat": 34.770733,
+   "lng": 136.054337,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_841.htm"
+  },
+  "島ヶ原カントリー倶楽部東コース": {
+   "name": "島ヶ原カントリー倶楽部 東コース",
+   "pref": "三重",
+   "address": "〒519-1700 三重県伊賀市島ケ原8300",
+   "lat": 34.770733,
+   "lng": 136.054337,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_841.htm"
   },
   "広島カンツリー倶楽部西条コース": {
    "name": "広島カンツリー倶楽部 西条コース",
@@ -884,6 +1289,15 @@
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/340032"
   },
+  "後楽ゴルフ倶楽部": {
+   "name": "後楽ゴルフ倶楽部",
+   "pref": "岡山",
+   "address": "〒701-1602 岡山県岡山市北区真星2610",
+   "lat": 34.794212,
+   "lng": 133.811691,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_222.htm"
+  },
   "徳島カントリー倶楽部": {
    "name": "徳島カントリー倶楽部",
    "pref": "徳島",
@@ -902,6 +1316,15 @@
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/360009/"
   },
+  "愛岐カントリークラブ": {
+   "name": "愛岐カントリークラブ",
+   "pref": "岐阜",
+   "address": "岐阜県可児市大森1501",
+   "lat": 35.385403,
+   "lng": 137.087341,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/210001"
+  },
   "我孫子ゴルフ倶楽部": {
    "name": "我孫子ゴルフ倶楽部",
    "pref": "千葉",
@@ -911,6 +1334,15 @@
    "precision": "番地",
    "source": "https://shotnavi.jp/gcguide/gcinfo_1301.htm"
   },
+  "新宇都宮カントリークラブ": {
+   "name": "新宇都宮カントリークラブ",
+   "pref": "栃木",
+   "address": "栃木県芳賀郡市貝町大谷津1180",
+   "lat": 36.602989,
+   "lng": 140.101212,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/90052"
+  },
   "新居浜カントリー倶楽部": {
    "name": "新居浜カントリー倶楽部",
    "pref": "愛媛",
@@ -919,6 +1351,15 @@
    "lng": 133.35144,
    "precision": "番地",
    "source": "https://golf-jalan.net/gc02278/"
+  },
+  "日本ラインゴルフ倶楽部": {
+   "name": "日本ラインゴルフ倶楽部",
+   "pref": "岐阜",
+   "address": "岐阜県可児市室原87",
+   "lat": 35.394737,
+   "lng": 137.028397,
+   "precision": "番地",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_350.htm"
   },
   "日野ゴルフ倶楽部": {
    "name": "日野ゴルフ倶楽部",
@@ -956,6 +1397,15 @@
    "precision": "町名",
    "source": "https://golf-jalan.net/gc01496/info/"
   },
+  "明智ゴルフ倶楽部明智ゴルフ場": {
+   "name": "明智ゴルフ倶楽部 明智ゴルフ場",
+   "pref": "岐阜",
+   "address": "岐阜県恵那市明智町吉良見字西山980-2",
+   "lat": 35.306072,
+   "lng": 137.343292,
+   "precision": "町名",
+   "source": "https://golf-jalan.net/gc01501/info/"
+  },
   "朝霞パブリックゴルフ場": {
    "name": "朝霞パブリックゴルフ場",
    "pref": "埼玉",
@@ -964,6 +1414,15 @@
    "lng": 139.615433,
    "precision": "番地",
    "source": "https://golf-jalan.net/gc00765/detail/"
+  },
+  "朝霧ジャンボリーゴルフクラブ": {
+   "name": "朝霧ジャンボリーゴルフクラブ",
+   "pref": "静岡",
+   "address": "〒418-0108 静岡県富士宮市猪之頭2971",
+   "lat": 35.346268,
+   "lng": 138.568192,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_1207.htm"
   },
   "札幌エルムカントリークラブ": {
    "name": "札幌エルムカントリークラブ",
@@ -982,6 +1441,15 @@
    "lng": 141.501938,
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/10053/"
+  },
+  "札幌ゴルフ倶楽部由仁コース": {
+   "name": "札幌ゴルフ倶楽部 由仁コース",
+   "pref": "北海道",
+   "address": "〒069-1200 北海道夕張郡由仁町光栄588",
+   "lat": 42.992649,
+   "lng": 141.787018,
+   "precision": "町名",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_2185.htm"
   },
   "札幌テイネゴルフ倶楽部": {
    "name": "札幌テイネゴルフ倶楽部",
@@ -1010,6 +1478,24 @@
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/10050"
   },
+  "杉ノ郷カントリークラブ": {
+   "name": "杉ノ郷カントリークラブ",
+   "pref": "栃木",
+   "address": "栃木県日光市塩野室町1863",
+   "lat": 36.733868,
+   "lng": 139.788071,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/90053"
+  },
+  "東京よみうりカントリークラブ": {
+   "name": "東京よみうりカントリークラブ",
+   "pref": "東京",
+   "address": "東京都稲城市坂浜685",
+   "lat": 35.620903,
+   "lng": 139.491364,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/130014"
+  },
   "東名カントリークラブ": {
    "name": "東名カントリークラブ",
    "pref": "静岡",
@@ -1021,6 +1507,15 @@
   },
   "東名古屋カントリークラブ": {
    "name": "東名古屋カントリークラブ",
+   "pref": "愛知",
+   "address": "〒470-0352 愛知県豊田市篠原町大沢3番地",
+   "lat": 35.163925,
+   "lng": 137.128799,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/230040/"
+  },
+  "東名古屋カントリークラブ（西・東コース）": {
+   "name": "東名古屋カントリークラブ（西・東コース）",
    "pref": "愛知",
    "address": "〒470-0352 愛知県豊田市篠原町大沢3番地",
    "lat": 35.163925,
@@ -1127,6 +1622,15 @@
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/80110/"
   },
+  "氷見カントリークラブ": {
+   "name": "氷見カントリークラブ",
+   "pref": "富山",
+   "address": "〒935-0414 富山県氷見市白川35",
+   "lat": 36.91346,
+   "lng": 136.99617,
+   "precision": "番地",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_1814.htm"
+  },
   "泉国際ゴルフ倶楽部": {
    "name": "泉国際ゴルフ倶楽部",
    "pref": "宮城",
@@ -1144,6 +1648,24 @@
    "lng": 136.428268,
    "precision": "番地",
    "source": "https://shotnavi.jp/gcguide/gcinfo_839.htm"
+  },
+  "浅見ゴルフ倶楽部": {
+   "name": "浅見ゴルフ倶楽部",
+   "pref": "茨城",
+   "address": "茨城県水戸市杉崎1916-1",
+   "lat": 36.385979,
+   "lng": 140.323257,
+   "precision": "番地",
+   "source": "https://golf-jalan.net/gc00427/info/"
+  },
+  "湯布高原ゴルフクラブ": {
+   "name": "湯布高原ゴルフクラブ",
+   "pref": "大分",
+   "address": "大分県由布市湯布院町川北899番地1",
+   "lat": 33.269138,
+   "lng": 131.322311,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/440024"
   },
   "滋賀ゴルフ倶楽部": {
    "name": "滋賀ゴルフ倶楽部",
@@ -1190,6 +1712,15 @@
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/430020/"
   },
+  "熊本ゴルフ倶樂部城南コース": {
+   "name": "熊本ゴルフ倶樂部 城南コース",
+   "pref": "熊本",
+   "address": "熊本県熊本市南区城南町藤山1660",
+   "lat": 32.666981,
+   "lng": 130.737396,
+   "precision": "番地",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_509.htm"
+  },
   "熊本空港カントリークラブ": {
    "name": "熊本空港カントリークラブ",
    "pref": "熊本",
@@ -1198,6 +1729,15 @@
    "lng": 130.836624,
    "precision": "番地",
    "source": "https://golf-jalan.net/gc02431/info/"
+  },
+  "熊谷ゴルフクラブ": {
+   "name": "熊谷ゴルフクラブ",
+   "pref": "埼玉",
+   "address": "〒360-0816 埼玉県熊谷市大字石原1431",
+   "lat": 36.14653,
+   "lng": 139.358322,
+   "precision": "番地",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_725.htm"
   },
   "片山津ゴルフ倶楽部WESTあすなろコース": {
    "name": "片山津ゴルフ倶楽部 WEST あすなろコース",
@@ -1243,6 +1783,15 @@
    "lng": 134.752991,
    "precision": "町名",
    "source": "https://www.shotnavi.jp/gcguide/gcinfo_2039.htm"
+  },
+  "白山ヴィレッジゴルフコース": {
+   "name": "白山ヴィレッジゴルフコース",
+   "pref": "三重",
+   "address": "〒515-2603 三重県津市白山町川口6262",
+   "lat": 34.625126,
+   "lng": 136.352844,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_843.htm"
   },
   "相模湖カントリークラブ": {
    "name": "相模湖カントリークラブ",
@@ -1316,6 +1865,15 @@
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/50003/"
   },
+  "立川国際カントリー倶楽部": {
+   "name": "立川国際カントリー倶楽部",
+   "pref": "東京",
+   "address": "東京都あきる野市草花2390",
+   "lat": 35.750607,
+   "lng": 139.301834,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/130008"
+  },
   "米原ゴルフ倶楽部": {
    "name": "米原ゴルフ倶楽部",
    "pref": "千葉",
@@ -1379,6 +1937,33 @@
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/180001"
   },
+  "花屋敷ゴルフ倶楽部ひろのコース": {
+   "name": "花屋敷ゴルフ倶楽部 ひろのコース",
+   "pref": "兵庫",
+   "address": "〒673-1111 兵庫県三木市吉川町上荒川字松ヶ浦713-1",
+   "lat": 34.913269,
+   "lng": 135.146667,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/280112/"
+  },
+  "若松ゴルフ倶楽部": {
+   "name": "若松ゴルフ倶楽部",
+   "pref": "福岡",
+   "address": "福岡県北九州市若松区大字乙丸1560",
+   "lat": 33.916092,
+   "lng": 130.684906,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/400050"
+  },
+  "苫小牧ゴルフリゾート72エミナゴルフクラブ": {
+   "name": "苫小牧ゴルフリゾート72 エミナゴルフクラブ",
+   "pref": "北海道",
+   "address": "北海道苫小牧市植苗341",
+   "lat": 42.689236,
+   "lng": 141.656937,
+   "precision": "番地",
+   "source": "https://golf-jalan.net/gc00042/info/"
+  },
   "苫小牧ゴルフリゾート72エミナゴルフクラブ南コース": {
    "name": "苫小牧ゴルフリゾート72 エミナゴルフクラブ 南コース",
    "pref": "北海道",
@@ -1387,6 +1972,15 @@
    "lng": 141.656937,
    "precision": "番地",
    "source": "https://golf-jalan.net/gc00042/info/"
+  },
+  "草津カントリークラブ": {
+   "name": "草津カントリークラブ",
+   "pref": "群馬",
+   "address": "群馬県吾妻郡草津町前口3-45",
+   "lat": 36.572674,
+   "lng": 138.577484,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/100019"
   },
   "菊川カントリークラブ": {
    "name": "菊川カントリークラブ",
@@ -1405,6 +1999,15 @@
    "lng": 137.933441,
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/220022"
+  },
+  "藤ヶ谷カントリークラブ": {
+   "name": "藤ヶ谷カントリークラブ",
+   "pref": "千葉",
+   "address": "〒270-1456 千葉県柏市泉2348",
+   "lat": 35.829498,
+   "lng": 140.028122,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_1387.htm"
   },
   "西尾ゴルフクラブ": {
    "name": "西尾ゴルフクラブ",
@@ -1469,6 +2072,15 @@
    "precision": "町名",
    "source": "https://golf-jalan.net/gc00624/info/"
   },
+  "那須野ヶ原カントリークラブ": {
+   "name": "那須野ヶ原カントリークラブ",
+   "pref": "栃木",
+   "address": "〒324-0012 栃木県大田原市南金丸2025",
+   "lat": 36.852421,
+   "lng": 140.085526,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_1758.htm"
+  },
   "那須陽光ゴルフクラブ": {
    "name": "那須陽光ゴルフクラブ",
    "pref": "栃木",
@@ -1477,6 +2089,33 @@
    "lng": 140.181885,
    "precision": "町名",
    "source": "https://golf-jalan.net/gc00631/info/"
+  },
+  "郷原カントリークラブ": {
+   "name": "郷原カントリークラブ",
+   "pref": "広島",
+   "address": "〒724-0701 広島県呉市郷原町西横尾412",
+   "lat": 34.306114,
+   "lng": 132.618958,
+   "precision": "番地",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_614.htm"
+  },
+  "金沢カントリー倶楽部（中・西コース）": {
+   "name": "金沢カントリー倶楽部（中・西コース）",
+   "pref": "石川",
+   "address": "〒929-1111 石川県かほく市気屋亥4",
+   "lat": 36.721481,
+   "lng": 136.738083,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_1248.htm"
+  },
+  "金砂郷カントリークラブ": {
+   "name": "金砂郷カントリークラブ",
+   "pref": "茨城",
+   "address": "〒313-0105 茨城県常陸太田市中利員町2856-1",
+   "lat": 36.5798,
+   "lng": 140.447586,
+   "precision": "町名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_132.htm"
   },
   "長船カントリークラブ": {
    "name": "長船カントリークラブ",
@@ -1532,6 +2171,24 @@
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/6659/"
   },
+  "青島ゴルフ倶楽部": {
+   "name": "青島ゴルフ倶楽部",
+   "pref": "宮崎",
+   "address": "宮崎県宮崎市大字折生迫字大谷4180",
+   "lat": 31.786119,
+   "lng": 131.46228,
+   "precision": "町名",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/450003"
+  },
+  "青梅ゴルフ倶楽部": {
+   "name": "青梅ゴルフ倶楽部",
+   "pref": "東京",
+   "address": "〒198-0004 東京都青梅市根ケ布1-490",
+   "lat": 35.802288,
+   "lng": 139.273041,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_1605.htm"
+  },
   "青森カントリー倶楽部": {
    "name": "青森カントリー倶楽部",
    "pref": "青森",
@@ -1550,6 +2207,15 @@
    "precision": "番地",
    "source": "https://www.shotnavi.jp/gcguide/gcinfo_2046.htm"
   },
+  "額田ゴルフ倶楽部": {
+   "name": "額田ゴルフ倶楽部",
+   "pref": "愛知",
+   "address": "愛知県岡崎市南大須町桃ノ沢41",
+   "lat": 34.968258,
+   "lng": 137.308533,
+   "precision": "町名",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_18.htm"
+  },
   "風月カントリー倶楽部": {
    "name": "風月カントリー倶楽部",
    "pref": "栃木",
@@ -1558,6 +2224,15 @@
    "lng": 140.138992,
    "precision": "番地",
    "source": "https://golf-jalan.net/gc00619/info/"
+  },
+  "飛鳥カンツリー倶楽部": {
+   "name": "飛鳥カンツリー倶楽部",
+   "pref": "奈良",
+   "address": "〒631-0072 奈良県奈良市二名7-1441",
+   "lat": 34.702503,
+   "lng": 135.718262,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/290003/"
   },
   "養老カントリークラブ": {
    "name": "養老カントリークラブ",
@@ -1568,6 +2243,24 @@
    "precision": "町名",
    "source": "https://shotnavi.jp/gcguide/gcinfo_372.htm"
   },
+  "高坂カントリークラブ岩殿コース": {
+   "name": "高坂カントリークラブ 岩殿コース",
+   "pref": "埼玉",
+   "address": "〒355-0047 埼玉県東松山市高坂1916-1",
+   "lat": 36.004829,
+   "lng": 139.386047,
+   "precision": "番地",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_732.htm"
+  },
+  "高岡カントリー倶楽部": {
+   "name": "高岡カントリー倶楽部",
+   "pref": "富山",
+   "address": "〒939-1275 富山県高岡市中田中田御坊山876",
+   "lat": 36.676559,
+   "lng": 137.019073,
+   "precision": "町名",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_1807.htm"
+  },
   "高松ゴールドカントリー倶楽部": {
    "name": "高松ゴールドカントリー倶楽部",
    "pref": "香川",
@@ -1576,6 +2269,24 @@
    "lng": 133.985382,
    "precision": "町名",
    "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/370001"
+  },
+  "高根カントリー倶楽部": {
+   "name": "高根カントリー倶楽部",
+   "pref": "埼玉",
+   "address": "〒355-0803 埼玉県比企郡滑川町福田4045",
+   "lat": 36.092915,
+   "lng": 139.343338,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_731.htm"
+  },
+  "鳩山カントリークラブ": {
+   "name": "鳩山カントリークラブ",
+   "pref": "埼玉",
+   "address": "〒350-0302 埼玉県比企郡鳩山町大橋1186-2",
+   "lat": 35.994446,
+   "lng": 139.344162,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_767.htm"
   },
   "鹿沼72カントリークラブ": {
    "name": "鹿沼72カントリークラブ",
@@ -1603,6 +2314,15 @@
    "lng": 137.297272,
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/guide/disp/c_id/210072"
+  },
+  "麗澤瑞浪ゴルフ倶楽部（屏風山コース）": {
+   "name": "麗澤瑞浪ゴルフ倶楽部（屏風山コース）",
+   "pref": "岐阜",
+   "address": "〒509-6102 岐阜県瑞浪市稲津町萩原1661",
+   "lat": 35.360001,
+   "lng": 137.293198,
+   "precision": "番地",
+   "source": "https://reserve.golfdigest.co.jp/golf-course/528405/"
   }
  }
 }

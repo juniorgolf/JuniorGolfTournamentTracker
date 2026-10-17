@@ -1,6 +1,6 @@
 # 全国ジュニアゴルフ大会カレンダー（試作）
 
-全国の小学生が出られるジュニアゴルフ大会の日程と申込期間を一覧にする静的サイト。
+全国の小学生・中学生が出られるジュニアゴルフ大会の日程と申込期間を一覧にする静的サイト。
 
 ## 構成
 - `index.html` / `style.css` / `app.js`：画面。月ごとの一覧（開催日・大会名・会場・主催・申込状況）と、大会名クリックで開く詳細。`#大会ID` 付きURLで詳細を直接開ける。ビルド不要。
@@ -17,10 +17,10 @@
 3. 手元確認：`python3 -m http.server` → http://localhost:8000
 
 ## データ項目
-id, name, organizer, pref（都道府県の短い名前。複数県にまたがる大会は「関東」など地方名。app.js の REGIONS で地方に分類）, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, stage（予選/決勝）, url, note, verified, results（終了大会の結果リンク [{label,url}]）, results_note, expected・window_from（日程未発表の大会）
+id, name, organizer, pref（都道府県の短い名前。複数県にまたがる大会は「関東」など地方名。app.js の REGIONS で地方に分類）, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, levels（出られる学校段階。["小学生","中学生"] のように持ち、画面の「対象」で絞り込む）, stage（予選/決勝）, url, note, verified, results（終了大会の結果リンク [{label,url}]）, results_note, expected・window_from（日程未発表の大会）
 
 ## 調査資料
-- `docs/research/`：情報源一覧（関東: kanto_sources.csv、関東以外: japan_sources.csv）と調査メモ
+- `docs/research/`：情報源一覧（関東: kanto_sources.csv、関東以外: japan_sources.csv、中学生の大会: jhs_sources.csv）と調査メモ
 
 ## 地図について
 - 地図タイルは OpenStreetMap 財団のタイルサーバーを使う（帰属表示「© OpenStreetMap contributors」を地図右下に表示）。アクセスが増えて利用規約の目安を超えそうなら、地理院タイルなどに切り替える。
