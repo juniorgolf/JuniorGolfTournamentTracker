@@ -1,0 +1,19 @@
+優先度,区分,名称,URL,小学生対象,関東開催,日程の取得,申込期間の取得,申込方法,golfportal掲載,備考
+A,地区連盟,KGA 関東ゴルフ連盟（関東小学生ゴルフ大会）,https://www.kga.gr.jp/compe/elementary_detail.php?year=2026&id=2631,○,○（決勝 上総モナークCC 4/1）,○ 競技詳細ページ・年間日程PDF,○ 詳細ページに開始/締切あり（2026: 2/19〜3/11）,JGAジュニア会員登録が必要,○,各都県予選→決勝。年間日程PDF https://www.kga.gr.jp/resources/pdf/2026KGAcalendar.pdf 、2027日程PDFも公開済み
+A,都県協会,千葉県ゴルフ協会（千葉県小学生大会 兼 関東小学生千葉県予選）,https://www.chibaken-golf.com/juniorschool/index.html,○,○,○,○ 開始/締切を時刻まで明記（2025/11/11〜12/10）,要項参照,×,関東小学生の予選。portal未収録
+A,都県協会,埼玉県ゴルフ協会（埼玉県小学生大会 兼 関東小学生埼玉県予選）,https://saitamaken-ga.org/pg-kyo.php,○,○,○ 一覧に日程・会場,△ 一覧には無く要項PDF,要項/申込書PDF,×,ジュニア専用ページ https://saitamaken-ga.org/pg-junior.php
+A,プロ協会,JLPGA 全日本小学生ゴルフトーナメント 関東予選,https://www.lpga.or.jp/junior/alljapanjunior/qualify,○（小3〜6）,○（2026: こだまGC 9/21）,○,○ 締切明記（8/28 17時）、開始はお知らせ記事日付,JLPGAサイトから,△（JLPGAとしては掲載）,関東=茨城・栃木・群馬・埼玉・千葉・東京・神奈川・山梨。定員超過は抽選
+A,ジュニア団体,JJGA 日本ジュニアゴルフ協会（石川遼カップ・東横イン・小平智カップ等）,https://www.jjga.org/competition,○（小学低/高学年の部あり）,○ 決勝は栃木多数／地区予選は会場要確認,○ 一覧に日程,△ 一覧は「受付中/終了」表示のみ、各大会ページ・エントリーページで確認,Web（マイページ）＋入金。会員登録要,○,全国34〜42会場の地区予選あり。関東会場の抽出が必要
+A,ジュニア団体,IJGA 国際ジュニアゴルフ育成協会（PGM世界ジュニア日本代表選抜）,https://www.ijga.or.jp/2026jpinformation/,○（7〜18歳）,○ 関東予選3会場・東日本決勝（茨城）,○ 一覧に日程,△ 一覧に無く要項,IJGAサイトからエントリー,○,ジュニアゴルフ成長支援プロジェクト（5歳〜小4、9ホール）https://www.jgsp.jp/ も
+A,ジュニアツアー,JJGT 日本ジュニアゴルフツアー,https://www.jjgt.net/tour-info/,○（12歳以下・10歳以下区分）,○ 千葉・埼玉・東京中心に多数,○ 一覧に日程・会場,△ 一覧は「受付中/締切済」、詳細ページに期間,Net Entry,×,関東開催が非常に多い。portal未収録
+A,ジュニアツアー,Jack Bunny!! ジュニアゴルフツアー,https://jb-cup.com/calendar/,要確認（大会ごと）,要確認,○ 大会日程ページ,○ SportsEntry側に受付期間,SportsEntry,○,Championship/Challenge Cup/My First Tee
+B,企業・メディア,ゴルフダイジェスト ジャパンジュニアカップ,https://golf-digest.co.jp/event/jrcup/,○（6〜7/8〜9/10〜11歳の部）,○ 6〜7歳の部 予選=南筑波GC,○,△ 要項/エントリーページ,要項参照,○,2026年は終了
+B,企業,コナミスポーツ ジュニアカップ,https://www.konami.com/sportsclub/undojuku/golf/konamisports-jr-cup/2026/,○（低/高学年の部）,○ 予選=シミュレーター（施設）、決勝=那須ハイランドGC,○,△ 予選詳細ページ,要確認,×,初心者寄り
+B,その他,全国小学生ゴルフ大会（我孫子GC・千葉）,https://www.pref.gunma.jp/uploaded/attachment/706533.pdf,○,○,△ 5月開催のみ判明,×,要確認,×,主催・公式サイト未特定（群馬県の資料経由で発見）。要追加調査
+B,エントリー基盤,SportsEntry（ゴルフ・都県別一覧）,https://www.sportsentry.ne.jp/events/golf/chiba,△ 大会次第,○,○,○ 受付期間が構造化されている,Web,×,取得はブロックされた（要再確認）。JB-CUP等の申込先
+B,都県協会,東京都・神奈川県・茨城県・栃木県・群馬県・山梨県の各ゴルフ連盟/協会,,○（関東小学生の都県予選）,○,未確認,未確認,未確認,×,関東小学生の都県予選の主催者。公式URLと予選ページを次段階で特定する
+C,地区連盟,KGA 関東ジュニアゴルフ選手権／KGA杯ジュニア,https://www.kga.gr.jp/junior/junior_championship.php,×（中高生中心）,○,○,○,JGAジュニア会員,○,小6は対象外の可能性。対象年齢要確認
+C,学校連盟,関東高等学校・中学校ゴルフ連盟,http://www.k-hga.jp/,×,○,○,○,連盟HP,○,中高のみ。将来拡張用
+C,ジュニア団体,PGA ジュニア,https://pga.or.jp/junior,要確認,要確認,要確認,要確認,要確認,○,
+C,海外系,U.S. Kids Golf（国際ローカルツアー）,https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour,○,要確認,要確認,要確認,要確認,○,日本のローカルツアー有無を未確認
+C,メディア,ゴルフ報知（ジュニア）／GDO／ALBA等,https://golf.hochi.co.jp/archives/category/junior,—,—,×（記事のみ）,×,—,○,新大会の発見用。日程データ源にはしない

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>関東ジュニアゴルフ大会カレンダー</title>
+<meta name="description" content="関東の小学生が出られるジュニアゴルフ大会の日程と申込期間を一覧にしています。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <h1>関東ジュニアゴルフ大会カレンダー</h1>
+  <p class="lead">小学生が出られる大会の日程と申込期間。申込漏れをなくすための一覧です。</p>
+</header>
+
+<main>
+  <section class="filters" aria-label="絞り込み">
+    <label>都県
+      <select id="f-pref"><option value="">すべて</option></select>
+    </label>
+    <label>主催
+      <select id="f-org"><option value="">すべて</option></select>
+    </label>
+    <label class="check"><input type="checkbox" id="f-past"> 終了した大会も表示</label>
+    <a class="ics-all" href="calendar.ics" download>全大会をカレンダーに登録（.ics）</a>
+  </section>
+
+  <section>
+    <h2>申込受付中・まもなく受付</h2>
+    <div id="open" class="list"></div>
+  </section>
+
+  <section>
+    <h2>今後の大会</h2>
+    <div id="upcoming" class="list"></div>
+  </section>
+
+  <section id="past-wrap" hidden>
+    <h2>終了した大会</h2>
+    <div id="past" class="list"></div>
+  </section>
+</main>
+
+<footer>
+  <p>掲載情報は各主催者の公式ページをもとに手で確認しています（最終更新 <span id="updated"></span>）。申込前に必ず公式ページで最新の要項をご確認ください。</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
