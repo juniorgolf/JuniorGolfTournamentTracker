@@ -209,7 +209,7 @@ async function main() {
   fillOrgs();
 
   const tabs = [...document.querySelectorAll("#tabs button")];
-  let view = "upcoming";
+  let view = "map";
   const mapEl = document.getElementById("mapview");
   const mapList = document.getElementById("map-list");
   const mapCount = document.getElementById("map-count");
