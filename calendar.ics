@@ -27,6 +27,70 @@ SUMMARY:【申込締切】千葉県小学生ゴルフ大会（兼 関東小学�
 DESCRIPTION:https://www.chibaken-golf.com/juniorschool/index.html
 END:VEVENT
 BEGIN:VEVENT
+UID:gunma-kanto-elem-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260112
+DTEND;VALUE=DATE:20260113
+SUMMARY:【大会】関東小学生ゴルフ大会 群馬ブロック予選
+DESCRIPTION:サンコーカントリークラブ\nhttps://www.golf-gunma-asc.gr.jp/junior/2026/000810.html
+END:VEVENT
+BEGIN:VEVENT
+UID:gunma-kanto-elem-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251104
+DTEND;VALUE=DATE:20251105
+SUMMARY:【申込開始】関東小学生ゴルフ大会 群馬ブロック予選
+DESCRIPTION:https://www.golf-gunma-asc.gr.jp/junior/2026/000810.html
+END:VEVENT
+BEGIN:VEVENT
+UID:gunma-kanto-elem-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251215
+DTEND;VALUE=DATE:20251216
+SUMMARY:【申込締切】関東小学生ゴルフ大会 群馬ブロック予選
+DESCRIPTION:https://www.golf-gunma-asc.gr.jp/junior/2026/000810.html
+END:VEVENT
+BEGIN:VEVENT
+UID:tochigi-kanto-elem-2026@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260207
+DTEND;VALUE=DATE:20260208
+SUMMARY:【大会】関東小学生ゴルフ大会 栃木予選
+DESCRIPTION:宇都宮カンツリークラブ 北・中コース\nhttps://www.t-golf.jp/compe/compe_detail.php?year=2026&id=5
+END:VEVENT
+BEGIN:VEVENT
+UID:tochigi-kanto-elem-2026-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20251216
+DTEND;VALUE=DATE:20251217
+SUMMARY:【申込開始】関東小学生ゴルフ大会 栃木予選
+DESCRIPTION:https://www.t-golf.jp/compe/compe_detail.php?year=2026&id=5
+END:VEVENT
+BEGIN:VEVENT
+UID:tochigi-kanto-elem-2026-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+SUMMARY:【申込締切】関東小学生ゴルフ大会 栃木予選
+DESCRIPTION:https://www.t-golf.jp/compe/compe_detail.php?year=2026&id=5
+END:VEVENT
+BEGIN:VEVENT
+UID:kanagawa-elem-2026-k01702@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:【大会】神奈川アマ ジュニア（小学生）の部 男子（兼 関東小学生 予選）
+DESCRIPTION:相模湖カントリークラブ\nhttps://www.knga.org/compe/2026/k01702
+END:VEVENT
+BEGIN:VEVENT
+UID:kanagawa-elem-2026-k01703@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260222
+DTEND;VALUE=DATE:20260223
+SUMMARY:【大会】神奈川アマ ジュニア（小学生）の部 女子（兼 関東小学生 予選）
+DESCRIPTION:相模湖カントリークラブ\nhttps://www.knga.org/compe/2026/k01703
+END:VEVENT
+BEGIN:VEVENT
 UID:saitama-elem-2026@kanto-junior-golf
 DTSTAMP:20261017T000000Z
 DTSTART;VALUE=DATE:20260307
@@ -89,6 +153,38 @@ DTSTART;VALUE=DATE:20260425
 DTEND;VALUE=DATE:20260427
 SUMMARY:【大会】PGM世界ジュニアゴルフ選手権 日本代表選抜 東日本決勝
 DESCRIPTION:美浦ゴルフ倶楽部\nhttps://www.ijga.or.jp/2026jpinformation/
+END:VEVENT
+BEGIN:VEVENT
+UID:gunma-elem-15@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+SUMMARY:【大会】第15回 群馬県小学生ゴルフ大会
+DESCRIPTION:初穂カントリークラブ\nhttps://www.golf-gunma-asc.gr.jp/junior/2026/000821.html
+END:VEVENT
+BEGIN:VEVENT
+UID:gunma-elem-15-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260316
+DTEND;VALUE=DATE:20260317
+SUMMARY:【申込開始】第15回 群馬県小学生ゴルフ大会
+DESCRIPTION:https://www.golf-gunma-asc.gr.jp/junior/2026/000821.html
+END:VEVENT
+BEGIN:VEVENT
+UID:gunma-elem-15-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+SUMMARY:【申込締切】第15回 群馬県小学生ゴルフ大会
+DESCRIPTION:https://www.golf-gunma-asc.gr.jp/junior/2026/000821.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ibaraki-jr-10@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20260509
+DTEND;VALUE=DATE:20260510
+SUMMARY:【大会】第10回 茨城県ジュニアゴルフ大会
+DESCRIPTION:水戸グリーンカントリークラブ\nhttps://iaga.jp/competition/
 END:VEVENT
 BEGIN:VEVENT
 UID:gd-jrcup-67-2026-05-23@kanto-junior-golf
@@ -297,5 +393,45 @@ DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261116
 SUMMARY:【大会】東横イン ジュニアゴルフオープン 決勝（8〜11歳の部）
 DESCRIPTION:ニュー・セントアンドリュース ゴルフクラブ・ジャパン\nhttps://www.jjga.org/convention/2026/toyokoinn/
+END:VEVENT
+BEGIN:VEVENT
+UID:tokyo-elem-12@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:【大会】第12回 東京都小学生ゴルフ大会
+DESCRIPTION:赤羽ゴルフ倶楽部\nhttps://www.tokyo-mga.com/%E7%AB%B6%E6%8A%80%E6%97%A5%E7%A8%8B
+END:VEVENT
+BEGIN:VEVENT
+UID:tokyo-elem-12-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:【申込開始】第12回 東京都小学生ゴルフ大会
+DESCRIPTION:https://www.tokyo-mga.com/%E7%AB%B6%E6%8A%80%E6%97%A5%E7%A8%8B
+END:VEVENT
+BEGIN:VEVENT
+UID:tokyo-elem-12-close@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:【申込締切】第12回 東京都小学生ゴルフ大会
+DESCRIPTION:https://www.tokyo-mga.com/%E7%AB%B6%E6%8A%80%E6%97%A5%E7%A8%8B
+END:VEVENT
+BEGIN:VEVENT
+UID:sponichi-kanto-elem-20@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:【大会】第20回 関東小学生ゴルフ大会（全国小学生ゴルフ春季大会 関東大会）
+DESCRIPTION:倶楽部我山\nhttps://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_20/golf-384035/
+END:VEVENT
+BEGIN:VEVENT
+UID:sponichi-kanto-elem-20-open@kanto-junior-golf
+DTSTAMP:20261017T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:【申込開始】第20回 関東小学生ゴルフ大会（全国小学生ゴルフ春季大会 関東大会）
+DESCRIPTION:https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_20/golf-384035/
 END:VEVENT
 END:VCALENDAR
