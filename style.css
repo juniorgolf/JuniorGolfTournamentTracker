@@ -194,7 +194,7 @@ dialog::backdrop { background: rgba(10, 14, 12, .55); backdrop-filter: blur(2px)
   .stats { gap: 28px; margin-top: 24px; }
   .stats dd { font-size: 24px; }
   .toolbar { padding-top: 24px; }
-  .tabs { width: 100%; gap: 20px; overflow-x: auto; }
+  .tabs { width: 100%; flex-wrap: wrap; gap: 0 18px; }
   .tabs button { white-space: nowrap; }
   .filters { width: 100%; }
   .select { flex: 1; }
