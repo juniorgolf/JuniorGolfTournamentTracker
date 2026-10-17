@@ -211,6 +211,7 @@ async function main() {
   const tabs = [...document.querySelectorAll("#tabs button")];
   let view = "map";
   const mapEl = document.getElementById("mapview");
+  const calEl = document.getElementById("calview");
   const mapList = document.getElementById("map-list");
   const mapCount = document.getElementById("map-count");
   let mapKey = null;
@@ -229,13 +230,17 @@ async function main() {
     sets.map = sets.upcoming;
     tabs.forEach((b) => {
       b.setAttribute("aria-selected", String(b.dataset.view === view));
-      b.innerHTML = `${b.textContent.replace(/\d+$/, "").trim()}<span class="count">${sets[b.dataset.view].length}</span>`;
+      const n = sets[b.dataset.view];
+      b.innerHTML = `${b.textContent.replace(/\d+$/, "").trim()}${n ? `<span class="count">${n.length}</span>` : ""}`;
     });
     const list = sets[view];
-    const isMap = view === "map";
-    document.querySelector(".table-head").hidden = isMap;
-    document.getElementById("list").hidden = isMap;
+    const isMap = view === "map", isCal = view === "cal";
+    document.querySelector(".table-head").hidden = isMap || isCal;
+    document.getElementById("list").hidden = isMap || isCal;
     mapEl.hidden = !isMap;
+    calEl.hidden = !isCal;
+    // 申込カレンダーは日程の決まった大会すべて（終了した大会も含め、月を戻して見られる）
+    if (isCal) { showCalendar(calEl, base.filter((t) => !isWatch(t))); return; }
     if (isMap) {
       // 絞り込みが変わったとき（と初回）だけ、該当する会場が全部見える位置へ動かす
       const key = fPref.value + "|" + fOrg.value;
@@ -266,6 +271,7 @@ async function main() {
     fillOrgs(); render();
   });
   fOrg.addEventListener("change", render);
+  bindCalendar(calEl, render);
 
   const dlg = document.getElementById("detail");
   const open = (id) => {

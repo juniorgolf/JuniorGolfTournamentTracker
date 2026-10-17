@@ -186,6 +186,56 @@ dialog::backdrop { background: rgba(10, 14, 12, .55); backdrop-filter: blur(2px)
 .pop-actions { display: flex; flex-direction: column; gap: 6px; margin-top: 8px; padding-top: 8px; border-top: 1px solid #e6e5e0; font-size: 12px; font-weight: 700; }
 .pop-actions a { color: #0b5d3b; }
 
+/* Entry calendar */
+.calview { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 32px; border-top: 1px solid var(--ink); padding-top: 16px; }
+.cal-bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 14px; }
+.cal-nav { display: flex; align-items: center; gap: 8px; }
+.cal-nav h2 { margin: 0; min-width: 132px; text-align: center; font: 600 22px var(--num); font-feature-settings: "tnum"; }
+.cal-nav button { width: 40px; height: 40px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); border-radius: var(--radius); cursor: pointer; font: inherit; font-size: 18px; }
+.cal-nav .cal-today { width: auto; padding: 0 12px; font-size: 12px; }
+.cal-layers { display: flex; flex-wrap: wrap; gap: 6px; }
+.cal-layer { display: inline-flex; align-items: center; gap: 6px; padding: 8px 12px; border-radius: 999px; border: 1px solid var(--ink); background: var(--surface); color: var(--ink); font: inherit; font-size: 12px; cursor: pointer; }
+.cal-layer[aria-pressed="false"] { border-color: var(--rule); background: var(--muted-soft); color: var(--ink-3); }
+.cal-layer .sw { width: 10px; height: 10px; border-radius: 2px; background: var(--ev); }
+.cal-layer[aria-pressed="false"] .sw { opacity: .35; }
+.ev-close { --ev: #c2410c; --ev-bg: #fbe9e7; --ev-ink: #9c2b12; }
+.ev-open { --ev: #3c4f8f; --ev-bg: #eceff8; --ev-ink: #3c4f8f; }
+.ev-start { --ev: #0b5d3b; --ev-bg: #e8f1ec; --ev-ink: #0b5d3b; }
+@media (prefers-color-scheme: dark) {
+  .ev-close { --ev: #f08a5d; --ev-bg: #3a1f17; --ev-ink: #f4b39a; }
+  .ev-open { --ev: #a7b5ea; --ev-bg: #1d2233; --ev-ink: #c3cdf2; }
+  .ev-start { --ev: #6fcf9c; --ev-bg: #17291f; --ev-ink: #9fe0bc; }
+}
+.cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); border-top: 1px solid var(--ink); border-left: 1px solid var(--rule); }
+.cal-wd { padding: 6px 8px; font-size: 11px; color: var(--ink-2); background: var(--surface); border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.cal-wd.sun, .cal-cell.sun .n { color: #c0392b; }
+.cal-wd.sat, .cal-cell.sat .n { color: var(--info); }
+.cal-cell { min-height: 108px; padding: 6px; display: flex; flex-direction: column; gap: 3px; min-width: 0; background: var(--surface); border-right: 1px solid var(--rule); border-bottom: 1px solid var(--rule); }
+.cal-cell.out { background: var(--muted-soft); }
+.cal-day .n { font: 500 13px var(--num); font-feature-settings: "tnum"; }
+.cal-day .w { display: none; }
+.cal-cell.today .n { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px; border-radius: 50%; background: var(--ink); color: var(--bg); }
+.cal-ev { appearance: none; border: 0; display: block; width: 100%; text-align: left; font: inherit; font-size: 11px; line-height: 1.4; padding: 2px 5px; border-radius: 3px; background: var(--ev-bg); color: var(--ev-ink); cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cal-ev:hover { filter: brightness(.96); }
+.cal-ev.extra { display: none; }
+.cal-cell.expanded .cal-ev.extra { display: block; }
+.cal-more { appearance: none; border: 0; background: none; padding: 2px 5px; text-align: left; font: inherit; font-size: 11px; color: var(--ink-2); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; }
+.cal-side { display: flex; flex-direction: column; gap: 12px; }
+.cal-sum { background: var(--head-bg); color: var(--head-ink); border-radius: 6px; padding: 18px 20px; display: flex; flex-direction: column; gap: 4px; }
+.cal-sum span { font-size: 12px; opacity: .7; }
+.cal-sum b { font: 500 36px/1.1 var(--num); }
+.cal-sum small { font-size: 14px; margin-left: 4px; }
+.cal-sum em { display: block; margin-top: 6px; font: 400 12px var(--font); font-style: normal; opacity: .7; }
+.cal-ics { width: 100%; white-space: normal; }
+.cal-side h3 { margin: 8px 0 0; font-size: 14px; padding-bottom: 8px; border-bottom: 1px solid var(--ink); }
+.cal-side .empty { padding: 24px 0; }
+.cal-dl { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 10px; padding: 10px 0; border-bottom: 1px solid var(--rule); }
+.cal-dl .d { font: 500 16px var(--num); color: #9c2b12; font-feature-settings: "tnum"; }
+.cal-dl .name { font-size: 13px; }
+.cal-dl .sub { display: block; margin-top: 2px; }
+.cal-dl.done { opacity: .5; }
+@media (prefers-color-scheme: dark) { .cal-dl .d { color: #f4b39a; } }
+
 /* Mobile */
 @media (max-width: 760px) {
   .sp { display: inline; }
@@ -212,6 +262,22 @@ dialog::backdrop { background: rgba(10, 14, 12, .55); backdrop-filter: blur(2px)
   .sheet { padding: 32px 20px 28px; max-height: 88vh; }
   .d-list { grid-template-columns: 80px 1fr; }
   .mapview { grid-template-columns: 1fr; }
+  .calview { grid-template-columns: 1fr; gap: 24px; }
+  /* スマホは締切の件数と登録ボタンを先に出し、締切一覧は日ごとの一覧と重なるので省く */
+  .cal-side { order: -1; }
+  .cal-side h3, #cal-deadlines { display: none; }
+  .cal-nav h2 { font-size: 18px; min-width: 104px; }
+  /* スマホは月表を、予定のある日だけの縦の一覧にする */
+  .cal-grid { display: block; border-left: 0; border-top: 0; }
+  /* 今日より前の日と過ぎた締切は省き、これからの予定だけを見せる */
+  .cal-wd, .cal-cell.out, .cal-cell.noev, .cal-cell.before, .cal-dl.done { display: none; }
+  .cal-cell { min-height: 0; padding: 12px 0; border-right: 0; gap: 6px; background: none; }
+  .cal-day .n { display: none; }
+  .cal-day .w { display: inline; font: 600 14px var(--num); }
+  .cal-cell.sun .w { color: #c0392b; } .cal-cell.sat .w { color: var(--info); }
+  .cal-cell.today .w::after { content: "今日"; margin-left: 8px; font-size: 11px; padding: 1px 6px; border-radius: 999px; background: var(--ink); color: var(--bg); }
+  .cal-ev, .cal-ev.extra { display: block; white-space: normal; font-size: 13px; padding: 6px 8px; }
+  .cal-more { display: none; }
   .map-canvas { height: 60vh; }
   .map-side { max-height: none; }
 }
