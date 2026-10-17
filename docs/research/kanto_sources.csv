@@ -22,3 +22,37 @@ C,学校連盟,関東高等学校・中学校ゴルフ連盟,http://www.k-hga.jp
 C,ジュニア団体,PGA ジュニア,https://pga.or.jp/junior,要確認,要確認,要確認,要確認,要確認,○,
 C,海外系,U.S. Kids Golf（国際ローカルツアー）,https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour,○,要確認,要確認,要確認,要確認,○,日本のローカルツアー有無を未確認
 C,メディア,ゴルフ報知（ジュニア）／GDO／ALBA等,https://golf.hochi.co.jp/archives/category/junior,—,—,×（記事のみ）,×,—,○,新大会の発見用。日程データ源にはしない
+B,巡回先（2026-10-17 追加）,JJGA お知らせ（日本ジュニアゴルフ協会）,https://www.jjga.org/news,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,東京都ゴルフ連盟 競技日程（東京都ゴルフ連盟）,https://www.tokyo-mga.com/競技日程,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,JGAI 大会一覧 / お知らせ（一般社団法人 市原市ジュニアゴルフ協会）,https://www.jgai.or.jp/category/competition/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,IJGA お知らせ / 大会一覧（国際ジュニアゴルフ育成協会）,https://www.ijga.or.jp/info/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,テレビ埼玉クリエイティブ イベント一覧（株式会社テレビ埼玉クリエイティブ）,https://tvs-creative.co.jp/event/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,JLPGA お知らせ（日本女子プロゴルフ協会）,https://www.lpga.or.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,スポニチ プラスα ジュニアゴルフ（スポーツニッポン新聞社）,https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,市原市 プレスリリース(PR TIMES)（千葉県市原市）,https://prtimes.jp/main/html/searchrlp/company_id/127749,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,スポーツエントリー(ゴルフ・関東)（アールビーズ）,https://www.sportsentry.ne.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,ゴルフサーチ ジュニアゴルフ選手権（民間ポータル）,https://www.golfsearch.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,スタジオアリス ジュニアカップ（スタジオアリス / JLPGA）,https://www.studio-alice.co.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,FCG Japan Series（Future Champions Golf）,https://futurechampionsgolf.com/fcg-japan-series/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,関東ゴルフ連盟 ジュニア（関東ゴルフ連盟(KGA)）,https://www.kga.gr.jp/junior/elementary_championship.php,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,JGA ジュニア会員募集（日本ゴルフ協会）,https://www.jga.or.jp/junior/members_junior/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,埼玉県ゴルフ協会 競技情報（埼玉県ゴルフ協会）,https://www.sga-golf.or.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,埼玉新聞 ゴルフ競技(小学生大会)（埼玉新聞社）,https://www.saitama-np.co.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,千葉県 ジュニア(小学生大会)（千葉県ゴルフ連盟）,http://www.chibagolf.or.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,神奈川県ゴルフ協会 競技一覧（神奈川県ゴルフ協会(KNGA)）,https://www.knga.or.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,JJGT 年間競技スケジュールPDF（日本ゴルフツアー協会）,https://www.jjgt.net/competition/jjgtschedule/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,コンペくん（コンペくん）,https://compekun.com/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,PGAジュニアリーグ 日程（日本プロゴルフ協会）,https://www.pga.or.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,赤羽ゴルフ倶楽部 小学生選手権 要項（赤羽ゴルフ倶楽部）,https://www.akabane-golf.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,川越市 スポーツ課（川越市）,https://www.city.kawagoe.saitama.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,US Kids Golf 国際ローカルツアー一覧（US Kids Golf）,https://www.uskidsgolf.com/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,FCG Callaway World Championship（Future Champions Golf）,https://futurechampionsgolf.com/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,日本スナッグゴルフ協会（日本スナッグゴルフ協会）,https://www.snaggolf.jp/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,ヨネックスゴルフ ジュニアアカデミー（ヨネックス）,https://www.yonex.co.jp/golf/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,コナミスポーツ ジュニアカップ（コナミスポーツ）,https://www.konami.com/sportsclub/undojuku/golf/konamisports-jr-cup/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,MIRAI KIDS GOOD MANNER JUNIOR GOLF TOURNAMENT（主催者未確認）,https://www.mirai-kids.golf/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,Jack Bunny!! Junior Golf Tour 公式（株式会社TSI）,https://jb-cup.com/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,TSIホールディングス プレスリリース(PR TIMES)（株式会社TSIホールディングス）,https://prtimes.jp/main/html/rd/p/000001478.000009786.html,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,北谷津ゴルフガーデン ブログ（北谷津ゴルフガーデン（千葉市若葉区））,https://ameblo.jp/kitayatsugolf/,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,那須町 ジュニアゴルフ大会（栃木県那須郡那須町）,https://www.town.nasu.lg.jp/0021/info-0000004475-1.html,,,,,,,申込の一次情報源として巡回
+B,巡回先（2026-10-17 追加）,丸山茂樹Jr.ファンデーション（一般財団法人 丸山茂樹ジュニアファンデーション）,https://maru-junior.com/,,,,,,,申込の一次情報源として巡回

@@ -24,6 +24,8 @@ def main():
     stamp = data["updated"].replace("-", "") + "T000000Z"
     out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//kanto-junior-golf//JA", "X-WR-CALNAME:関東ジュニアゴルフ大会"]
     for t in data["tournaments"]:
+        if not t.get("start"):  # 日程未発表の大会はカレンダーに入れない
+            continue
         out.append(event(t["id"], t["start"], t.get("end") or t["start"], f"【大会】{t['name']}", f"{t['venue']}\n{t['url']}", stamp))
         if t.get("entry_open"):
             out.append(event(t["id"] + "-open", t["entry_open"], t["entry_open"], f"【申込開始】{t['name']}", t["url"], stamp))

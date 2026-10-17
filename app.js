@@ -10,7 +10,8 @@ const md = (s) => { const d = toDate(s); return `${d.getMonth() + 1}/${d.getDate
 const fmt = (s) => { const d = toDate(s); return `${md(s)}(${WEEK[d.getDay()]})`; };
 const fmtY = (s) => `${s.slice(0, 4)}年${fmt(s)}`;
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const isPast = (t) => daysUntil(t.end || t.start) < 0;
+const isWatch = (t) => !t.start; // 日程未発表（前年実績から時期を見込む大会）
+const isPast = (t) => !isWatch(t) && daysUntil(t.end || t.start) < 0;
 
 // 申込状況を判定する。kind: open / soon / closed / unknown
 function entryStatus(t) {
@@ -22,7 +23,7 @@ function entryStatus(t) {
   if (t.entry_state === "受付中") return { kind: "open", label: "受付中" };
   return { kind: "unknown", label: "要項で確認" };
 }
-const isOpenView = (t) => { const st = entryStatus(t); return !isPast(t) && (st.kind === "open" || (st.kind === "soon" && daysUntil(t.entry_open) <= SOON_DAYS)); };
+const isOpenView = (t) => { const st = entryStatus(t); return !isWatch(t) && !isPast(t) && (st.kind === "open" || (st.kind === "soon" && daysUntil(t.entry_open) <= SOON_DAYS)); };
 
 function entryPeriod(t) {
   if (!t.entry_open && !t.entry_close) return "";
@@ -34,7 +35,18 @@ function entryPeriodLong(t) {
 }
 const dateRange = (t) => (t.end && t.end !== t.start ? `${fmtY(t.start)} 〜 ${fmt(t.end)}` : fmtY(t.start));
 
+function watchRow(t) {
+  return `<div class="row">
+    <div class="date"><span class="d tbd">未定</span></div>
+    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}</span></div>
+    <div class="venue"><span class="pref">${esc(t.pref)}</span>${esc(t.venue)}</div>
+    <div class="org">${esc(t.organizer)}</div>
+    <div class="cell-status"><span class="status st-unknown"><b><span class="dot"></span>発表待ち</b>${t.window_from ? `<small>${esc(fmtY(t.window_from))}ごろから注意</small>` : ""}</span></div>
+  </div>`;
+}
+
 function row(t) {
+  if (isWatch(t)) return watchRow(t);
   const st = entryStatus(t);
   const d = toDate(t.start);
   const multi = t.end && t.end !== t.start ? `<span class="r">–${md(t.end)}</span>` : "";
@@ -48,7 +60,26 @@ function row(t) {
   </div>`;
 }
 
+function watchDetail(t) {
+  return `<p class="d-eyebrow">${esc(t.pref)}・日程発表待ち</p>
+    <h2 class="d-title" id="d-title">${esc(t.name)}</h2>
+    <div class="d-entry st-unknown">
+      <p class="lbl">今年の日程・申込期間はまだ発表されていません</p>
+      <p>${esc(t.expected || "前年の実績は公式ページでご確認ください。")}</p>
+    </div>
+    <dl class="d-list">
+      ${t.window_from ? `<dt>注意する時期</dt><dd>${esc(fmtY(t.window_from))}ごろから公式ページを確認</dd>` : ""}
+      <dt>会場</dt><dd>${esc(t.venue)}（${esc(t.pref)}）</dd>
+      <dt>主催</dt><dd>${esc(t.organizer)}</dd>
+      <dt>対象</dt><dd>${esc(t.grades)}</dd>
+    </dl>
+    ${t.note ? `<p class="d-note">${esc(t.note)}</p>` : ""}
+    <div class="d-actions"><a class="btn btn-solid" href="${esc(t.url)}" target="_blank" rel="noopener">公式ページを見る</a></div>
+    <p class="d-verified">${esc(t.verified)} 時点の情報。前年の実績をもとにしており、今年の確定日ではありません。</p>`;
+}
+
 function detail(t) {
+  if (isWatch(t)) return watchDetail(t);
   const st = entryStatus(t);
   const title = { open: "申込受付中", soon: "まもなく受付開始", closed: "申込受付は終了しました", unknown: "申込期間は要確認" }[st.kind];
   return `<p class="d-eyebrow">${esc(t.pref)}・${esc(t.stage)}</p>
@@ -103,11 +134,11 @@ async function main() {
   const byId = Object.fromEntries(tournaments.map((t) => [t.id, t]));
   document.getElementById("updated").textContent = updated;
 
-  const upcomingAll = tournaments.filter((t) => !isPast(t));
+  const upcomingAll = tournaments.filter((t) => !isWatch(t) && !isPast(t));
   document.getElementById("stats").innerHTML = [
     ["申込受付中・まもなく", tournaments.filter(isOpenView).length],
     ["これからの大会", upcomingAll.length],
-    ["掲載大会数", tournaments.length],
+    ["日程発表待ち", tournaments.filter(isWatch).length],
   ].map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("");
 
   const fPref = document.getElementById("f-pref");
@@ -122,7 +153,8 @@ async function main() {
   const render = () => {
     const base = tournaments.filter((t) => (!fPref.value || t.pref === fPref.value) && (!fOrg.value || t.organizer === fOrg.value));
     const sets = {
-      upcoming: base.filter((t) => !isPast(t)),
+      upcoming: base.filter((t) => !isWatch(t) && !isPast(t)),
+      watch: base.filter(isWatch).sort((a, b) => (a.window_from || "9999").localeCompare(b.window_from || "9999")),
       // 受付中は締切が近い順
       open: base.filter(isOpenView).sort((a, b) => (a.entry_close || a.entry_open || a.start).localeCompare(b.entry_close || b.entry_open || b.start)),
       past: base.filter(isPast).reverse(),
@@ -135,6 +167,7 @@ async function main() {
     const el = document.getElementById("list");
     if (!list.length) { el.innerHTML = `<p class="empty">該当する大会はありません。</p>`; return; }
     if (view === "open") { el.innerHTML = `<p class="month">締切が近い順</p>` + list.map(row).join(""); return; }
+    if (view === "watch") { el.innerHTML = `<p class="month">前年の実績から、申込が始まりそうな順</p>` + list.map(row).join(""); return; }
     let html = "", month = "";
     for (const t of list) {
       const m = `${t.start.slice(0, 4)}.${t.start.slice(5, 7)}`;
