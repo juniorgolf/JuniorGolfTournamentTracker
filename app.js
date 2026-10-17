@@ -1,4 +1,18 @@
-// 関東ジュニアゴルフ大会カレンダー：data/tournaments.json を読んで一覧と詳細を描画する
+// 全国ジュニアゴルフ大会カレンダー：data/tournaments.json を読んで一覧と詳細を描画する
+
+// 地方と都道府県。地方名そのもの（「関東」など）は複数県にまたがる大会の pref に使う
+const REGIONS = [
+  ["北海道", ["北海道"]],
+  ["東北", ["東北", "青森", "岩手", "宮城", "秋田", "山形", "福島"]],
+  ["関東", ["関東", "東京", "神奈川", "千葉", "埼玉", "茨城", "栃木", "群馬", "山梨"]],
+  ["中部", ["中部", "北陸", "新潟", "長野", "富山", "石川", "福井", "岐阜", "静岡", "愛知", "三重"]],
+  ["関西", ["関西", "滋賀", "京都", "大阪", "兵庫", "奈良", "和歌山"]],
+  ["中国", ["中国", "鳥取", "島根", "岡山", "広島", "山口"]],
+  ["四国", ["四国", "徳島", "香川", "愛媛", "高知"]],
+  ["九州・沖縄", ["九州", "九州・沖縄", "福岡", "佐賀", "長崎", "熊本", "大分", "宮崎", "鹿児島", "沖縄"]],
+  ["全国", ["全国"]],
+];
+const regionOf = (pref) => (REGIONS.find(([, list]) => list.includes(pref)) || ["その他"])[0];
 const SOON_DAYS = 30;
 const DAY = 86400000;
 
@@ -128,7 +142,7 @@ function icsFor(list) {
   const ev = (uid, start, end, summary, desc) =>
     ["BEGIN:VEVENT", `UID:${uid}@kanto-junior-golf`, `DTSTAMP:${d(new Date().toISOString().slice(0, 10))}T000000Z`,
      `DTSTART;VALUE=DATE:${d(start)}`, `DTEND;VALUE=DATE:${next(end)}`, `SUMMARY:${txt(summary)}`, `DESCRIPTION:${txt(desc)}`, "END:VEVENT"].join("\r\n");
-  const out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//kanto-junior-golf//JA", "X-WR-CALNAME:関東ジュニアゴルフ大会"];
+  const out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//japan-junior-golf//JA", "X-WR-CALNAME:全国ジュニアゴルフ大会"];
   for (const t of list) {
     out.push(ev(t.id, t.start, t.end || t.start, `【大会】${t.name}`, `${t.venue}\n${t.url}`));
     if (t.entry_open) out.push(ev(t.id + "-open", t.entry_open, t.entry_open, `【申込開始】${t.name}`, t.url));
@@ -160,15 +174,33 @@ async function main() {
 
   const fPref = document.getElementById("f-pref");
   const fOrg = document.getElementById("f-org");
-  const uniq = (k) => [...new Set(tournaments.map((t) => t[k]))].sort();
-  for (const p of uniq("pref")) fPref.add(new Option(p, p));
-  for (const o of uniq("organizer")) fOrg.add(new Option(o, o));
+  // エリアは地方ごとにまとめる。「r:関東」は地方全体、それ以外は都道府県
+  const prefs = new Set(tournaments.map((t) => t.pref));
+  for (const [region, list] of REGIONS) {
+    const present = list.filter((p) => prefs.has(p) && p !== region);
+    if (!present.length && !prefs.has(region)) continue;
+    const g = document.createElement("optgroup");
+    g.label = region;
+    g.append(new Option(region === "全国" ? "全国決勝など" : `${region}すべて`, `r:${region}`), ...present.map((p) => new Option(p, p)));
+    fPref.append(g);
+  }
+  const inArea = (t) => !fPref.value || (fPref.value.startsWith("r:") ? regionOf(t.pref) === fPref.value.slice(2) : t.pref === fPref.value);
+  // 主催はエリアで絞った大会の主催だけを出す
+  const fillOrgs = () => {
+    const keep = fOrg.value;
+    const orgs = [...new Set(tournaments.filter(inArea).map((t) => t.organizer))].sort((a, b) => a.localeCompare(b, "ja"));
+    fOrg.replaceChildren(new Option("すべての主催", ""), ...orgs.map((o) => new Option(o, o)));
+    fOrg.value = orgs.includes(keep) ? keep : "";
+  };
+  // 選んだエリアは次回も使う（保存できない環境では無視）
+  try { const saved = localStorage.getItem("area"); if (saved && [...fPref.options].some((o) => o.value === saved)) fPref.value = saved; } catch {}
+  fillOrgs();
 
   const tabs = [...document.querySelectorAll("#tabs button")];
   let view = "upcoming";
 
   const render = () => {
-    const base = tournaments.filter((t) => (!fPref.value || t.pref === fPref.value) && (!fOrg.value || t.organizer === fOrg.value));
+    const base = tournaments.filter((t) => inArea(t) && (!fOrg.value || t.organizer === fOrg.value));
     const sets = {
       upcoming: base.filter((t) => !isWatch(t) && !isPast(t)),
       watch: base.filter(isWatch).sort((a, b) => (a.window_from || "9999").localeCompare(b.window_from || "9999")),
@@ -196,7 +228,11 @@ async function main() {
   };
 
   tabs.forEach((b) => b.addEventListener("click", () => { view = b.dataset.view; render(); }));
-  [fPref, fOrg].forEach((el) => el.addEventListener("change", render));
+  fPref.addEventListener("change", () => {
+    try { localStorage.setItem("area", fPref.value); } catch {}
+    fillOrgs(); render();
+  });
+  fOrg.addEventListener("change", render);
 
   const dlg = document.getElementById("detail");
   const open = (id) => {

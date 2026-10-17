@@ -1,6 +1,6 @@
-# 関東ジュニアゴルフ大会カレンダー（試作）
+# 全国ジュニアゴルフ大会カレンダー（試作）
 
-関東の小学生が出られるジュニアゴルフ大会の日程と申込期間を一覧にする静的サイト。
+全国の小学生が出られるジュニアゴルフ大会の日程と申込期間を一覧にする静的サイト。
 
 ## 構成
 - `index.html` / `style.css` / `app.js`：画面。月ごとの一覧（開催日・大会名・会場・主催・申込状況）と、大会名クリックで開く詳細。`#大会ID` 付きURLで詳細を直接開ける。ビルド不要。
@@ -13,7 +13,7 @@
 3. 手元確認：`python3 -m http.server` → http://localhost:8000
 
 ## データ項目
-id, name, organizer, pref, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, stage（予選/決勝）, url, note, verified, results（終了大会の結果リンク [{label,url}]）, results_note, expected・window_from（日程未発表の大会）
+id, name, organizer, pref（都道府県の短い名前。複数県にまたがる大会は「関東」など地方名。app.js の REGIONS で地方に分類）, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, stage（予選/決勝）, url, note, verified, results（終了大会の結果リンク [{label,url}]）, results_note, expected・window_from（日程未発表の大会）
 
 ## 調査資料
 - `docs/research/`：関東の情報源一覧（kanto_sources.csv）と調査メモ
