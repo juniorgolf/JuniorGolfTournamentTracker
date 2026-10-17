@@ -186,6 +186,7 @@ async function main() {
 
   const fPref = document.getElementById("f-pref");
   const fOrg = document.getElementById("f-org");
+  const fLevel = document.getElementById("f-level");
   // エリアは地方ごとにまとめる。「r:関東」は地方全体、それ以外は都道府県
   const prefs = new Set(tournaments.map((t) => t.pref));
   for (const [region, list] of REGIONS) {
@@ -196,7 +197,9 @@ async function main() {
     g.append(new Option(region === "全国" ? "全国決勝など" : `${region}すべて`, `r:${region}`), ...present.map((p) => new Option(p, p)));
     fPref.append(g);
   }
-  const inArea = (t) => !fPref.value || (fPref.value.startsWith("r:") ? regionOf(t.pref) === fPref.value.slice(2) : t.pref === fPref.value);
+  // 対象（小学生・中学生）とエリアで絞る。levels は大会に出られる学校段階
+  const inArea = (t) => (!fLevel.value || (t.levels || []).includes(fLevel.value))
+    && (!fPref.value || (fPref.value.startsWith("r:") ? regionOf(t.pref) === fPref.value.slice(2) : t.pref === fPref.value));
   // 主催はエリアで絞った大会の主催だけを出す
   const fillOrgs = () => {
     const keep = fOrg.value;
@@ -205,7 +208,10 @@ async function main() {
     fOrg.value = orgs.includes(keep) ? keep : "";
   };
   // 選んだエリアは次回も使う（保存できない環境では無視）
-  try { const saved = localStorage.getItem("area"); if (saved && [...fPref.options].some((o) => o.value === saved)) fPref.value = saved; } catch {}
+  try {
+    const saved = localStorage.getItem("area"); if (saved && [...fPref.options].some((o) => o.value === saved)) fPref.value = saved;
+    const lv = localStorage.getItem("level"); if (lv && [...fLevel.options].some((o) => o.value === lv)) fLevel.value = lv;
+  } catch {}
   fillOrgs();
 
   const tabs = [...document.querySelectorAll("#tabs button")];
@@ -271,6 +277,10 @@ async function main() {
     fillOrgs(); render();
   });
   fOrg.addEventListener("change", render);
+  fLevel.addEventListener("change", () => {
+    try { localStorage.setItem("level", fLevel.value); } catch {}
+    fillOrgs(); render();
+  });
   bindCalendar(calEl, render);
 
   const dlg = document.getElementById("detail");
