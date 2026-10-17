@@ -830,7 +830,16 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "results": null
+   "results": [
+    {
+     "label": "成績（低学年男子）",
+     "url": "https://www.mirai-kids.golf/documents/%E6%88%90%E7%B8%BE%E8%A1%A8/%E4%BD%8E%E5%AD%A6%E5%B9%B4%E7%94%B7%E5%AD%90.pdf"
+    },
+    {
+     "label": "成績（高学年男子）",
+     "url": "https://www.mirai-kids.golf/documents/%E6%88%90%E7%B8%BE%E8%A1%A8/%E9%AB%98%E5%AD%A6%E5%B9%B4%E7%94%B7%E5%AD%90.pdf"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-09-23",
