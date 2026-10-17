@@ -1,4 +1,4 @@
-// 関東ジュニアゴルフ大会カレンダー：data/tournaments.json を読んで一覧を描画する
+// 関東ジュニアゴルフ大会カレンダー：data/tournaments.json を読んで一覧と詳細を描画する
 const SOON_DAYS = 30;
 const DAY = 86400000;
 
@@ -6,9 +6,11 @@ const today = (() => { const d = new Date(); d.setHours(0, 0, 0, 0); return d; }
 const toDate = (s) => (s ? new Date(s + "T00:00:00") : null);
 const daysUntil = (s) => Math.round((toDate(s) - today) / DAY);
 const WEEK = "日月火水木金土";
-const fmt = (s) => { const d = toDate(s); return `${d.getMonth() + 1}/${d.getDate()}(${WEEK[d.getDay()]})`; };
+const md = (s) => { const d = toDate(s); return `${d.getMonth() + 1}/${d.getDate()}`; };
+const fmt = (s) => { const d = toDate(s); return `${md(s)}(${WEEK[d.getDay()]})`; };
 const fmtY = (s) => `${s.slice(0, 4)}年${fmt(s)}`;
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const isPast = (t) => daysUntil(t.end || t.start) < 0;
 
 // 申込状況を判定する。kind: open / soon / closed / unknown
 function entryStatus(t) {
@@ -17,30 +19,57 @@ function entryStatus(t) {
   if (o && daysUntil(o) > 0) return { kind: "soon", label: `受付開始まで${daysUntil(o)}日` };
   if (c) return { kind: "open", label: daysUntil(c) === 0 ? "本日締切" : `締切まで${daysUntil(c)}日` };
   // 期間は不明でも、確認時点で「受付中」と表示されていた大会
-  if (t.entry_state === "受付中") return { kind: "open", label: `受付中（${t.verified.slice(5).replace("-", "/")}確認・締切は公式で確認）` };
-  return { kind: "unknown", label: "申込期間は要確認" };
+  if (t.entry_state === "受付中") return { kind: "open", label: "受付中" };
+  return { kind: "unknown", label: "要項で確認" };
 }
+const isOpenView = (t) => { const st = entryStatus(t); return !isPast(t) && (st.kind === "open" || (st.kind === "soon" && daysUntil(t.entry_open) <= SOON_DAYS)); };
 
-function entryText(t) {
-  if (!t.entry_open && !t.entry_close) return "申込期間：公式ページで確認してください";
-  return `申込期間：${t.entry_open ? fmt(t.entry_open) : "（開始日不明）"} 〜 ${t.entry_close ? fmt(t.entry_close) : "（締切日不明）"}`;
+function entryPeriod(t) {
+  if (!t.entry_open && !t.entry_close) return "";
+  return `${t.entry_open ? md(t.entry_open) : "—"}〜${t.entry_close ? md(t.entry_close) : "—"}`;
 }
+function entryPeriodLong(t) {
+  if (!t.entry_open && !t.entry_close) return "申込期間は公式ページの要項でご確認ください。";
+  return `${t.entry_open ? fmtY(t.entry_open) : "開始日未確認"} 〜 ${t.entry_close ? fmtY(t.entry_close) : "締切日未確認"}`;
+}
+const dateRange = (t) => (t.end && t.end !== t.start ? `${fmtY(t.start)} 〜 ${fmt(t.end)}` : fmtY(t.start));
 
-function card(t) {
+function row(t) {
   const st = entryStatus(t);
-  const dates = t.end && t.end !== t.start ? `${fmtY(t.start)}〜${fmt(t.end)}` : fmtY(t.start);
-  return `<article class="card">
-    <span class="badge b-${st.kind}">${esc(st.label)}</span>
-    <h3>${esc(t.name)}</h3>
-    <p class="meta">${esc(dates)}・${esc(t.pref)}・${esc(t.venue)}</p>
-    <p class="meta">${esc(t.organizer)}／対象：${esc(t.grades)}／${esc(t.stage)}</p>
-    <p class="entry">${esc(entryText(t))}</p>
-    ${t.note ? `<p class="note">${esc(t.note)}</p>` : ""}
-    <div class="links">
-      <a href="${esc(t.url)}" target="_blank" rel="noopener">公式ページ</a>
-      <a href="#" data-ics="${esc(t.id)}">カレンダーに登録</a>
+  const d = toDate(t.start);
+  const multi = t.end && t.end !== t.start ? `<span class="r">–${md(t.end)}</span>` : "";
+  const period = entryPeriod(t);
+  return `<div class="row">
+    <div class="date"><span class="d">${d.getMonth() + 1}/${d.getDate()}</span><span class="w">${WEEK[d.getDay()]}</span>${multi}</div>
+    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}・${esc(t.stage)}</span></div>
+    <div class="venue"><span class="pref">${esc(t.pref)}</span>${esc(t.venue)}</div>
+    <div class="org">${esc(t.organizer)}</div>
+    <div class="cell-status"><span class="status st-${st.kind}"><b><span class="dot"></span>${esc(st.label)}</b>${period ? `<small>${esc(period)}</small>` : ""}</span></div>
+  </div>`;
+}
+
+function detail(t) {
+  const st = entryStatus(t);
+  const title = { open: "申込受付中", soon: "まもなく受付開始", closed: "申込受付は終了しました", unknown: "申込期間は要確認" }[st.kind];
+  return `<p class="d-eyebrow">${esc(t.pref)}・${esc(t.stage)}</p>
+    <h2 class="d-title" id="d-title">${esc(t.name)}</h2>
+    <div class="d-entry st-${st.kind}">
+      <p class="lbl">${esc(title)}${(st.kind === "open" || st.kind === "soon") && st.label !== "受付中" ? `（${esc(st.label)}）` : ""}</p>
+      <p>${esc(entryPeriodLong(t))}</p>
     </div>
-  </article>`;
+    <dl class="d-list">
+      <dt>開催日</dt><dd>${esc(dateRange(t))}</dd>
+      <dt>会場</dt><dd>${esc(t.venue)}（${esc(t.pref)}）</dd>
+      <dt>主催</dt><dd>${esc(t.organizer)}</dd>
+      <dt>対象</dt><dd>${esc(t.grades)}</dd>
+      <dt>区分</dt><dd>${esc(t.stage)}</dd>
+    </dl>
+    ${t.note ? `<p class="d-note">${esc(t.note)}</p>` : ""}
+    <div class="d-actions">
+      <a class="btn btn-solid" href="${esc(t.url)}" target="_blank" rel="noopener">公式ページで要項を見る</a>
+      <button class="btn btn-line" data-ics="${esc(t.id)}">カレンダーに登録</button>
+    </div>
+    <p class="d-verified">${esc(t.verified)} 時点で公式ページを確認</p>`;
 }
 
 // iCalendar 形式（終日予定）。大会日・申込開始・申込締切を別々の予定にする
@@ -71,42 +100,75 @@ function download(name, text) {
 
 async function main() {
   const { updated, tournaments } = await (await fetch("data/tournaments.json")).json();
+  const byId = Object.fromEntries(tournaments.map((t) => [t.id, t]));
   document.getElementById("updated").textContent = updated;
+
+  const upcomingAll = tournaments.filter((t) => !isPast(t));
+  document.getElementById("stats").innerHTML = [
+    ["申込受付中・まもなく", tournaments.filter(isOpenView).length],
+    ["これからの大会", upcomingAll.length],
+    ["掲載大会数", tournaments.length],
+  ].map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("");
 
   const fPref = document.getElementById("f-pref");
   const fOrg = document.getElementById("f-org");
-  const fPast = document.getElementById("f-past");
   const uniq = (k) => [...new Set(tournaments.map((t) => t[k]))].sort();
   for (const p of uniq("pref")) fPref.add(new Option(p, p));
   for (const o of uniq("organizer")) fOrg.add(new Option(o, o));
 
+  const tabs = [...document.querySelectorAll("#tabs button")];
+  let view = "upcoming";
+
   const render = () => {
-    const list = tournaments.filter((t) => (!fPref.value || t.pref === fPref.value) && (!fOrg.value || t.organizer === fOrg.value));
-    const open = [], upcoming = [], past = [];
+    const base = tournaments.filter((t) => (!fPref.value || t.pref === fPref.value) && (!fOrg.value || t.organizer === fOrg.value));
+    const sets = {
+      upcoming: base.filter((t) => !isPast(t)),
+      // 受付中は締切が近い順
+      open: base.filter(isOpenView).sort((a, b) => (a.entry_close || a.entry_open || a.start).localeCompare(b.entry_close || b.entry_open || b.start)),
+      past: base.filter(isPast).reverse(),
+    };
+    tabs.forEach((b) => {
+      b.setAttribute("aria-selected", String(b.dataset.view === view));
+      b.innerHTML = `${b.textContent.replace(/\d+$/, "").trim()}<span class="count">${sets[b.dataset.view].length}</span>`;
+    });
+    const list = sets[view];
+    const el = document.getElementById("list");
+    if (!list.length) { el.innerHTML = `<p class="empty">該当する大会はありません。</p>`; return; }
+    if (view === "open") { el.innerHTML = `<p class="month">締切が近い順</p>` + list.map(row).join(""); return; }
+    let html = "", month = "";
     for (const t of list) {
-      const st = entryStatus(t);
-      if (daysUntil(t.end || t.start) < 0) past.push(t);
-      else if (st.kind === "open" || (st.kind === "soon" && daysUntil(t.entry_open) <= SOON_DAYS)) open.push(t);
-      else upcoming.push(t);
+      const m = `${t.start.slice(0, 4)}.${t.start.slice(5, 7)}`;
+      if (m !== month) { html += `<p class="month">${m}</p>`; month = m; }
+      html += row(t);
     }
-    // 受付中は締切が近い順
-    open.sort((a, b) => (a.entry_close || a.entry_open || a.start).localeCompare(b.entry_close || b.entry_open || b.start));
-    past.reverse();
-    const fill = (id, arr, empty) => { document.getElementById(id).innerHTML = arr.length ? arr.map(card).join("") : `<p class="empty">${empty}</p>`; };
-    fill("open", open, "いま受付中の大会はありません（申込期間が分かっている大会のみ表示）。");
-    fill("upcoming", upcoming, "該当する大会はありません。");
-    fill("past", past, "該当する大会はありません。");
-    document.getElementById("past-wrap").hidden = !fPast.checked;
+    el.innerHTML = html;
   };
-  [fPref, fOrg, fPast].forEach((el) => el.addEventListener("change", render));
+
+  tabs.forEach((b) => b.addEventListener("click", () => { view = b.dataset.view; render(); }));
+  [fPref, fOrg].forEach((el) => el.addEventListener("change", render));
+
+  const dlg = document.getElementById("detail");
+  const open = (id) => {
+    const t = byId[id];
+    if (!t) return;
+    document.getElementById("d-body").innerHTML = detail(t);
+    if (!dlg.open) dlg.showModal();
+    if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+  };
+  const close = () => { dlg.close(); };
+  dlg.addEventListener("close", () => history.replaceState(null, "", location.pathname + location.search));
+  dlg.addEventListener("click", (e) => { if (e.target === dlg) close(); });
+  document.getElementById("d-close").addEventListener("click", close);
 
   document.addEventListener("click", (e) => {
-    const id = e.target.dataset && e.target.dataset.ics;
-    if (!id) return;
-    e.preventDefault();
-    download(`${id}.ics`, icsFor(tournaments.filter((t) => t.id === id)));
+    const name = e.target.closest("[data-id]");
+    if (name) { open(name.dataset.id); return; }
+    const ics = e.target.closest("[data-ics]");
+    if (ics) { e.preventDefault(); download(`${ics.dataset.ics}.ics`, icsFor([byId[ics.dataset.ics]])); }
   });
+
   render();
-  window.icsFor = icsFor;
+  // URL の #大会ID で詳細を直接開ける（共有用）
+  if (location.hash.length > 1) open(decodeURIComponent(location.hash.slice(1)));
 }
 main();

@@ -4,46 +4,63 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>関東ジュニアゴルフ大会カレンダー</title>
-<meta name="description" content="関東の小学生が出られるジュニアゴルフ大会の日程と申込期間を一覧にしています。">
+<meta name="description" content="関東の小学生が出られるジュニアゴルフ大会を、日程・会場・主催・申込期間でまとめた一覧です。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="top">
-  <h1>関東ジュニアゴルフ大会カレンダー</h1>
-  <p class="lead">小学生が出られる大会の日程と申込期間。申込漏れをなくすための一覧です。</p>
+<header class="site-head">
+  <div class="wrap head-inner">
+    <p class="eyebrow">KANTO JUNIOR GOLF CALENDAR</p>
+    <h1>関東ジュニアゴルフ<br class="sp">大会カレンダー</h1>
+    <p class="lead">小学生が出場できる大会を、日程・会場・主催・申込期間でひと目に。</p>
+    <dl class="stats" id="stats"></dl>
+  </div>
 </header>
 
-<main>
-  <section class="filters" aria-label="絞り込み">
-    <label>都県
-      <select id="f-pref"><option value="">すべて</option></select>
-    </label>
-    <label>主催
-      <select id="f-org"><option value="">すべて</option></select>
-    </label>
-    <label class="check"><input type="checkbox" id="f-past"> 終了した大会も表示</label>
-    <a class="ics-all" href="calendar.ics" download>全大会をカレンダーに登録（.ics）</a>
-  </section>
+<main class="wrap">
+  <div class="toolbar">
+    <div class="tabs" role="tablist" id="tabs">
+      <button role="tab" data-view="upcoming" aria-selected="true">これからの大会</button>
+      <button role="tab" data-view="open" aria-selected="false">申込受付中</button>
+      <button role="tab" data-view="past" aria-selected="false">終了した大会</button>
+    </div>
+    <div class="filters">
+      <label class="select"><span>エリア</span><select id="f-pref"><option value="">すべての都県</option></select></label>
+      <label class="select"><span>主催</span><select id="f-org"><option value="">すべての主催</option></select></label>
+    </div>
+  </div>
 
-  <section>
-    <h2>申込受付中・まもなく受付</h2>
-    <div id="open" class="list"></div>
-  </section>
+  <div class="table-head" aria-hidden="true">
+    <span>開催日</span><span>大会名</span><span>会場</span><span>主催</span><span>申込</span>
+  </div>
+  <div id="list"></div>
 
-  <section>
-    <h2>今後の大会</h2>
-    <div id="upcoming" class="list"></div>
-  </section>
-
-  <section id="past-wrap" hidden>
-    <h2>終了した大会</h2>
-    <div id="past" class="list"></div>
-  </section>
+  <aside class="cal-cta">
+    <div>
+      <p class="cal-title">申込開始日と締切日をカレンダーへ</p>
+      <p class="cal-text">全大会の開催日・申込開始・申込締切を、お使いのカレンダーにまとめて登録できます。</p>
+    </div>
+    <a class="btn btn-line" href="calendar.ics" download>全大会を登録（.ics）</a>
+  </aside>
 </main>
 
-<footer>
-  <p>掲載情報は各主催者の公式ページをもとに手で確認しています（最終更新 <span id="updated"></span>）。申込前に必ず公式ページで最新の要項をご確認ください。</p>
+<footer class="site-foot">
+  <div class="wrap">
+    <p>掲載情報は各主催者の公式ページをもとに手作業で確認しています。最終更新 <span id="updated"></span></p>
+    <p>お申込みの前に、必ず公式ページで最新の要項をご確認ください。</p>
+  </div>
 </footer>
+
+<dialog id="detail" aria-labelledby="d-title">
+  <div class="sheet">
+    <button class="close" id="d-close" aria-label="閉じる">×</button>
+    <div id="d-body"></div>
+  </div>
+</dialog>
+
 <script src="app.js"></script>
 </body>
 </html>

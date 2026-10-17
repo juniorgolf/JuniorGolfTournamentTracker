@@ -3,7 +3,7 @@
 関東の小学生が出られるジュニアゴルフ大会の日程と申込期間を一覧にする静的サイト。
 
 ## 構成
-- `index.html` / `style.css` / `app.js`：画面。ビルド不要で、そのまま GitHub Pages などに置ける。
+- `index.html` / `style.css` / `app.js`：画面。月ごとの一覧（開催日・大会名・会場・主催・申込状況）と、大会名クリックで開く詳細。`#大会ID` 付きURLで詳細を直接開ける。ビルド不要。
 - `data/tournaments.json`：大会データ（唯一の元データ）。1件ごとに公式URLと最終確認日を持つ。
 - `scripts/build_ics.py`：全大会のカレンダー（`calendar.ics`）を作る。データを変えたら実行する。
 
