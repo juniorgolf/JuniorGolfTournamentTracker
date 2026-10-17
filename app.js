@@ -199,14 +199,16 @@ async function main() {
   const tabs = [...document.querySelectorAll("#tabs button")];
   let view = "upcoming";
 
+  // 開催日順（同じ日は終了日、大会名の順）
+  const byDate = (a, b) => a.start.localeCompare(b.start) || (a.end || "").localeCompare(b.end || "") || a.name.localeCompare(b.name, "ja");
   const render = () => {
     const base = tournaments.filter((t) => inArea(t) && (!fOrg.value || t.organizer === fOrg.value));
     const sets = {
-      upcoming: base.filter((t) => !isWatch(t) && !isPast(t)),
+      upcoming: base.filter((t) => !isWatch(t) && !isPast(t)).sort(byDate),
       watch: base.filter(isWatch).sort((a, b) => (a.window_from || "9999").localeCompare(b.window_from || "9999")),
-      // 受付中は締切が近い順
-      open: base.filter(isOpenView).sort((a, b) => (a.entry_close || a.entry_open || a.start).localeCompare(b.entry_close || b.entry_open || b.start)),
-      past: base.filter(isPast).reverse(),
+      open: base.filter(isOpenView).sort(byDate),
+      // 終了した大会は新しい順
+      past: base.filter(isPast).sort((a, b) => byDate(b, a)),
     };
     tabs.forEach((b) => {
       b.setAttribute("aria-selected", String(b.dataset.view === view));
@@ -216,7 +218,6 @@ async function main() {
     document.querySelector(".table-head span:last-child").textContent = view === "past" ? "結果" : "申込";
     const el = document.getElementById("list");
     if (!list.length) { el.innerHTML = `<p class="empty">該当する大会はありません。</p>`; return; }
-    if (view === "open") { el.innerHTML = `<p class="month">締切が近い順</p>` + list.map(row).join(""); return; }
     if (view === "watch") { el.innerHTML = `<p class="month">前年の実績から、申込が始まりそうな順</p>` + list.map(row).join(""); return; }
     let html = "", month = "";
     for (const t of list) {
