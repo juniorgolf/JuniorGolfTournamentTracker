@@ -13,7 +13,7 @@
 3. 手元確認：`python3 -m http.server` → http://localhost:8000
 
 ## データ項目
-id, name, organizer, pref, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, stage（予選/決勝）, url, note, verified
+id, name, organizer, pref, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, stage（予選/決勝）, url, note, verified, results（終了大会の結果リンク [{label,url}]）, results_note, expected・window_from（日程未発表の大会）
 
 ## 調査資料
 - `docs/research/`：関東の情報源一覧（kanto_sources.csv）と調査メモ

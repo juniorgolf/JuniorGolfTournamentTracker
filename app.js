@@ -51,13 +51,29 @@ function row(t) {
   const d = toDate(t.start);
   const multi = t.end && t.end !== t.start ? `<span class="r">–${md(t.end)}</span>` : "";
   const period = entryPeriod(t);
+  const status = isPast(t) ? resultCell(t)
+    : `<span class="status st-${st.kind}"><b><span class="dot"></span>${esc(st.label)}</b>${period ? `<small>${esc(period)}</small>` : ""}</span>`;
   return `<div class="row">
     <div class="date"><span class="d">${d.getMonth() + 1}/${d.getDate()}</span><span class="w">${WEEK[d.getDay()]}</span>${multi}</div>
     <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}・${esc(t.stage)}</span></div>
     <div class="venue"><span class="pref">${esc(t.pref)}</span>${esc(t.venue)}</div>
     <div class="org">${esc(t.organizer)}</div>
-    <div class="cell-status"><span class="status st-${st.kind}"><b><span class="dot"></span>${esc(st.label)}</b>${period ? `<small>${esc(period)}</small>` : ""}</span></div>
+    <div class="cell-status">${status}</div>
   </div>`;
+}
+
+// 終了した大会の結果リンク（一覧では先頭の1件、詳細ではすべて表示）
+function resultCell(t) {
+  if (t.results && t.results.length) {
+    return `<a class="result-link" href="${esc(t.results[0].url)}" target="_blank" rel="noopener">結果を見る<span aria-hidden="true">↗</span></a>${t.results.length > 1 ? `<small class="result-more">ほか${t.results.length - 1}件</small>` : ""}`;
+  }
+  return `<span class="status st-closed"><b>${esc(t.results_note ? "中止" : "結果は公式で確認")}</b></span>`;
+}
+function resultBlock(t) {
+  if (t.results && t.results.length) {
+    return `<div class="d-results"><p class="d-results-h">大会結果・スコア</p><div class="d-actions">${t.results.map((r) => `<a class="btn btn-solid" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a>`).join("")}</div></div>`;
+  }
+  return `<div class="d-results"><p class="d-results-h">大会結果・スコア</p><p class="d-note">${esc(t.results_note || "結果は公式ページでご確認ください。")}</p></div>`;
 }
 
 function watchDetail(t) {
@@ -84,6 +100,7 @@ function detail(t) {
   const title = { open: "申込受付中", soon: "まもなく受付開始", closed: "申込受付は終了しました", unknown: "申込期間は要確認" }[st.kind];
   return `<p class="d-eyebrow">${esc(t.pref)}・${esc(t.stage)}</p>
     <h2 class="d-title" id="d-title">${esc(t.name)}</h2>
+    ${isPast(t) ? resultBlock(t) : ""}
     <div class="d-entry st-${st.kind}">
       <p class="lbl">${esc(title)}${(st.kind === "open" || st.kind === "soon") && st.label !== "受付中" ? `（${esc(st.label)}）` : ""}</p>
       <p>${esc(entryPeriodLong(t))}</p>
@@ -164,6 +181,7 @@ async function main() {
       b.innerHTML = `${b.textContent.replace(/\d+$/, "").trim()}<span class="count">${sets[b.dataset.view].length}</span>`;
     });
     const list = sets[view];
+    document.querySelector(".table-head span:last-child").textContent = view === "past" ? "結果" : "申込";
     const el = document.getElementById("list");
     if (!list.length) { el.innerHTML = `<p class="empty">該当する大会はありません。</p>`; return; }
     if (view === "open") { el.innerHTML = `<p class="month">締切が近い順</p>` + list.map(row).join(""); return; }

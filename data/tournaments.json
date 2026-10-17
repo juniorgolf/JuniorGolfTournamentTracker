@@ -19,7 +19,17 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（男子）",
+     "url": "https://www.chibaken-golf.com/juniorschool/pdf/2026boy.pdf"
+    },
+    {
+     "label": "成績（女子）",
+     "url": "https://www.chibaken-golf.com/juniorschool/pdf/2026girl.pdf"
+    }
+   ]
   },
   {
    "id": "gunma-kanto-elem-2026",
@@ -39,7 +49,13 @@
    "verified": "2026-10-17",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.golf-gunma-asc.gr.jp/junior/pdf/2026%E9%96%A2%E6%9D%B1%E5%B0%8F%E5%AD%A6%E7%94%9F%E5%A4%A7%E4%BC%9A%E7%BE%A4%E9%A6%AC%E4%BA%88%E9%81%B8%E6%88%90%E7%B8%BE.pdf"
+    }
+   ]
   },
   {
    "id": "tochigi-kanto-elem-2026",
@@ -59,7 +75,13 @@
    "verified": "2026-10-17",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.t-golf.jp/compe/upload/2026005001result.pdf"
+    }
+   ]
   },
   {
    "id": "kanagawa-elem-2026-k01702",
@@ -79,7 +101,13 @@
    "verified": "2026-10-17",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（男子）",
+     "url": "https://www.knga.org/user/pages/05.compe/2026/k01702/%E6%88%90%E7%B8%BE(%E7%94%B7%E5%AD%90%EF%BC%89.pdf"
+    }
+   ]
   },
   {
    "id": "kanagawa-elem-2026-k01703",
@@ -99,7 +127,13 @@
    "verified": "2026-10-17",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（女子）",
+     "url": "https://www.knga.org/user/pages/05.compe/2026/k01703/%E6%88%90%E7%B8%BE(%E5%A5%B3%E5%AD%90%EF%BC%89.pdf"
+    }
+   ]
   },
   {
    "id": "saitama-elem-2026",
@@ -119,7 +153,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "競技情報ページ（結果 男子・女子）",
+     "url": "https://saitamaken-ga.org/pg-kyo.php"
+    }
+   ]
   },
   {
    "id": "pgm-wj-kanto-1",
@@ -139,7 +179,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.ijga.or.jp/wp-content/uploads/2026/03/f1b67d98a9f062143bf56e9d298230a5.pdf"
+    }
+   ]
   },
   {
    "id": "pgm-wj-kanto-2",
@@ -159,7 +205,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.ijga.or.jp/wp-content/uploads/2026/03/d2d5ec96d3f4baaf178d066151f3baa5.pdf"
+    }
+   ]
   },
   {
    "id": "kga-elem-2026-final",
@@ -179,7 +231,17 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2631_23244_result.pdf"
+    },
+    {
+     "label": "競技レポート",
+     "url": "https://board.kga.gr.jp/cgi_user/compe-news/2631/news.cgi"
+    }
+   ]
   },
   {
    "id": "pgm-wj-kanto-3",
@@ -199,7 +261,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.ijga.or.jp/wp-content/uploads/2026/04/ab2eb537bc2d667ec5ed67c1a58ea59f.pdf"
+    }
+   ]
   },
   {
    "id": "pgm-wj-east-final",
@@ -219,7 +287,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.ijga.or.jp/wp-content/uploads/2026/04/ee401d9f64dfb614aa7b89937434627d.pdf"
+    }
+   ]
   },
   {
    "id": "gunma-elem-15",
@@ -239,7 +313,13 @@
    "verified": "2026-10-17",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.golf-gunma-asc.gr.jp/junior/pdf/%E7%AC%AC15%E5%9B%9E%E5%B0%8F%E5%AD%A6%E7%94%9F.pdf"
+    }
+   ]
   },
   {
    "id": "ibaraki-jr-10",
@@ -259,7 +339,13 @@
    "verified": "2026-10-17",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://iaga.jp/news/2026juniorgolftaikaikekka0509/"
+    }
+   ]
   },
   {
    "id": "gd-jrcup-67-2026-05-23",
@@ -279,7 +365,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "優勝者・成績ページ",
+     "url": "https://golf-digest.co.jp/event/jrcup/result/"
+    }
+   ]
   },
   {
    "id": "gd-jrcup-67-2026-06-13",
@@ -299,7 +391,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "優勝者・成績ページ",
+     "url": "https://golf-digest.co.jp/event/jrcup/result/"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-08-22",
@@ -319,7 +417,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0822_iwasesakuragawa_result.pdf"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-08-23",
@@ -339,7 +443,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0823_seven_result.pdf"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-08-29",
@@ -359,7 +469,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0829_rockhill_result.pdf"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-08-30",
@@ -379,7 +495,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0830_nasuogawa_result.pdf"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-09-01",
@@ -399,7 +521,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0901_funabashi_result"
+    }
+   ]
   },
   {
    "id": "jjgt-2026-09-06-asaka",
@@ -419,7 +547,13 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjgt.net/tour-info/result/r2745.pdf"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-09-12",
@@ -439,7 +573,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0912_fugetsu_result"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-09-13",
@@ -459,7 +599,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0913_nsaj_result"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-09-19",
@@ -479,7 +625,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0919_kanuma_result"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-09-20",
@@ -499,7 +651,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0920_iwasesakuragawa_result"
+    }
+   ]
   },
   {
    "id": "konami-jr-2026-final",
@@ -519,7 +677,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "決勝結果",
+     "url": "https://www.konami.com/sportsclub/undojuku/golf/konamisports-jr-cup/2026/final-results.html"
+    }
+   ]
   },
   {
    "id": "jjgt-2026-09-20-murasaki",
@@ -539,7 +703,13 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": [
+    {
+     "label": "JJGT 大会結果一覧",
+     "url": "http://www.jjgt.net/result/index.php"
+    }
+   ]
   },
   {
    "id": "jlpga-elem-kanto-2026",
@@ -559,7 +729,9 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": null,
+   "results_note": "台風の影響で中止のため、成績はありません。"
   },
   {
    "id": "toyoko-region-2026-09-21",
@@ -579,7 +751,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0921_jgmbelaire_result"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-09-22",
@@ -599,7 +777,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0922_myogi_result"
+    }
+   ]
   },
   {
    "id": "jjgt-2026-09-22-asaka",
@@ -619,7 +803,13 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": [
+    {
+     "label": "JJGT 大会結果一覧",
+     "url": "http://www.jjgt.net/result/index.php"
+    }
+   ]
   },
   {
    "id": "mirai-kids-2026",
@@ -639,7 +829,8 @@
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "toyoko-region-2026-09-23",
@@ -659,7 +850,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0923_kasama_result"
+    }
+   ]
   },
   {
    "id": "jgai-resonac-2026",
@@ -679,7 +876,13 @@
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": [
+    {
+     "label": "成績表",
+     "url": "https://script.google.com/a/macros/jgai.or.jp/s/AKfycbztDz57ZxDknCBfOS8_7FHlRbcDrK1NXLVq0YhPYwy0ixKdEYeVdqmOT3YFV_8kDdP27g/exec"
+    }
+   ]
   },
   {
    "id": "nasu-royal-10",
@@ -699,7 +902,8 @@
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "organizer": "NPO法人パピポ",
@@ -719,7 +923,13 @@
    "start": "2026-09-23",
    "end": "2026-09-23",
    "url": "https://www.papipo.org/competition",
-   "note": "毎月開催の月例競技会。18H平均100以内でマーカー制の競技ができること。参加費 会員3,000円／非会員5,000円＋プレー費5,000円（当日現金）。非会員は会員枠に空きがあれば参加可（エントリーフォームから申込）。カート運転は保護者の協力が必要。申込期間は公式で確認。"
+   "note": "毎月開催の月例競技会。18H平均100以内でマーカー制の競技ができること。参加費 会員3,000円／非会員5,000円＋プレー費5,000円（当日現金）。非会員は会員枠に空きがあれば参加可（エントリーフォームから申込）。カート運転は保護者の協力が必要。申込期間は公式で確認。",
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.papipo.org/_files/ugd/0206f2_fecae4a32ed1440c86ed53949a76b382.pdf"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-09-26",
@@ -739,7 +949,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0926_nasuogawa_result"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-09-27",
@@ -759,7 +975,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/0927_nasuyoko_result"
+    }
+   ]
   },
   {
    "id": "jjgt-2026-10-04-asaka",
@@ -779,7 +1001,13 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjgt.net/tour-info/result/r2755.pdf"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-10-10",
@@ -799,7 +1027,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/1010_rockhill_result"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-10-11",
@@ -819,7 +1053,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/1011_nsaj_result"
+    }
+   ]
   },
   {
    "id": "toyoko-region-2026-10-12",
@@ -839,7 +1079,13 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjga.org/convention/2026/toyokoinn/pdf/1012_biwaike_result"
+    }
+   ]
   },
   {
    "id": "jjgt-2026-10-12-sagamiko",
@@ -859,7 +1105,13 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjgt.net/tour-info/result/r2757.pdf"
+    }
+   ]
   },
   {
    "organizer": "NPO法人パピポ",
@@ -879,7 +1131,13 @@
    "start": "2026-10-12",
    "end": "2026-10-12",
    "url": "https://www.papipo.org/competition",
-   "note": "毎月開催の月例競技会。18H平均100以内でマーカー制の競技ができること。参加費 会員3,000円／非会員5,000円＋プレー費5,000円（当日現金）。非会員は会員枠に空きがあれば参加可（エントリーフォームから申込）。カート運転は保護者の協力が必要。申込期間は公式で確認。"
+   "note": "毎月開催の月例競技会。18H平均100以内でマーカー制の競技ができること。参加費 会員3,000円／非会員5,000円＋プレー費5,000円（当日現金）。非会員は会員枠に空きがあれば参加可（エントリーフォームから申込）。カート運転は保護者の協力が必要。申込期間は公式で確認。",
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.papipo.org/_files/ugd/0206f2_0748b098c31445c39a13b07dc115b95a.pdf"
+    }
+   ]
   },
   {
    "id": "jjgt-2026-10-18-murasaki",
@@ -899,7 +1157,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jjgt-2751",
@@ -919,7 +1178,8 @@
    "entry_state": "受付中",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-10-25-ibaraki",
@@ -939,7 +1199,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jjgt-2749",
@@ -959,7 +1220,8 @@
    "entry_state": "受付中",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-11-01-tochigi",
@@ -979,7 +1241,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "kitayatsu-380",
@@ -999,7 +1262,8 @@
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-11-03-ibaraki",
@@ -1019,7 +1283,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-11-07-tochigi",
@@ -1039,7 +1304,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jjgt-2759",
@@ -1059,7 +1325,8 @@
    "entry_state": "受付中",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-11-08-tochigi",
@@ -1079,7 +1346,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jb-myfirsttee-kanto-2026",
@@ -1099,7 +1367,8 @@
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "toyoko-final-2026",
@@ -1119,7 +1388,8 @@
    "entry_state": null,
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": null
   },
   {
    "id": "jjgt-2026-11-15-murasaki",
@@ -1139,7 +1409,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jjgt-2026-11-22-sagamiko",
@@ -1159,7 +1430,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-11-22-tochigi",
@@ -1179,7 +1451,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-11-23-gunma",
@@ -1199,7 +1472,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jgai-cup-2026",
@@ -1219,7 +1493,8 @@
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "organizer": "NPO法人パピポ",
@@ -1239,7 +1514,8 @@
    "start": "2026-11-23",
    "end": "2026-11-23",
    "url": "https://www.papipo.org/competition-139",
-   "note": "毎月開催の月例競技会。18H平均100以内でマーカー制の競技ができること。参加費 会員3,000円／非会員5,000円＋プレー費5,000円（当日現金）。非会員は会員枠に空きがあれば参加可（エントリーフォームから申込）。カート運転は保護者の協力が必要。申込期間は公式で確認。受付 7:45〜8:15。組合せは1週間前〜3営業日前に掲載。"
+   "note": "毎月開催の月例競技会。18H平均100以内でマーカー制の競技ができること。参加費 会員3,000円／非会員5,000円＋プレー費5,000円（当日現金）。非会員は会員枠に空きがあれば参加可（エントリーフォームから申込）。カート運転は保護者の協力が必要。申込期間は公式で確認。受付 7:45〜8:15。組合せは1週間前〜3営業日前に掲載。",
+   "results": null
   },
   {
    "id": "jjgt-2026-11-29-asaka",
@@ -1259,7 +1535,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-12-12-tochigi",
@@ -1279,7 +1556,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jjgt-2026-12-13-asaka",
@@ -1299,7 +1577,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-12-19-tochigi",
@@ -1319,7 +1598,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jjgt-2026-12-20-murasaki",
@@ -1339,7 +1619,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2026-12-20-ibaraki",
@@ -1359,7 +1640,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "tokyo-elem-12",
@@ -1379,7 +1661,8 @@
    "verified": "2026-10-17",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": null
   },
   {
    "id": "jjgt-2026-12-27-asaka",
@@ -1399,7 +1682,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jjgt-2026-12-28-sagamiko",
@@ -1419,7 +1703,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2027-01-04-saitama",
@@ -1439,7 +1724,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "sponichi-kanto-elem-20",
@@ -1459,7 +1745,8 @@
    "verified": "2026-10-17",
    "expected": null,
    "window_from": null,
-   "window_to": null
+   "window_to": null,
+   "results": null
   },
   {
    "id": "ishikawa-region-2027-01-05-chiba",
@@ -1479,7 +1766,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2027-01-09-ibaraki",
@@ -1499,7 +1787,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jjgt-2027-01-10-asaka",
@@ -1519,7 +1808,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2027-01-10-ibaraki",
@@ -1539,7 +1829,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "ishikawa-region-2027-01-11-tochigi",
@@ -1559,7 +1850,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "jjgt-2027-01-17-murasaki",
@@ -1579,7 +1871,8 @@
    "window_from": null,
    "window_to": null,
    "verified": "2026-10-17",
-   "stage": "予選"
+   "stage": "予選",
+   "results": null
   },
   {
    "id": "w-kanagawa-elem-2027",
@@ -1599,7 +1892,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-ichihara-doubles-4",
@@ -1619,7 +1913,8 @@
    "entry_close": null,
    "entry_state": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-gunma-kanto-elem-2027",
@@ -1639,7 +1934,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-chiba-elem-2027",
@@ -1659,7 +1955,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-studioalice-19",
@@ -1679,7 +1976,8 @@
    "entry_close": null,
    "entry_state": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-fcg-japan-2027",
@@ -1699,7 +1997,8 @@
    "entry_close": null,
    "entry_state": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-daito-2027",
@@ -1719,7 +2018,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-akabane-elem",
@@ -1739,7 +2039,8 @@
    "entry_close": null,
    "entry_state": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-tochigi-kanto-elem-2027",
@@ -1759,7 +2060,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-pgm-wj-2027",
@@ -1779,7 +2081,8 @@
    "entry_close": null,
    "entry_state": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-ichihara-open-2027",
@@ -1799,7 +2102,8 @@
    "entry_close": null,
    "entry_state": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-saitama-elem-2027",
@@ -1819,7 +2123,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-kga-elem-2027",
@@ -1839,7 +2144,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-jrplayers-2027",
@@ -1859,7 +2165,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-gd-jrcup-30",
@@ -1879,7 +2186,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-pga-jrleague-2027",
@@ -1899,7 +2207,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-kodaira-2027",
@@ -1919,7 +2228,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-teletama-24",
@@ -1939,7 +2249,8 @@
    "entry_close": null,
    "entry_state": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-konami-14",
@@ -1959,7 +2270,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-jb-challenge-2027",
@@ -1979,7 +2291,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-kawagoe-future",
@@ -1999,7 +2312,8 @@
    "entry_close": null,
    "entry_state": null,
    "window_to": null,
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-toyoko-2027",
@@ -2019,7 +2333,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-nasu-royal-11",
@@ -2039,7 +2354,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   },
   {
    "id": "w-jlpga-elem-21",
@@ -2059,7 +2375,8 @@
    "entry_state": null,
    "window_to": null,
    "note": "",
-   "verified": "2026-10-17"
+   "verified": "2026-10-17",
+   "results": null
   }
  ]
 }

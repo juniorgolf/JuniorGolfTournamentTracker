@@ -116,6 +116,14 @@ h1 { font-size: clamp(26px, 4vw, 40px); font-weight: 700; letter-spacing: .04em;
 .st-unknown b { color: var(--info); font-weight: 500; }
 .dot { display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: currentColor; margin-right: 6px; vertical-align: 2px; }
 
+.result-link { font-size: 13px; font-weight: 700; color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 1px; }
+.result-link span { margin-left: 4px; font-size: 11px; }
+.result-more { display: block; font-size: 11px; color: var(--ink-3); margin-top: 2px; }
+.d-results { margin: 0 0 24px; padding-bottom: 20px; border-bottom: 1px solid var(--rule); }
+.d-results-h { font-size: 12px; font-weight: 700; color: var(--ink-2); letter-spacing: .08em; margin: 0; }
+.d-results .d-actions { margin-top: 10px; }
+.d-results .d-note { margin-top: 6px; }
+
 /* Calendar CTA */
 .cal-cta { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin: 56px 0 0; padding: 28px 32px; background: var(--surface); border: 1px solid var(--rule); }
 .cal-title { margin: 0; font-weight: 700; }
