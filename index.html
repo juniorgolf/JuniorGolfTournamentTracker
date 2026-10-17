@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=20261017b">
+<link rel="stylesheet" href="style.css?v=20261017c">
 </head>
 <body>
 <header class="site-head">
@@ -26,6 +26,7 @@
       <button role="tab" data-view="upcoming" aria-selected="true">これからの大会</button>
       <button role="tab" data-view="open" aria-selected="false">申込受付中</button>
       <button role="tab" data-view="watch" aria-selected="false">日程発表待ち</button>
+      <button role="tab" data-view="map" aria-selected="false">地図</button>
       <button role="tab" data-view="past" aria-selected="false">終了した大会</button>
     </div>
     <div class="filters">
@@ -38,6 +39,14 @@
     <span>開催日</span><span>大会名</span><span>会場</span><span>主催</span><span>申込</span>
   </div>
   <div id="list"></div>
+  <section class="mapview" id="mapview" hidden aria-label="会場の地図">
+    <div class="map-canvas"></div>
+    <div class="map-side">
+      <p class="map-count" id="map-count"></p>
+      <p class="map-status"></p>
+      <div id="map-list"></div>
+    </div>
+  </section>
 
   <aside class="cal-cta">
     <div>
@@ -62,6 +71,7 @@
   </div>
 </dialog>
 
-<script src="app.js?v=20261017b"></script>
+<script src="map.js?v=20261017c"></script>
+<script src="app.js?v=20261017c"></script>
 </body>
 </html>

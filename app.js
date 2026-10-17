@@ -90,6 +90,17 @@ function resultBlock(t) {
   return `<div class="d-results"><p class="d-results-h">大会結果・スコア</p><p class="d-note">${esc(t.results_note || "結果は公式ページでご確認ください。")}</p></div>`;
 }
 
+// 地図の横に出す、幅の狭い一覧の行
+function mapRow(t) {
+  const st = entryStatus(t);
+  return `<div class="mrow">
+    <div class="date"><span class="d">${esc(md(t.start))}</span><span class="w">${WEEK[toDate(t.start).getDay()]}</span></div>
+    <div class="mrow-body"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button>
+      <span class="sub">${esc(t.pref)}・${esc(t.venue)}</span>
+      <span class="status st-${st.kind}"><b><span class="dot"></span>${esc(st.label)}</b></span></div>
+  </div>`;
+}
+
 function watchDetail(t) {
   return `<p class="d-eyebrow">${esc(t.pref)}・日程発表待ち</p>
     <h2 class="d-title" id="d-title">${esc(t.name)}</h2>
@@ -130,6 +141,7 @@ function detail(t) {
     <div class="d-actions">
       <a class="btn btn-solid" href="${esc(t.url)}" target="_blank" rel="noopener">公式ページで要項を見る</a>
       <button class="btn btn-line" data-ics="${esc(t.id)}">カレンダーに登録</button>
+      <a class="btn btn-line" href="${esc(gmapsDir(t))}" target="_blank" rel="noopener">経路を調べる（Googleマップ）</a>
     </div>
     <p class="d-verified">${esc(t.verified)} 時点で公式ページを確認</p>`;
 }
@@ -198,6 +210,10 @@ async function main() {
 
   const tabs = [...document.querySelectorAll("#tabs button")];
   let view = "upcoming";
+  const mapEl = document.getElementById("mapview");
+  const mapList = document.getElementById("map-list");
+  const mapCount = document.getElementById("map-count");
+  let mapKey = null;
 
   // 開催日順（同じ日は終了日、大会名の順）
   const byDate = (a, b) => a.start.localeCompare(b.start) || (a.end || "").localeCompare(b.end || "") || a.name.localeCompare(b.name, "ja");
@@ -210,11 +226,27 @@ async function main() {
       // 終了した大会は新しい順
       past: base.filter(isPast).sort((a, b) => byDate(b, a)),
     };
+    sets.map = sets.upcoming;
     tabs.forEach((b) => {
       b.setAttribute("aria-selected", String(b.dataset.view === view));
       b.innerHTML = `${b.textContent.replace(/\d+$/, "").trim()}<span class="count">${sets[b.dataset.view].length}</span>`;
     });
     const list = sets[view];
+    const isMap = view === "map";
+    document.querySelector(".table-head").hidden = isMap;
+    document.getElementById("list").hidden = isMap;
+    mapEl.hidden = !isMap;
+    if (isMap) {
+      // 絞り込みが変わったとき（と初回）だけ、該当する会場が全部見える位置へ動かす
+      const key = fPref.value + "|" + fOrg.value;
+      showMap(mapEl, list, { fit: key !== mapKey, onListChange: (items) => {
+        const sorted = [...items].sort(byDate);
+        mapList.innerHTML = sorted.length ? sorted.map(mapRow).join("") : `<p class="empty">地図の範囲に大会はありません。地図を動かすか縮小してください。</p>`;
+        mapCount.textContent = `地図に見えている大会 ${sorted.length}件`;
+      } });
+      mapKey = key;
+      return;
+    }
     document.querySelector(".table-head span:last-child").textContent = view === "past" ? "結果" : "申込";
     const el = document.getElementById("list");
     if (!list.length) { el.innerHTML = `<p class="empty">該当する大会はありません。</p>`; return; }
