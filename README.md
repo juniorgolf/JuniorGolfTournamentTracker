@@ -16,4 +16,4 @@
 id, name, organizer, pref（都道府県の短い名前。複数県にまたがる大会は「関東」など地方名。app.js の REGIONS で地方に分類）, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, stage（予選/決勝）, url, note, verified, results（終了大会の結果リンク [{label,url}]）, results_note, expected・window_from（日程未発表の大会）
 
 ## 調査資料
-- `docs/research/`：関東の情報源一覧（kanto_sources.csv）と調査メモ
+- `docs/research/`：情報源一覧（関東: kanto_sources.csv、関東以外: japan_sources.csv）と調査メモ

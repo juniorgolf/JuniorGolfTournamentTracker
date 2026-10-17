@@ -1,0 +1,92 @@
+優先度,区分,名称,URL,小学生対象,関東開催,日程の取得,申込期間の取得,申込方法,golfportal掲載,備考
+A,地区連盟,北海道ゴルフ連盟（HGA） ジュニア情報,https://www.hga.gr.jp/juniorinfo/,○（一部）,×,HTML,HTML/画像要項,大会ごとに異なる（フォーム・メール・電話）,未確認,他団体のジュニア大会も掲載。北海道小学生ゴルフ大会・meijiカップ・滝川・ヨネックス等
+A,地区連盟,東北ゴルフ連盟（TGA） 主催競技,https://www.tga.gr.jp/hostcompe.php,○（11歳以下の部）,×,HTML,PDF（競技規定）,FAX＋振込,未確認,東北ジュニア11歳以下の部（全国小学生ゴルフ大会予選）
+A,地区連盟,東北ゴルフ連盟 ジュニア競技日程（東北管内一覧）,https://www.tga.gr.jp/pdf/jr_schedule_2026.pdf,○（一部）,×,PDF,なし,各実施団体,未確認,東北6県の県連盟ジュニア大会・東北小学生ゴルフ大会・YONEX杯を一覧化
+A,県協会,宮城県ゴルフ連盟,https://www.tga.gr.jp/miyagi/hostcompe.php,○,×,HTML,PDF（競技規定）,郵送,未確認,宮城県ジュニア選手権に小1〜3・小4〜6の部
+A,県協会,青森県ゴルフ連盟,https://www.tga.gr.jp/aomori/hostcompe.php,○,×,HTML,PDF（競技規定）,メール/FAX,未確認,春季・選手権・秋季（新人戦）の年3回
+A,県協会,岩手県ゴルフ連盟,https://www.tga.gr.jp/iwate/hostcompe.php,○,×,HTML,PDF（競技規定）,現金書留/振込,未確認,6月大会は小学生区分なし、秋季学年別に11歳以下の部
+A,県協会,秋田県ゴルフ連盟,https://www.tga.gr.jp/akita/hostcompe.php,○,×,HTML,PDF（競技規定）,郵送/FAX/持参,未確認,春（県民スポーツ大会）・秋（ギバちゃんカップ）に11歳以下の部
+A,県協会,山形県ゴルフ連盟,https://www.tga.gr.jp/yamagata/hostcompe.php,○,×,HTML,PDF（競技規定）,開催CCへ直接（用紙/ネット）,未確認,山形新聞・山形放送杯と県ジュニアに小学生の部
+A,県協会,福島県ゴルフ連盟,https://www.tga.gr.jp/fukushima/hostcompe.php,○,×,HTML,PDF（競技規定）,申込書＋振込,未確認,福島県ジュニアは3月末と8月の年2回（主催競技一覧ではなくトップのジュニア欄に掲載）
+A,新聞社,スポニチ 全国小学生ゴルフ春季大会（北海道・東北大会）,https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-383929/,○,×,HTML,PDF（競技規定）,Webエントリー＋カード/コンビニ決済,未確認,第20回北海道小学生（10/24）・東北小学生（11/22）。一覧ページはWebFetchで読めず個別ページで確認
+A,テレビ局,UHB 北海道meijiカップ ジュニアゴルフ,https://www.uhb.jp/event/juniorgolf2026/,○,×,HTML/PDF,HTML/PDF,応募フォーム＋振込,未確認,大会結果PDFあり。同ページのジュニアスクール・スナッグは大会ではないので除外
+B,ジュニア団体,JJGA 東横インジュニアゴルフオープン 地区大会,https://www.jjga.org/convention/2026/toyokoinn/,○,×,HTML/PDF,なし（受付終了表示のみ）,JJGAマイページ,未確認,北海道（エミナ）・福島（棚倉）・宮城（宮城野）
+B,ジュニア団体,JJGA 石川遼カップ 地区大会,https://www.jjga.org/convention/2026/ishikawaryocup/,○,×,HTML/PDF,PDF（Qualifying_about.pdf）,JJGAマイページ,未確認,北海道2会場（真駒内・エミナ）・福島（棚倉）
+B,企業,ヨネックス YONEX杯 東日本オープンジュニア,https://www.yonex.co.jp/news/2026/3825.html,○,×,HTML（開催報告）,なし,未確認,未確認,募集要項は公開ページで見つからず
+B,企業,Honda ジュニアゴルフ選手権 SUMMER CAMP,https://www.hga.gr.jp/juniorinfo/honda%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%82%b4%e3%83%ab%e3%83%95%e9%81%b8%e6%89%8b%e6%a8%a9%e3%80%80honda-summer-camp-2/,○,×,HTML,なし（抽選）,My Honda応募,未確認,HGAサイト掲載情報で確認
+C,ジュニア団体,Jack Bunny!! Junior Golf Tour 2026,https://prtimes.jp/main/html/rd/p/000001478.000009786.html,×（北海道・東北は中高生のみ）,×,HTML,HTML,Webエントリー,未確認,北海道・東北はCHAMPIONSHIP予選（中高生）のみのため除外
+C,ジュニア団体,PGM世界ジュニア 日本代表選抜大会,https://digitalpr.jp/r/124786,○,×,なし,なし,IJGAサイト,未確認,2026年の北海道・東北会場は確認できず
+A,地区連盟,中部ゴルフ連盟（CGA）主催競技日程,http://www.cga.jp/oc_schedule/,○,×,○,○,競技規定参照,,WebFetchはrobots拒否。日程表PDF（2026/2/3現在）で確認
+A,県協会,新潟県ゴルフ連盟 競技情報,https://www.n-golfrenmei.com/compe/,○,×,○,○,FAX（ヨネックスCC）,,関東小学生 新潟ブロック予選あり
+A,県協会,長野県ゴルフ協会 競技会情報,https://www.naganogolf.jp/games/,○,×,○,○,Webフォーム,,関東小学生 長野県予選（長野県小学生大会）あり
+A,県協会,静岡県ゴルフ連盟 競技情報,https://shizu-golren.jp/event,○,×,○,○,Webフォーム＋振込,,関東小学生 静岡県予選・県ジュニア
+A,県協会,富山県ゴルフ連盟 競技会情報,https://tga54.com/game/,○,×,○,△,郵送・FAX,,締切のみ記載
+A,県協会,石川県ゴルフ協会 競技会情報,http://iga5620.jp/info.html,○,×,○,×,不明,,要項PDFが画像で申込期間読めず
+A,県協会,福井県ゴルフ協会 競技日程,https://www.golf.fukui.jp/competition/,○,×,○,×,不明,,県ジュニアに小学生の部
+A,県協会,岐阜県ゴルフ連盟 競技日程,https://www.gag-golf.jp/event/?year=2026,○,×,○,△,申込書郵送,,/event/junior/ はサーバーエラー
+A,県協会,愛知県ゴルフ連盟（AGA）,https://www.aichikengolfrenmei.jp/,○,×,○,○,Webフォーム＋振込,,スナッグ・親子大会。県小学生大会の2026情報は見つからず
+A,県協会,三重県ゴルフ連盟 主催競技日程,https://www.mga-golf.jp/shusai/,○,×,○,△,申込書（会員郵送）,,県ジュニアに小学生の部
+A,新聞社,スポニチ 全国小学生ゴルフ春季大会（中部）,https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_20/,○,×,○,△,JTBスポーツステーション,,第22回中部は2027/1/11、申込未掲載
+B,練習場連盟,中部ゴルフ練習場連盟 競技会,https://cgra.jp/%E7%AB%B6%E6%8A%80%E4%BC%9A/,○,×,○,×,加盟練習場経由,,愛知県ジュニア大会
+B,テレビ局,NBSジュニアゴルフフェスティバル（長野放送）,https://www.nbs-tv.co.jp/event/single.php?id=84,○,×,○,△,長野放送チケットセンター,,公式ページは旧回の内容。期間はイベントサイト・記事で補完
+C,ゴルフ場,養老カントリークラブ ARGOLF CUP,https://rfgr.jp/yoro/,○,×,○,△,FAX・郵送,,
+C,ゴルフ場,芦原ゴルフクラブ 福井県ジュニアオープン,https://www.awara-golf.co.jp/competition/,○,×,○,△,芦原GCサイト,,2026年の要項は未確認
+A,地区連盟,関西ゴルフ連盟（KGU）主催競技日程,https://www.kgu.gr.jp/game/,○,いいえ,HTML一覧,なし（スポニチ側ページ参照）,JTBスポーツステーション,不明,関西小学生ゴルフ選手権（全国小学生ゴルフ大会 予選）はスポニチ+αのページに詳細
+A,新聞社,スポニチ+α 各種ジュニア大会 2026,https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/golf-allsorts/golf-2026/,○,いいえ,HTML（大会ページ）,要項PDF／JTBページ,JTBスポーツステーション,不明,KGU共催の関西小学生ゴルフ選手権競技・関西ジュニア（中高のみ）
+A,新聞社,TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ,https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/,○,いいえ,要項PDF,要項PDF（2週間前締切）,JTBスポーツステーション,不明,関西予選5戦＋決勝。中部・九州・関東・中四国大会もあり
+A,申込サイト,JTBスポーツステーション,https://jtbsports.jp/,○,いいえ,HTML,HTML,WEB,不明,スポニチ系大会の申込期間・参加料が最も確実
+A,府県連盟,兵庫県ゴルフ連盟（HGU）,https://hgu1995.com/,○,いいえ,HTML／要項PDF,HTML,HGU WEB会員でログイン申込,不明,兵庫県ジュニアゴルフ選手権。要項PDFは長いURLのためファイルIDのみで取得
+A,府県協会,京都府ゴルフ協会,http://www.kyotogolf.net/kyogijoho/index.html,○,いいえ,年間日程PDF,なし,不明（要問い合わせ）,不明,京都府小学生ゴルフ大会 夏季・冬季。成績は /seiseki/
+A,府県連盟,滋賀県ゴルフ連盟 ジュニア競技,https://www.shiga-golf-union.com/game/junior.html,○,いいえ,HTML,HTML（締切のみ）,FAX,不明,中学・高校選手権兼小学生大会（例年4月初め）
+A,府県協会,大阪府ゴルフ協会 競技日程,https://www.osaka-golf.jp/schedule.html,○,いいえ,HTML,HTML,要項PDF（robots拒否で未読）,不明,大阪府U-15ジュニアゴルフ大会（小4〜中学）
+A,府県協会,奈良県ゴルフ協会 ジュニア競技,https://www.nga.cc/jr_game.html,○,いいえ,HTML,なし,不明,不明,奈良県ジュニアゴルフ選手権（NGAジュニア会員）
+A,府県連盟,和歌山県ゴルフ連盟 競技日程,https://golf.wakayama.jp/schedule.html,○,いいえ,HTML,規定のみ（2か月前〜2週間前）,郵送,不明,ジュニア選手権（小3〜高3）
+B,自治体,三木市 ジュニアゴルフ大会／ラウンド体験,https://www.city.miki.lg.jp/soshiki/88/35017.html,○,いいえ,HTML,HTML,市の電子申請（e-tumo）,不明,みっきぃジュニアゴルフ大会。三木市ゴルフ協会ジュニア会員限定
+B,ジュニア団体,日本ジュニアゴルフ協会（JJGA）東横イン／石川遼カップ,https://www.jjga.org/competition,○,いいえ,日程PDF,なし（会場別未掲載）,JJGAマイページ,不明,関西会場は兵庫・京都・滋賀
+B,ジュニア団体,Jack Bunny!! Junior Golf Tour,https://jb-cup.com/calendar/,○,いいえ,日程PDF,スポーツエントリー,スポーツエントリー,不明,CHALLENGE CUP（小4〜6）日野GC、MY FIRST TEE よみうりショートコース。Championshipは中高のみで除外
+C,ジュニア団体,関西ジュニアゴルフクラブチーム連盟（U-15）,https://kansai-jr.golf/u-15/,△,いいえ,HTML（日付不整合）,なし,チーム登録（JGCF）,不明,6〜15歳のチーム戦。日程・会場が不明確のため未収録
+C,府県連盟,HGU U-15クラブチームゴルフフェスタ,https://hgu1995.com/competitions/01JKYTRB8WX8153WVKK2B1CSFK/latest,△,いいえ,HTML,HTML,HGU WEB（監督アカウント）,不明,2026/11/7 垂水GC。小学生の可否が明記されず未収録
+A,地区連盟,中国ゴルフ連盟（CGU）競技会一覧,https://www.cgu.gr.jp/competition/?l=1,○,×,○,○（締切のみ）,郵送/FAX＋振込,,中国小学生ゴルフ大会（全国小学生予選）。2027年度日程PDFあり。中国ジュニア選手権は中学生以上
+A,地区連盟,四国ゴルフ連盟（SGU）競技日程,https://sgu.gr.jp/competition-date/2026/,○,×,○,○（締切のみ）,郵送,,四国小学生ゴルフ大会（全国小学生・JLPGA枠あり）
+A,県協会,島根県ゴルフ協会 ジュニア競技日程,https://www.shimane-golf.com/2026junior_gamelist,○,×,○,○（締切のみ）,FAX/メール,,春季・秋季・山陰ジュニアオープン（鳥取と共催）
+A,県協会,鳥取県ゴルフ協会 競技会情報2026,https://www.tga-golf.net/pg2026.html,○,×,○,△,FAX/郵送,,ジュニアオープン春季・夏季
+A,県協会,香川県ゴルフ協会 競技日程,https://www.k-g-a.jp/compe/compe.htm,○,×,○,○（締切のみ）,郵送/FAX,,香川県ジュニアゴルフ大会（小学生の部あり）
+B,県協会,山口県ゴルフ協会 競技結果,https://yamaguchiken-golf-kyoukai.com/category/kyogikekka/,○,×,○,×,不明（要項Web非掲載）,,山口県ジュニア選手権 年2回（12歳未満の部）
+B,県協会,徳島県ゴルフ協会,https://www.tokushima-tga.jp/,○,×,○,×,不明,,徳島県ジュニア選手権（小学男女の部）。成績のみ掲載
+B,新聞社,徳島新聞 ジュニアゴルフ選手権,https://www.topics.or.jp/articles/-/1466157,○,×,○,△（記事見出し）,不明,,記事はWebFetch不可（有料記事）
+B,県協会,愛媛県ゴルフ協会 ジュニア委員会,https://ehime-gu.jp/pages/24/,○,×,○,×,不明,,愛媛県小中学生ゴルフ大会は日程・会場のみ
+B,県協会,高知県ゴルフ協会 競技案内,https://kochi-kga.com/pages/20/,○,×,△,△,郵送等,,小中学生なかよしゴルフ会。県ジュニア選手権は中高生のみ。2026年なかよし会ページは取得できず
+B,県協会,岡山県ゴルフ協会 ジュニア競技スクール一覧,https://okayama-ga.jp/association/junior/competition/,△,×,○,×,不明（要項Web非公開）,,スナッグゴルフ大会（小学生）。県ジュニア選手権は参加資格不明のため未収録
+C,県協会,広島県ゴルフ協会／GREEN EGG,https://green-egg.jp/n_list.php,△,×,△,△,スクール経由,,小学生の公開大会なし（ジュニアスクール内の記録会のみ）
+A,ジュニア団体,IJGA PGM世界ジュニア 日本代表選抜,https://www.ijga.or.jp/2026jpinformation/,○,×,○,△（開始日のみ）,スポーツエントリー,,中国・四国予選（たけべの森）
+C,報道,KSB 香川県スナッグゴルフ交流大会,https://news.ksb.co.jp/article/16397677,○,×,○,×,不明,,香川県ジュニアゴルフ振興会主催
+C,ゴルフ場,松永カントリークラブ（谷原秀人ジュニアクラシック）,https://www.matsunagacc.jp/player-tanihara/,○,×,△,×,不明,,スナッグゴルフ広島県予選を兼ねる
+A,地区連盟,九州ゴルフ連盟（GUK）,https://www.guk.jp/kyougi/23235,はい,いいえ,取得可（競技一覧・案内ページ）,取得可（競技規定PDF）,申込書を現金書留,不明,九州小学生ゴルフ大会（全国小学生予選）。2026年度第19回は2025/12/26開催で対象外
+A,新聞社,スポーツニッポン新聞社（スポニチプラスα）,https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/,はい,いいえ,取得可,取得可（JTBスポーツ）,JTBスポーツステーション,不明,九州小学生ゴルフ選手権大会、TSURUYA CUP九州大会
+A,県協会,福岡県ゴルフ協会,https://www.fga562.com/records.html,はい,いいえ,取得可,不可（要項PDFが画像）,不明,不明,小学生ゴルフトーナメント福岡県大会
+A,県協会,長崎県ゴルフ協会,https://nagasaki-golf.info/tournaments/,はい,いいえ,取得可,取得可（要項PDF）,申込書をゴルフ場へ／郵送・FAX,不明,小学生大会、ジュニア競技、親子大会、NCCジュニア成績
+A,県協会,鹿児島県ゴルフ協会,https://k-ga.jp/junior/,はい,いいえ,取得可,取得可（要項PDF）,申込書をゴルフ場へ,不明,鹿児島県ジュニア選手権（小学生大会含む）
+B,県協会,宮崎県ゴルフ協会,https://miyazaki-golf.com/competition/competition.html,一部,いいえ,取得可（ジュニア案内PDF）,不可,各ゴルフ場へ問合せ,不明,宮崎県ジュニア選手権（12/28 青島GC）は小学生出場可否未確認のため未収録
+B,県協会,佐賀県ゴルフ協会,https://sagagolf.jp/compe,不明,いいえ,不可（古い情報のみ）,不可,不明,不明,2026年の小学生大会は確認できず
+B,県協会,大分県ゴルフ協会,https://oitagolf.jp/syuyou,いいえ,いいえ,取得可,不可,不明,不明,小学生大会は確認できず（小学生レッスン会のみ）
+B,県協会,熊本県ゴルフ協会,http://kgass.com/kyougi.html,不明,いいえ,不可（robots拒否）,不可,不明,不明,サイト取得不可
+B,県協会,沖縄県ゴルフ協会,http://www.okinawakengolfasc.jp/kensyusaikyogi/430-2026-2.html,はい,いいえ,不可（robots拒否）,不可,不明,不明,小学校対抗大会の日程は沖縄ゴルフナビから
+A,テレビ局,熊本朝日放送（KAB）ジュニアゴルフ選手権,http://www.kab.co.jp/special/jrgolf/index.html,はい,いいえ,取得可,取得可（締切のみ）,HP応募フォーム,不明,
+A,テレビ局,テレビ熊本（TKU）ジュニアゴルフ選手権,https://www.tku.co.jp/event/jrgolf2026/,はい,いいえ,取得可,一部（定員締切）,不明,不明,
+A,テレビ局,テレビ宮崎（UMK）ジュニアゴルフ選手権,https://www.umk.co.jp/event/sports/39-umk-golf.html,はい,いいえ,取得可,取得可（締切のみ）,応募フォーム,不明,
+A,新聞社,熊本日日新聞社 熊日トーナメント,https://kumanichi.com/jigyou/tgolf,はい,いいえ,取得可,取得可,スポーツエントリー,不明,要項 https://corporate.kumanichi.com/wp/wp-content/uploads/service/2026golftm-outline_260129.pdf
+B,企業,宮崎ガス ジュニアゴルフ選手権（MRT掲載）,https://mrt.jp/event/contents/juniorgolf/,はい,いいえ,取得可,一部（振込期限のみ）,振込,不明,
+B,企業,イズミ車体製作所杯ジュニアゴルフトーナメント,https://izumishatai.co.jp/wp-content/uploads/20260406_golf.pdf,はい,いいえ,取得可,取得可（締切のみ）,FAX,不明,
+B,企業,エナジック沖縄県小学生・中学生ゴルフ大会,https://www.enagicgolfacademy.com/elementary/,はい,いいえ,取得可,取得可,オンラインフォーム,不明,
+B,自治体,伊江村 ハイビスカスカップ小中学生ゴルフ伊江島大会,https://www.iejima.org/document/2026100100080/,はい,いいえ,取得可（おきなわ物語経由）,不可（公式ページ取得失敗）,不明,不明,申込期間はちゃーびらゴルフ協会の転載ページ https://carltexgolf.sub.jp/ジュニア/ に記載
+C,まとめサイト,沖縄ゴルフナビ 大会情報,https://okinawagolfnavi.com/tournaments,一部,いいえ,取得可,不可,—,—,沖縄の大会日程の補助
+C,テレビ局,OBS九州女子ジュニアゴルフ大会,https://obs-oita.co.jp/event/,いいえ,いいえ,—,—,—,—,中高生女子のみのため対象外
+C,新聞社,大分合同新聞 サーキットゴルフ,https://oita-press.co.jp/event/page/circuit-golf/2026,不明,いいえ,不可（取得失敗）,不可,不明,不明,
+A,全国団体（JLPGA）,JLPGA 全日本小学生ゴルフトーナメント 地区予選大会一覧,https://www.lpga.or.jp/junior/alljapanjunior/qualify,○,一部（関東予選のみ）,○（全9地区の日程・会場）,△（各地区の要項PDFにある場合のみ）,地区ごとに異なる（FAX・Webフォーム・メール等）,不明,決勝は2026/10/18 福島・グリーンアカデミーCC。予選は各地区の既存大会が兼ねる（四国=四国ゴルフ連盟、九州=福岡県ゴルフ協会）
+B,全国団体（JJGT）,日本ジュニアゴルフツアー 大会情報,https://www.jjgt.net/tour-info/,○（10歳以下・12歳以下）,ほぼ全件,○,×（詳細ページ単位）,Net Entry,不明,2026/10/17時点で国内の関東以外の大会は掲載なし（ハワイ本戦のみ）。jjgt.jp はrobotsで取得不可
+A,全国団体（出版社）,ゴルフダイジェスト ジャパンジュニアカップ 2026,https://golf-digest.co.jp/event/jrcup/,○（6〜11歳の部）,一部,○,○（outline1/outline2）,公式サイトのWebエントリー,不明,本選は静岡・東名CC。選考会は関東・関西（六甲国際）・中部（麗澤瑞浪）
+B,申込サイト,JTBスポーツステーション（スポニチ小学生大会の申込）,https://jtbsports.jp/detail/1naqq,○,×,○,○,JTBスポーツステーション,不明,前シーズン（第19回）の申込期間・参加資格を確認できる
+A,全国団体（JGA）,JGA 全国小学生ゴルフ大会（第19回）組合せのお知らせ,https://www.jga.or.jp/news/2026_0430_1330/,○,○（決勝は千葉・我孫子GC）,○,×（直接申込なし）,地区予選経由,不明,2027年も5月・我孫子GC予定（北海道小学生大会の競技規定より）
+B,地区予選（テレビ局）,ミヤギテレビ 全日本小学生ゴルフトーナメント東北予選,https://www.mmt-tv.co.jp/event/articles/uozre44y754rj1jz.html,○,×,○,○（締切のみ）,Webフォーム（抽選あり）,不明,
+C,全国団体（企業）,コナミスポーツ ジュニアカップ 2026,https://www.konami.com/sportsclub/undojuku/golf/konamisports-jr-cup/2026/,○,○（決勝は栃木）,○,×,スクール経由,不明,予選はコナミのゴルフアカデミー36拠点のシミュレーターで実施のため個別レコード化せず
+C,全国団体（PGA）,PGAジュニアゴルフ選手権大会 太平洋クラブカップ,https://pga.or.jp/tournament/detail/21797/tour,×（中高生のみ）,○,○,×,地区選抜,不明,小学生対象外のため除外
