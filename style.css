@@ -173,8 +173,8 @@ dialog::backdrop { background: rgba(10, 14, 12, .55); backdrop-filter: blur(2px)
 .pin { display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%; background: #5f6f78; color: #fff; font: 600 12px/1 var(--num); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.3); }
 .pin-open { background: #0b5d3b; }
 .leaflet-container { font-family: var(--font); }
-.marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background-color: rgba(11, 93, 59, .25); }
-.marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { background-color: rgba(11, 93, 59, .85); color: #fff; font: 600 12px var(--num); }
+.marker-cluster { background-color: rgba(11, 93, 59, .25); border-radius: 50%; background-clip: padding-box; }
+.marker-cluster div { width: 30px; height: 30px; margin: 5px; border-radius: 50%; display: flex; align-items: center; justify-content: center; background-color: rgba(11, 93, 59, .85); color: #fff; font: 600 12px/1 var(--num); }
 .pop { min-width: 220px; }
 .pop-venue { margin: 0 0 6px; font-weight: 700; font-size: 14px; color: #141414; }
 .pop-venue span { margin-left: 6px; font-size: 11px; font-weight: 400; color: #5c5c58; }
