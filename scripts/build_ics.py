@@ -22,7 +22,7 @@ def event(uid, start, end, summary, desc, stamp):
 def main():
     data = json.loads((ROOT / "data/tournaments.json").read_text(encoding="utf-8"))
     stamp = data["updated"].replace("-", "") + "T000000Z"
-    out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//japan-junior-golf//JA", "X-WR-CALNAME:全国ジュニアゴルフ大会"]
+    out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//japan-junior-golf//JA", "X-WR-CALNAME:ジュニアゴルフ大会カレンダー"]
     for t in data["tournaments"]:
         if not t.get("start"):  # 日程未発表の大会はカレンダーに入れない
             continue

@@ -1,4 +1,4 @@
-// 全国ジュニアゴルフ大会カレンダー：data/tournaments.json を読んで一覧と詳細を描画する
+// ジュニアゴルフ大会カレンダー：data/tournaments.json を読んで一覧と詳細を描画する
 
 // 地方と都道府県。地方名そのもの（「関東」など）は複数県にまたがる大会の pref に使う
 const REGIONS = [
@@ -192,7 +192,7 @@ function icsFor(list) {
   const ev = (uid, start, end, summary, desc) =>
     ["BEGIN:VEVENT", `UID:${uid}@kanto-junior-golf`, `DTSTAMP:${d(new Date().toISOString().slice(0, 10))}T000000Z`,
      `DTSTART;VALUE=DATE:${d(start)}`, `DTEND;VALUE=DATE:${next(end)}`, `SUMMARY:${txt(summary)}`, `DESCRIPTION:${txt(desc)}`, "END:VEVENT"].join("\r\n");
-  const out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//japan-junior-golf//JA", "X-WR-CALNAME:全国ジュニアゴルフ大会"];
+  const out = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//japan-junior-golf//JA", "X-WR-CALNAME:ジュニアゴルフ大会カレンダー"];
   for (const t of list) {
     out.push(ev(t.id, t.start, t.end || t.start, `【大会】${t.name}`, `${t.venue}\n${t.url}`));
     if (t.entry_open) out.push(ev(t.id + "-open", t.entry_open, t.entry_open, `【申込開始】${t.name}`, t.url));

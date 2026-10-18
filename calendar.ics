@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//japan-junior-golf//JA
-X-WR-CALNAME:全国ジュニアゴルフ大会
+X-WR-CALNAME:ジュニアゴルフ大会カレンダー
 BEGIN:VEVENT
 UID:chiba-elem-2026@kanto-junior-golf
 DTSTAMP:20261018T000000Z
