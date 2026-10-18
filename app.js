@@ -87,18 +87,21 @@ function entryPeriodLong(t) {
 }
 const dateRange = (t) => (t.end && t.end !== t.start ? `${fmtY(t.start)} 〜 ${fmt(t.end)}` : fmtY(t.start));
 
+// おやこ手帳デザインでは、表の行にも主催者の種類の色と名前を付ける
+const rowCls = (t) => (TECHO ? ` ot-${orgType(t.organizer)}` : "");
+const orgCell = (t) => (TECHO ? `<span class="ot-tag">${esc(ORG_TYPES[orgType(t.organizer)].label)}</span>` : "") + esc(t.organizer);
+
 function watchRow(t) {
-  return `<div class="row">
+  return `<div class="row${rowCls(t)}">
     <div class="date"><span class="d tbd">未定</span></div>
     <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}</span></div>
     <div class="venue"><span class="pref">${esc(t.pref)}</span>${esc(t.venue)}</div>
-    <div class="org">${esc(t.organizer)}</div>
+    <div class="org">${orgCell(t)}</div>
     <div class="cell-status"><span class="status st-unknown"><b><span class="dot"></span>発表待ち</b>${t.window_from ? `<small>${esc(fmtY(t.window_from))}ごろから注意</small>` : ""}</span></div>
   </div>`;
 }
 
 function row(t) {
-  if (TECHO) return card(t);
   if (isWatch(t)) return watchRow(t);
   const st = entryStatus(t);
   const d = toDate(t.start);
@@ -106,36 +109,13 @@ function row(t) {
   const period = entryPeriod(t);
   const status = isPast(t) ? resultCell(t)
     : `<span class="status st-${st.kind}"><b><span class="dot"></span>${esc(st.label)}</b>${period ? `<small>${esc(period)}</small>` : ""}</span>`;
-  return `<div class="row">
+  return `<div class="row${rowCls(t)}">
     <div class="date"><span class="d">${d.getMonth() + 1}/${d.getDate()}</span><span class="w">${WEEK[d.getDay()]}</span>${multi}</div>
     <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}・${esc(t.stage)}</span></div>
     <div class="venue"><span class="pref">${esc(t.pref)}</span>${esc(t.venue)}</div>
-    <div class="org">${esc(t.organizer)}</div>
+    <div class="org">${orgCell(t)}</div>
     <div class="cell-status">${status}</div>
   </div>`;
-}
-
-// おやこ手帳デザインの大会カード。見出しの色は主催者の種類
-function card(t) {
-  let date, foot;
-  if (isWatch(t)) {
-    date = `<span class="d tbd">未定</span>`;
-    foot = `<span>${t.window_from ? `${esc(fmtY(t.window_from))}ごろから注意` : "日程は公式ページで確認"}</span><span class="badge st-unknown">発表待ち</span>`;
-  } else {
-    const d = toDate(t.start);
-    date = `<span class="d">${d.getMonth() + 1}/${d.getDate()}</span><span class="w">${WEEK[d.getDay()]}曜日${t.end && t.end !== t.start ? `〜${md(t.end)}` : ""}</span>`;
-    if (isPast(t)) foot = `<span>${esc(t.stage)}</span>${resultCell(t)}`;
-    else {
-      const st = entryStatus(t);
-      const p = t.entry_open && t.entry_close ? `申込 ${md(t.entry_open)}〜${md(t.entry_close)}`
-        : t.entry_close ? `締切 ${md(t.entry_close)}` : t.entry_open ? `受付開始 ${md(t.entry_open)}` : "申込期間は未掲載";
-      foot = `<span>${esc(p)}</span><span class="badge st-${st.kind}">${esc(st.label)}</span>`;
-    }
-  }
-  return `<article class="tc ot-${orgType(t.organizer)}">${cardHead(t)}
-    <div class="tc-body"><div class="tc-date">${date}</div><div class="tc-main"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.pref)}　${esc(t.venue)}</span></div></div>
-    <div class="tc-foot">${foot}</div>
-  </article>`;
 }
 
 // 同じシリーズの大会（石川遼カップの地区大会など）をまとめるための名前
@@ -234,9 +214,8 @@ function resultBlock(t) {
 
 // 地図の横に出す、幅の狭い一覧の行
 function mapRow(t) {
-  if (TECHO) return card(t);
   const st = entryStatus(t);
-  return `<div class="mrow">
+  return `<div class="mrow${rowCls(t)}">
     <div class="date"><span class="d">${esc(md(t.start))}</span><span class="w">${WEEK[toDate(t.start).getDay()]}</span></div>
     <div class="mrow-body"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button>
       <span class="sub">${esc(t.pref)}・${esc(t.venue)}</span>
@@ -423,21 +402,20 @@ async function main() {
     if (!list.length) { el.innerHTML = `<p class="empty">該当する大会はありません。</p>`; return; }
     if (view === "watch") {
       const rows = list.map(row).join("");
-      el.innerHTML = `<p class="month">前年の実績から、申込が始まりそうな順</p>` + (TECHO ? `<div class="cards">${rows}</div>` : rows);
+      el.innerHTML = `<p class="month">前年の実績から、申込が始まりそうな順</p>` + rows;
       return;
     }
-    // 月ごとに見出しを入れる。おやこ手帳デザインでは月ごとにカードを並べる
+    // 月ごとに見出しを入れる
     let html = "", month = "";
     for (const t of list) {
       const m = `${t.start.slice(0, 4)}.${t.start.slice(5, 7)}`;
       if (m !== month) {
-        if (TECHO && month) html += "</div>";
-        html += `<p class="month">${m}</p>` + (TECHO ? `<div class="cards">` : "");
+        html += `<p class="month">${m}</p>`;
         month = m;
       }
       html += row(t);
     }
-    el.innerHTML = html + (TECHO && month ? "</div>" : "");
+    el.innerHTML = html;
   };
 
   tabs.forEach((b) => b.addEventListener("click", () => { view = b.dataset.view; render(); }));

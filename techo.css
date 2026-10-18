@@ -229,9 +229,14 @@
 [data-design="techo"] .otc[aria-pressed="true"] .n { color: inherit; opacity: .85; }
 
 /* 一覧 */
-[data-design="techo"] .table-head { display: none !important; }
-[data-design="techo"] .month { padding: 28px 0 12px; font-size: 15px; font-weight: 800; color: var(--ink); border-bottom: 0; }
-[data-design="techo"] .cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+/* 2026-10-18 ユーザー指示でカードをやめ、元の表形式に戻した。行の左端の色と主催欄の名前で主催者の種類を示す */
+[data-design="techo"] .table-head { padding: 0 14px 10px 18px; font-weight: 700; color: var(--ink-3); border-bottom: 2px solid var(--ink); }
+[data-design="techo"] .month { padding: 28px 0 10px; font-size: 15px; font-weight: 800; color: var(--ink); border-bottom: 2px dashed var(--rule); }
+[data-design="techo"] .row { padding: 16px 14px 16px 18px; border-bottom: 1px solid var(--rule); box-shadow: inset 4px 0 0 var(--ot, transparent); }
+[data-design="techo"] .row:hover, [data-design="techo"] .mrow:hover { background: var(--paper); }
+[data-design="techo"] .row .name { font-weight: 800; }
+[data-design="techo"] .ot-tag { display: block; width: max-content; max-width: 100%; margin-bottom: 3px; padding: 1px 8px; font-size: 10.5px; font-weight: 800; color: var(--ot); background: var(--ot-bg); border-radius: 999px; }
+[data-design="techo"] .mrow { padding-left: 12px; box-shadow: inset 4px 0 0 var(--ot, transparent); }
 [data-design="techo"] .empty { border-bottom: 0; background: var(--paper); border-radius: 18px; }
 
 /* 地図 */
@@ -274,7 +279,6 @@
 
 @media (max-width: 1080px) {
   [data-design="techo"] .soon-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  [data-design="techo"] .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 /* スマホ */
@@ -320,7 +324,6 @@
   [data-design="techo"] .tabs button { padding: 6px 12px; font-size: 13px; }
   [data-design="techo"] .otypes { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 16px; scrollbar-width: none; }
   [data-design="techo"] .otc { flex: none; }
-  [data-design="techo"] .cards { grid-template-columns: minmax(0, 1fr); gap: 12px; }
   [data-design="techo"] .tc-body { grid-template-columns: 64px minmax(0, 1fr); }
   [data-design="techo"] .d-org { margin: -32px -20px 20px; padding: 14px 52px 14px 20px; }
   /* 地図の横の一覧はカードが縦に長くなるので、枠の中でスクロールさせる */
