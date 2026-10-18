@@ -2323,6 +2323,33 @@
    "lng": 137.293198,
    "precision": "番地",
    "source": "https://reserve.golfdigest.co.jp/golf-course/528405/"
+  },
+  "サザンヤードカントリークラブ": {
+   "name": "サザンヤードカントリークラブ",
+   "pref": "茨城",
+   "address": "茨城県東茨城郡城里町下古内776",
+   "lat": 36.447308,
+   "lng": 140.324966,
+   "precision": "町字",
+   "source": "https://www.sportsentry.ne.jp/event/t/106512"
+  },
+  "岡山北ゴルフ倶楽部": {
+   "name": "岡山北ゴルフ倶楽部",
+   "pref": "岡山",
+   "address": "〒709-2116 岡山県岡山市北区御津中山361",
+   "lat": 34.752655,
+   "lng": 133.921616,
+   "precision": "町字",
+   "source": "https://jtbsports.jp/detail/1pfer"
+  },
+  "書写グリーン倶楽部スナッグゴルフコース（姫路市書写）": {
+   "name": "書写グリーン倶楽部 スナッグゴルフコース",
+   "pref": "兵庫",
+   "address": "兵庫県姫路市書写",
+   "lat": 34.884491,
+   "lng": 134.655121,
+   "precision": "町字",
+   "source": "https://www.w28sga.com/"
   }
  }
 }

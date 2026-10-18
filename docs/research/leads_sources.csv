@@ -1,0 +1,50 @@
+担当,区分,名称,URL,対象,日程の取得,申込方法,instagram,備考
+entry,申込サイト,スポーツエントリー（ゴルフ）,https://www.sportsentry.ne.jp/events/golf,大会次第（ジュニア大会多数）,個別大会ページ /event/t/番号 はHTMLで取得可（不安定）,サイト上で申込,,一覧・県別ページ（/events/golf/*）はこの環境から毎回取得エラー。検索エンジン経由で個別ページを拾う方式が現実的
+entry,申込サイト,JTBスポーツステーション（受付中一覧）,https://jtbsports.jp/list.php?accepting=1&keyword=&orderby=1,スポニチ系ジュニア大会（小・中）,HTML一覧＋詳細ページ,サイト上で申込,,受付中18件中ゴルフ6件。詳細ページに受付開始・締切の日時あり
+entry,申込サイト,モシコム（ゴルフ施設ページ）,https://moshicom.com/facility/4490,該当なし,—,—,,施設ページのみで、ジュニアゴルフ大会の掲載は見つからず
+entry,申込サイト,楽天GORA 大会エントリー,https://gora.golf.rakuten.co.jp/tournament/,一般のみ,HTML,外部サイト,,2026-10-18時点で社会人選手権1件のみ。ジュニア無し
+entry,申込サイト,GDO主催競技・イベント,https://reserve.golfdigest.co.jp/event/,一般のみとみられる,取得エラー,サイト上で申込,,シングルス・ペア・GDO OPEN など一般競技。ジュニアは未確認
+entry,申込サイト,Peatix／こくちーずプロ,https://www.kokuchpro.com/feature/%E3%82%B4%E3%83%AB%E3%83%95/,該当なし,—,—,,ゴルフはセミナー・交流会のみで、ジュニア大会は見つからず
+entry,大会ページ,進藤大典 ジュニアトーナメント2026（スポーツエントリー）,https://www.sportsentry.ne.jp/event/t/106512,小学生・中学生・高校生,HTML,スポーツエントリー,,2026/10/25 サザンヤードCC
+entry,大会ページ,TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ（大会一覧）,https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/,小学4〜6年・中学生,HTML（各地区要項ページは取得エラーが多い）,JTBスポーツステーション,,第24回：関東10/31、中四国2027/1/16 が既存リストに無い
+entry,大会ページ,PING × Respo ism ジュニアゴルフトーナメント（スポーツエントリー）,https://www.sportsentry.ne.jp/event/t/102320,中学生・高校生女子,HTML（2026年版106965は取得エラー）,スポーツエントリー,,毎年12月中旬・嵐山CC。主催サイト respo-ism.com は robots で取得不可
+entry,大会ページ,Jack Bunny!! Junior Golf Tour 大会日程,https://jb-cup.com/calendar/,大会ごと（Championshipは中高生）,HTML,スポーツエントリー,,Championship・Challenge Cup・My First Tee・ゴルフコンペティション
+entry,大会ページ,申ジエ＆スリーボンド ジュニアトーナメント（スポーツエントリー）,https://www.sportsentry.ne.jp/event/t/101191,小5・6、中学生、高校生,HTML,スポーツエントリー,,第10回2025/9/1。2026年版は未確認
+entry,集約サイト,トーナビ ゴルフ（ジュニア）,https://golf.tournavi.jp/junior/,ジュニア全般,HTML,出典先へ,,10/18以降の4件はいずれも既存と重複
+entry,集約サイト,ゴルフサーチ ジュニア,https://www.golfsearch.jp/jr,ジュニア全般,HTML,出典先へ,,2026年10/18以降の掲載なし（更新遅れ）
+entry,集約サイト,いこーよ（子ども向けイベント）,https://iko-yo.net/events?tags%5B%5D=%E3%82%B4%E3%83%AB%E3%83%95,キッズ・小学生,HTML,主催者へ,,PING2024・君津市長杯・NBSなどの掲載例あり。ゴルフタグの絞り込みは機能していない
+east,メーカー,Fujikura東北ジュニアカップ（藤倉コンポジット）,https://www.fujikurashaft.jp/tohokujuniorcup/,北海道・東北在住の小1〜高校生,○ 大会サイトHTML・結果ページに過去日程,SportsEntry,,運営事務局アウタートップ㈱。毎年4月上旬に鹿島CC（南相馬市）
+east,新聞社・県連盟,栃木県知事盃争奪ゴルフ競技大会（下野新聞社）,https://www.t-golf.jp/compe.html,ジュニアの部あり（学年未確認）,△ 日程表HTML、要項PDFは画像,要項参照,,shimotsuke.co.jp はrobotsで取得不可
+east,ゴルフ場,栃木県民ゴルフ場（とちまるゴルフクラブ）最新情報,https://www.tochigikenmingc.com/news.html,知事盃ジュニアの部の報告・夏季ジュニア教室,△ HTML見出し、PDFは画像,電話（028-675-7211）,,ブログ https://tochigikenmin.jugem.jp/ にも大会報告
+east,県連盟,富山県ゴルフ連盟 競技会情報（ジュニアハーフ・北陸3県ジュニア）,https://tga54.com/game/,小・中・高,○ HTML一覧,要項参照,,既知の情報源だが、ジュニアハーフ大会と北陸3県ジュニアは既存に未収録
+east,ゴルフ場協議会,北陸三県ゴルフ場協議会（北陸ジュニアゴルフ選手権）,https://tga54.com/wp-content/uploads/e37452fad4497a8c98f258ab9b036059.pdf,北陸3県在住の小4〜高校生（2022年規定）,△ 競技規定PDF（2022年版のみ確認）,現金書留（2022年）,,独自サイト未確認。富山・石川の連盟サイトに参考掲載
+east,アカデミー,リスポイズム・ジュニアアカデミー（PING × Respo ism ジュニアゴルフトーナメント）,https://www.sportsentry.ne.jp/event/t/106965,中高生女子（2024年）,× この環境ではSportsEntry取得失敗,SportsEntry,,respo-ism.com はrobotsで取得不可。2026年版は candidates-entry.json 側に収録済みのため east には入れていない
+east,県連盟,愛知県ゴルフ連盟（AGA）主催競技,https://www.aichikengolfrenmei.jp/,中学生選手権・ジュニア選手権・小中学生レッスン会,○ HTML一覧（申込期間あり）,要項参照,,既知の情報源だが中学生選手権・ジュニア選手権は既存に未収録
+east,新聞社,茨城新聞社主催ゴルフ大会情報,https://golf.ibarakinews.jp/,創刊135周年記念ジュニア大会（2026/10/12、記念大会）,△ HTML,コンペくん（クレジット決済）,,記念大会のため継続未確認
+east,ゴルフ場,金砂郷カントリークラブ ジュニアゴルフ大会＆スクール,https://www.kanasago.com/event/juniorschool/,ジュニア,× 次回日程未定と掲載,未掲載,,茨城県常陸太田市
+east,ゴルフ場協会,静岡県ゴルフ場協会（SGCA）ジュニアゴルフ教室,https://sgca.jp/junior-golf/junior-golf-lessons/,小・中学生（教室）,○ HTML,フォーム,,教室のみ。「その他・ジュニア競技会」ページ https://sgca.jp/other-news/ は掲載なし
+east,県連盟,静岡県ゴルフ連盟「静岡ジュニア」,https://shizu-golren.jp/shizuoka-junior,中学生中心の会員制練習会,○ HTML（実施報告）,問い合わせ,https://www.instagram.com/shizuokagolren/,競技会ではなく練習会のため候補外
+east,ポータル,ゴルフサーチ ジュニア選手権（地域別）,https://www.golfsearch.jp/jr,全国（2025年中心）,△ HTML,各大会へリンク,,山日YBS杯ジュニア（山梨）・愛知県小学生大会など手がかりあり
+east,ポータル,JGOLF ジュニアゴルフ大会一覧,https://junior-golf.net/%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%B4%E3%83%AB%E3%83%95%E5%A4%A7%E4%BC%9A/,全国大会リンク集,× 日程なし,各大会へリンク,,2023〜24年の情報中心
+east,ポータル,ゴルフ大会トーナビ ジュニア,https://golf.tournavi.jp/junior/,全国,○ HTML（週次更新）,出典へリンク,,2026年秋の東日本分は既存と重複のみ
+east,企業,KPMGジャパン ジュニアゴルフ支援,https://kpmg.com/jp/ja/home/media/press-releases/2022/10/saso-juniorgolf2022.html,小3〜6（2022年招待大会）,× 2022年のみ,公式サイト応募（2022年）,,2022年は茨城・静ヒルズCC。以降は高ゴ連とのアンバサダー事業で大会継続は未確認
+east,練習場,ゴルフヤード春日井（愛知）,https://www.instagram.com/golf_kasugai/,未確認,×,未確認,https://www.instagram.com/golf_kasugai/,検索結果にジュニア大会関連で出たのみ。公式サイト未確認
+east,プロアマ大会,GOLVI札幌オープン ジュニア育成イベント,https://www.sapporo-open-golf.com/,子ども（レッスン）,△,予約不要,,競技会ではなくプロのレッスンのため候補外（iko-yo掲載 2026/7/18）
+east,ゴルフ場団体,長野県ゴルフ場連盟,https://www.nagano-golfrenmei.com/,なし,×,,,ジュニア競技の掲載なし
+west,市町ゴルフ協会,加東市ゴルフ協会 お知らせ（加東市ジュニアゴルフ大会）,https://kato-golf.com/news-list/,小学生・中学生（高校生の部は2026年から廃止）,HTML（案内記事・結果記事）,Googleフォーム,,年3回（1・3・7月）開催。大会写真をInstagram投稿でも掲載（アカウントURLはサイト上で未確認）。ジュニアクラブKJGCも運営
+west,県連盟（市町協会一覧）,兵庫県ゴルフ連盟 市町ゴルフ協会一覧,https://hgu1995.com/contents/municipalities,市町協会のジュニア行事,HTML,各協会,,21の市町ゴルフ協会を掲載。加東・姫路・神戸のジュニア行事の告知あり。各協会の公式URLは未掲載
+west,スナッグ協会（県）,兵庫県スナッグゴルフ協会,https://www.w28sga.com/,小学生（個人戦は中学生〜大人も）,HTML＋PDFチラシ,メール・FAX,,関西小学生チーム選手権（11月）、神戸市小学生ペア大会（1月）、神戸全市交流ペア大会（3月）、U-15対抗戦スクランブル（7月）など
+west,市町ゴルフ協会,西宮市ゴルフ協会 スナッグゴルフ大会,https://www.nc-ga.net/スナッグゴルフ/スナッグゴルフ大会/,小学生（園児〜小6）,HTML（結果中心）,会報・ポスターで募集,,毎年8月中旬の小学生スナッグゴルフ大会。ジュニアゴルフスクール（小1〜中3）もある
+west,スナッグ協会（全国）,日本スナッグゴルフ協会 大会・イベント情報,https://jsga.jp/archives/category/event,小学生（学校チーム）,HTML（開催報告。2026年分は未更新）,大会ごと,,三木市（稲田三郎カップ、JGTOカップ全国大会）・加東市・高知・くまもと・宮崎市・沖縄・糸島市のスナッグ大会の開催報告。詳細はJGTOキッズゴルフ記事側
+west,ゴルフ場,カヌチャゴルフコース 大会・コンペ一覧,https://www.kanucha.jp/golf/information,小学生〜高校生,HTML,申込書をメール送付,,ジュニアゴルフ・カヌチャカップ（8月）とジュニア・学生マッチプレー（3月）の告知。jhs_sources はマッチプレー個別ページのみ
+west,地域ジュニア団体,一般社団法人ゆいゴルフ（沖縄ジュニアゴルフツアー掲載）,https://yui-golf.com/,県内小学生,HTML（大会ページ。日程・要項の記載は少ない）,未確認,,ツアー全体の主催者表記なし。2026年の掲載なし
+west,地域ゴルフ団体,ちゃーびらゴルフ協会 ジュニア,https://carltexgolf.sub.jp/ジュニア/,小中学生・U15,HTML（記事）,記事ごと,,沖縄のジュニア大会（伊江島ハイビスカスカップ、U15沖縄県ジュニアゴルフクラブチーム対抗戦、沖縄ジュニアゴルフツアー）の告知・結果
+west,スクール,エナジックゴルフアカデミー 大会報告,https://www.enagicgolfacademy.com/tournament/,小中高,HTML（結果報告）,なし（報告のみ）,,沖縄の大会名の手がかりに有用（カヌチャカップ、沖縄ジュニアゴルフツアー、マリンタウンJrカップ、仲本工業杯、沖縄キッズゴルフ大会等）
+west,大会実行委員会,THE OKINAWA OPEN（沖縄オープンゴルフ選手権）,https://theokinawaopen.com/,高校生以下（ジュニアの部）,HTML,スポーツエントリー,,プロ・アマ・ジュニア混合。沖縄・関東・関西で予選会。公式サイトにInstagramリンクなし
+west,新聞社,琉球新報 全琉アマチュアゴルフ選手権（社告）,https://ryukyushimpo.jp/tag/allryukyu-amateurgolf,小学校卒業以上（中学生可）,HTML（社告）,県内ゴルフ場フロントの申込用紙,,毎年11〜12月に社告、1/1〜3/11受付、3月末〜4月初旬開催
+west,プロ団体（県）,広島県プロゴルフ協会 競技予定,https://hpga.info/kyougiyotei.html,ジュニア育成行事,HTML,記載なし,,2026年度は県ジュニアスクール記録会、小学生育成レッスン会（12/13 賀茂CC）など。競技大会としての一般募集は確認できず
+west,新聞社,佐賀新聞 佐賀県ジュニアゴルフ選手権,https://www.saga-s.co.jp/subcategory/佐賀県ジュニアゴルフ選手権,小学生〜高校生とみられる（8部門）,robotsで取得不可,未確認,,検索結果の見出しで「第23回…3月29日開催、参加者募集」「3月25日、多久市の天山カントリークラブ 8部門44人」を確認。existing.tsv に無し。要項は未確認
+west,新聞社,沖縄タイムス 沖縄ジュニアゴルフ,https://www.okinawatimes.co.jp/,小学生・中学生・高校生,robotsで取得不可,未確認,,検索結果の見出しで8月開催（南山カントリー、69人出場、中学・小学生高学年・低学年の部）を確認。県民ゴルフジュニア（RBC、9月）とは別大会とみられる
+west,まとめサイト,Golf Tournavi ジュニア大会一覧,https://golf.tournavi.jp/junior/,全国のジュニア,HTML,主催者サイトへ誘導,,西日本分は県協会・地区連盟の大会が中心で、existing.tsv に無い大会は見当たらず
+west,情報誌,いこいこゴルフNET（四国・岡山）イベント,https://www.c-dc.jp/event/,四国・岡山の大会,HTML（記事101ページ）,記事ごと,,県協会のジュニア大会やジュニア教室の記事あり。新規のジュニア大会は今回見つからず
+west,運営会社,ザ・ヘッドクォーターズ 大会スケジュール,https://www.hq-kobe.co.jp/golf_tournament,プロ大会中心（ボランティア募集）,HTML,なし,,ジュニアは関西ジュニア予選・進藤大典ジュニア（茨城）程度。大会の手がかり用
