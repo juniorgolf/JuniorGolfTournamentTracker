@@ -282,4 +282,7 @@ dialog::backdrop { background: rgba(10, 14, 12, .55); backdrop-filter: blur(2px)
   .map-side { max-height: none; }
 }
 
+/* おやこ手帳デザインだけで使う部品（techo.css で表示する） */
+.techo-only { display: none; }
+
 [hidden] { display: none !important; }

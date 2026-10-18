@@ -1,5 +1,5 @@
 // 地図タブ：OpenStreetMap（Leaflet）に会場ごとのピンを立て、経路は Google マップに渡す
-// app.js の esc / fmt / entryStatus / isPast を使う
+// app.js の esc / fmt / entryStatus / isPast / TECHO / orgType を使う
 
 const LEAFLET = "vendor/leaflet/";
 const CLUSTER = "vendor/leaflet.markercluster/";
@@ -101,7 +101,9 @@ async function showMap(container, list, { fit, onListChange }) {
   layer = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 48 });
   for (const g of groups) {
     const live = g.items.some((t) => entryStatus(t).kind === "open");
-    const icon = L.divIcon({ className: "", html: `<span class="pin${live ? " pin-open" : ""}">${g.items.length}</span>`, iconSize: [30, 30], iconAnchor: [15, 15] });
+    // おやこ手帳デザインでは、ピンの色を主催者の種類（その会場で最初に開かれる大会）に合わせる
+    const type = TECHO ? ` ot-${orgType([...g.items].sort((a, b) => a.start.localeCompare(b.start))[0].organizer)}` : "";
+    const icon = L.divIcon({ className: "", html: `<span class="pin${type}${live ? " pin-open" : ""}">${g.items.length}</span>`, iconSize: [30, 30], iconAnchor: [15, 15] });
     layer.addLayer(L.marker([g.v.lat, g.v.lng], { icon, title: g.items[0].venue }).bindPopup(popupHtml(g), { maxWidth: 320 }));
   }
   layer.addTo(map);

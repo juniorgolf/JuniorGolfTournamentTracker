@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>B案 スコアボード スマホ</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.bm-btn:focus-visible{outline:2px solid #D4F75A;outline-offset:2px}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; overflow: hidden; font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif; color: #F2F5EF; background: #0B1A14; font-feature-settings: 'palt'; display: flex; flex-direction: column">
+
+<header style="display: flex; align-items: center; gap: 10px; padding: 16px 18px">
+<span style="width: 30px; height: 30px; border-radius: 50%; background: #D4F75A; display: flex; align-items: center; justify-content: center">
+<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0B1A14" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 21V3l10 4-10 4"></path></svg>
+</span>
+<span style="font-weight: 900; font-size: 15px">全国ジュニアゴルフ大会カレンダー</span>
+</header>
+
+<div style="flex: 1; overflow: hidden; padding: 0 16px; display: flex; flex-direction: column; gap: 14px">
+<div style="background: #13271E; border: 1px solid #22382D; border-radius: 18px; padding: 18px 20px; display: grid; grid-template-columns: auto 1fr; gap: 18px; align-items: center">
+<div style="display: flex; flex-direction: column">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #D4F75A">NEXT DEADLINE</span>
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 104px; line-height: 0.85; color: #D4F75A">D-1</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="align-self: start; font-size: 11px; font-weight: 700; color: #0B1A14; background: #D4F75A; border-radius: 4px; padding: 3px 8px">締切 10/19（月）</span>
+<span style="font-size: 17px; font-weight: 900; line-height: 1.35">日本トリムカップ 関東予選会（千葉）</span>
+<span style="font-size: 12px; color: #C3CEC7">開催 10/25　千葉</span>
+</div>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px">
+<sc-for list="{{stats}}" as="s" hint-placeholder-count="3">
+<div style="background: {{s.bg}}; color: {{s.fg}}; border: 1px solid #22382D; border-radius: 14px; padding: 10px 12px">
+<span style="display: block; font-family: 'Barlow Condensed', sans-serif; font-weight: 800; font-size: 38px; line-height: 1">{{s.n}}</span>
+<span style="display: block; font-size: 10px; font-weight: 700; margin-top: 2px">{{s.label}}</span>
+</div>
+</sc-for>
+</div>
+
+<div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px">
+<span style="font-size: 17px; font-weight: 900">締切が近い大会</span>
+<span style="font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 12px; letter-spacing: 0.2em; color: #D4F75A">DEADLINE BOARD</span>
+</div>
+<div style="border: 1px solid #22382D; border-radius: 14px; overflow: hidden">
+<sc-for list="{{deadlines}}" as="d" hint-placeholder-count="5">
+<a href="#" style="display: grid; grid-template-columns: 58px 1fr; gap: 12px; align-items: center; padding: 11px 14px; border-top: 1px solid #22382D; color: inherit; text-decoration: none">
+<span style="font-family: 'Barlow Condensed', sans-serif; font-size: 30px; font-weight: 800; line-height: 1; color: {{d.color}}">D-{{d.n}}</span>
+<span style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-size: 13px; font-weight: 700; line-height: 1.4">{{d.name}}</span>
+<span style="font-size: 11px; color: #C3CEC7">締切 {{d.close}}　{{d.pref}}　開催 {{d.date}}</span>
+</span>
+</a>
+</sc-for>
+</div>
+</div>
+</div>
+
+<nav aria-label="表示の切り替え" style="margin: 10px 16px 22px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 4px; background: #13271E; border-radius: 999px; padding: 4px">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<button class="bm-btn" aria-pressed="{{t.sel}}" onClick="{{t.pick}}" style="font: inherit; font-size: 12px; font-weight: 700; color: {{t.fg}}; background: {{t.bg}}; border: 0; border-radius: 999px; min-height: 44px; cursor: pointer">{{t.label}}</button>
+</sc-for>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { tab: 0 };
+  }
+  renderVals() {
+    const stats = [['52', '受付中・まもなく', '#D4F75A', '#0B1A14'], ['111', 'これから', '#13271E', '#F2F5EF'], ['166', '発表待ち', '#13271E', '#F2F5EF']]
+      .map(([n, label, bg, fg]) => ({ n, label, bg, fg }));
+    const deadlines = [
+      ['10/19', 1, '石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会', '栃木ほか', '12/12'],
+      ['10/20', 2, 'エナジック沖縄県小学生・中学生ゴルフ大会', '沖縄', '10/31'],
+      ['10/21', 3, '長野県小学生大会（関東小学生大会 長野県予選）', '長野', '11/1'],
+      ['10/23', 5, 'Jack Bunny!! MY FIRST TEE 関東大会', '千葉', '11/8'],
+      ['10/26', 8, 'ハワイホノルル国際ジュニア 日本代表選抜決勝', '千葉', '10/31']
+    ].map(([close, n, name, pref, date]) => ({ close, n, name, pref, date, color: n <= 3 ? '#D4F75A' : '#F2F5EF' }));
+    const tabs = ['地図', 'カレンダー', '一覧', '発表待ち'].map((label, i) => {
+      const on = this.state.tab === i;
+      return { label, sel: String(on), fg: on ? '#0B1A14' : '#F2F5EF', bg: on ? '#D4F75A' : 'transparent', pick: () => this.setState({ tab: i }) };
+    });
+    return { stats, deadlines, tabs };
+  }
+}
+</script>
+</body>
+</html>

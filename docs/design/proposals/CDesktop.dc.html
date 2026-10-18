@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>C案 グリーン・コンター</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.c-btn:focus-visible,.c-link:focus-visible{outline:2px solid #2F6FB0;outline-offset:2px}
+.c-card:hover{box-shadow:0 10px 30px rgba(31,74,52,0.16)}
+</style>
+</helmet>
+<div style="font-family: 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif; color: #17301F; background: #EEF3EC; min-height: 1800px">
+
+<header style="max-width: 1440px; margin: 0 auto; padding: 20px 48px; box-sizing: border-box; display: flex; align-items: center; justify-content: space-between; gap: 24px">
+<div style="display: flex; align-items: center; gap: 12px">
+<svg width="34" height="34" viewBox="0 0 34 34" fill="none" stroke="#1F4A34" stroke-width="1.6"><circle cx="17" cy="17" r="15"></circle><circle cx="17" cy="17" r="10"></circle><circle cx="17" cy="17" r="5"></circle><circle cx="17" cy="17" r="1.5" fill="#1F4A34"></circle></svg>
+<span style="font-weight: 900; font-size: 20px; letter-spacing: 0.04em">全国ジュニアゴルフ大会カレンダー</span>
+</div>
+<nav role="tablist" style="display: flex; gap: 6px">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="6">
+<button role="tab" class="c-btn" aria-selected="{{t.sel}}" onClick="{{t.pick}}" style="font: inherit; font-size: 14px; font-weight: 700; color: {{t.fg}}; background: {{t.bg}}; border: 0; border-radius: 10px; padding: 10px 16px; cursor: pointer">{{t.label}}</button>
+</sc-for>
+</nav>
+</header>
+
+<section aria-label="地図" style="position: relative; max-width: 1344px; height: 860px; margin: 0 auto; border-radius: 28px; overflow: hidden; background: #E3EBE0">
+<svg aria-hidden="true" width="1344" height="860" viewBox="0 0 1344 860" style="position: absolute; inset: 0">
+<path d="{{contour}}" fill="none" stroke="#C9D8C7" stroke-width="1.2"></path>
+</svg>
+<div style="position: absolute; right: 150px; top: 60px; width: 566px; height: 740px">
+<sc-for list="{{dots}}" as="p" hint-placeholder-count="258">
+<span style="position: absolute; left: {{p.x}}%; top: {{p.y}}%; width: {{p.s}}px; height: {{p.s}}px; margin: {{p.m}}px 0 0 {{p.m}}px; border-radius: 50%; background: {{p.c}}; border: {{p.ring}}"></span>
+</sc-for>
+<div style="position: absolute; left: 68.7%; top: 51.9%; transform: translate(-50%, calc(-100% - 18px)); width: 290px; background: #FFFFFF; border-radius: 16px; box-shadow: 0 12px 36px rgba(23,48,31,0.2); padding: 16px 18px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 12px; color: #4D6455">千葉　会場</span>
+<span style="font-size: 16px; font-weight: 900">ムーンレイクゴルフクラブ 茂原コース</span>
+<span style="font-size: 13px; line-height: 1.6">10/25（日）日本トリムカップ 関東予選会（千葉）<br>10/31（土）ハワイホノルル国際ジュニア 日本代表選抜決勝</span>
+<a href="#" class="c-link" style="align-self: start; display: inline-flex; align-items: center; gap: 6px; margin-top: 2px; font-size: 13px; font-weight: 700; color: #FFFFFF; background: #1F4A34; border-radius: 999px; padding: 9px 14px; text-decoration: none">
+<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11 21 3l-8 18-2-8-8-2z"></path></svg>Googleマップで経路</a>
+<span style="position: absolute; left: 50%; bottom: -8px; width: 16px; height: 16px; background: #FFFFFF; transform: translateX(-50%) rotate(45deg)"></span>
+</div>
+</div>
+
+<div style="position: absolute; left: 40px; top: 40px; width: 420px; display: flex; flex-direction: column; gap: 16px">
+<div style="background: #FFFFFF; border-radius: 20px; padding: 24px; box-shadow: 0 8px 28px rgba(23,48,31,0.12)">
+<p style="margin: 0; font-size: 13px; font-weight: 700; color: #1F4A34">小学生・中学生のゴルフ大会　全国版</p>
+<h1 style="margin: 8px 0 0; font-size: 34px; font-weight: 900; line-height: 1.35">地図から、<br>出られる大会を。</h1>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 20px">
+<sc-for list="{{stats}}" as="s" hint-placeholder-count="3">
+<div style="background: #EEF3EC; border-radius: 12px; padding: 12px">
+<span style="display: block; font-size: 30px; font-weight: 900; line-height: 1; color: {{s.color}}">{{s.n}}</span>
+<span style="display: block; margin-top: 6px; font-size: 11px; line-height: 1.4">{{s.label}}</span>
+</div>
+</sc-for>
+</div>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 18px">
+<sc-for list="{{filters}}" as="f" hint-placeholder-count="3">
+<span style="display: flex; flex-direction: column; gap: 2px; border: 1px solid #C9D8C7; border-radius: 10px; padding: 8px 10px; font-size: 11px; color: #4D6455">{{f.label}}<b style="font-size: 13px; color: #17301F">{{f.value}}</b></span>
+</sc-for>
+</div>
+</div>
+<div style="background: #FFFFFF; border-radius: 20px; padding: 20px 24px; box-shadow: 0 8px 28px rgba(23,48,31,0.12)">
+<div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 8px">
+<span style="font-size: 17px; font-weight: 900">締切が近い大会</span>
+<span style="font-size: 12px; color: #4D6455">2週間以内</span>
+</div>
+<sc-for list="{{deadlines}}" as="d" hint-placeholder-count="5">
+<a href="#" class="c-link" style="display: grid; grid-template-columns: 56px 1fr; gap: 12px; align-items: center; padding: 10px 0; border-top: 1px solid #E3EBE0; color: inherit; text-decoration: none">
+<span style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 52px; border-radius: 12px; background: {{d.bg}}; color: {{d.fg}}; line-height: 1.1">
+<span style="font-size: 10px; font-weight: 700">あと</span><span style="font-size: 20px; font-weight: 900">{{d.n}}日</span>
+</span>
+<span style="display: flex; flex-direction: column; gap: 2px; min-width: 0">
+<span style="font-size: 14px; font-weight: 700; line-height: 1.4">{{d.name}}</span>
+<span style="font-size: 12px; color: #4D6455">締切 {{d.close}}　{{d.pref}}　開催 {{d.date}}</span>
+</span>
+</a>
+</sc-for>
+</div>
+</div>
+
+<div style="position: absolute; right: 32px; bottom: 32px; background: #FFFFFF; border-radius: 14px; padding: 12px 16px; display: flex; flex-direction: column; gap: 8px; font-size: 12px; box-shadow: 0 6px 20px rgba(23,48,31,0.1)">
+<span style="display: flex; align-items: center; gap: 8px"><span style="width: 10px; height: 10px; border-radius: 50%; background: #D9622B; border: 2px solid #FFFFFF; box-shadow: 0 0 0 1px #D9622B"></span>申込受付中</span>
+<span style="display: flex; align-items: center; gap: 8px"><span style="width: 9px; height: 9px; border-radius: 50%; background: #1F4A34"></span>これからの大会</span>
+<span style="display: flex; align-items: center; gap: 8px"><span style="width: 6px; height: 6px; border-radius: 50%; background: #93AA9A"></span>会場</span>
+</div>
+</section>
+
+<section style="max-width: 1440px; margin: 0 auto; padding: 56px 48px 24px; box-sizing: border-box" aria-labelledby="c-tl">
+<div style="display: flex; justify-content: space-between; align-items: end; margin-bottom: 24px">
+<h2 id="c-tl" style="margin: 0; font-size: 28px; font-weight: 900">申込の流れ　10月〜11月</h2>
+<div style="display: flex; gap: 20px; font-size: 13px">
+<span style="display: flex; align-items: center; gap: 8px"><span style="width: 12px; height: 12px; border-radius: 3px; background: #D9622B"></span>申込締切</span>
+<span style="display: flex; align-items: center; gap: 8px"><span style="width: 12px; height: 12px; border-radius: 3px; background: #2F6FB0"></span>受付開始</span>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: repeat(6, 1fr); gap: 12px">
+<sc-for list="{{weeks}}" as="w" hint-placeholder-count="6">
+<div style="background: #FFFFFF; border-radius: 18px; padding: 16px; display: flex; flex-direction: column; gap: 10px; min-height: 200px">
+<span style="font-size: 13px; font-weight: 900; padding-bottom: 8px; border-bottom: 2px solid #E3EBE0">{{w.label}}</span>
+<sc-for list="{{w.items}}" as="e" hint-placeholder-count="3">
+<span style="display: flex; flex-direction: column; gap: 4px">
+<span style="display: flex; align-items: center; gap: 6px; font-size: 11px; font-weight: 700; color: {{e.tc}}"><span style="width: 8px; height: 8px; border-radius: 50%; background: {{e.color}}"></span>{{e.d}} {{e.kind}}</span>
+<span style="font-size: 13px; line-height: 1.45">{{e.name}}</span>
+</span>
+</sc-for>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section style="max-width: 1440px; margin: 0 auto; padding: 40px 48px 56px; box-sizing: border-box" aria-labelledby="c-up">
+<h2 id="c-up" style="margin: 0 0 20px; font-size: 28px; font-weight: 900">これからの大会 <span style="font-size: 18px; color: #4D6455">111件</span></h2>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px">
+<sc-for list="{{rows}}" as="r" hint-placeholder-count="6">
+<a href="#" class="c-card" style="display: flex; flex-direction: column; gap: 10px; background: #FFFFFF; border-radius: 20px; padding: 22px 24px; color: inherit; text-decoration: none; transition: box-shadow 0.2s">
+<span style="display: flex; justify-content: space-between; align-items: center">
+<span style="font-size: 22px; font-weight: 900">{{r.date}}<span style="font-size: 13px; font-weight: 500; margin-left: 4px">（{{r.dow}}）</span></span>
+<span style="font-size: 12px; font-weight: 700; color: {{r.fg}}; background: {{r.bg}}; border-radius: 999px; padding: 4px 10px">{{r.status}}</span>
+</span>
+<span style="font-size: 16px; font-weight: 700; line-height: 1.5">{{r.name}}</span>
+<span style="display: flex; align-items: center; gap: 6px; font-size: 13px; color: #4D6455">
+<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4D6455" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>{{r.pref}}　{{r.venue}}</span>
+<span style="font-size: 12px; color: #4D6455">主催 {{r.org}}</span>
+</a>
+</sc-for>
+</div>
+</section>
+
+<footer style="max-width: 1440px; margin: 0 auto; padding: 24px 48px 40px; box-sizing: border-box; display: flex; justify-content: space-between; font-size: 12px; color: #4D6455">
+<span>各大会の情報は主催者の公式ページで必ずご確認ください。</span>
+<span>地図 © OpenStreetMap contributors</span>
+</footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1800}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { tab: 0 };
+  }
+  renderVals() {
+    const DOTS = '69.1,52.3,0;61.9,47.6,0;66.5,46,0;63.9,49.5,0;67.4,45,0;67.1,45.2,0;67.7,52.8,0;69,48.9,0;62.6,45.6,0;69.2,46,0;67.5,48.6,0;67.7,50,0;67.9,45.7,0;65.8,46.4,0;66.8,43.5,0;62.7,48,0;60.7,47.7,0;68.2,43.8,0;64.3,48.6,0;57.9,45.3,0;56.3,55,0;54.3,44.6,0;47.5,47.6,0;47.3,47.6,0;52.9,52.2,0;48.4,52.7,0;48.5,54.4,0;51.8,53.3,0;50.7,51.7,0;51.6,54.9,0;32,59.4,0;29.5,52.1,0;32.8,52.1,0;35.9,55.5,0;24.7,58.8,0;35.4,58.1,0;35.6,57.9,0;37.8,58.8,0;37.8,58.8,0;29.9,59.9,0;34.9,54.8,0;36.2,57.3,0;29.5,56.8,0;75.3,14.3,0;77.2,11.1,0;74.3,14.5,0;73.5,13.2,0;75.1,14.4,0;72.6,13.3,0;75.1,14.4,0;75,14.5,0;74.7,14.3,0;72,37,0;70.4,38,0;71.8,24.9,0;71.1,25.3,0;72.7,34.4,0;73.1,29.4,0;69,27.9,0;68.2,30.9,0;69.2,36.4,0;69.5,37.1,0;68.9,43.1,0;68.3,42.3,0;71.9,39.5,0;42.5,55.1,0;41.7,54.9,0;42.5,54.8,0;41.3,54.8,0;41.1,54.7,0;46.4,53.8,0;44.8,56.9,0;42.6,58.1,0;40.2,54.3,0;46.3,54.5,0;47.5,53.7,0;42.3,54.8,0;19.7,64.5,0;14.1,64.9,0;16,60.7,0;18.7,64.5,0;14.2,64.1,0;19.8,64.3,0;18.7,64.8,0;21.9,69.1,0;16.3,70.2,0;15.7,65.3,0;21.9,69.7,0;73.6,13.5,0;72.3,37.2,0;3.6,96.5,0;19.6,64.7,0;52,53.2,0;50.7,51.7,0;4.1,96.3,0;52.8,54.8,0;52.9,52.1,0;51.3,51.4,0;53.3,51.4,0;17.4,60.2,0;48.3,54.6,0;71.6,37.5,0;47.1,54.3,0;41.3,55.2,0;61.3,53.1,0;67.9,45.4,0;67.5,49.7,0;17.2,61.5,0;52,53.2,0;51.9,45.7,0;52.9,52.2,0;49.9,45.4,0;50.7,51.7,0;47.9,55.9,0;46.3,55.1,0;47.9,55.9,0;46.3,55.1,0;59.6,52.3,0;51.4,45.6,0;51.3,44.4,0;32.3,61.9,0;29.2,59.1,0;30.4,56.6,0;30,56.5,0;76.7,14,0;76,15.6,0;74.4,13,0;77.6,30.5,0;42.5,55.1,0;40.1,52.5,0;41.5,54.4,0;45,54.7,0;43.1,54.2,0;42.5,54.5,0;44.5,55.5,0;69.7,46.2,0;59.3,49.9,0;63.8,48.3,0;67.6,44.7,0;63.7,49,0;56.1,49.6,0;63.3,50,0;63.3,52.3,0;67.7,51.9,0;67.3,49.9,0;63.9,49,0;66.1,45.3,0;62.1,46.9,0;59.7,46.1,0;58.9,49.4,0;69.5,50.6,0;64.5,50.9,0;21.3,62.7,0;22,70.1,0;17.9,59.4,0;15.9,66.6,0;15.7,61.9,0;18.1,69.7,0;16.8,62.2,0;4,96.2,0;2.6,97.6,0;66.1,45.4,0;61.9,47.6,0;66.6,49.3,0;67.7,46.4,0;68.9,47.1,0;51.9,52,0;51.5,52,0;18.2,65.7,0;51.8,52.1,0;51.3,51.4,0;76,15.6,0;51.9,52.1,0;53,54.2,0;63.5,50.2,0;53.1,52.5,0;69.3,49.2,0;67.7,45.2,1;67.5,45,1;61.1,46.9,1;68.1,47.3,1;69.3,49.2,1;67.5,45.2,1;65.6,50,1;48.3,55.4,1;52,52.7,1;52.5,53.1,1;29.7,56.8,1;29,52.1,1;21.4,58.9,1;26.9,57.1,1;35.9,55.5,1;36.2,57.3,1;38.1,58.7,1;76.8,15.3,1;76,15.6,1;74.3,14.5,1;69.3,43.8,1;41.7,54.9,1;41.7,54.9,1;42.7,53.2,1;45,54.7,1;44.2,56.5,1;42.2,53.1,1;41,52.6,1;39.4,53.2,1;2.7,98.1,1;2.8,95.4,1;68.6,43.5,1;23.3,63.5,1;20.8,63.8,1;60.5,51.7,1;28.1,57.5,1;41,54.9,1;41.5,57.4,1;46.3,55.4,1;63.7,48.5,1;18.1,69.7,1;4.1,96.3,1;67.7,46,1;62.8,51.1,2;68.7,51.7,2;67.8,47,2;67.2,45.5,2;68.9,45.9,2;65.2,49.9,2;66.6,49.2,2;68.3,52.4,2;67.3,45.1,2;68.3,51,2;67.6,46,2;63.2,48.5,2;61.1,48,2;67.7,50,2;66.1,45.9,2;60.6,41,2;56.7,48.2,2;57.1,55,2;56.1,54.8,2;52.2,51.9,2;50.1,53.9,2;52,52.7,2;37.1,58.5,2;28.9,57.1,2;29.2,58.9,2;31.5,56.6,2;71.5,37.2,2;42,54.9,2;40.7,54.3,2;40.2,55,2;17.2,61.9,2;2.8,97,2;18.2,60.4,2;18.2,65.7,2;2.5,98.3,2;51.9,52,2;34.5,55,2;69.6,46.1,2';
+    const dots = DOTS.split(';').map((s) => {
+      const [x, y, k] = s.split(',').map(Number);
+      const size = [6, 9, 12][k];
+      return { x, y, s: size, m: -size / 2, c: ['#93AA9A', '#1F4A34', '#D9622B'][k], ring: k === 2 ? '2px solid #FFFFFF' : '0' };
+    }).sort((a, b) => a.s - b.s);
+    // 等高線：2つの丘を、ゆらぎのある同心の輪で描く
+    const hill = (cx, cy, n, step, seed) => {
+      let d = '';
+      for (let i = 1; i <= n; i++) {
+        const r = i * step;
+        for (let a = 0; a <= 72; a++) {
+          const t = (a / 72) * Math.PI * 2;
+          const w = 1 + 0.12 * Math.sin(3 * t + seed + i * 0.35) + 0.06 * Math.sin(5 * t + seed * 2);
+          const x = cx + Math.cos(t) * r * 1.35 * w, y = cy + Math.sin(t) * r * w;
+          d += (a === 0 ? 'M' : 'L') + x.toFixed(1) + ' ' + y.toFixed(1);
+        }
+        d += 'Z';
+      }
+      return d;
+    };
+    const contour = hill(260, 700, 16, 34, 0.4) + hill(1180, 140, 14, 30, 2.1);
+    const tabs = ['地図', '申込カレンダー', 'これからの大会', '申込受付中', '日程発表待ち', '終了した大会'].map((label, i) => {
+      const on = this.state.tab === i;
+      return { label, sel: String(on), fg: on ? '#FFFFFF' : '#17301F', bg: on ? '#1F4A34' : 'transparent', pick: () => this.setState({ tab: i }) };
+    });
+    const stats = [['52', '申込受付中・まもなく', '#D9622B'], ['111', 'これからの大会', '#1F4A34'], ['166', '日程発表待ち', '#1F4A34']]
+      .map(([n, label, color]) => ({ n, label, color }));
+    const filters = [['対象', '小・中学生'], ['エリア', 'すべて'], ['主催', 'すべて']].map(([label, value]) => ({ label, value }));
+    const deadlines = [
+      ['10/19', 1, '日本トリムカップ 関東予選会（千葉）', '千葉', '10/25'],
+      ['10/19', 1, '石川遼カップ 地区大会', '栃木ほか', '12/12'],
+      ['10/20', 2, 'エナジック沖縄県小学生・中学生ゴルフ大会', '沖縄', '10/31'],
+      ['10/21', 3, '長野県小学生大会（関東小学生 長野県予選）', '長野', '11/1'],
+      ['10/23', 5, 'Jack Bunny!! MY FIRST TEE 関東大会', '千葉', '11/8']
+    ].map(([close, n, name, pref, date]) => ({ close, n, name, pref, date, bg: n <= 3 ? '#D9622B' : '#FBE7DD', fg: n <= 3 ? '#FFFFFF' : '#8A3412' }));
+    // 10/18 から1週間ごとに、締切と受付開始を並べる
+    const EV = [
+      ['close', 10, 19, '日本トリムカップ 千葉'],
+      ['open', 10, 20, '九州沖縄 中学 春季'],
+      ['close', 10, 21, '長野県小学生大会'],
+      ['close', 10, 23, 'MY FIRST TEE 関東'],
+      ['close', 10, 27, '岡山県中学校大会'],
+      ['close', 10, 29, '関東小学生 新潟予選'],
+      ['close', 11, 2, '日本トリムカップ 埼玉'],
+      ['open', 11, 4, '東京都小学生大会'],
+      ['close', 11, 6, '東北小学生大会'],
+      ['open', 11, 11, 'AGA親子ハーフ大会'],
+      ['close', 11, 20, '中国中学校 春季'],
+      ['close', 11, 25, '九州沖縄 中学 春季']
+    ];
+    const DAY0 = Date.UTC(2026, 9, 18);
+    const weeks = [];
+    for (let i = 0; i < 6; i++) {
+      const a = new Date(DAY0 + i * 7 * 86400000), b = new Date(DAY0 + (i * 7 + 6) * 86400000);
+      weeks.push({ label: (a.getUTCMonth() + 1) + '/' + a.getUTCDate() + ' 〜 ' + (b.getUTCMonth() + 1) + '/' + b.getUTCDate(), items: [] });
+    }
+    for (const [k, m, d, name] of EV) {
+      const i = Math.floor((Date.UTC(2026, m - 1, d) - DAY0) / 86400000 / 7);
+      weeks[i].items.push({
+        d: m + '/' + d, name, kind: k === 'close' ? '締切' : '受付開始',
+        color: k === 'close' ? '#D9622B' : '#2F6FB0', tc: k === 'close' ? '#A9441A' : '#2F6FB0'
+      });
+    }
+    const ST = { closed: ['締切済', '#4D6455', '#E3EBE0'], check: ['要項で確認', '#1F4A34', '#DCEBDD'], open: ['締切まで1日', '#FFFFFF', '#D9622B'] };
+    const rows = [
+      ['10/18', '日', 'JLPGA全日本小学生ゴルフトーナメント inふくしま（決勝）', '福島', 'グリーンアカデミーカントリークラブ', '日本女子プロゴルフ協会', 'check'],
+      ['10/19', '月', '大阪府・和歌山県中学校ゴルフ選手権 秋季大会 男子', '大阪', '太子カントリー倶楽部', '大阪府高等学校・中学校ゴルフ連盟', 'check'],
+      ['10/23', '金', '京都府高等学校・中学校ゴルフ選手権 秋季大会', '京都', '瑞穂ゴルフ倶楽部', '京都府高等学校ゴルフ連盟', 'check'],
+      ['10/24', '土', '島根県ジュニアゴルフ秋季大会', '島根', '出雲ゴルフ倶楽部', '島根県ゴルフ協会', 'closed'],
+      ['10/24', '土', '第20回 北海道小学生ゴルフ大会', '北海道', '早来カントリー倶楽部 北コース', '北海道ゴルフ連盟ほか', 'closed'],
+      ['10/25', '日', '日本トリムカップ 関東予選会（千葉）', '千葉', 'ムーンレイクゴルフクラブ 茂原コース', '日本ジュニアゴルフツアー', 'open']
+    ].map(([date, dow, name, pref, venue, org, st]) => ({ date, dow, name, pref, venue, org, status: ST[st][0], fg: ST[st][1], bg: ST[st][2] }));
+    return { dots, contour, tabs, stats, filters, deadlines, weeks, rows };
+  }
+}
+</script>
+</body>
+</html>

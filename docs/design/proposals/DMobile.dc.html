@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>D案 おやこ手帳 スマホ</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.dm-btn:focus-visible{outline:3px solid #F6C343;outline-offset:2px}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; overflow: hidden; font-family: 'M PLUS Rounded 1c', 'Hiragino Maru Gothic ProN', sans-serif; color: #1D2A44; background: #FFFDF7; display: flex; flex-direction: column">
+
+<header style="display: flex; align-items: center; gap: 10px; padding: 16px 18px 8px">
+<span style="width: 34px; height: 34px; border-radius: 11px; background: #F6C343; display: flex; align-items: center; justify-content: center">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1D2A44" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21V3l9 4-9 4"></path><path d="M5 21h8"></path></svg>
+</span>
+<span style="font-weight: 800; font-size: 15px">全国ジュニアゴルフ大会カレンダー</span>
+</header>
+
+<div style="flex: 1; overflow: hidden; padding: 6px 18px 0; display: flex; flex-direction: column; gap: 14px">
+<h1 style="margin: 0; font-size: 25px; font-weight: 800; line-height: 1.4">今週の申込、<br><span style="box-shadow: inset 0 -0.42em 0 #F6C343">わすれていませんか？</span></h1>
+
+<div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px">
+<sc-for list="{{days}}" as="w" hint-placeholder-count="7">
+<button class="dm-btn" aria-pressed="{{w.sel}}" onClick="{{w.pick}}" style="font: inherit; background: {{w.bg}}; border: 2px solid {{w.bd}}; border-radius: 14px; padding: 6px 0 8px; display: flex; flex-direction: column; align-items: center; gap: 2px; cursor: pointer; color: #1D2A44">
+<span style="font-size: 11px; font-weight: 700; color: {{w.dc}}">{{w.dow}}</span>
+<span style="font-size: 18px; font-weight: 800">{{w.day}}</span>
+<span style="display: flex; gap: 2px; height: 6px">
+<sc-for list="{{w.marks}}" as="m" hint-placeholder-count="2">
+<span style="width: 6px; height: 6px; border-radius: 50%; background: {{m.c}}"></span>
+</sc-for>
+</span>
+</button>
+</sc-for>
+</div>
+
+<div style="background: #FFFFFF; border: 2px solid #1D2A44; border-radius: 20px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-size: 14px; font-weight: 800">{{picked.title}}</span>
+<sc-for list="{{picked.items}}" as="e" hint-placeholder-count="3">
+<span style="display: flex; align-items: center; gap: 8px; font-size: 13px; line-height: 1.4">
+<b style="flex: 0 0 auto; font-size: 11px; color: {{e.fg}}; background: {{e.bg}}; border-radius: 999px; padding: 3px 8px">{{e.kind}}</b>{{e.name}}</span>
+</sc-for>
+<sc-if value="{{picked.empty}}">
+<span style="font-size: 13px; color: #4C5872">この日の予定はありません。</span>
+</sc-if>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 14px; padding-top: 6px">
+<span style="font-size: 17px; font-weight: 800">もうすぐ締切</span>
+<sc-for list="{{deadlines}}" as="d" hint-placeholder-count="2">
+<a href="#" style="position: relative; display: flex; flex-direction: column; gap: 4px; background: #FFFFFF; border: 2px solid #E8E2D2; border-radius: 20px; padding: 14px 84px 14px 16px; color: inherit; text-decoration: none">
+<span style="position: absolute; right: 12px; top: 50%; margin-top: -32px; width: 64px; height: 64px; border-radius: 50%; border: 3px dashed #E2574C; color: #B8352B; transform: rotate(-12deg); display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.1">
+<span style="font-size: 11px; font-weight: 800">あと</span><span style="font-size: 20px; font-weight: 800">{{d.n}}日</span>
+</span>
+<span style="font-size: 12px; font-weight: 700; color: #B8352B">締切 {{d.close}}</span>
+<span style="font-size: 14px; font-weight: 800; line-height: 1.45">{{d.name}}</span>
+<span style="font-size: 12px; color: #4C5872">{{d.pref}}　大会の日 {{d.date}}</span>
+</a>
+</sc-for>
+</div>
+</div>
+
+<nav aria-label="表示の切り替え" style="margin: 10px 14px 20px; display: grid; grid-template-columns: repeat(4, 1fr); background: #1D2A44; border-radius: 22px; padding: 6px">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<button class="dm-btn" aria-pressed="{{t.sel}}" onClick="{{t.pick}}" style="font: inherit; font-size: 11px; font-weight: 700; color: {{t.fg}}; background: {{t.bg}}; border: 0; border-radius: 16px; min-height: 52px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; cursor: pointer">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="{{t.fg}}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="{{t.icon}}"></path></svg>{{t.label}}</button>
+</sc-for>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { day: 1, tab: 1 };
+  }
+  renderVals() {
+    const K = {
+      close: ['申込締切', '#FCE3E0', '#8E2A22', '#E2574C'],
+      open: ['受付開始', '#E3EAFB', '#2B4590', '#6C8EE0'],
+      start: ['大会の日', '#FFF4D2', '#1D2A44', '#E0A800']
+    };
+    const W = [
+      [18, '日', [['start', 'JJGT 関東予選会（千葉）'], ['start', 'JLPGA全日本小学生 決勝（福島）']]],
+      [19, '月', [['close', '日本トリムカップ 関東予選会（千葉）'], ['close', '石川遼カップ 地区大会'], ['start', '大阪・和歌山 中学 秋季大会 男子']]],
+      [20, '火', [['close', 'エナジック沖縄県 小・中学生大会'], ['open', '九州沖縄 中学 春季大会']]],
+      [21, '水', [['close', '長野県小学生大会']]],
+      [22, '木', []],
+      [23, '金', [['close', 'MY FIRST TEE 関東大会'], ['start', '京都府 中学 秋季大会']]],
+      [24, '土', [['start', '島根県ジュニア秋季大会'], ['start', '北海道小学生ゴルフ大会']]]
+    ];
+    const days = W.map(([day, dow, items], i) => {
+      const on = this.state.day === i;
+      const kinds = [...new Set(items.map((e) => e[0]))];
+      return {
+        day, dow, sel: String(on),
+        bg: on ? '#F6C343' : '#FFFFFF', bd: on ? '#F6C343' : '#E8E2D2',
+        dc: dow === '日' ? '#B8352B' : dow === '土' ? '#2B4590' : '#4C5872',
+        marks: kinds.map((k) => ({ c: K[k][3] })),
+        pick: () => this.setState({ day: i })
+      };
+    });
+    const [pd, pw, pitems] = W[this.state.day];
+    const picked = {
+      title: '10/' + pd + '（' + pw + '）' + (this.state.day === 0 ? '　きょう' : ''),
+      items: pitems.map(([k, name]) => ({ kind: K[k][0], bg: K[k][1], fg: K[k][2], name })),
+      empty: pitems.length === 0
+    };
+    const deadlines = [
+      ['10/20', 2, 'エナジック沖縄県小学生・中学生ゴルフ大会', '沖縄', '10/31'],
+      ['10/21', 3, '長野県小学生大会（関東小学生大会 長野県予選）', '長野', '11/1']
+    ].map(([close, n, name, pref, date]) => ({ close, n, name, pref, date }));
+    const T = [
+      ['地図', 'M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2zM9 4v14M15 6v14'],
+      ['手帳', 'M4 6h16v14H4zM4 10h16M8 3v4M16 3v4'],
+      ['一覧', 'M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01'],
+      ['発表待ち', 'M12 7v5l3 2M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z']
+    ];
+    const tabs = T.map(([label, icon], i) => {
+      const on = this.state.tab === i;
+      return { label, icon, sel: String(on), fg: on ? '#1D2A44' : '#FFFDF7', bg: on ? '#F6C343' : 'transparent', pick: () => this.setState({ tab: i }) };
+    });
+    return { days, picked, deadlines, tabs };
+  }
+}
+</script>
+</body>
+</html>

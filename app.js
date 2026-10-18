@@ -27,6 +27,44 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const isWatch = (t) => !t.start; // 日程未発表（前年実績から時期を見込む大会）
 const isPast = (t) => !isWatch(t) && daysUntil(t.end || t.start) < 0;
 
+// おやこ手帳デザインのときだけ、カード・今週の手帳・主催者の種類を使う（design.js で決まる）
+const TECHO = document.documentElement.dataset.design === "techo";
+
+// 主催者の種類。主催者欄の先頭の団体（共催・主管・後援などのかっこ書きは除く）で決める
+const ORG_TYPES = {
+  jjga: { label: "JJGA", icon: "M6 21V4M6 4h11l-2 4 2 4H6" },
+  junior: { label: "ジュニアツアー・育成", icon: "M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z" },
+  union: { label: "ゴルフ連盟・協会", icon: "M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z" },
+  school: { label: "学校ゴルフ連盟", icon: "M2 9l10-5 10 5-10 5zM6 11v5c3 2 9 2 12 0v-5" },
+  media: { label: "新聞・テレビ・出版", icon: "M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2M8 9h5M8 13h5M8 16h3" },
+  pro: { label: "プロ団体", icon: "M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8" },
+  other: { label: "企業・ゴルフ場・自治体", icon: "M4 20V8l6-3v15M10 20V4h10v16M3 20h18M13 8h4M13 12h4M13 16h4" },
+};
+const orgHead = (org) => String(org || "").split("／")[0].replace(/（[^）]*(共催|主管|後援|協力|特別協賛)[^）]*）/g, "");
+const orgTypeCache = new Map();
+function orgType(org) {
+  if (orgTypeCache.has(org)) return orgTypeCache.get(org);
+  const h = orgHead(org);
+  const type = /JJGA|日本ジュニアゴルフ協会/.test(h) ? "jjga"
+    : /JLPGA|PGA|JGTO|プロゴルフ/.test(h) ? "pro"
+    : /高等学校|中学校|高ゴ連|中体連/.test(h) ? "school"
+    : /新聞|放送|テレビ|ダイジェスト|デイリー|UHB|NBS|NCC|KAB|TKU|UMK|BSフジ|テレ玉|報知/.test(h) ? "media"
+    : /ジュニアゴルフツアー|JJGT|IJGA|育成|キッズ|パピポ|JGAI|ジュニアゴルフ協会|Future|MIRAI|振興会/.test(h) ? "junior"
+    : /ゴルフ連盟|ゴルフ協会|アマチュアゴルフ|JGA|団体連絡|ゴルフ場協議会|練習場連盟/.test(h) ? "union"
+    : "other";
+  orgTypeCache.set(org, type);
+  return type;
+}
+// ロゴ枠：主催者名に英字の略称（JJGA など）があれば略称、なければ種類の記号。公式ロゴは許諾が取れた団体だけ載せる
+const orgAbbr = (org) => (orgHead(org).match(/（([A-Z]{2,6})）/) || [])[1] || "";
+const orgShort = (org) => orgHead(org).replace(/（[^）]*）/g, "").trim();
+const orgLogo = (org) => {
+  const a = orgAbbr(org);
+  return `<span class="tc-logo${a.length > 4 ? " sm" : ""}" aria-hidden="true">${a ? esc(a) : `<svg viewBox="0 0 24 24"><path d="${ORG_TYPES[orgType(org)].icon}"/></svg>`}</span>`;
+};
+const levelLabel = (t) => { const lv = t.levels || []; return lv.length > 1 ? "小・中" : lv[0] === "中学生" ? "中" : lv[0] === "小学生" ? "小" : ""; };
+const cardHead = (t) => `<div class="tc-head">${orgLogo(t.organizer)}<span class="tc-org"><b>${esc(ORG_TYPES[orgType(t.organizer)].label)}</b><span>${esc(orgShort(t.organizer))}</span></span>${levelLabel(t) ? `<span class="tc-lv">${levelLabel(t)}</span>` : ""}</div>`;
+
 // 申込状況を判定する。kind: open / soon / closed / unknown
 function entryStatus(t) {
   const { entry_open: o, entry_close: c } = t;
@@ -60,6 +98,7 @@ function watchRow(t) {
 }
 
 function row(t) {
+  if (TECHO) return card(t);
   if (isWatch(t)) return watchRow(t);
   const st = entryStatus(t);
   const d = toDate(t.start);
@@ -74,6 +113,109 @@ function row(t) {
     <div class="org">${esc(t.organizer)}</div>
     <div class="cell-status">${status}</div>
   </div>`;
+}
+
+// おやこ手帳デザインの大会カード。見出しの色は主催者の種類
+function card(t) {
+  let date, foot;
+  if (isWatch(t)) {
+    date = `<span class="d tbd">未定</span>`;
+    foot = `<span>${t.window_from ? `${esc(fmtY(t.window_from))}ごろから注意` : "日程は公式ページで確認"}</span><span class="badge st-unknown">発表待ち</span>`;
+  } else {
+    const d = toDate(t.start);
+    date = `<span class="d">${d.getMonth() + 1}/${d.getDate()}</span><span class="w">${WEEK[d.getDay()]}曜日${t.end && t.end !== t.start ? `〜${md(t.end)}` : ""}</span>`;
+    if (isPast(t)) foot = `<span>${esc(t.stage)}</span>${resultCell(t)}`;
+    else {
+      const st = entryStatus(t);
+      const p = t.entry_open && t.entry_close ? `申込 ${md(t.entry_open)}〜${md(t.entry_close)}`
+        : t.entry_close ? `締切 ${md(t.entry_close)}` : t.entry_open ? `受付開始 ${md(t.entry_open)}` : "申込期間は未掲載";
+      foot = `<span>${esc(p)}</span><span class="badge st-${st.kind}">${esc(st.label)}</span>`;
+    }
+  }
+  return `<article class="tc ot-${orgType(t.organizer)}">${cardHead(t)}
+    <div class="tc-body"><div class="tc-date">${date}</div><div class="tc-main"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.pref)}　${esc(t.venue)}</span></div></div>
+    <div class="tc-foot">${foot}</div>
+  </article>`;
+}
+
+// 同じシリーズの大会（石川遼カップの地区大会など）をまとめるための名前
+const seriesName = (t) => t.name.replace(/^キャロウェイゴルフプレゼンツ\s*/, "").replace(/（[^）]*）/g, "").trim();
+const seriesKey = (t) => `${t.organizer}|${seriesName(t)}`;
+const prefSummary = (items) => {
+  const prefs = [...new Set(items.map((t) => t.pref))];
+  return prefs.length > 4 ? `${prefs.slice(0, 4).join("・")}ほか（${prefs.length}都道府県）` : prefs.join("・");
+};
+
+// 今週の手帳：今日から7日間の締切・受付開始・大会の日。同じシリーズは1行にまとめる
+const WEEK_KIND = { close: "申込締切", open: "受付開始", start: "大会の日" };
+const WEEK_SHOW = 4;
+let weekSel = 0;
+function renderWeek(list) {
+  const days = [...Array(7)].map((_, i) => { const d = new Date(today); d.setDate(d.getDate() + i); return d; });
+  const byDay = days.map((d) => {
+    const key = ymd(d);
+    const groups = new Map();
+    for (const e of calEvents(list)) {
+      if (e.date !== key) continue;
+      const g = `${e.kind}|${seriesKey(e.t)}`;
+      if (!groups.has(g)) groups.set(g, { kind: e.kind, items: [] });
+      groups.get(g).items.push(e.t);
+    }
+    return [...groups.values()].sort((a, b) => CAL_ORDER[a.kind] - CAL_ORDER[b.kind] || a.items[0].name.localeCompare(b.items[0].name, "ja"));
+  });
+  const dowCls = (d) => (d.getDay() === 0 ? " sun" : d.getDay() === 6 ? " sat" : "");
+  document.getElementById("week-days").innerHTML = days.map((d, i) => {
+    const types = [...new Set(byDay[i].map((g) => orgType(g.items[0].organizer)))].slice(0, 3);
+    return `<button class="wc${dowCls(d)}" data-wday="${i}" aria-pressed="${i === weekSel}"><span class="w">${WEEK[d.getDay()]}</span><b>${d.getDate()}</b><span class="marks">${types.map((ty) => `<i class="ot-${ty}"></i>`).join("")}</span></button>`;
+  }).join("");
+  document.getElementById("week-grid").innerHTML = days.map((d, i) => {
+    const items = byDay[i].map((g, j) => {
+      const t = g.items[0];
+      const n = g.items.length;
+      return `<button class="wi${j >= WEEK_SHOW ? " extra" : ""}" data-id="${esc(t.id)}"><span class="wi-k k-${g.kind}"><i class="ot-${orgType(t.organizer)}"></i>${WEEK_KIND[g.kind]}</span><span class="wi-n">${esc(n > 1 ? `${seriesName(t)}（${n}会場）` : t.name)}</span><span class="wi-p">${esc(n > 1 ? prefSummary(g.items) : t.pref)}</span></button>`;
+    }).join("");
+    const more = byDay[i].length > WEEK_SHOW ? `<button class="wi-more" data-wmore>ほか ${byDay[i].length - WEEK_SHOW}件</button>` : "";
+    return `<div class="wd${dowCls(d)}${i === weekSel ? " sel" : ""}${i === 0 ? " today" : ""}">
+      <p class="wd-h"><b>${d.getMonth() + 1}/${d.getDate()}</b><span>${WEEK[d.getDay()]}</span>${i === 0 ? "<em>きょう</em>" : ""}</p>
+      ${items || `<p class="wd-none">予定はありません</p>`}${more}
+    </div>`;
+  }).join("");
+}
+
+// もうすぐ締切：締切まで14日以内の大会。同じシリーズで締切日も同じものは1枚にまとめる
+const SOON_SHOW = 8;
+function renderSoon(list) {
+  const groups = new Map();
+  for (const t of list) {
+    if (isWatch(t) || isPast(t) || !t.entry_close) continue;
+    const n = daysUntil(t.entry_close);
+    if (n < 0 || n > 14 || entryStatus(t).kind !== "open") continue;
+    const k = `${seriesKey(t)}|${t.entry_close}`;
+    if (!groups.has(k)) groups.set(k, []);
+    groups.get(k).push(t);
+  }
+  const cards = [...groups.values()]
+    .map((items) => items.sort((a, b) => a.start.localeCompare(b.start)))
+    .sort((a, b) => a[0].entry_close.localeCompare(b[0].entry_close) || a[0].start.localeCompare(b[0].start));
+  document.getElementById("soon").hidden = !cards.length;
+  document.getElementById("soon-list").innerHTML = cards.slice(0, SOON_SHOW).map((items) => {
+    const t = items[0];
+    const n = daysUntil(t.entry_close);
+    const many = items.length > 1;
+    const last = items[items.length - 1];
+    const dates = many ? `${md(t.start)}〜${md(last.start)}` : (t.end && t.end !== t.start ? `${md(t.start)}〜${md(t.end)}` : fmt(t.start));
+    return `<article class="tc sc ot-${orgType(t.organizer)}">${cardHead(t)}
+      <span class="stamp" aria-label="${n === 0 ? "本日締切" : `締切まであと${n}日`}">${n === 0 ? "<b>本日</b>締切" : `<small>あと</small><b>${n}日</b>`}</span>
+      <div class="sc-body">
+        <p class="sc-close">締切 ${esc(fmt(t.entry_close))}</p>
+        <button class="name" data-id="${esc(t.id)}">${esc(many ? `${seriesName(t)}　${items.length}会場` : t.name)}</button>
+        <span class="sub">${esc(many ? prefSummary(items) : `${t.pref}　${t.venue}`)}</span>
+        <p class="sc-date"><span>大会の日 ${esc(dates)}</span>${levelLabel(t) ? `<span class="tc-lv">${levelLabel(t)}</span>` : ""}</p>
+      </div>
+      ${many ? `<details class="sc-venues"><summary>${items.length}会場を見る</summary><ul>${items.map((x) => `<li><button class="pop-name" data-id="${esc(x.id)}">${esc(md(x.start))} ${esc(x.pref)} ${esc(x.venue)}</button></li>`).join("")}</ul></details>` : ""}
+    </article>`;
+  }).join("");
+  document.getElementById("soon-all").hidden = cards.length <= SOON_SHOW;
 }
 
 // 終了した大会の結果リンク（一覧では先頭の1件、詳細ではすべて表示）
@@ -92,6 +234,7 @@ function resultBlock(t) {
 
 // 地図の横に出す、幅の狭い一覧の行
 function mapRow(t) {
+  if (TECHO) return card(t);
   const st = entryStatus(t);
   return `<div class="mrow">
     <div class="date"><span class="d">${esc(md(t.start))}</span><span class="w">${WEEK[toDate(t.start).getDay()]}</span></div>
@@ -198,8 +341,19 @@ async function main() {
     fPref.append(g);
   }
   // 対象（小学生・中学生）とエリアで絞る。levels は大会に出られる学校段階
-  const inArea = (t) => (!fLevel.value || (t.levels || []).includes(fLevel.value))
+  const inLevelArea = (t) => (!fLevel.value || (t.levels || []).includes(fLevel.value))
     && (!fPref.value || (fPref.value.startsWith("r:") ? regionOf(t.pref) === fPref.value.slice(2) : t.pref === fPref.value));
+  // おやこ手帳デザインでは、主催者の種類でも絞れる
+  let fType = "";
+  if (TECHO) try { const s = localStorage.getItem("otype"); if (s && ORG_TYPES[s]) fType = s; } catch {}
+  const inArea = (t) => inLevelArea(t) && (!fType || orgType(t.organizer) === fType);
+  const typesEl = document.getElementById("otypes");
+  const renderTypes = () => {
+    const pool = tournaments.filter((t) => inLevelArea(t) && !isWatch(t) && !isPast(t));
+    const count = (k) => pool.filter((t) => !k || orgType(t.organizer) === k).length;
+    typesEl.innerHTML = `<span class="ot-lbl">主催者の種類</span>` + [["", "すべて"], ...Object.entries(ORG_TYPES).map(([k, v]) => [k, v.label])]
+      .map(([k, label]) => `<button class="otc${k ? ` ot-${k}` : ""}" data-otype="${k}" aria-pressed="${fType === k}">${k ? `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${ORG_TYPES[k].icon}"/></svg>` : ""}${esc(label)}<span class="n">${count(k)}</span></button>`).join("");
+  };
   // 主催はエリアで絞った大会の主催だけを出す
   const fillOrgs = () => {
     const keep = fOrg.value;
@@ -234,6 +388,12 @@ async function main() {
       past: base.filter(isPast).sort((a, b) => byDate(b, a)),
     };
     sets.map = sets.upcoming;
+    if (TECHO) {
+      renderTypes();
+      const dated = base.filter((t) => !isWatch(t));
+      renderWeek(dated);
+      renderSoon(dated);
+    }
     tabs.forEach((b) => {
       b.setAttribute("aria-selected", String(b.dataset.view === view));
       const n = sets[b.dataset.view];
@@ -261,14 +421,23 @@ async function main() {
     document.querySelector(".table-head span:last-child").textContent = view === "past" ? "結果" : "申込";
     const el = document.getElementById("list");
     if (!list.length) { el.innerHTML = `<p class="empty">該当する大会はありません。</p>`; return; }
-    if (view === "watch") { el.innerHTML = `<p class="month">前年の実績から、申込が始まりそうな順</p>` + list.map(row).join(""); return; }
+    if (view === "watch") {
+      const rows = list.map(row).join("");
+      el.innerHTML = `<p class="month">前年の実績から、申込が始まりそうな順</p>` + (TECHO ? `<div class="cards">${rows}</div>` : rows);
+      return;
+    }
+    // 月ごとに見出しを入れる。おやこ手帳デザインでは月ごとにカードを並べる
     let html = "", month = "";
     for (const t of list) {
       const m = `${t.start.slice(0, 4)}.${t.start.slice(5, 7)}`;
-      if (m !== month) { html += `<p class="month">${m}</p>`; month = m; }
+      if (m !== month) {
+        if (TECHO && month) html += "</div>";
+        html += `<p class="month">${m}</p>` + (TECHO ? `<div class="cards">` : "");
+        month = m;
+      }
       html += row(t);
     }
-    el.innerHTML = html;
+    el.innerHTML = html + (TECHO && month ? "</div>" : "");
   };
 
   tabs.forEach((b) => b.addEventListener("click", () => { view = b.dataset.view; render(); }));
@@ -282,12 +451,32 @@ async function main() {
     fillOrgs(); render();
   });
   bindCalendar(calEl, render);
+  if (TECHO) {
+    typesEl.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-otype]");
+      if (!b) return;
+      fType = b.dataset.otype;
+      try { localStorage.setItem("otype", fType); } catch {}
+      fillOrgs(); render();
+    });
+    document.getElementById("week").addEventListener("click", (e) => {
+      const day = e.target.closest("[data-wday]");
+      if (day) { weekSel = Number(day.dataset.wday); render(); return; }
+      const more = e.target.closest("[data-wmore]");
+      if (more) { more.closest(".wd").classList.add("expanded"); more.remove(); }
+    });
+    document.getElementById("soon-all").addEventListener("click", () => {
+      view = "open"; render();
+      document.getElementById("tabs").scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  }
 
   const dlg = document.getElementById("detail");
   const open = (id) => {
     const t = byId[id];
     if (!t) return;
-    document.getElementById("d-body").innerHTML = detail(t);
+    const band = TECHO ? `<div class="d-org ot-${orgType(t.organizer)}">${orgLogo(t.organizer)}<span><b>${esc(ORG_TYPES[orgType(t.organizer)].label)}</b>${esc(t.organizer)}</span></div>` : "";
+    document.getElementById("d-body").innerHTML = band + detail(t);
     if (!dlg.open) dlg.showModal();
     if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
   };

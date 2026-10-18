@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>改訂A案 エディトリアル×カード</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.ra-link{color:#0F4D36;text-decoration:underline;text-underline-offset:3px}
+.ra-card{transition:transform .15s, box-shadow .15s}
+.ra-card:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(20,33,27,0.12)}
+.ra-btn:focus-visible,.ra-link:focus-visible,.ra-card:focus-visible{outline:2px solid #C8441C;outline-offset:2px}
+</style>
+</helmet>
+<div style="font-family: 'Zen Kaku Gothic New', 'Hiragino Sans', sans-serif; color: #14211B; background: #F7F8F4; min-height: 2100px">
+<div style="max-width: 1440px; margin: 0 auto; padding: 0 64px; box-sizing: border-box">
+
+<header style="display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 26px 0 20px; border-bottom: 1px solid #14211B">
+<div style="display: flex; align-items: baseline; gap: 18px">
+<span style="font-family: 'Shippori Mincho B1', serif; font-weight: 800; font-size: 24px; letter-spacing: 0.06em">全国ジュニアゴルフ大会カレンダー</span>
+<span style="font-size: 11px; letter-spacing: 0.3em; color: #3C4A42">JUNIOR GOLF CALENDAR JAPAN</span>
+</div>
+<nav style="display: flex; gap: 28px; font-size: 13px">
+<a href="#" class="ra-link">使い方</a>
+<a href="#" class="ra-link">カレンダーに登録</a>
+<a href="#" class="ra-link">情報源について</a>
+</nav>
+</header>
+
+<section style="display: grid; grid-template-columns: 1fr 500px; gap: 64px; padding: 56px 0 48px; border-bottom: 1px solid #D7DCD8">
+<div>
+<p style="margin: 0 0 16px; font-size: 13px; letter-spacing: 0.2em; color: #0F4D36; font-weight: 700">小学生・中学生のゴルフ大会　全国版</p>
+<h1 style="margin: 0; font-family: 'Shippori Mincho B1', serif; font-weight: 800; font-size: 84px; line-height: 1.12">申込を、<br>逃さない。</h1>
+<p style="margin: 24px 0 0; font-size: 16px; line-height: 1.9; max-width: 560px; color: #33433B">全国の大会の日程と、申込の受付開始・締切をひとつにまとめました。カードの色で、どこが主催する大会かが分かります。</p>
+</div>
+<dl style="margin: 0; align-self: end">
+<sc-for list="{{stats}}" as="s" hint-placeholder-count="4">
+<div style="display: grid; grid-template-columns: 170px 1fr; align-items: baseline; padding: 14px 0; border-top: 1px solid #D7DCD8">
+<dt style="font-family: 'Shippori Mincho B1', serif; font-size: 54px; font-weight: 700; line-height: 1; color: {{s.color}}">{{s.n}}</dt>
+<dd style="margin: 0; font-size: 15px; font-weight: 500">{{s.label}}</dd>
+</div>
+</sc-for>
+</dl>
+</section>
+
+<section style="padding: 52px 0 48px" aria-labelledby="ra-dl">
+<div style="display: flex; align-items: baseline; gap: 24px; margin-bottom: 24px">
+<span style="font-family: 'Shippori Mincho B1', serif; font-size: 20px; color: #C8441C; font-weight: 700">01</span>
+<h2 id="ra-dl" style="margin: 0; font-family: 'Shippori Mincho B1', serif; font-size: 34px; font-weight: 800">締切が近い大会</h2>
+<a href="#" class="ra-link" style="margin-left: auto; font-size: 14px">2週間以内の締切をすべて見る</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px">
+<sc-for list="{{hot}}" as="c" hint-placeholder-count="4">
+<a href="#" class="ra-card" style="display: flex; flex-direction: column; background: #FFFFFF; border: 1px solid #DFE3DC; border-radius: 16px; overflow: hidden; color: inherit; text-decoration: none">
+<span style="background: {{c.tint}}; border-top: 5px solid {{c.color}}; padding: 12px 14px; display: flex; align-items: center; gap: 10px">
+<span style="flex: 0 0 auto; width: 42px; height: 42px; border-radius: 11px; background: #FFFFFF; border: 1.5px solid {{c.color}}; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 900; color: {{c.color}}">
+<sc-if value="{{c.hasAbbr}}">{{c.abbr}}</sc-if>
+<sc-if value="{{c.noAbbr}}"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="{{c.color}}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="{{c.icon}}"></path></svg></sc-if>
+</span>
+<span style="display: flex; flex-direction: column; gap: 1px; min-width: 0">
+<span style="font-size: 11px; font-weight: 900; color: {{c.color}}">{{c.cat}}</span>
+<span style="font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{c.org}}</span>
+</span>
+<span style="margin-left: auto; font-size: 10px; font-weight: 700; border: 1px solid #9AA59F; border-radius: 999px; padding: 2px 7px; white-space: nowrap">{{c.lv}}</span>
+</span>
+<span style="display: flex; align-items: center; gap: 14px; padding: 18px 18px 6px">
+<span style="font-family: 'Shippori Mincho B1', serif; font-size: 44px; font-weight: 800; line-height: 1; color: #C8441C">{{c.close}}</span>
+<span style="display: flex; flex-direction: column; font-size: 12px; line-height: 1.4">申込締切<b style="font-size: 15px; color: #C8441C">あと{{c.left}}日</b></span>
+</span>
+<span style="padding: 6px 18px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1">
+<span style="font-size: 16px; font-weight: 900; line-height: 1.5">{{c.name}}</span>
+<span style="font-size: 12px; color: #3C4A42">{{c.place}}</span>
+</span>
+<span style="padding: 10px 18px; border-top: 1px dashed #D7DCD8; font-size: 12px; color: #3C4A42">開催 {{c.date}}</span>
+</a>
+</sc-for>
+</div>
+</section>
+
+<section style="padding: 52px 0 48px; border-top: 1px solid #D7DCD8" aria-labelledby="ra-find">
+<div style="display: flex; align-items: baseline; gap: 24px; margin-bottom: 24px">
+<span style="font-family: 'Shippori Mincho B1', serif; font-size: 20px; color: #C8441C; font-weight: 700">02</span>
+<h2 id="ra-find" style="margin: 0; font-family: 'Shippori Mincho B1', serif; font-size: 34px; font-weight: 800">大会を探す</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 24px; border-bottom: 1px solid #14211B">
+<div role="tablist" style="display: flex; gap: 30px">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="6">
+<button role="tab" class="ra-btn" aria-selected="{{t.sel}}" onClick="{{t.pick}}" style="font: inherit; font-size: 15px; font-weight: {{t.weight}}; background: none; border: 0; border-bottom: 3px solid {{t.line}}; color: #14211B; padding: 14px 0 12px; margin-bottom: -2px; cursor: pointer">{{t.label}}<span style="margin-left: 8px; font-size: 12px; color: #3C4A42">{{t.n}}</span></button>
+</sc-for>
+</div>
+<div style="display: flex; gap: 28px; padding-bottom: 12px">
+<sc-for list="{{filters}}" as="f" hint-placeholder-count="2">
+<label style="display: flex; flex-direction: column; gap: 4px; font-size: 11px; letter-spacing: 0.12em; color: #3C4A42">{{f.label}}<span style="font-size: 14px; letter-spacing: 0; color: #14211B; border-bottom: 1px solid #14211B; padding: 4px 28px 4px 0; min-width: 120px">{{f.value}}</span></label>
+</sc-for>
+</div>
+</div>
+
+<div role="group" aria-label="主催者の種類" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px; padding: 20px 0 24px">
+<span style="font-size: 12px; font-weight: 700; color: #3C4A42; margin-right: 6px">主催者</span>
+<sc-for list="{{chips}}" as="k" hint-placeholder-count="8">
+<button class="ra-btn" aria-pressed="{{k.sel}}" onClick="{{k.pick}}" style="font: inherit; display: inline-flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 700; color: {{k.fg}}; background: {{k.bg}}; border: 1.5px solid {{k.bd}}; border-radius: 999px; padding: 7px 14px; cursor: pointer">
+<span style="width: 10px; height: 10px; border-radius: 3px; background: {{k.dot}}"></span>{{k.name}}<span style="font-size: 12px; font-weight: 500">{{k.n}}</span></button>
+</sc-for>
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px">
+<sc-for list="{{cards}}" as="c" hint-placeholder-count="12">
+<a href="#" class="ra-card" style="display: flex; flex-direction: column; background: #FFFFFF; border: 1px solid #DFE3DC; border-radius: 14px; overflow: hidden; color: inherit; text-decoration: none; opacity: {{c.op}}">
+<span style="background: {{c.tint}}; border-top: 4px solid {{c.color}}; padding: 10px 12px; display: flex; align-items: center; gap: 10px">
+<span style="flex: 0 0 auto; width: 38px; height: 38px; border-radius: 10px; background: #FFFFFF; border: 1.5px solid {{c.color}}; display: flex; align-items: center; justify-content: center; font-size: {{c.afs}}px; font-weight: 900; color: {{c.color}}">
+<sc-if value="{{c.hasAbbr}}">{{c.abbr}}</sc-if>
+<sc-if value="{{c.noAbbr}}"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="{{c.color}}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="{{c.icon}}"></path></svg></sc-if>
+</span>
+<span style="display: flex; flex-direction: column; gap: 1px; min-width: 0">
+<span style="font-size: 11px; font-weight: 900; color: {{c.color}}">{{c.cat}}</span>
+<span style="font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">{{c.org}}</span>
+</span>
+<span style="margin-left: auto; font-size: 10px; font-weight: 700; border: 1px solid #9AA59F; border-radius: 999px; padding: 2px 7px; white-space: nowrap">{{c.lv}}</span>
+</span>
+<span style="padding: 14px 14px 12px; display: flex; flex-direction: column; gap: 6px; flex: 1">
+<span style="font-family: 'Shippori Mincho B1', serif; font-size: 26px; font-weight: 700; line-height: 1.1">{{c.date}}<span style="font-family: 'Zen Kaku Gothic New', sans-serif; font-size: 13px; font-weight: 500; margin-left: 4px">{{c.dow}}曜日</span></span>
+<span style="font-size: 14px; font-weight: 900; line-height: 1.5">{{c.name}}</span>
+<span style="font-size: 12px; color: #3C4A42">{{c.place}}</span>
+</span>
+<span style="display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 10px 14px; border-top: 1px dashed #D7DCD8; font-size: 12px">
+<span>{{c.foot}}</span>
+<span style="font-weight: 900; color: {{c.bfg}}; background: {{c.bbg}}; border: 1px solid {{c.bbd}}; border-radius: 999px; padding: 3px 10px; white-space: nowrap">{{c.badge}}</span>
+</span>
+</a>
+</sc-for>
+</div>
+<div style="display: flex; justify-content: center; padding-top: 28px">
+<button class="ra-btn" style="font: inherit; font-size: 14px; font-weight: 700; color: #14211B; background: #FFFFFF; border: 1px solid #14211B; border-radius: 999px; padding: 12px 28px; cursor: pointer">さらに表示（これからの大会 111件）</button>
+</div>
+</section>
+
+<section style="padding: 48px 0 64px; border-top: 1px solid #D7DCD8" aria-labelledby="ra-open">
+<div style="display: flex; align-items: baseline; gap: 24px; margin-bottom: 24px">
+<span style="font-family: 'Shippori Mincho B1', serif; font-size: 20px; color: #C8441C; font-weight: 700">03</span>
+<h2 id="ra-open" style="margin: 0; font-family: 'Shippori Mincho B1', serif; font-size: 34px; font-weight: 800">まもなく受付開始</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px">
+<sc-for list="{{opens}}" as="o" hint-placeholder-count="4">
+<div style="background: #FFFFFF; border: 1px solid #DFE3DC; border-top: 4px solid {{o.color}}; border-radius: 14px; padding: 18px 18px 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="display: flex; justify-content: space-between; align-items: center"><span style="font-size: 11px; font-weight: 900; color: {{o.color}}">{{o.cat}}</span><span style="font-size: 12px; font-weight: 700; color: #0F4D36">受付開始</span></span>
+<span style="font-family: 'Shippori Mincho B1', serif; font-size: 38px; font-weight: 700; line-height: 1">{{o.open}}</span>
+<span style="font-size: 15px; font-weight: 900; line-height: 1.5">{{o.name}}</span>
+<span style="font-size: 12px; color: #3C4A42">{{o.pref}}　開催 {{o.date}}</span>
+</div>
+</sc-for>
+</div>
+</section>
+
+<footer style="display: flex; justify-content: space-between; gap: 24px; padding: 24px 0 40px; border-top: 1px solid #14211B; font-size: 12px; color: #3C4A42">
+<span>各大会の情報は主催者の公式ページで必ずご確認ください。</span>
+<span>地図 © OpenStreetMap contributors</span>
+</footer>
+</div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2100}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { tab: 2, cat: null };
+  }
+  renderVals() {
+    const CAT = {
+      jjga: ['JJGA', '#1D5FA8', '#E6EEF8', 'M6 21V4M6 4h11l-2 4 2 4H6', 44],
+      junior: ['ジュニアツアー・育成', '#00796B', '#E0F1EE', 'M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z', 15],
+      union: ['ゴルフ連盟・協会', '#3B6B1F', '#E8F0E1', 'M12 3l8 3v6c0 4.5-3.4 8-8 9-4.6-1-8-4.5-8-9V6z', 15],
+      school: ['学校ゴルフ連盟', '#6A47A8', '#EEE9F7', 'M2 9l10-5 10 5-10 5zM6 11v5c3 2 9 2 12 0v-5', 22],
+      media: ['新聞・テレビ・出版', '#A35C00', '#F7ECDD', 'M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2M8 9h5M8 13h5M8 16h3', 10],
+      pro: ['プロ団体', '#B0306A', '#F7E4EE', 'M8 4h8v5a4 4 0 0 1-8 0zM8 6H5a3 3 0 0 0 3 4M16 6h3a3 3 0 0 1-3 4M12 13v4M8 20h8', 1],
+      other: ['企業・ゴルフ場・自治体', '#56636E', '#ECEFF1', 'M4 20V8l6-3v15M10 20V4h10v16M3 20h18M13 8h4M13 12h4M13 16h4', 4]
+    };
+    const base = (k, abbr, org, lv) => {
+      const [cat, color, tint, icon] = CAT[k];
+      return { k, cat, color, tint, icon, abbr, org, lv, hasAbbr: !!abbr, noAbbr: !abbr, afs: abbr.length > 4 ? 10 : 12 };
+    };
+    const stats = [['52', '申込受付中・まもなく受付', '#C8441C'], ['111', 'これからの大会', '#14211B'], ['166', '日程発表待ち', '#14211B'], ['649', '掲載している大会の総数', '#3C4A42']]
+      .map(([n, label, color]) => ({ n, label, color }));
+    const hot = [
+      ['jjga', 'JJGA', '日本ジュニアゴルフ協会', '小・中', '10/19', 1, '石川遼カップ 地区大会　19会場', '13県（栃木・茨城・兵庫・福岡ほか）', '12/12〜1/11'],
+      ['junior', 'JJGT', '日本ジュニアゴルフツアー', '小・中', '10/19', 1, '日本トリムカップ 関東予選会（千葉）', '千葉　ムーンレイクゴルフクラブ 茂原コース', '10/25（日）'],
+      ['other', '', 'エナジック株式会社', '小・中', '10/20', 2, 'エナジック沖縄県小学生・中学生ゴルフ大会', '沖縄　エナジック具志川ゴルフクラブ', '10/31（土）'],
+      ['union', '', '長野県ゴルフ協会', '小', '10/21', 3, '長野県小学生大会（関東小学生大会 長野県予選）', '長野　松本カントリークラブ', '11/1（日）']
+    ].map(([k, abbr, org, lv, close, left, name, place, date]) => ({ ...base(k, abbr, org, lv), close, left, name, place, date }));
+    const tabs = [['地図', '111'], ['申込カレンダー', ''], ['これからの大会', '111'], ['申込受付中', '52'], ['日程発表待ち', '166'], ['終了した大会', '372']].map(([label, n], i) => {
+      const on = this.state.tab === i;
+      return { label, n, sel: String(on), weight: on ? 700 : 400, line: on ? '#C8441C' : 'transparent', pick: () => this.setState({ tab: i }) };
+    });
+    const filters = [['対象', '小学生・中学生'], ['エリア', 'すべて']].map(([label, value]) => ({ label, value }));
+    const sel = this.state.cat;
+    const chips = [{ key: null, name: 'すべて', n: 111, color: '#14211B' }]
+      .concat(Object.entries(CAT).map(([key, v]) => ({ key, name: v[0], n: v[4], color: v[1] })))
+      .map((c) => {
+        const on = sel === c.key;
+        return {
+          name: c.name, n: c.n, sel: String(on), dot: on ? '#FFFFFF' : c.color,
+          fg: on ? '#FFFFFF' : '#14211B', bg: on ? c.color : '#FFFFFF', bd: on ? c.color : '#D7DCD8',
+          pick: () => this.setState({ cat: c.key })
+        };
+      });
+    const B = {
+      hot: ['#C8441C', '#FFFFFF', '#C8441C'],
+      check: ['#FFFFFF', '#0F4D36', '#0F4D36'],
+      done: ['#F1F2EF', '#56636E', '#D7DCD8']
+    };
+    const ST = { done: ['締切済', 'done'], check: ['要項で確認', 'check'], hot: ['あと1日', 'hot'] };
+    const U = [
+      ['junior', 'JJGT', '日本ジュニアゴルフツアー', '小・中', '10/18', '日', 'JJGT 関東予選会（千葉）', '千葉　紫カントリークラブ あやめ36', '申込締切 10/12', 'done'],
+      ['pro', 'JLPGA', '日本女子プロゴルフ協会', '小', '10/18', '日', 'JLPGA全日本小学生ゴルフトーナメント inふくしま（決勝）', '福島　グリーンアカデミーカントリークラブ', '申込期間は未掲載', 'check'],
+      ['school', '', '大阪府高等学校・中学校ゴルフ連盟', '中', '10/19', '月', '大阪府・和歌山県中学校ゴルフ選手権 秋季大会 男子', '大阪　太子カントリー倶楽部', '申込期間は未掲載', 'check'],
+      ['school', '', '京都府高等学校ゴルフ連盟', '中', '10/23', '金', '京都府高等学校・中学校ゴルフ選手権 秋季大会', '京都　瑞穂ゴルフ倶楽部', '申込期間は未掲載', 'check'],
+      ['union', '', '島根県ゴルフ協会', '小・中', '10/24', '土', '島根県ジュニアゴルフ秋季大会', '島根　出雲ゴルフ倶楽部', '申込締切 10/5', 'done'],
+      ['media', '', 'スポーツニッポン新聞社', '小', '10/24', '土', '第20回 北海道小学生ゴルフ大会', '北海道　早来カントリー倶楽部 北コース', '申込締切 10/8', 'done'],
+      ['jjga', 'JJGA', '日本ジュニアゴルフ協会', '小・中', '10/25', '日', '石川遼カップ 地区大会', '北海道　真駒内カントリークラブ 藻岩コース', '申込締切 10/9', 'done'],
+      ['jjga', 'JJGA', '日本ジュニアゴルフ協会', '小・中', '10/25', '日', '石川遼カップ 地区大会', '大分　大分カントリークラブ 月形コース', '申込締切 10/9', 'done'],
+      ['junior', 'JJGT', '日本ジュニアゴルフツアー', '小・中', '10/25', '日', '日本トリムカップ 関東予選会（千葉）', '千葉　ムーンレイクゴルフクラブ 茂原コース', '申込締切 10/19', 'hot'],
+      ['jjga', 'JJGA', '日本ジュニアゴルフ協会', '小・中', '10/25', '日', '石川遼カップ 地区大会', '茨城　ロックヒルゴルフクラブ', '申込締切 10/9', 'done'],
+      ['media', '', 'デイリースポーツ', '小・中', '10/25', '日', '第35回 四国ジュニアゴルフ選手権 秋季大会', '香川　チェリーゴルフ屋島コース', '申込締切 10/5', 'done'],
+      ['school', '', '三重県高等学校中学校ゴルフ連盟', '中', '10/25', '日', '全国中学校ゴルフ選手権春季大会 三重県予選', '三重　津カントリー倶楽部', '申込締切 10/5', 'done']
+    ];
+    const cards = U.map(([k, abbr, org, lv, date, dow, name, place, foot, st]) => {
+      const b = B[ST[st][1]];
+      return { ...base(k, abbr, org, lv), date, dow, name, place, foot, badge: ST[st][0], bbg: b[0], bfg: b[1], bbd: b[2], op: sel && sel !== k ? 0.22 : 1 };
+    });
+    const opens = [
+      ['school', '10/20', '九州沖縄高等学校・中学校ゴルフ選手権 春季大会', '鹿児島', '12/24'],
+      ['union', '11/4', '第12回 東京都小学生ゴルフ大会', '東京', '12/25'],
+      ['union', '11/11', '第6回 AGA親子ハーフ大会', '愛知', '1/11'],
+      ['school', '11/30', '関東中学校ゴルフ選手権 冬季大会 決勝', '埼玉', '1/19']
+    ].map(([k, open, name, pref, date]) => ({ cat: CAT[k][0], color: CAT[k][1], open, name, pref, date }));
+    return { stats, hot, tabs, filters, chips, cards, opens };
+  }
+}
+</script>
+</body>
+</html>

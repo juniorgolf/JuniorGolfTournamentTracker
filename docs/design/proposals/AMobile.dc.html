@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>A案 エディトリアル スマホ</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+.am-btn:focus-visible{outline:2px solid #C8441C;outline-offset:2px}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; overflow: hidden; font-family: 'Noto Sans JP', 'Hiragino Sans', sans-serif; color: #14211B; background: #FFFFFF; font-feature-settings: 'palt'; display: flex; flex-direction: column">
+
+<header style="display: flex; align-items: center; justify-content: space-between; padding: 16px 20px 12px; border-bottom: 1px solid #14211B">
+<span style="font-family: 'Shippori Mincho B1', serif; font-weight: 800; font-size: 16px; letter-spacing: 0.04em">全国ジュニアゴルフ大会カレンダー</span>
+<button class="am-btn" aria-label="メニュー" style="width: 44px; height: 44px; margin-right: -10px; background: none; border: 0; display: flex; align-items: center; justify-content: center; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#14211B" stroke-width="1.6" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+</button>
+</header>
+
+<div style="flex: 1; overflow: hidden; padding: 0 20px">
+<section style="padding: 28px 0 22px; border-bottom: 1px solid #D7DCD8">
+<p style="margin: 0 0 10px; font-size: 11px; letter-spacing: 0.2em; color: #0F4D36; font-weight: 700">小学生・中学生のゴルフ大会　全国版</p>
+<h1 style="margin: 0; font-family: 'Shippori Mincho B1', serif; font-weight: 800; font-size: 46px; line-height: 1.15">申込を、<br>逃さない。</h1>
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); margin-top: 22px; border-top: 1px solid #D7DCD8">
+<sc-for list="{{stats}}" as="s" hint-placeholder-count="3">
+<div style="padding: 12px 0 0">
+<span style="display: block; font-family: 'Shippori Mincho B1', serif; font-size: 32px; font-weight: 700; line-height: 1; color: {{s.color}}">{{s.n}}</span>
+<span style="display: block; margin-top: 6px; font-size: 11px; line-height: 1.4; color: #33433B">{{s.label}}</span>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section style="padding: 22px 0 0" aria-labelledby="am-dl">
+<div style="display: flex; align-items: baseline; gap: 12px; margin-bottom: 10px">
+<span style="font-family: 'Shippori Mincho B1', serif; font-size: 14px; color: #C8441C; font-weight: 700">01</span>
+<h2 id="am-dl" style="margin: 0; font-family: 'Shippori Mincho B1', serif; font-size: 22px; font-weight: 800">締切が近い大会</h2>
+</div>
+<div style="border-top: 2px solid #14211B">
+<sc-for list="{{deadlines}}" as="d" hint-placeholder-count="5">
+<a href="#" style="display: grid; grid-template-columns: 64px 1fr; gap: 14px; padding: 13px 0; border-bottom: 1px solid #D7DCD8; color: inherit; text-decoration: none">
+<span style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-family: 'Shippori Mincho B1', serif; font-size: 22px; font-weight: 700; line-height: 1">{{d.close}}</span>
+<span style="font-size: 11px; font-weight: 700; color: {{d.color}}">{{d.left}}</span>
+</span>
+<span style="display: flex; flex-direction: column; gap: 3px; min-width: 0">
+<span style="font-size: 14px; font-weight: 700; line-height: 1.45">{{d.name}}</span>
+<span style="font-size: 12px; color: #33433B">{{d.pref}}　開催 {{d.date}}</span>
+</span>
+</a>
+</sc-for>
+</div>
+</section>
+</div>
+
+<nav aria-label="表示の切り替え" style="display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid #14211B; background: #FFFFFF; padding-bottom: 18px">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="4">
+<button class="am-btn" aria-pressed="{{t.sel}}" onClick="{{t.pick}}" style="font: inherit; font-size: 11px; font-weight: {{t.weight}}; color: {{t.fg}}; background: none; border: 0; border-top: 3px solid {{t.line}}; margin-top: -2px; padding: 10px 0 8px; min-height: 56px; display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer">
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="{{t.fg}}" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="{{t.icon}}"></path></svg>
+{{t.label}}
+</button>
+</sc-for>
+</nav>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  constructor(props) {
+    super(props);
+    this.state = { tab: 0 };
+  }
+  renderVals() {
+    const stats = [['52', '申込受付中・まもなく', '#C8441C'], ['111', 'これからの大会', '#14211B'], ['166', '日程発表待ち', '#14211B']]
+      .map(([n, label, color]) => ({ n, label, color }));
+    const deadlines = [
+      ['10/19', 1, '日本トリムカップ 関東予選会（千葉）', '千葉', '10/25'],
+      ['10/19', 1, '石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会', '栃木ほか', '12/12'],
+      ['10/20', 2, 'エナジック沖縄県小学生・中学生ゴルフ大会', '沖縄', '10/31'],
+      ['10/21', 3, '長野県小学生大会（関東小学生大会 長野県予選）', '長野', '11/1'],
+      ['10/23', 5, 'Jack Bunny!! MY FIRST TEE 関東大会', '千葉', '11/8']
+    ].map(([close, n, name, pref, date]) => ({ close, left: 'あと' + n + '日', color: n <= 3 ? '#C8441C' : '#0F4D36', name, pref, date }));
+    const T = [
+      ['地図', 'M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2zM9 4v14M15 6v14'],
+      ['カレンダー', 'M4 6h16v14H4zM4 10h16M8 3v4M16 3v4'],
+      ['一覧', 'M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01'],
+      ['発表待ち', 'M12 7v5l3 2M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z']
+    ];
+    const tabs = T.map(([label, icon], i) => {
+      const on = this.state.tab === i;
+      return { label, icon, sel: String(on), weight: on ? 700 : 400, fg: on ? '#14211B' : '#4A5A52', line: on ? '#C8441C' : 'transparent', pick: () => this.setState({ tab: i }) };
+    });
+    return { stats, deadlines, tabs };
+  }
+}
+</script>
+</body>
+</html>
