@@ -28,27 +28,14 @@
   --font: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
   --num: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
-  [data-design="techo"] {
-    --bg: #141a29;
-    --surface: #1c2436;
-    --paper: #192032;
-    --ink: #f3efe4;
-    --ink-2: #b9bfcc;
-    --ink-3: #959cad;
-    --rule: #2f3850;
-    --muted-soft: #262e42;
-    --yellow-soft: #3a3220;
-    --amber-ink: #f3cf7a;
-    --coral-ink: #f29a90;
-    --coral-soft: #3b2224;
-    --blue-ink: #a9bcf0;
-    --blue-soft: #222c47;
-    --on-ot: #141a29;
-    --accent: #f29a90;
-    --info: #a9bcf0;
-  }
-}
+
+/* 2026-10-18 ユーザー指示：スマホ（暗い画面設定）でも PC と同じクリーム地にするため、暗い配色は使わない。
+   style.css の暗い画面用の色（申込カレンダーの印など）もここで明るい色に戻す */
+[data-design="techo"] { color-scheme: light; }
+[data-design="techo"] .ev-close { --ev: #c2410c; --ev-bg: #fbe9e7; --ev-ink: #9c2b12; }
+[data-design="techo"] .ev-open { --ev: #3c4f8f; --ev-bg: #eceff8; --ev-ink: #3c4f8f; }
+[data-design="techo"] .ev-start { --ev: #0b5d3b; --ev-bg: #e8f1ec; --ev-ink: #0b5d3b; }
+[data-design="techo"] .cal-dl .d { color: #9c2b12; }
 
 /* 主催者の種類の色（文字色は白地・淡色地でコントラスト 4.5:1 以上） */
 [data-design="techo"] .ot-jjga { --ot: #1d5fa8; --ot-bg: #e6eef8; }
@@ -58,15 +45,6 @@
 [data-design="techo"] .ot-media { --ot: #a35c00; --ot-bg: #f7ecdd; }
 [data-design="techo"] .ot-pro { --ot: #b0306a; --ot-bg: #f7e4ee; }
 [data-design="techo"] .ot-other { --ot: #56636e; --ot-bg: #eceff1; }
-@media (prefers-color-scheme: dark) {
-  [data-design="techo"] .ot-jjga { --ot: #7faeeb; --ot-bg: #1f2b42; }
-  [data-design="techo"] .ot-junior { --ot: #5cc4b4; --ot-bg: #17302d; }
-  [data-design="techo"] .ot-union { --ot: #93c26e; --ot-bg: #22301b; }
-  [data-design="techo"] .ot-school { --ot: #b59ae6; --ot-bg: #2b2440; }
-  [data-design="techo"] .ot-media { --ot: #e3a54f; --ot-bg: #36291a; }
-  [data-design="techo"] .ot-pro { --ot: #e883b2; --ot-bg: #3a1f2d; }
-  [data-design="techo"] .ot-other { --ot: #a7b3bd; --ot-bg: #262c33; }
-}
 
 [data-design="techo"] body { letter-spacing: .01em; }
 [data-design="techo"] .wrap { max-width: 1240px; }
