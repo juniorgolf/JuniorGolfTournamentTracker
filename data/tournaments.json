@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18",
+ "updated": "2026-10-19",
  "tournaments": [
   {
    "id": "chiba-elem-2026",
@@ -4231,11 +4231,16 @@
    "stage": "単独",
    "url": "https://okayama-ga.jp/association/news-as/4040/",
    "note": "スナッグゴルフ（簡易ゴルフ）の大会。上位校チームはスナッグゴルフ西日本大会（兵庫・三木市）に招待。申込方法は公式サイトで非公開。",
-   "verified": "2026-10-17",
+   "verified": "2026-10-19",
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "results": null,
+   "results": [
+    {
+     "label": "結果（大会報告）",
+     "url": "https://okayama-ga.jp/association/news-as/4040/"
+    }
+   ],
    "levels": [
     "小学生"
    ]
@@ -12010,11 +12015,16 @@
    "stage": "予選",
    "url": "https://www.hyogo-golf.com/news/722/",
    "note": "兵庫県高等学校・中学校ゴルフ連盟の登録者が対象。公式指定ラウンドは10/2。12月の関西中学校ゴルフ選手権決勝大会への予選を兼ねる。",
-   "verified": "2026-10-17",
+   "verified": "2026-10-19",
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "results": null,
+   "results": [
+    {
+     "label": "成績（中学）",
+     "url": "https://www.hyogo-golf.com/wp-content/uploads/2026/08/R8%E7%A7%8B%E5%AD%A3%E5%A4%A7%E4%BC%9A%E4%B8%AD%E5%AD%A6.pdf"
+    }
+   ],
    "levels": [
     "中学生"
    ]
