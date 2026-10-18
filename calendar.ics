@@ -7314,4 +7314,20 @@ DTEND;VALUE=DATE:20261114
 SUMMARY:【申込締切】2026年 スナッグゴルフ関西小学生チーム選手権大会
 DESCRIPTION:https://www.w28sga.com/
 END:VEVENT
+BEGIN:VEVENT
+UID:arigaen-junior-2026@kanto-junior-golf
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:【大会】第11回 有賀園ゴルフ ジュニアゴルフ大会
+DESCRIPTION:サンコーカントリークラブ\nhttps://www.golf-gunma-asc.gr.jp/junior/2026/000864.html
+END:VEVENT
+BEGIN:VEVENT
+UID:arigaen-junior-2026-open@kanto-junior-golf
+DTSTAMP:20261018T000000Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:【申込開始】第11回 有賀園ゴルフ ジュニアゴルフ大会
+DESCRIPTION:https://www.golf-gunma-asc.gr.jp/junior/2026/000864.html
+END:VEVENT
 END:VCALENDAR

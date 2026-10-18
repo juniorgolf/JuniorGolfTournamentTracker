@@ -48,3 +48,38 @@ west,新聞社,沖縄タイムス 沖縄ジュニアゴルフ,https://www.okinaw
 west,まとめサイト,Golf Tournavi ジュニア大会一覧,https://golf.tournavi.jp/junior/,全国のジュニア,HTML,主催者サイトへ誘導,,西日本分は県協会・地区連盟の大会が中心で、existing.tsv に無い大会は見当たらず
 west,情報誌,いこいこゴルフNET（四国・岡山）イベント,https://www.c-dc.jp/event/,四国・岡山の大会,HTML（記事101ページ）,記事ごと,,県協会のジュニア大会やジュニア教室の記事あり。新規のジュニア大会は今回見つからず
 west,運営会社,ザ・ヘッドクォーターズ 大会スケジュール,https://www.hq-kobe.co.jp/golf_tournament,プロ大会中心（ボランティア募集）,HTML,なし,,ジュニアは関西ジュニア予選・進藤大典ジュニア（茨城）程度。大会の手がかり用
+kanto2,県協会（他団体の大会も掲載）,群馬県ゴルフ協会 ジュニア競技（年別一覧 2024〜2026）,https://www.golf-gunma-asc.gr.jp/junior/,小・中・高（大会による）,年別一覧と詳細ページ（HTML）。要項PDFは画像のため文字取得不可,大会ごと（要項・申込書）,,有賀園ゴルフ ジュニア（12月）・群馬県プロ会オープン（10月）など協会以外の主催大会も載る。過年度ページ /junior/2024/ /junior/2025/ で毎年開催の確認が可能
+kanto2,小売（ゴルフ用品店）,株式会社有賀園ゴルフ（有賀園ゴルフ ジュニアゴルフ大会）,https://www.golf-gunma-asc.gr.jp/junior/2026/000864.html,小・中・高とみられる,群馬県ゴルフ協会ページ,要項・申込書（未掲載）,,第11回 2026/12/13 サンコーCC、10/29申込開始、定員160。大会レポートは https://www.golfdigest-minna.jp/_ct/17810931
+kanto2,プロ団体（県）,群馬県プロゴルフ会（群馬県プロ会オープントーナメント）,https://www.golf-gunma-asc.gr.jp/junior/2025/000797.html,小・中・高の部（写真見出し）,群馬県ゴルフ協会ジュニア競技欄,不明,,2024・2025とも10/28開催、募集40名。2026年版は未掲載
+kanto2,企業（菓子メーカー）,東京ラスクジュニアゴルフカップ（株式会社グランバー東京ラスク／企画 NPO法人パピポ）,https://www.tokyoruskgolf.jp/,小4〜高3（条件付きで小3以下）,大会要綱PDF,公式サイトの申込ページ（先着）,,第10回 2026/3/30 鎌ヶ谷CC。次回未発表
+kanto2,新聞社,千葉日報社 CHIBA CUP 千葉県ジュニアゴルフ選手権大会,http://www.chibanippo.co.jp/_event/jgolf/,千葉県在住・在学の中学生・高校生,大会ページ（本文が第27回のまま）,申込書を現金書留で郵送（第27回）,,第31回 2025/9/8 鶴舞CC（golfsearch.jp）。chibanippo.co.jp/articles は robots で取得不可
+kanto2,市町村ゴルフ協会,厚木市ゴルフ協会（厚木市ジュニアゴルファ選手権大会）,https://atsugi-golf.com/schedule/,小学生〜高校生,事業計画ページ（年度の全行事）,協会サイトの申込フォーム,,第9回 2026/8/4 本厚木CC。初心者ジュニアレッスン会も年2回
+kanto2,地域紙,タウンニュース（神奈川の地域版：市町村ゴルフ協会・地元大会の記事）,https://www.townnews.co.jp/,—,記事のみ（日程データ源にはしない）,—,,新大会の発見用。厚木市ジュニア選手権、イノウエジュニアゴルフカップ（相模原）、川崎市民ゴルフ選手権（中学生から出場可）を確認
+kanto2,ポータル,ゴルフサーチ ジュニア選手権（地域別）,https://www.golfsearch.jp/jr,大会次第,一覧（前年日程）,リンクなし,,CHIBA CUP 第31回の日程・会場の手がかり。leads既出の集約サイト
+kanto2,実行委員会,柏ゴルフフェスタ実行委員会（柏ジュニアスナッグゴルフ選手権）,http://www.kashiwa-golf.org/event2.php,小学生（柏市在学・在住優先）,大会ページ,サイトの申込リンク,,最終確認は第7回 2023/8/28 藤ヶ谷CC。以降の開催は未確認
+kanto2,県（委託事業）,GOLF DEBUT CHIBA（千葉県／事務局 千葉テレビ放送）,https://golfdebut-chiba2026.com/,県内在住の家族（子は小3以上）,公式サイト,千葉テレビECサイト（先着・事前決済）,,競技会ではなく体験会のため候補から除外。2026/11〜2027/1に県内6会場
+north,県協会,新潟県ゴルフ連盟（NGA）競技情報 4ページ目（新潟県ジュニアゴルフ競技会）,https://www.n-golfrenmei.com/compe/?page=4&search_year=2026,小学4〜6年・中学生・高校生,○ 一覧に期日・会場・申込期間,申込書を開催コースへFAX,,2026年分は5ページ中1・3・4・5ページを確認（3・5ページはジュニア無し）。curl はプロキシで不可、WebFetchは可
+north,県協会,新潟県ゴルフ連盟 ジュニア研修会,https://www.n-golfrenmei.com/schedule_junior/,ジュニア（研修会）,△ 募集要項PDFのみ,申込書PDF,,競技会ではなく研修会のため候補外
+north,企業,YONEX Junior Golf Championship（ヨネックス ニュース）,https://www.yonex.co.jp/news/2026/4015.html,中学生・高校生とみられる,○ 開催報告ニュースに期日・会場,未確認（公開の募集要項は見つからず）,,毎年ヨネックスCC（長岡市）。中部地区予選の要項は mga-golf.jp に掲載
+north,スクール,ヨネックス ジュニアゴルフアカデミー スクール一覧,https://www.yonex.co.jp/golf/yonex-junior-academy/school/,ジュニア（スクール）,×,各校へ連絡,,新潟1校（ヨネックスゴルフ練習場）、北海道2校（スウェーデンヒルズGC、V1 Golf Jr. Team）。大会情報は無し
+north,ゴルフ場,札幌カントリー倶楽部 真駒内CCジュニアゴルフ大会,https://sapporo-country-clb.com/junior/Junior_conference.php,小学生・中学生・高校生・ビギナー,○ 大会ページと要項PDF,申込書をFAX・郵送,,組合せ・成績は https://sapporo-country-clb.com/news/makomanai/ に掲載。ジュニア関係カテゴリのページはWebFetchでエラー
+north,ゴルフ場,ザ・ノースカントリーゴルフクラブ お知らせ（Jack Bunny!! CHAMPIONSHIP 北海道ブロック予選）,https://www.the-north.co.jp/2026/06/29/jack-bunny-%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%82%b4%e3%83%ab%e3%83%95%e3%83%84%e3%82%a2%e3%83%bc2026%e5%8c%97%e6%b5%b7%e9%81%93%e4%ba%88%e9%81%b8%e9%96%8b%e5%82%ac%e3%81%ae%e3%81%8a%e7%9f%a5/,中学生・高校生（2026年PRで「中、高生向け」）,○ 2026-07-20開催,jb-cup.com でエントリー,,2026年の北海道予選は終了。2025年以前の北海道開催が確認できず、毎年開催か不明のため候補に入れず
+north,ゴルフ場,小樽カントリー倶楽部 ジュニアチャレンジゴルフ HOKKAIDO,https://otaru-cc.com/news/%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%83%81%e3%83%a3%e3%83%ac%e3%83%b3%e3%82%b8%e3%82%b4%e3%83%ab%e3%83%95-hokkaido%e9%96%8b%e5%82%ac%e3%81%ae%e3%81%94%e6%a1%88%e5%86%85/,ゴルフ未経験の小学生,△ 2018年の告知のみ,要項・申込書は画像,,HGAジュニア情報にも掲載（meijiカップ ジュニアチャレンジゴルフ）。初心者体験会で、HGA巡回範囲
+north,ゴルフ場,札幌リージェントゴルフ倶楽部 ジュニア専用お知らせ,https://www.sapporo-regent.jp/category/junior-news/,ジュニアプログラム会員,△,倶楽部へ,,親子ハーフラウンド会（10/25）など会員行事のみ。大会は無し
+north,練習場,ビッグ・クレストフィールドクラブ ジュニアゴルフクラブ（新潟市秋葉区）,https://www.bcfc.co.jp/junior/,小1〜中3（会員）,×,入会申込,,会員向け親子コンペ（検定含む）のみ。外部向け大会は無し
+north,練習場,日生ゴルフガーデン（新潟市西区）,https://nissay-golfgarden.com/,小1〜高3（ジュニア会員）,×,店頭,,ジュニア会員・レッスンのみ。コンペ告知は画像で読めず
+north,ゴルフ場,糸魚川カントリークラブ ジュニアゴルファー応援,https://itoigawa-cc.com/jrgolfer/,小4〜高校生（ジュニア料金）,×,電話予約,,ジュニア料金の案内のみ。競技会日程（https://itoigawa-cc.com/competition/）にジュニア大会無し
+north,県協会,北海道女子ゴルフ協会（HLGA）,https://www.hlga.jp/,女子,○,協会,,2026年の掲載競技にジュニア向けは無し
+north,ポータル,ゴルフサーチ ジュニアゴルフ選手権一覧,https://www.golfsearch.jp/jr,地域別,△,各大会,,北海道は2025年分のみ（HGA主催大会）、新潟の掲載無し
+north,申込サイト,スポーツエントリー ゴルフ（北海道・新潟）,https://www.sportsentry.ne.jp/events/golf,大会により異なる,×,SportsEntry,,都道府県別一覧・個別ページともWebFetchでエラー。検索結果には北海道のジュニア大会は出ず
+north,スクール,V1 Golf Jr. Team（札幌市豊平区）,http://www.v1-golfgym.com/,ジュニア（スクール）,×,未確認,,robots で取得不可のため未確認
+south,新聞社（県サイト転載）,佐賀県SSP スポーツニュース（佐賀県ジュニアゴルフ選手権 第24回 結果記事）,https://ssp.saga.jp/sponews/4927/,小学生〜高校生（男女8部門）,HTML（結果記事のみ）,記載なし,,佐賀県が運営。佐賀新聞の記事を転載。2025・2026年版の記事は検索で見つからず
+south,県協会,佐賀県ゴルフ協会 競技情報,https://sagagolf.jp/compe,県ジュニア大会,HTML（日程が古い：3/29（月）日の隈CC＝2021年とみられる）,記載なし,,佐賀県ジュニア大会を協会主催と表記。要項PDFなし
+south,スナッグ（事務局）,スナッグゴルフジャパン事務局 大会情報一覧,https://snaggolf.jp/publics/index/1/block100_limit=20#block100,小学生（学校チーム・個人）,HTML（開催報告。全169件、20件ずつ）,記載なし,,九州・中国・四国の開催報告：びんご、広島市、山口県、高知、くまもと、宮崎市、糸島市、岡山県（既存）。2026年分の告知はまだ無い。curl は接続不可、WebFetch は可
+south,テレビ局,KBC九州朝日放送 ジュニア育成プロジェクト,https://kbc.co.jp/augusta/junior/,中学生・高校生,HTML,推薦制（一般申込不可）,,ジュニアチャレンジ（8月、芥屋GC）とジュニアレッスン会
+south,テレビ局,KBC Sansan KBCオーガスタ ジュニアチャレンジ,https://kbc.co.jp/augusta/junior/challenge/,中学生・高校生（高ゴ連推薦）,HTML,推薦制,,2026-08-12 芥屋GC
+south,テレビ局,KTNテレビ長崎 みらい応援プロジェクト ジュニアゴルフファンデーション（第3回）,https://www.ktn.co.jp/event/cate-event/post-63.html,不明,取得エラー,不明,,検索結果のタイトルのみ確認。大会かレッスンかは未確認
+south,新聞社,山陽新聞 親子ゴルフ大会 参加ペア募集（後楽GC、小中学生と保護者）,https://www.sanyonews.jp/article/1876290,小中学生と保護者,robotsで取得不可,不明,,検索結果の見出しのみ（3/24 後楽GC）。主催・年は未確認
+south,新聞社,中国新聞 井原で世代交流ゴルフ大会とスナッグゴルフ大会,https://www.chugoku-np.co.jp/articles/-/825195,小学生とみられる,robotsで取得不可,不明,,岡山県井原市のスナッグ大会。主催・日程は未確認
+south,申込サイト,スポーツエントリー PLJ CUP junior for AJGA 予選（熊本 阿蘇ハイランドGC）,https://www.sportsentry.ne.jp/event/t/97955,不明,取得エラー,スポーツエントリー,,existing.tsv に無い。年・対象年齢は未確認
+south,テレビ局,KAB 第33回ジュニアゴルフ 中止のお知らせページ,https://www.kab.co.jp/event/33jrgolf_cancel/,—,取得エラー,—,,既存の第33回KABジュニア（2026-08-05/06）の中止・変更の可能性。要確認
