@@ -103,58 +103,7 @@
 [data-design="techo"] .stats div:nth-child(3) { left: 172px; top: 136px; width: 126px; height: 126px; background: #ffffff; color: #1d2a44; transform: rotate(-4deg); }
 [data-design="techo"] .stats div:nth-child(3) dd { font-size: 40px; }
 
-/* 見出しのそろい */
-[data-design="techo"] .sec-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 16px; }
-[data-design="techo"] .sec-head h2 { margin: 0; font-size: 24px; font-weight: 800; }
-[data-design="techo"] .sec-note { font-size: 13px; font-weight: 700; color: var(--ink-2); }
-[data-design="techo"] .sec-more {
-  appearance: none; font: inherit; font-size: 13px; font-weight: 700; color: var(--ink);
-  background: var(--surface); border: 2px solid var(--rule); border-radius: 999px; padding: 8px 16px; cursor: pointer;
-}
-
-/* 今週の手帳 */
-[data-design="techo"] .week { margin-top: 8px; background: var(--surface); border: 2px solid var(--ink); border-radius: 28px; padding: 24px 28px 28px; }
-[data-design="techo"] .week-days { display: none; }
-[data-design="techo"] .week-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 10px; }
-[data-design="techo"] .wd { display: flex; flex-direction: column; gap: 6px; min-width: 0; min-height: 190px; padding: 12px 10px; background: var(--paper); border-radius: 18px; }
-[data-design="techo"] .wd.today { background: var(--yellow-soft); }
-[data-design="techo"] .wd-h { display: flex; align-items: baseline; gap: 6px; margin: 0 0 2px; }
-[data-design="techo"] .wd-h b { font-size: 19px; font-weight: 800; }
-[data-design="techo"] .wd-h span { font-size: 12px; font-weight: 700; }
-[data-design="techo"] .wd-h em { margin-left: auto; font-style: normal; font-size: 11px; font-weight: 700; color: var(--ink-2); }
-[data-design="techo"] .wd.sun .wd-h b, [data-design="techo"] .wd.sun .wd-h span { color: var(--coral-ink); }
-[data-design="techo"] .wd.sat .wd-h b, [data-design="techo"] .wd.sat .wd-h span { color: var(--blue-ink); }
-[data-design="techo"] .wi {
-  appearance: none; display: flex; flex-direction: column; gap: 2px; min-width: 0; padding: 6px 8px;
-  font: inherit; color: var(--ink); text-align: left; background: var(--surface);
-  border: 1.5px solid var(--rule); border-radius: 12px; cursor: pointer;
-}
-[data-design="techo"] .wi:hover { border-color: var(--ink-3); }
-[data-design="techo"] .wi.extra { display: none; }
-[data-design="techo"] .wd.expanded .wi.extra { display: flex; }
-[data-design="techo"] .wi-k { display: flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 800; }
-[data-design="techo"] .wi-k i { flex: none; width: 9px; height: 9px; border-radius: 50%; background: var(--ot); }
-[data-design="techo"] .k-close { color: var(--coral-ink); }
-[data-design="techo"] .k-open { color: var(--blue-ink); }
-[data-design="techo"] .k-start { color: var(--ink); }
-[data-design="techo"] .wi-n { font-size: 12px; font-weight: 700; line-height: 1.4; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
-[data-design="techo"] .wi-p { font-size: 11px; color: var(--ink-2); }
-[data-design="techo"] .wi-more { appearance: none; border: 0; background: none; padding: 2px 4px; font: inherit; font-size: 12px; font-weight: 700; color: var(--ink-2); text-align: left; text-decoration: underline; cursor: pointer; }
-[data-design="techo"] .wd-none { margin: 0; font-size: 12px; color: var(--ink-3); }
-
-/* もうすぐ締切 */
-[data-design="techo"] .soon { margin-top: 44px; }
-[data-design="techo"] .soon-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 26px 20px; padding-top: 16px; }
-
-/* 大会カード（一覧・地図の横・もうすぐ締切） */
-[data-design="techo"] .tc {
-  position: relative; display: flex; flex-direction: column; min-width: 0;
-  background: var(--surface); border: 2px solid var(--rule); border-radius: 22px;
-  transition: transform .15s, border-color .15s;
-}
-[data-design="techo"] .tc:hover { transform: translateY(-2px); border-color: var(--ot); }
-[data-design="techo"] .tc:focus-within { outline: 3px solid var(--yellow); outline-offset: 2px; }
-[data-design="techo"] .tc-head { display: flex; align-items: center; gap: 10px; padding: 10px 14px; background: var(--ot-bg); border-bottom: 3px solid var(--ot); border-radius: 20px 20px 0 0; }
+/* ロゴ枠（詳細の見出し帯で使う） */
 [data-design="techo"] .tc-logo {
   flex: none; display: flex; align-items: center; justify-content: center; width: 38px; height: 38px;
   border-radius: 50%; background: var(--surface); border: 2px solid var(--ot); color: var(--ot);
@@ -162,47 +111,7 @@
 }
 [data-design="techo"] .tc-logo.sm { font-size: 8.5px; }
 [data-design="techo"] .tc-logo svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-[data-design="techo"] .tc-org { display: flex; flex-direction: column; min-width: 0; line-height: 1.35; }
-[data-design="techo"] .tc-org b { font-size: 11px; font-weight: 800; color: var(--ot); }
-[data-design="techo"] .tc-org span { font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-[data-design="techo"] .tc-lv { flex: none; margin-left: auto; padding: 2px 9px; font-size: 11px; font-weight: 700; background: var(--surface); border-radius: 999px; }
-[data-design="techo"] .tc-body { flex: 1; display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 14px; padding: 14px 16px; }
-[data-design="techo"] .tc-date { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 64px; line-height: 1.15; text-align: center; background: var(--yellow-soft); border-radius: 16px; }
-[data-design="techo"] .tc-date .d { font-size: 19px; font-weight: 800; }
-[data-design="techo"] .tc-date .w { font-size: 10.5px; font-weight: 700; color: var(--ink); }
-[data-design="techo"] .tc-date .tbd { font-size: 15px; color: var(--ink-2); }
-[data-design="techo"] .tc-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
-[data-design="techo"] .tc .name { font-size: 14px; font-weight: 800; line-height: 1.5; color: var(--ink); }
-[data-design="techo"] .tc .name::after { content: ""; position: absolute; inset: 0; border-radius: 22px; }
-[data-design="techo"] .tc .sub { margin: 0; font-size: 12px; color: var(--ink-2); }
-[data-design="techo"] .tc-foot { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 10px 16px; border-top: 2px dashed var(--rule); font-size: 12px; color: var(--ink-2); }
-[data-design="techo"] .tc .result-link, [data-design="techo"] .tc .status, [data-design="techo"] .tc details { position: relative; z-index: 1; }
-[data-design="techo"] .badge { flex: none; padding: 4px 11px; font-weight: 800; border-radius: 999px; white-space: nowrap; }
-[data-design="techo"] .badge.st-open { color: var(--coral-ink); background: var(--coral-soft); }
-[data-design="techo"] .badge.st-soon { color: var(--amber-ink); background: var(--yellow-soft); }
-[data-design="techo"] .badge.st-closed { color: var(--ink-2); background: var(--muted-soft); }
-[data-design="techo"] .badge.st-unknown { color: var(--blue-ink); background: var(--blue-soft); }
 [data-design="techo"] .result-link { color: var(--ink); }
-
-[data-design="techo"] .sc .tc-head .tc-lv { display: none; }
-[data-design="techo"] .sc .tc-org { padding-right: 60px; }
-[data-design="techo"] .stamp {
-  position: absolute; z-index: 2; right: 12px; top: -18px; width: 70px; height: 70px;
-  display: flex; flex-direction: column; align-items: center; justify-content: center; line-height: 1.1;
-  font-size: 11px; font-weight: 800; color: var(--coral-ink); background: var(--bg);
-  border: 3px dashed var(--coral); border-radius: 50%; transform: rotate(-12deg); pointer-events: none;
-}
-[data-design="techo"] .stamp b { font-size: 21px; }
-[data-design="techo"] .sc-body { flex: 1; display: flex; flex-direction: column; gap: 6px; padding: 14px 16px 16px; }
-[data-design="techo"] .sc-close { margin: 0; font-size: 13px; font-weight: 800; color: var(--coral-ink); }
-[data-design="techo"] .sc .name { font-size: 16px; }
-[data-design="techo"] .sc-date { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin: auto 0 0; padding-top: 6px; font-size: 12px; font-weight: 700; }
-[data-design="techo"] .sc-date .tc-lv { background: var(--yellow-soft); }
-[data-design="techo"] .sc-venues { padding: 8px 16px 12px; border-top: 2px dashed var(--rule); font-size: 12px; }
-[data-design="techo"] .sc-venues summary { font-weight: 700; color: var(--ink-2); cursor: pointer; }
-[data-design="techo"] .sc-venues ul { max-height: 180px; overflow-y: auto; margin: 6px 0 0; padding: 0; list-style: none; }
-[data-design="techo"] .sc-venues li { padding: 5px 0; border-top: 1px solid var(--rule); }
-[data-design="techo"] .sc-venues .pop-name { color: var(--ink); font-size: 12px; }
 
 /* タブ・絞り込み・主催者の種類 */
 [data-design="techo"] .toolbar { padding-top: 48px; }
@@ -272,15 +181,6 @@
 [data-design="techo"] .cal-cta { background: var(--paper); border: 2px solid var(--rule); border-radius: 24px; }
 [data-design="techo"] .site-foot { border-top: 2px dashed var(--rule); }
 
-@media (prefers-reduced-motion: reduce) {
-  [data-design="techo"] .tc { transition: none; }
-  [data-design="techo"] .tc:hover { transform: none; }
-}
-
-@media (max-width: 1080px) {
-  [data-design="techo"] .soon-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-}
-
 /* スマホ */
 @media (max-width: 760px) {
   [data-design="techo"] .head-inner { grid-template-columns: minmax(0, 1fr); grid-template-areas: "brand" "catch" "lead" "stats"; padding-top: 16px; }
@@ -293,39 +193,12 @@
   [data-design="techo"] .stats div:nth-child(n) dd { font-size: 30px; }
   [data-design="techo"] .stats dt { padding: 4px 2px 0; font-size: 9.5px; letter-spacing: 0; white-space: nowrap; }
 
-  [data-design="techo"] .week { padding: 16px; border-radius: 22px; }
-  [data-design="techo"] .week-days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; margin-bottom: 12px; }
-  [data-design="techo"] .wc {
-    appearance: none; display: flex; flex-direction: column; align-items: center; gap: 1px; min-height: 58px; padding: 4px 0 6px;
-    font: inherit; color: var(--ink); background: var(--surface); border: 2px solid var(--rule); border-radius: 14px; cursor: pointer;
-  }
-  [data-design="techo"] .wc .w { font-size: 11px; font-weight: 700; }
-  [data-design="techo"] .wc b { font-size: 17px; font-weight: 800; }
-  [data-design="techo"] .wc.sun .w { color: var(--coral-ink); }
-  [data-design="techo"] .wc.sat .w { color: var(--blue-ink); }
-  [data-design="techo"] .wc[aria-pressed="true"] { color: #1d2a44; background: var(--yellow); border-color: var(--yellow); }
-  [data-design="techo"] .wc[aria-pressed="true"] .w { color: #1d2a44; }
-  [data-design="techo"] .marks { display: flex; gap: 2px; height: 6px; }
-  [data-design="techo"] .marks i { width: 6px; height: 6px; border-radius: 50%; background: var(--ot); }
-  [data-design="techo"] .week-grid { display: block; }
-  [data-design="techo"] .wd { display: none; min-height: 0; }
-  [data-design="techo"] .wd.sel { display: flex; }
-  [data-design="techo"] .wi-n { -webkit-line-clamp: 2; font-size: 13px; }
-
-  [data-design="techo"] .soon { margin-top: 32px; }
-  [data-design="techo"] .soon-list {
-    display: grid; grid-auto-flow: column; grid-auto-columns: 84%; grid-template-columns: none;
-    overflow-x: auto; scroll-snap-type: x mandatory; gap: 12px; padding: 22px 2px 8px; scrollbar-width: none;
-  }
-  [data-design="techo"] .soon-list > * { scroll-snap-align: start; }
-
   [data-design="techo"] .toolbar { padding-top: 32px; }
   [data-design="techo"] .tabs { gap: 6px; }
   [data-design="techo"] .tabs button { padding: 6px 12px; font-size: 13px; }
   [data-design="techo"] .otypes { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 16px; scrollbar-width: none; }
   [data-design="techo"] .otc { flex: none; }
-  [data-design="techo"] .tc-body { grid-template-columns: 64px minmax(0, 1fr); }
   [data-design="techo"] .d-org { margin: -32px -20px 20px; padding: 14px 52px 14px 20px; }
-  /* 地図の横の一覧はカードが縦に長くなるので、枠の中でスクロールさせる */
+  /* 地図の横の一覧は長いので、枠の中でスクロールさせる */
   [data-design="techo"] .map-side { max-height: 72vh; overflow-y: auto; }
 }

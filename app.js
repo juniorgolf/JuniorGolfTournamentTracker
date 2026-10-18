@@ -57,14 +57,10 @@ function orgType(org) {
 }
 // ロゴ枠：主催者名に英字の略称（JJGA など）があれば略称、なければ種類の記号。公式ロゴは許諾が取れた団体だけ載せる
 const orgAbbr = (org) => (orgHead(org).match(/（([A-Z]{2,6})）/) || [])[1] || "";
-const orgShort = (org) => orgHead(org).replace(/（[^）]*）/g, "").trim();
 const orgLogo = (org) => {
   const a = orgAbbr(org);
   return `<span class="tc-logo${a.length > 4 ? " sm" : ""}" aria-hidden="true">${a ? esc(a) : `<svg viewBox="0 0 24 24"><path d="${ORG_TYPES[orgType(org)].icon}"/></svg>`}</span>`;
 };
-const levelLabel = (t) => { const lv = t.levels || []; return lv.length > 1 ? "小・中" : lv[0] === "中学生" ? "中" : lv[0] === "小学生" ? "小" : ""; };
-const cardHead = (t) => `<div class="tc-head">${orgLogo(t.organizer)}<span class="tc-org"><b>${esc(ORG_TYPES[orgType(t.organizer)].label)}</b><span>${esc(orgShort(t.organizer))}</span></span>${levelLabel(t) ? `<span class="tc-lv">${levelLabel(t)}</span>` : ""}</div>`;
-
 // 申込状況を判定する。kind: open / soon / closed / unknown
 function entryStatus(t) {
   const { entry_open: o, entry_close: c } = t;
@@ -116,86 +112,6 @@ function row(t) {
     <div class="org">${orgCell(t)}</div>
     <div class="cell-status">${status}</div>
   </div>`;
-}
-
-// 同じシリーズの大会（石川遼カップの地区大会など）をまとめるための名前
-const seriesName = (t) => t.name.replace(/^キャロウェイゴルフプレゼンツ\s*/, "").replace(/（[^）]*）/g, "").trim();
-const seriesKey = (t) => `${t.organizer}|${seriesName(t)}`;
-const prefSummary = (items) => {
-  const prefs = [...new Set(items.map((t) => t.pref))];
-  return prefs.length > 4 ? `${prefs.slice(0, 4).join("・")}ほか（${prefs.length}都道府県）` : prefs.join("・");
-};
-
-// 今週の手帳：今日から7日間の締切・受付開始・大会の日。同じシリーズは1行にまとめる
-const WEEK_KIND = { close: "申込締切", open: "受付開始", start: "大会の日" };
-const WEEK_SHOW = 4;
-let weekSel = 0;
-function renderWeek(list) {
-  const days = [...Array(7)].map((_, i) => { const d = new Date(today); d.setDate(d.getDate() + i); return d; });
-  const byDay = days.map((d) => {
-    const key = ymd(d);
-    const groups = new Map();
-    for (const e of calEvents(list)) {
-      if (e.date !== key) continue;
-      const g = `${e.kind}|${seriesKey(e.t)}`;
-      if (!groups.has(g)) groups.set(g, { kind: e.kind, items: [] });
-      groups.get(g).items.push(e.t);
-    }
-    return [...groups.values()].sort((a, b) => CAL_ORDER[a.kind] - CAL_ORDER[b.kind] || a.items[0].name.localeCompare(b.items[0].name, "ja"));
-  });
-  const dowCls = (d) => (d.getDay() === 0 ? " sun" : d.getDay() === 6 ? " sat" : "");
-  document.getElementById("week-days").innerHTML = days.map((d, i) => {
-    const types = [...new Set(byDay[i].map((g) => orgType(g.items[0].organizer)))].slice(0, 3);
-    return `<button class="wc${dowCls(d)}" data-wday="${i}" aria-pressed="${i === weekSel}"><span class="w">${WEEK[d.getDay()]}</span><b>${d.getDate()}</b><span class="marks">${types.map((ty) => `<i class="ot-${ty}"></i>`).join("")}</span></button>`;
-  }).join("");
-  document.getElementById("week-grid").innerHTML = days.map((d, i) => {
-    const items = byDay[i].map((g, j) => {
-      const t = g.items[0];
-      const n = g.items.length;
-      return `<button class="wi${j >= WEEK_SHOW ? " extra" : ""}" data-id="${esc(t.id)}"><span class="wi-k k-${g.kind}"><i class="ot-${orgType(t.organizer)}"></i>${WEEK_KIND[g.kind]}</span><span class="wi-n">${esc(n > 1 ? `${seriesName(t)}（${n}会場）` : t.name)}</span><span class="wi-p">${esc(n > 1 ? prefSummary(g.items) : t.pref)}</span></button>`;
-    }).join("");
-    const more = byDay[i].length > WEEK_SHOW ? `<button class="wi-more" data-wmore>ほか ${byDay[i].length - WEEK_SHOW}件</button>` : "";
-    return `<div class="wd${dowCls(d)}${i === weekSel ? " sel" : ""}${i === 0 ? " today" : ""}">
-      <p class="wd-h"><b>${d.getMonth() + 1}/${d.getDate()}</b><span>${WEEK[d.getDay()]}</span>${i === 0 ? "<em>きょう</em>" : ""}</p>
-      ${items || `<p class="wd-none">予定はありません</p>`}${more}
-    </div>`;
-  }).join("");
-}
-
-// もうすぐ締切：締切まで14日以内の大会。同じシリーズで締切日も同じものは1枚にまとめる
-const SOON_SHOW = 8;
-function renderSoon(list) {
-  const groups = new Map();
-  for (const t of list) {
-    if (isWatch(t) || isPast(t) || !t.entry_close) continue;
-    const n = daysUntil(t.entry_close);
-    if (n < 0 || n > 14 || entryStatus(t).kind !== "open") continue;
-    const k = `${seriesKey(t)}|${t.entry_close}`;
-    if (!groups.has(k)) groups.set(k, []);
-    groups.get(k).push(t);
-  }
-  const cards = [...groups.values()]
-    .map((items) => items.sort((a, b) => a.start.localeCompare(b.start)))
-    .sort((a, b) => a[0].entry_close.localeCompare(b[0].entry_close) || a[0].start.localeCompare(b[0].start));
-  document.getElementById("soon").hidden = !cards.length;
-  document.getElementById("soon-list").innerHTML = cards.slice(0, SOON_SHOW).map((items) => {
-    const t = items[0];
-    const n = daysUntil(t.entry_close);
-    const many = items.length > 1;
-    const last = items[items.length - 1];
-    const dates = many ? `${md(t.start)}〜${md(last.start)}` : (t.end && t.end !== t.start ? `${md(t.start)}〜${md(t.end)}` : fmt(t.start));
-    return `<article class="tc sc ot-${orgType(t.organizer)}">${cardHead(t)}
-      <span class="stamp" aria-label="${n === 0 ? "本日締切" : `締切まであと${n}日`}">${n === 0 ? "<b>本日</b>締切" : `<small>あと</small><b>${n}日</b>`}</span>
-      <div class="sc-body">
-        <p class="sc-close">締切 ${esc(fmt(t.entry_close))}</p>
-        <button class="name" data-id="${esc(t.id)}">${esc(many ? `${seriesName(t)}　${items.length}会場` : t.name)}</button>
-        <span class="sub">${esc(many ? prefSummary(items) : `${t.pref}　${t.venue}`)}</span>
-        <p class="sc-date"><span>大会の日 ${esc(dates)}</span>${levelLabel(t) ? `<span class="tc-lv">${levelLabel(t)}</span>` : ""}</p>
-      </div>
-      ${many ? `<details class="sc-venues"><summary>${items.length}会場を見る</summary><ul>${items.map((x) => `<li><button class="pop-name" data-id="${esc(x.id)}">${esc(md(x.start))} ${esc(x.pref)} ${esc(x.venue)}</button></li>`).join("")}</ul></details>` : ""}
-    </article>`;
-  }).join("");
-  document.getElementById("soon-all").hidden = cards.length <= SOON_SHOW;
 }
 
 // 終了した大会の結果リンク（一覧では先頭の1件、詳細ではすべて表示）
@@ -367,12 +283,7 @@ async function main() {
       past: base.filter(isPast).sort((a, b) => byDate(b, a)),
     };
     sets.map = sets.upcoming;
-    if (TECHO) {
-      renderTypes();
-      const dated = base.filter((t) => !isWatch(t));
-      renderWeek(dated);
-      renderSoon(dated);
-    }
+    if (TECHO) renderTypes();
     tabs.forEach((b) => {
       b.setAttribute("aria-selected", String(b.dataset.view === view));
       const n = sets[b.dataset.view];
@@ -436,16 +347,6 @@ async function main() {
       fType = b.dataset.otype;
       try { localStorage.setItem("otype", fType); } catch {}
       fillOrgs(); render();
-    });
-    document.getElementById("week").addEventListener("click", (e) => {
-      const day = e.target.closest("[data-wday]");
-      if (day) { weekSel = Number(day.dataset.wday); render(); return; }
-      const more = e.target.closest("[data-wmore]");
-      if (more) { more.closest(".wd").classList.add("expanded"); more.remove(); }
-    });
-    document.getElementById("soon-all").addEventListener("click", () => {
-      view = "open"; render();
-      document.getElementById("tabs").scrollIntoView({ behavior: "smooth", block: "start" });
     });
   }
 
