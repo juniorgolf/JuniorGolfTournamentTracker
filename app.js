@@ -238,6 +238,38 @@ function download(name, text) {
   URL.revokeObjectURL(a.href);
 }
 
+// 数字をパタパタとめくりながら変える。数字の各桁を span にし、変わった桁だけをめくる
+const FLIP_STEPS = 8;
+function paintNumber(dd, v) {
+  const s = String(v);
+  if (dd.children.length !== s.length) {
+    dd.innerHTML = [...s].map((c) => `<span class="fl flip">${c}</span>`).join("");
+    return;
+  }
+  [...s].forEach((c, k) => {
+    const el = dd.children[k];
+    if (el.textContent === c) return;
+    el.textContent = c;
+    el.classList.remove("flip");
+    void el.offsetWidth;  // アニメーションをかけ直すため
+    el.classList.add("flip");
+  });
+}
+function flipTo(dd, to) {
+  const from = Number(dd.dataset.v) || 0;
+  dd.dataset.v = to;
+  clearInterval(dd._timer);
+  let reduce = false;
+  try { reduce = matchMedia("(prefers-reduced-motion: reduce)").matches; } catch {}
+  if (reduce || from === to) { paintNumber(dd, to); return; }
+  let i = 0;
+  dd._timer = setInterval(() => {
+    i++;
+    paintNumber(dd, i >= FLIP_STEPS ? to : Math.round(from + (to - from) * i / FLIP_STEPS));
+    if (i >= FLIP_STEPS) clearInterval(dd._timer);
+  }, 70);
+}
+
 async function main() {
   const { updated, tournaments } = await (await fetch("data/tournaments.json", { cache: "no-cache" })).json();
   const abroad = REGIONS.find(([r]) => r === "海外")[1];
@@ -245,12 +277,11 @@ async function main() {
   const byId = Object.fromEntries(tournaments.map((t) => [t.id, t]));
   document.getElementById("updated").textContent = updated;
 
-  const upcomingAll = tournaments.filter((t) => !isWatch(t) && !isPast(t));
-  document.getElementById("stats").innerHTML = [
-    ["申込受付中・まもなく", tournaments.filter(isOpenView).length],
-    ["これからの大会", upcomingAll.length],
-    ["日程発表待ち", tournaments.filter(isWatch).length],
-  ].map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("");
+  // 上段の3つの数字。絞り込みに合わせて render() で数え直す
+  const statsEl = document.getElementById("stats");
+  statsEl.innerHTML = ["申込受付中・まもなく", "これからの大会", "日程発表待ち"]
+    .map((k) => `<div><dt>${k}</dt><dd data-v="0"></dd></div>`).join("");
+  const statDds = [...statsEl.querySelectorAll("dd")];
 
   const fPref = document.getElementById("f-pref");
   const fOrg = document.getElementById("f-org");
@@ -313,6 +344,7 @@ async function main() {
       past: base.filter(isPast).sort((a, b) => byDate(b, a)),
     };
     sets.map = sets.upcoming;
+    [sets.open.length, sets.upcoming.length, sets.watch.length].forEach((n, i) => flipTo(statDds[i], n));
     if (TECHO) renderTypes();
     tabs.forEach((b) => {
       b.setAttribute("aria-selected", String(b.dataset.view === view));

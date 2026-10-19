@@ -300,3 +300,6 @@ dialog::backdrop { background: rgba(10, 14, 12, .55); backdrop-filter: blur(2px)
 .d-cal-btns { display: flex; gap: 8px; flex-wrap: wrap; }
 .d-cal-btns .btn { font-size: 13px; padding: 8px 14px; }
 .d-abroad { margin: 12px 0 0; padding: 10px 14px; font-size: 13px; line-height: 1.7; background: rgba(127,127,127,.08); border-radius: 10px; }
+.stats dd .fl { display: inline-block; transform-origin: 50% 55%; }
+.stats dd .fl.flip { animation: stat-flip .16s ease-out; }
+@keyframes stat-flip { from { transform: perspective(240px) rotateX(-80deg); opacity: .35; } to { transform: none; opacity: 1; } }
