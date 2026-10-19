@@ -288,12 +288,14 @@ async function main() {
   const fLevel = document.getElementById("f-level");
   // エリアは地方ごとにまとめる。「r:関東」は地方全体、それ以外は都道府県
   const prefs = new Set(tournaments.map((t) => t.pref));
+  // 国内は地方単位だけ（県単位では大会が少ないため）。海外は国ごとにも選べる
   for (const [region, list] of REGIONS) {
     const present = list.filter((p) => prefs.has(p) && p !== region);
     if (!present.length && !prefs.has(region)) continue;
+    if (region !== "海外") { fPref.append(new Option(region === "全国" ? "全国決勝など" : region, `r:${region}`)); continue; }
     const g = document.createElement("optgroup");
     g.label = region;
-    g.append(new Option(region === "全国" ? "全国決勝など" : `${region}すべて`, `r:${region}`), ...present.map((p) => new Option(p, p)));
+    g.append(new Option("海外すべて", `r:${region}`), ...present.map((p) => new Option(p, p)));
     fPref.append(g);
   }
   // 対象（小学生・中学生）とエリアで絞る。levels は大会に出られる学校段階
