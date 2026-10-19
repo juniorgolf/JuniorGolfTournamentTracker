@@ -295,3 +295,7 @@ dialog::backdrop { background: rgba(10, 14, 12, .55); backdrop-filter: blur(2px)
 .techo-only { display: none; }
 
 [hidden] { display: none !important; }
+
+.tip-link { display: table; margin-top: 10px; font-size: 13px; color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.tip-link::after { content: " →"; }
+.tip-cta { margin-top: 20px; }
