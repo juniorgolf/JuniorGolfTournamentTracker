@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17",
- "note": "住所は各ゴルフ場の公式ページ等で確認し、緯度・経度は国土地理院の住所検索で求めた。",
+ "updated": "2026-10-19",
+ "note": "住所は各ゴルフ場の公式ページ等で確認し、緯度・経度は国土地理院の住所検索で求めた。海外の会場は ArcGIS の住所検索・Wikipedia などで求め、approx: true は都市の位置（目安）。",
  "venues": {
   "JGMセベバレステロスゴルフクラブ": {
    "name": "JGMセベバレステロスゴルフクラブ",
@@ -2350,6 +2350,377 @@
    "lng": 134.655121,
    "precision": "町字",
    "source": "https://www.w28sga.com/"
+  },
+  "パインハースト周辺の各コース（ノースカロライナ州）": {
+   "name": "パインハースト周辺の各コース（ノースカロライナ州）",
+   "pref": "アメリカ",
+   "address": "Pinehurst area, North Carolina, USA",
+   "lat": 35.193544,
+   "lng": -79.473735,
+   "approx": true
+  },
+  "パインハーストNo.4（ノースカロライナ州）": {
+   "name": "パインハースト No.4（ノースカロライナ州）",
+   "pref": "アメリカ",
+   "address": "Pinehurst Resort (No. 4), Pinehurst, North Carolina, USA",
+   "lat": 35.1895,
+   "lng": -79.4678
+  },
+  "未発表（2026年はイースト・ロージアンのクレイギーロー、ロングニドリー、マッセルバラなど5コース）": {
+   "name": "未発表（2026年はイースト・ロージアンのクレイギーロー、ロングニドリー、マッセルバラなど5コース）",
+   "pref": "スコットランド",
+   "address": "East Lothian (Longniddry area), Scotland, UK",
+   "lat": 55.974839,
+   "lng": -2.895168,
+   "approx": true
+  },
+  "未発表（2026年はパドヴァ近郊のモンテッキア、フラッサネッレ、ガルツィニャーノの3コース）": {
+   "name": "未発表（2026年はパドヴァ近郊のモンテッキア、フラッサネッレ、ガルツィニャーノの3コース）",
+   "pref": "イタリア",
+   "address": "Padua area, Veneto, Italy",
+   "lat": 45.409541,
+   "lng": 11.876551,
+   "approx": true
+  },
+  "ザ・ヴェール・リゾート（ポンティクラン）": {
+   "name": "ザ・ヴェール・リゾート（ポンティクラン）",
+   "pref": "ウェールズ",
+   "address": "The Vale Resort, Hensol, Vale of Glamorgan, Wales, UK",
+   "lat": 51.49528,
+   "lng": -3.3775
+  },
+  "ブラジリア・ゴルフクラブ（ブラジリア）": {
+   "name": "ブラジリア・ゴルフクラブ（ブラジリア）",
+   "pref": "ブラジル",
+   "address": "Clube de Golfe de Brasília, Asa Sul, Brasília, Federal District, Brazil",
+   "lat": -15.814428,
+   "lng": -47.835298
+  },
+  "サン・ロケ・ゴルフ＆リゾート／ザ・サン・ロケ・クラブ（サン・ロケ）": {
+   "name": "サン・ロケ・ゴルフ＆リゾート／ザ・サン・ロケ・クラブ（サン・ロケ）",
+   "pref": "スペイン",
+   "address": "San Roque Club, San Roque, Cádiz, Andalusia, Spain",
+   "lat": 36.267,
+   "lng": -5.338
+  },
+  "クラブ・カンペストレ・デ・ケレタロ（ケレタロ）": {
+   "name": "クラブ・カンペストレ・デ・ケレタロ（ケレタロ）",
+   "pref": "メキシコ",
+   "address": "Club Campestre de Querétaro, Santiago de Querétaro, Querétaro, Mexico",
+   "lat": 20.563192,
+   "lng": -100.408032
+  },
+  "カレン・カントリークラブ（ナイロビ）": {
+   "name": "カレン・カントリークラブ（ナイロビ）",
+   "pref": "ケニア",
+   "address": "Karen Country Club, Karen Rd, Nairobi, Kenya",
+   "lat": -1.341334,
+   "lng": 36.715356
+  },
+  "クラシック・ゴルフ＆カントリークラブ（タウル、ハリヤーナー州）": {
+   "name": "クラシック・ゴルフ＆カントリークラブ（タウル、ハリヤーナー州）",
+   "pref": "インド",
+   "address": "Classic Golf Resort, Tauru Road, Tauru, Nuh, Haryana, India",
+   "lat": 28.305449,
+   "lng": 76.976363
+  },
+  "カリヤ・ゴルフクラブ（ベレク、アンタルヤ）": {
+   "name": "カリヤ・ゴルフクラブ（ベレク、アンタルヤ）",
+   "pref": "トルコ",
+   "address": "Carya Golf Club, Belek, Antalya, Turkey",
+   "lat": 36.865799,
+   "lng": 31.009849
+  },
+  "マルコ・シモーネG&CC（グイドニア、ローマ近郊）": {
+   "name": "マルコ・シモーネ G&CC（グイドニア、ローマ近郊）",
+   "pref": "イタリア",
+   "address": "Marco Simone Golf & Country Club, Guidonia Montecelio, Rome, Italy",
+   "lat": 41.96083,
+   "lng": 12.63444
+  },
+  "マガリース・パーク・ゴルフリゾート（ハートビースポート）": {
+   "name": "マガリース・パーク・ゴルフリゾート（ハートビースポート）",
+   "pref": "南アフリカ",
+   "address": "Magalies Park Golf Club, Madibeng (Hartbeespoort), North West, South Africa",
+   "lat": -25.757748,
+   "lng": 27.785304
+  },
+  "ハンター・バレー・ゴルフクラブ（ラブデール、ニューサウスウェールズ州）": {
+   "name": "ハンター・バレー・ゴルフクラブ（ラブデール、ニューサウスウェールズ州）",
+   "pref": "オーストラリア",
+   "address": "Hunter Valley Golf Club, 430 Wine Country Drive, Lovedale, NSW, Australia",
+   "lat": -32.780735,
+   "lng": 151.348075
+  },
+  "未発表（開催地：海口）": {
+   "name": "未発表（開催地：海口）",
+   "pref": "中国",
+   "address": "Haikou, Hainan, China",
+   "lat": 20.03421,
+   "lng": 110.34651,
+   "approx": true
+  },
+  "未発表（開催地：シャーアラム）": {
+   "name": "未発表（開催地：シャーアラム）",
+   "pref": "マレーシア",
+   "address": "Shah Alam, Selangor, Malaysia",
+   "lat": 3.074147,
+   "lng": 101.518581,
+   "approx": true
+  },
+  "未発表（開催地：タロー）": {
+   "name": "未発表（開催地：タロー）",
+   "pref": "アイルランド",
+   "address": "Tralee, County Kerry, Ireland",
+   "lat": 52.269381,
+   "lng": -9.702955,
+   "approx": true
+  },
+  "未発表（開催地：パリ）": {
+   "name": "未発表（開催地：パリ）",
+   "pref": "フランス",
+   "address": "Paris, Île-de-France, France",
+   "lat": 48.85638,
+   "lng": 2.352486,
+   "approx": true
+  },
+  "ゴールデン・ホースシューGCゴールド／グリーン（ウィリアムズバーグ、バージニア州）": {
+   "name": "ゴールデン・ホースシュー GC ゴールド／グリーン（ウィリアムズバーグ、バージニア州）",
+   "pref": "アメリカ",
+   "address": "Golden Horseshoe Golf Club, Williamsburg, Virginia, USA",
+   "lat": 37.267837,
+   "lng": -76.699119
+  },
+  "デルモンテGC／モントレー・パインズGC（モントレー、カリフォルニア州）": {
+   "name": "デルモンテGC／モントレー・パインズGC（モントレー、カリフォルニア州）",
+   "pref": "アメリカ",
+   "address": "Monterey, California, USA (Del Monte GC / Monterey Pines GC)",
+   "lat": 36.598342,
+   "lng": -121.896431,
+   "approx": true
+  },
+  "PGAナショナル・リゾート（パームビーチガーデンズ、フロリダ州）": {
+   "name": "PGAナショナル・リゾート（パームビーチガーデンズ、フロリダ州）",
+   "pref": "アメリカ",
+   "address": "PGA National Resort, Palm Beach Gardens, Florida, USA",
+   "lat": 26.829,
+   "lng": -80.141
+  },
+  "サンデスティン・ゴルフ＆ビーチリゾート（デスティン、フロリダ州）": {
+   "name": "サンデスティン・ゴルフ＆ビーチリゾート（デスティン、フロリダ州）",
+   "pref": "アメリカ",
+   "address": "Sandestin Golf and Beach Resort, Miramar Beach (Destin area), Florida, USA",
+   "lat": 30.384769,
+   "lng": -86.339324
+  },
+  "ザ・ヘブン・カントリークラブ（安山市）": {
+   "name": "ザ・ヘブン・カントリークラブ（安山市）",
+   "pref": "韓国",
+   "address": "The Heaven Country Club, Daebunam-dong, Danwon-gu, Ansan, Gyeonggi-do, South Korea",
+   "lat": 37.232511,
+   "lng": 126.5629
+  },
+  "ミモザ・プラス・ゴルフコースアカシア（クラーク・フリーポート）": {
+   "name": "ミモザ・プラス・ゴルフコース アカシア（クラーク・フリーポート）",
+   "pref": "フィリピン",
+   "address": "Mimosa Plus Golf Course, Clark Freeport Zone, Mabalacat, Pampanga, Philippines",
+   "lat": 15.185611,
+   "lng": 120.517431
+  },
+  "ブキット・ケムニン・ゴルフ＆カントリーリゾート（シャーアラム）": {
+   "name": "ブキット・ケムニン・ゴルフ＆カントリーリゾート（シャーアラム）",
+   "pref": "マレーシア",
+   "address": "Bukit Kemuning Golf & Country Resort, Shah Alam/Klang, Selangor, Malaysia",
+   "lat": 2.98481,
+   "lng": 101.524456
+  },
+  "ブラック・マウンテン・ゴルフクラブ（ホアヒン）": {
+   "name": "ブラック・マウンテン・ゴルフクラブ（ホアヒン）",
+   "pref": "タイ",
+   "address": "Black Mountain Golf Club, Hin Lek Fai, Hua Hin, Prachuap Khiri Khan, Thailand",
+   "lat": 12.614086,
+   "lng": 99.891616
+  },
+  "カタトーン・ゴルフリゾート＆スパ（タイ南部、公式の住所表記はパンガー）": {
+   "name": "カタトーン・ゴルフリゾート＆スパ（タイ南部、公式の住所表記はパンガー）",
+   "pref": "タイ",
+   "address": "Katathong Golf Resort & Spa, Thung Kha Ngok, Mueang Phang-nga, Phang-nga, Thailand",
+   "lat": 8.556853,
+   "lng": 98.476304
+  },
+  "イーストシー・ゴルフ＆カントリークラブ（太倉市）": {
+   "name": "イーストシー・ゴルフ＆カントリークラブ（太倉市）",
+   "pref": "中国",
+   "address": "Taicang, Suzhou, Jiangsu, China",
+   "lat": 31.44778,
+   "lng": 121.09389,
+   "approx": true
+  },
+  "グレン・ウェイバリー・ゴルフコース（グレン・ウェイバリー、ビクトリア州）": {
+   "name": "グレン・ウェイバリー・ゴルフコース（グレン・ウェイバリー、ビクトリア州）",
+   "pref": "オーストラリア",
+   "address": "Glen Waverley Golf Course, 915 Waverley Rd, Glen Waverley, Victoria, Australia",
+   "lat": -37.888958,
+   "lng": 145.193784
+  },
+  "セトラーズ・ラン・ゴルフ＆カントリークラブ（メルボルン・ローカルツアー）": {
+   "name": "セトラーズ・ラン・ゴルフ＆カントリークラブ（メルボルン・ローカルツアー）",
+   "pref": "オーストラリア",
+   "address": "Settlers Run Golf & Country Club, Botanic Ridge, Victoria, Australia",
+   "lat": -38.131451,
+   "lng": 145.251017
+  },
+  "キーラー・パブリック・ゴルフコース（メルボルン・ローカルツアー）": {
+   "name": "キーラー・パブリック・ゴルフコース（メルボルン・ローカルツアー）",
+   "pref": "オーストラリア",
+   "address": "Keilor Public Golf Course, Keilor North, Victoria, Australia",
+   "lat": -37.684814,
+   "lng": 144.793999
+  },
+  "マウント・マーサ・パブリック・ゴルフコース（メルボルン・ローカルツアー）": {
+   "name": "マウント・マーサ・パブリック・ゴルフコース（メルボルン・ローカルツアー）",
+   "pref": "オーストラリア",
+   "address": "Mount Martha Public Golf Course, Forest Drive, Mount Martha, Victoria, Australia",
+   "lat": -38.291051,
+   "lng": 145.014565
+  },
+  "イェリング・メドウズ・ゴルフクラブ（メルボルン・ローカルツアー）": {
+   "name": "イェリング・メドウズ・ゴルフクラブ（メルボルン・ローカルツアー）",
+   "pref": "オーストラリア",
+   "address": "Yering Meadows Golf Club, Yering, Victoria, Australia",
+   "lat": -37.692684,
+   "lng": 145.349915
+  },
+  "ガンガーリン・レイクス・ゴルフコース（ニコルズ、オーストラリア首都特別地域）": {
+   "name": "ガンガーリン・レイクス・ゴルフコース（ニコルズ、オーストラリア首都特別地域）",
+   "pref": "オーストラリア",
+   "address": "Gungahlin Lakes Golf Club, Nicholls, Australian Capital Territory, Australia",
+   "lat": -35.186319,
+   "lng": 149.11673
+  },
+  "ヤス・ゴルフクラブ（キャンベラ・ローカルツアー）": {
+   "name": "ヤス・ゴルフクラブ（キャンベラ・ローカルツアー）",
+   "pref": "オーストラリア",
+   "address": "Yass Golf Club, Yass, New South Wales, Australia",
+   "lat": -34.848494,
+   "lng": 148.909358
+  },
+  "マルーチー・リバー・ゴルフクラブ（サンシャインコースト・ローカルツアー）": {
+   "name": "マルーチー・リバー・ゴルフクラブ（サンシャインコースト・ローカルツアー）",
+   "pref": "オーストラリア",
+   "address": "Maroochy River Golf Club, Bli Bli, Sunshine Coast, Queensland, Australia",
+   "lat": -26.622919,
+   "lng": 153.058552
+  },
+  "マウント・クーラム・ゴルフクラブ（サンシャインコースト・ローカルツアー）": {
+   "name": "マウント・クーラム・ゴルフクラブ（サンシャインコースト・ローカルツアー）",
+   "pref": "オーストラリア",
+   "address": "Mount Coolum Golf Club, Mount Coolum, Sunshine Coast, Queensland, Australia",
+   "lat": -26.569582,
+   "lng": 153.082531
+  },
+  "ヘッドランド・ゴルフクラブ（サンシャインコースト・ローカルツアー）": {
+   "name": "ヘッドランド・ゴルフクラブ（サンシャインコースト・ローカルツアー）",
+   "pref": "オーストラリア",
+   "address": "Headland Golf Club, Buderim, Sunshine Coast, Queensland, Australia",
+   "lat": -26.687268,
+   "lng": 153.092325
+  },
+  "ペレジアン・スプリングス・ゴルフクラブ（サンシャインコースト・ローカルツアー）": {
+   "name": "ペレジアン・スプリングス・ゴルフクラブ（サンシャインコースト・ローカルツアー）",
+   "pref": "オーストラリア",
+   "address": "Peregian Springs Golf Club, Peregian Springs, Sunshine Coast, Queensland, Australia",
+   "lat": -26.492432,
+   "lng": 153.071171
+  },
+  "アル・ハムラ・ゴルフクラブ（UAE）": {
+   "name": "アル・ハムラ・ゴルフクラブ（UAE）",
+   "pref": "UAE",
+   "address": "Al Hamra Golf Club, Al Hamra Village, Ras Al Khaimah, UAE",
+   "lat": 25.689375,
+   "lng": 55.776815
+  },
+  "アル・アイン・エクエストリアン・シューティング＆ゴルフクラブ（UAE）": {
+   "name": "アル・アイン・エクエストリアン・シューティング＆ゴルフクラブ（UAE）",
+   "pref": "UAE",
+   "address": "Al Ain Equestrian, Shooting & Golf Club, Al Ain, Abu Dhabi, UAE",
+   "lat": 24.192081,
+   "lng": 55.654796
+  },
+  "シャルジャ・ゴルフ＆シューティングクラブ（UAE）": {
+   "name": "シャルジャ・ゴルフ＆シューティングクラブ（UAE）",
+   "pref": "UAE",
+   "address": "Sharjah Golf and Shooting Club, Sharjah, UAE",
+   "lat": 25.355007,
+   "lng": 55.481514
+  },
+  "タワー・リンクス・ゴルフクラブ（UAE）": {
+   "name": "タワー・リンクス・ゴルフクラブ（UAE）",
+   "pref": "UAE",
+   "address": "Tower Links Golf Club, Ras Al Khaimah, UAE",
+   "lat": 25.763334,
+   "lng": 55.956448
+  },
+  "カポレイGC（ハワイ州オアフ島）": {
+   "name": "カポレイGC（ハワイ州オアフ島）",
+   "pref": "アメリカ",
+   "address": "Kapolei Golf Club, Kapolei, Oahu, Hawaii, USA",
+   "lat": 21.345005,
+   "lng": -158.060646
+  },
+  "ミッションヒルズ海口GC2番コース（海南省海口）": {
+   "name": "ミッションヒルズ海口GC 2番コース（海南省海口）",
+   "pref": "中国",
+   "address": "Mission Hills Haikou, Haikou, Hainan, China",
+   "lat": 19.905375,
+   "lng": 110.310699
+  },
+  "ツインオークスGCほか（カリフォルニア州サンディエゴ北部・テメキュラ）": {
+   "name": "ツインオークスGCほか（カリフォルニア州サンディエゴ北部・テメキュラ）",
+   "pref": "アメリカ",
+   "address": "San Marcos / North San Diego County, California, USA",
+   "lat": 33.139472,
+   "lng": -117.161153,
+   "approx": true
+  },
+  "リンクス・アット・レイクハウスほか（カリフォルニア州サンマルコス周辺）": {
+   "name": "リンクス・アット・レイクハウスほか（カリフォルニア州サンマルコス周辺）",
+   "pref": "アメリカ",
+   "address": "San Marcos, California, USA",
+   "lat": 33.139472,
+   "lng": -117.161153,
+   "approx": true
+  },
+  "パームデザート周辺の複数コース（カリフォルニア州）": {
+   "name": "パームデザート周辺の複数コース（カリフォルニア州）",
+   "pref": "アメリカ",
+   "address": "Palm Desert, California, USA",
+   "lat": 33.72888,
+   "lng": -116.38253,
+   "approx": true
+  },
+  "サンディエゴ周辺の複数コース（カリフォルニア州・年代別に会場が異なる）": {
+   "name": "サンディエゴ周辺の複数コース（カリフォルニア州・年代別に会場が異なる）",
+   "pref": "アメリカ",
+   "address": "San Diego, California, USA",
+   "lat": 32.71576,
+   "lng": -117.163817,
+   "approx": true
+  },
+  "トランプ・ナショナル・ドラル（フロリダ州マイアミ）": {
+   "name": "トランプ・ナショナル・ドラル（フロリダ州マイアミ）",
+   "pref": "アメリカ",
+   "address": "Trump National Doral, Doral (Miami), Florida, USA",
+   "lat": 25.818317,
+   "lng": -80.343577
+  },
+  "コタ・セリエマスG&CC（ヌグリスンビラン州ニライ）": {
+   "name": "コタ・セリエマスG&CC（ヌグリスンビラン州ニライ）",
+   "pref": "マレーシア",
+   "address": "Kota Seriemas (Nilai area), Seremban, Negeri Sembilan, Malaysia",
+   "lat": 2.781386,
+   "lng": 101.774045,
+   "approx": true
   }
  }
 }
