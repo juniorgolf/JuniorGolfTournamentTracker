@@ -11,6 +11,7 @@ const REGIONS = [
   ["四国", ["四国", "徳島", "香川", "愛媛", "高知"]],
   ["九州・沖縄", ["九州", "九州・沖縄", "福岡", "佐賀", "長崎", "熊本", "大分", "宮崎", "鹿児島", "沖縄"]],
   ["全国", ["全国"]],
+  ["海外", ["海外"]],  // 国名は読み込み時に overseas: true の大会から足す
 ];
 const regionOf = (pref) => (REGIONS.find(([, list]) => list.includes(pref)) || ["その他"])[0];
 const SOON_DAYS = 30;
@@ -87,11 +88,15 @@ const dateRange = (t) => (t.end && t.end !== t.start ? `${fmtY(t.start)} 〜 ${f
 const rowCls = (t) => (TECHO ? ` ot-${orgType(t.organizer)}` : "");
 const orgCell = (t) => (TECHO ? `<span class="ot-tag">${esc(ORG_TYPES[orgType(t.organizer)].label)}</span>` : "") + esc(t.organizer);
 
+// 海外の大会は国名の前に地球の印を付ける
+const prefLabel = (t) => (t.overseas ? "🌏 " : "") + esc(t.pref);
+const abroadNote = (t) => t.overseas ? `<p class="d-abroad">🌏 海外の大会です。日付は現地の日付で、申込締切の時刻も現地時間のことが多いので、公式ページで確認してください。</p>` : "";
+
 function watchRow(t) {
   return `<div class="row${rowCls(t)}">
     <div class="date"><span class="d tbd">未定</span></div>
     <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}</span></div>
-    <div class="venue"><span class="pref">${esc(t.pref)}</span>${esc(t.venue)}</div>
+    <div class="venue"><span class="pref">${prefLabel(t)}</span>${esc(t.venue)}</div>
     <div class="org">${orgCell(t)}</div>
     <div class="cell-status"><span class="status st-unknown"><b><span class="dot"></span>発表待ち</b>${t.window_from ? `<small>${esc(fmtY(t.window_from))}ごろから注意</small>` : ""}</span></div>
   </div>`;
@@ -108,7 +113,7 @@ function row(t) {
   return `<div class="row${rowCls(t)}">
     <div class="date"><span class="d">${d.getMonth() + 1}/${d.getDate()}</span><span class="w">${WEEK[d.getDay()]}</span>${multi}</div>
     <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}・${esc(t.stage)}</span></div>
-    <div class="venue"><span class="pref">${esc(t.pref)}</span>${esc(t.venue)}</div>
+    <div class="venue"><span class="pref">${prefLabel(t)}</span>${esc(t.venue)}</div>
     <div class="org">${orgCell(t)}</div>
     <div class="cell-status">${status}</div>
   </div>`;
@@ -140,8 +145,9 @@ function mapRow(t) {
 }
 
 function watchDetail(t) {
-  return `<p class="d-eyebrow">${esc(t.pref)}・日程発表待ち</p>
+  return `<p class="d-eyebrow">${prefLabel(t)}・日程発表待ち</p>
     <h2 class="d-title" id="d-title">${esc(t.name)}</h2>
+    ${abroadNote(t)}
     <div class="d-entry st-unknown">
       <p class="lbl">今年の日程・申込期間はまだ発表されていません</p>
       <p>${esc(t.expected || "前年の実績は公式ページでご確認ください。")}</p>
@@ -161,8 +167,9 @@ function detail(t) {
   if (isWatch(t)) return watchDetail(t);
   const st = entryStatus(t);
   const title = { open: "申込受付中", soon: "まもなく受付開始", closed: "申込受付は終了しました", unknown: "申込期間は要確認" }[st.kind];
-  return `<p class="d-eyebrow">${esc(t.pref)}・${esc(t.stage)}</p>
+  return `<p class="d-eyebrow">${prefLabel(t)}・${esc(t.stage)}</p>
     <h2 class="d-title" id="d-title">${esc(t.name)}</h2>
+    ${abroadNote(t)}
     ${isPast(t) ? resultBlock(t) : ""}
     <div class="d-entry st-${st.kind}">
       <p class="lbl">${esc(title)}${(st.kind === "open" || st.kind === "soon") && st.label !== "受付中" ? `（${esc(st.label)}）` : ""}</p>
@@ -233,6 +240,8 @@ function download(name, text) {
 
 async function main() {
   const { updated, tournaments } = await (await fetch("data/tournaments.json", { cache: "no-cache" })).json();
+  const abroad = REGIONS.find(([r]) => r === "海外")[1];
+  for (const t of tournaments) if (t.overseas && !abroad.includes(t.pref)) abroad.push(t.pref);
   const byId = Object.fromEntries(tournaments.map((t) => [t.id, t]));
   document.getElementById("updated").textContent = updated;
 

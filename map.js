@@ -44,14 +44,16 @@ async function loadVenues() {
 function groupByVenue(list) {
   const groups = new Map();
   const missing = [];
+  let abroad = 0;
   for (const t of list) {
+    if (t.overseas) { abroad++; continue; }  // 海外の大会は地図に出さない（一覧にだけ出す）
     const v = venues[venueKey(t.venue)];
     if (!v || v.lat == null) { missing.push(t); continue; }
     const k = venueKey(t.venue);
     if (!groups.has(k)) groups.set(k, { v, items: [] });
     groups.get(k).items.push(t);
   }
-  return { groups: [...groups.values()], missing };
+  return { groups: [...groups.values()], missing, abroad };
 }
 
 function popupHtml(g) {
@@ -95,7 +97,7 @@ async function showMap(container, list, { fit, onListChange }) {
     map.on("moveend", reportVisible);
   }
   map.invalidateSize();
-  const { groups, missing } = groupByVenue(list);
+  const { groups, missing, abroad } = groupByVenue(list);
   lastGroups = groups;
   if (layer) layer.remove();
   layer = L.markerClusterGroup({ showCoverageOnHover: false, maxClusterRadius: 48 });
@@ -108,9 +110,10 @@ async function showMap(container, list, { fit, onListChange }) {
   }
   layer.addTo(map);
   if (fit && groups.length) map.fitBounds(L.latLngBounds(groups.map((g) => [g.v.lat, g.v.lng])).pad(0.15), { maxZoom: 11 });
-  container.querySelector(".map-status").textContent = missing.length
-    ? `会場の位置を確認中の大会が${missing.length}件あり、地図には出ていません（一覧タブには表示されます）。`
-    : "";
+  container.querySelector(".map-status").textContent = [
+    missing.length ? `会場の位置を確認中の大会が${missing.length}件あり、地図には出ていません（一覧タブには表示されます）。` : "",
+    abroad ? `海外の大会${abroad}件は地図に出していません（一覧タブで見られます）。` : "",
+  ].join("");
   reportVisible();
 }
 

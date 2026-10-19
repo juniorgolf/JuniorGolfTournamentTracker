@@ -299,3 +299,4 @@ dialog::backdrop { background: rgba(10, 14, 12, .55); backdrop-filter: blur(2px)
 .d-cal-sub { margin: 10px 0 6px; font-size: 12px; opacity: .7; }
 .d-cal-btns { display: flex; gap: 8px; flex-wrap: wrap; }
 .d-cal-btns .btn { font-size: 13px; padding: 8px 14px; }
+.d-abroad { margin: 12px 0 0; padding: 10px 14px; font-size: 13px; line-height: 1.7; background: rgba(127,127,127,.08); border-radius: 10px; }
