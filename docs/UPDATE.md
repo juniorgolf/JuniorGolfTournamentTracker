@@ -19,7 +19,7 @@
 
 ## 仕上げ
 - 新しい会場があれば data/venues.json に住所と座標を足す（座標は国土地理院の住所検索 msearch.gsi.go.jp を WebFetch で）。
-- `data/tournaments.json` の `updated` を当日にし、`python3 scripts/build_ics.py` で calendar.ics を作り直す。
+- `data/tournaments.json` の `updated` を当日にする。
 - ページがエラーなく表示されることを確かめてから commit・push する。
 - docs/update-log.md に、日付・変更件数・回り持ちで見た地方を1行で追記する。
 - スレッドに、変わった点（新たに日程が出た大会、申込が始まる・締切が近い大会、追加・中止）を短く報告する。変更が無ければそう書く。

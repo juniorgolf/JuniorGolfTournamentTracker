@@ -1,5 +1,5 @@
 // 申込カレンダー：月ごとに「申込締切」「受付開始」「開催日」を並べる
-// app.js の esc / md / fmt / toDate / daysUntil / WEEK / icsFor / download を使う
+// app.js の esc / md / fmt / toDate / daysUntil / WEEK を使う
 
 const CAL_KINDS = {
   close: { label: "申込締切", short: "締切" },
@@ -67,12 +67,6 @@ function showCalendar(container, list) {
         <div><button class="name" data-id="${esc(e.t.id)}">${esc(e.t.name)}</button><span class="sub">${esc(e.t.pref)}・${daysUntil(e.date) < 0 ? "締切済" : daysUntil(e.date) === 0 ? "本日締切" : `あと${daysUntil(e.date)}日`}</span></div>
       </div>`).join("")
     : `<p class="empty">この月の申込締切はありません。</p>`;
-
-  // 表示中の月に予定がある大会を、カレンダーアプリ用にまとめて書き出す
-  container.querySelector("#cal-ics").onclick = () => {
-    const ts = [...new Set(ev.map((e) => e.t))];
-    if (ts.length) download(`junior-golf-${y}-${String(m + 1).padStart(2, "0")}.ics`, icsFor(ts));
-  };
 }
 
 // 月送り・表示する種類の切り替え・「ほか N件」。rerender は絞り込み済みの一覧で描き直す関数

@@ -178,10 +178,31 @@ function detail(t) {
     ${t.note ? `<p class="d-note">${esc(t.note)}</p>` : ""}
     <div class="d-actions">
       <a class="btn btn-solid" href="${esc(t.url)}" target="_blank" rel="noopener">公式ページで要項を見る</a>
-      <button class="btn btn-line" data-ics="${esc(t.id)}">カレンダーに登録</button>
       <a class="btn btn-line" href="${esc(gmapsDir(t))}" target="_blank" rel="noopener">経路を調べる（Googleマップ）</a>
     </div>
+    ${isPast(t) ? "" : calBlock(t)}
     <p class="d-verified">${esc(t.verified)} 時点で公式ページを確認</p>`;
+}
+
+// 詳細画面の「カレンダーに登録」。Google カレンダーは1予定ずつのリンク、.ics は大会日・申込開始・申込締切をまとめて1ファイル
+function gcalUrl(t, title, start, end) {
+  const d = (s) => s.replace(/-/g, "");
+  const x = toDate(end); x.setDate(x.getDate() + 1);
+  const next = `${x.getFullYear()}${String(x.getMonth() + 1).padStart(2, "0")}${String(x.getDate()).padStart(2, "0")}`;
+  const q = new URLSearchParams({ action: "TEMPLATE", text: `${title}${t.name}`, dates: `${d(start)}/${next}`, details: t.url, location: t.venue || "" });
+  return `https://calendar.google.com/calendar/render?${q}`;
+}
+function calBlock(t) {
+  const links = [`<a class="btn btn-line" href="${esc(gcalUrl(t, "【大会】", t.start, t.end || t.start))}" target="_blank" rel="noopener">大会日を追加</a>`];
+  if (t.entry_open && daysUntil(t.entry_open) >= 0) links.push(`<a class="btn btn-line" href="${esc(gcalUrl(t, "【申込開始】", t.entry_open, t.entry_open))}" target="_blank" rel="noopener">申込開始日を追加</a>`);
+  if (t.entry_close && daysUntil(t.entry_close) >= 0) links.push(`<a class="btn btn-line" href="${esc(gcalUrl(t, "【申込締切】", t.entry_close, t.entry_close))}" target="_blank" rel="noopener">申込締切日を追加</a>`);
+  return `<div class="d-cal">
+      <p class="lbl">この大会をカレンダーに登録</p>
+      <p class="d-cal-sub">Google カレンダー</p>
+      <div class="d-cal-btns">${links.join("")}</div>
+      <p class="d-cal-sub">iPhone・Outlook など</p>
+      <div class="d-cal-btns"><button class="btn btn-line" data-ics="${esc(t.id)}">日程をまとめて登録（.ics）</button></div>
+    </div>`;
 }
 
 // iCalendar 形式（終日予定）。大会日・申込開始・申込締切を別々の予定にする

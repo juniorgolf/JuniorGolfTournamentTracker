@@ -6,16 +6,14 @@
 - `design.js` / `techo.css`：画面デザインの切り替え。いまは「おやこ手帳」デザイン（techo）。`design.js` の `DESIGN_DEFAULT` を `"classic"` にすると元のデザインに戻る。くわしくは `docs/DESIGN.md`。
 - `index.html` / `style.css` / `app.js`：画面。月ごとの一覧（開催日・大会名・会場・主催・申込状況）と、大会名クリックで開く詳細。`#大会ID` 付きURLで詳細を直接開ける。ビルド不要。
 - `map.js`：地図タブ。OpenStreetMap の地図（Leaflet）に会場ごとのピンを立てる。経路・地点は Google マップのリンクに渡す（Google の API キーは不要）。
-- `cal.js`：申込カレンダータブ。月ごとに申込締切・受付開始・開催日を表示し、表示中の月の予定を .ics で書き出せる。スマホでは今日以降の予定がある日だけを縦に並べる。
+- `cal.js`：申込カレンダータブ。月ごとに申込締切・受付開始・開催日を表示する。カレンダーアプリへの登録は大会ごと（詳細画面の「この大会をカレンダーに登録」：Google カレンダーのリンクと .ics）。スマホでは今日以降の予定がある日だけを縦に並べる。
 - `data/venues.json`：会場の住所と緯度・経度。キーは会場名から空白を除いたもの。住所は公式ページ等で確認し、緯度・経度は国土地理院の住所検索で求める。位置が分からない会場は載せない（その大会は一覧にだけ出る）。
 - `vendor/`：Leaflet 1.9.4（BSD-2-Clause）と Leaflet.markercluster 1.5.3（MIT）。ライセンスは各フォルダ内。
 - `data/tournaments.json`：大会データ（唯一の元データ）。1件ごとに公式URLと最終確認日を持つ。
-- `scripts/build_ics.py`：全大会のカレンダー（`calendar.ics`）を作る。データを変えたら実行する。
 
 ## 大会を追加・更新する
 1. 公式ページで確認した内容を `data/tournaments.json` に追記する。分からない項目は `null` のままにする（推測で埋めない）。新しい会場なら `data/venues.json` にも住所と緯度・経度を足す。
-2. `python3 scripts/build_ics.py`
-3. 手元確認：`python3 -m http.server` → http://localhost:8000
+2. 手元確認：`python3 -m http.server` → http://localhost:8000
 
 ## データ項目
 id, name, organizer, pref（都道府県の短い名前。複数県にまたがる大会は「関東」など地方名。app.js の REGIONS で地方に分類）, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, levels（出られる学校段階。["小学生","中学生"] のように持ち、画面の「対象」で絞り込む）, stage（予選/決勝）, url, note, verified, results（終了大会の結果リンク [{label,url}]）, results_note, expected・window_from（日程未発表の大会）
