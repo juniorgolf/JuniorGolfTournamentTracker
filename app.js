@@ -9,7 +9,8 @@ const REGIONS = [
   ["関西", ["関西", "滋賀", "京都", "大阪", "兵庫", "奈良", "和歌山"]],
   ["中国", ["中国", "中国・四国", "鳥取", "島根", "岡山", "広島", "山口"]],
   ["四国", ["四国", "徳島", "香川", "愛媛", "高知"]],
-  ["九州・沖縄", ["九州", "九州・沖縄", "福岡", "佐賀", "長崎", "熊本", "大分", "宮崎", "鹿児島", "沖縄"]],
+  ["九州", ["九州", "九州・沖縄", "福岡", "佐賀", "長崎", "熊本", "大分", "宮崎", "鹿児島"]],
+  ["沖縄", ["沖縄"]],
   ["全国", ["全国"]],
   ["海外", ["海外"]],  // 国名は読み込み時に overseas: true の大会から足す
 ];
@@ -135,6 +136,12 @@ function resultBlock(t) {
 
 // 地図の横に出す、幅の狭い一覧の行
 function mapRow(t) {
+  if (isWatch(t)) return `<div class="mrow${rowCls(t)}">
+    <div class="date"><span class="d tbd">未定</span></div>
+    <div class="mrow-body"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button>
+      <span class="sub">${esc(t.pref)}・前年の会場：${esc(t.prev_venue)}</span>
+      <span class="status st-unknown"><b><span class="dot"></span>日程発表待ち</b></span></div>
+  </div>`;
   const st = entryStatus(t);
   return `<div class="mrow${rowCls(t)}">
     <div class="date"><span class="d">${esc(md(t.start))}</span><span class="w">${WEEK[toDate(t.start).getDay()]}</span></div>
@@ -335,7 +342,7 @@ async function main() {
   let mapKey = null;
 
   // 開催日順（同じ日は終了日、大会名の順）
-  const byDate = (a, b) => a.start.localeCompare(b.start) || (a.end || "").localeCompare(b.end || "") || a.name.localeCompare(b.name, "ja");
+  const byDate = (a, b) => (a.start || "9999").localeCompare(b.start || "9999") || (a.end || "").localeCompare(b.end || "") || a.name.localeCompare(b.name, "ja");
   const render = () => {
     const base = tournaments.filter((t) => inArea(t) && (!fOrg.value || t.organizer === fOrg.value));
     const sets = {
@@ -345,7 +352,8 @@ async function main() {
       // 終了した大会は新しい順
       past: base.filter(isPast).sort((a, b) => byDate(b, a)),
     };
-    sets.map = sets.upcoming;
+    // 地図には、日程発表待ちでも前年の会場が分かる大会（全国決勝など）を前年の会場に出す
+    sets.map = [...sets.upcoming, ...sets.watch.filter((t) => t.prev_venue)];
     [sets.open.length, sets.upcoming.length, sets.watch.length].forEach((n, i) => flipTo(statDds[i], n));
     if (TECHO) renderTypes();
     tabs.forEach((b) => {

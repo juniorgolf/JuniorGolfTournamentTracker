@@ -18,6 +18,7 @@
 5. **新しい大会の探索**（残りの上限がある場合だけ）：docs/research/*.csv の情報源のうち1回に10か所ほどを巡回し、data に無い大会を足す。
 
 ## 仕上げ
+- 日程発表待ちで pref が「全国」の大会は、前年の会場が公式で分かれば `prev_venue`（venues.json にある会場名）を入れる。地図ではその会場に「日程未定（前年の会場）」として出る。日程が出たら `prev_venue` は消してよい。
 - 新しい会場があれば data/venues.json に住所と座標を足す（座標は国土地理院の住所検索 msearch.gsi.go.jp を WebFetch で）。
 - `data/tournaments.json` の `updated` を当日にする。
 - ページがエラーなく表示されることを確かめてから commit・push する。

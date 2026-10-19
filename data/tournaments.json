@@ -9593,7 +9593,8 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_venue": "滋賀ゴルフ倶楽部"
   },
   {
    "id": "nat-gd-jrcup-qual-2026-05-17",
@@ -14719,7 +14720,8 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_venue": "ピートダイゴルフクラブ VIPコース"
   },
   {
    "id": "jhs-national-jga-japan-jr-70-1214",
@@ -14767,7 +14769,8 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_venue": "千葉カントリークラブ 梅郷コース"
   },
   {
    "id": "jhs-national-pga-jr-taiheiyo-9",
@@ -17818,7 +17821,8 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_venue": "サンコーカントリークラブ"
   },
   {
    "id": "w-shinjiyai-threebond",

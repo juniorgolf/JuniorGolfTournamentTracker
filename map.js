@@ -50,9 +50,10 @@ function groupByVenue(list) {
   const domestic = list.some((t) => !t.overseas);
   for (const t of list) {
     if (t.overseas && domestic) { abroad++; continue; }
-    const v = venues[venueKey(t.venue)];
+    // 日程発表待ちの大会は前年の会場（prev_venue）に出す
+    const k = venueKey(t.start ? t.venue : t.prev_venue);
+    const v = venues[k];
     if (!v || v.lat == null) { missing.push(t); continue; }
-    const k = venueKey(t.venue);
     if (!groups.has(k)) groups.set(k, { v, items: [] });
     groups.get(k).items.push(t);
   }
@@ -60,8 +61,10 @@ function groupByVenue(list) {
 }
 
 function popupHtml(g) {
-  const first = g.items[0];
+  // 会場名は会場データから（日程発表待ちの大会の venue は「未発表（前年は…）」のため）
+  const first = { venue: g.v.name || g.items[0].venue, pref: g.v.pref || g.items[0].pref };
   const rows = g.items.map((t) => {
+    if (!t.start) return `<li><button class="pop-name" data-id="${esc(t.id)}">日程未定（前年の会場） ${esc(t.name)}</button><span class="pop-st st-unknown">日程発表待ち</span></li>`;
     const st = entryStatus(t);
     return `<li><button class="pop-name" data-id="${esc(t.id)}">${esc(fmt(t.start))} ${esc(t.name)}</button><span class="pop-st st-${st.kind}">${esc(st.label)}</span></li>`;
   }).join("");
@@ -107,7 +110,7 @@ async function showMap(container, list, { fit, onListChange }) {
   for (const g of groups) {
     const live = g.items.some((t) => entryStatus(t).kind === "open");
     // おやこ手帳デザインでは、ピンの色を主催者の種類（その会場で最初に開かれる大会）に合わせる
-    const type = TECHO ? ` ot-${orgType([...g.items].sort((a, b) => a.start.localeCompare(b.start))[0].organizer)}` : "";
+    const type = TECHO ? ` ot-${orgType([...g.items].sort((a, b) => (a.start || "9999").localeCompare(b.start || "9999"))[0].organizer)}` : "";
     const icon = L.divIcon({ className: "", html: `<span class="pin${type}${live ? " pin-open" : ""}">${g.items.length}</span>`, iconSize: [30, 30], iconAnchor: [15, 15] });
     layer.addLayer(L.marker([g.v.lat, g.v.lng], { icon, title: g.items[0].venue }).bindPopup(popupHtml(g), { maxWidth: 320 }));
   }
