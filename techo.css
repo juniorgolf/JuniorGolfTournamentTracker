@@ -23,7 +23,11 @@
   --head-bg: var(--bg);
   --head-ink: var(--ink);
   --accent: #b8352b;
+  --accent-soft: var(--coral-soft);  /* 受付中の帯：赤い文字に淡い赤の地（緑地に赤文字にならないように） */
+  --warn: var(--amber-ink);
+  --warn-soft: var(--yellow-soft);
   --info: #2b4590;
+  --info-soft: var(--blue-soft);
   --radius: 14px;
   --font: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
   --num: "M PLUS Rounded 1c", "Hiragino Maru Gothic ProN", "Noto Sans JP", system-ui, sans-serif;
@@ -42,7 +46,7 @@
 [data-design="techo"] .ot-junior { --ot: #00796b; --ot-bg: #e0f1ee; }
 [data-design="techo"] .ot-union { --ot: #3b6b1f; --ot-bg: #e8f0e1; }
 [data-design="techo"] .ot-school { --ot: #6a47a8; --ot-bg: #eee9f7; }
-[data-design="techo"] .ot-media { --ot: #a35c00; --ot-bg: #f7ecdd; }
+[data-design="techo"] .ot-media { --ot: #8f5000; --ot-bg: #f7ecdd; }
 [data-design="techo"] .ot-pro { --ot: #b0306a; --ot-bg: #f7e4ee; }
 [data-design="techo"] .ot-other { --ot: #56636e; --ot-bg: #eceff1; }
 
@@ -154,6 +158,7 @@
 [data-design="techo"] .d-org span { font-size: 13px; line-height: 1.45; }
 [data-design="techo"] .d-org b { display: block; font-size: 12px; color: var(--ot); }
 [data-design="techo"] .d-entry { border-left: 0; border-radius: 16px; }
+[data-design="techo"] .d-entry.st-closed { color: var(--ink-2); }
 [data-design="techo"] .btn { border-radius: 999px; font-weight: 700; }
 [data-design="techo"] .btn-solid { color: #ffffff; background: #1d2a44; border: 2px solid #1d2a44; }
 [data-design="techo"] .btn-line { border: 2px solid var(--ink); }
