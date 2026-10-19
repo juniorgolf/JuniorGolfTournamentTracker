@@ -45,8 +45,11 @@ function groupByVenue(list) {
   const groups = new Map();
   const missing = [];
   let abroad = 0;
+  // 国内の大会と混ざっているときは海外の大会を地図に出さない（日本地図が世界地図に縮むため）。
+  // エリアで「海外」や国名を選んだときは、海外の会場を地図に出す
+  const domestic = list.some((t) => !t.overseas);
   for (const t of list) {
-    if (t.overseas) { abroad++; continue; }  // 海外の大会は地図に出さない（一覧にだけ出す）
+    if (t.overseas && domestic) { abroad++; continue; }
     const v = venues[venueKey(t.venue)];
     if (!v || v.lat == null) { missing.push(t); continue; }
     const k = venueKey(t.venue);
@@ -112,7 +115,7 @@ async function showMap(container, list, { fit, onListChange }) {
   if (fit && groups.length) map.fitBounds(L.latLngBounds(groups.map((g) => [g.v.lat, g.v.lng])).pad(0.15), { maxZoom: 11 });
   container.querySelector(".map-status").textContent = [
     missing.length ? `会場の位置を確認中の大会が${missing.length}件あり、地図には出ていません（一覧タブには表示されます）。` : "",
-    abroad ? `海外の大会${abroad}件は地図に出していません（一覧タブで見られます）。` : "",
+    abroad ? `海外の大会${abroad}件は、エリアで「海外」か国名を選ぶと地図に出ます。` : "",
   ].join("");
   reportVisible();
 }
