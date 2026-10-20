@@ -24,7 +24,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 全豪ヒルズ国際ジュニアオープン／ハワイバーバーズ国際ジュニア選手権 日本代表選抜 関東地区(千葉)予選会（10/18 紫CCあやめ36・同シリーズの直前の回）",
+    "links": [
+     {
+      "label": "成績（PDF）",
+      "url": "https://www.jjgt.net/tour-info/result/r2727.pdf"
+     },
+     {
+      "label": "JJGT 大会結果一覧",
+      "url": "http://www.jjgt.net/result/index.php"
+     }
+    ]
+   }
   },
   {
    "id": "ishikawa-region-2026-10-25-ibaraki",
@@ -49,7 +63,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・ロックヒルゴルフクラブ 10/26）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1026_rockhill_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "jjgt-2749",
@@ -99,7 +127,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・ニュー・セントアンドリュースGCジャパン 11/1）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1101_nsaj_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "kitayatsu-380",
@@ -149,7 +191,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・ゴルフ5カントリー かさまフォレスト 11/3）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1103_kasama_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "ishikawa-region-2026-11-07-tochigi",
@@ -174,7 +230,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・那須小川ゴルフクラブ 11/8）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1108_nasuogawa_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "jjgt-2759",
@@ -224,7 +294,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・シリーズの結果一覧。前年度は同会場の開催なし）",
+    "links": [
+     {
+      "label": "2025年度 地区大会の結果一覧（会場別PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "jb-myfirsttee-kanto-2026",
@@ -248,7 +328,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "Jack Bunny!! Junior Golf Tour MY FIRST TEE（2025・北谷津ゴルフガーデン 11/3）",
+    "links": [
+     {
+      "label": "成績（PDF）",
+      "url": "https://jb-cup.com/wp/wp-content/uploads/2025/11/My-First-Tee_2025_Kitayatsu-GG_Result_1103.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "toyoko-final-2026",
@@ -272,7 +362,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第11回 東横インジュニアゴルフオープン決勝大会",
+    "links": [
+     {
+      "label": "成績（小学生・中高生）",
+      "url": "https://www.jjga.org/final/toyokoinn_2026_result"
+     }
+    ]
+   }
   },
   {
    "id": "jjgt-2026-11-15-murasaki",
@@ -347,7 +447,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・那須小川ゴルフクラブ 11/23）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1123_nasuogawa_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "ishikawa-region-2026-11-23-gunma",
@@ -372,7 +486,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・JGMベルエアゴルフクラブ 11/24）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1124_jgmbelaire_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "jgai-cup-2026",
@@ -397,7 +525,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "JGAIカップ（市原市ジュニアゴルフツアー2025）",
+    "links": [
+     {
+      "label": "成績表（PDF）",
+      "url": "https://www.jgai.or.jp/wp-content/uploads/2025/11/514eccdf5908c0d2dd55d0435af1c92d.pdf"
+     }
+    ]
+   }
   },
   {
    "organizer": "NPO法人パピポ",
@@ -482,7 +620,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・セブンハンドレッドクラブ 12/13）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1213_seven_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "jjgt-2026-12-13-asaka",
@@ -532,7 +684,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・ロイヤルメドウゴルフ倶楽部 12/20）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1220_royalmeadow_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "jjgt-2026-12-20-murasaki",
@@ -582,7 +748,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・岩瀬桜川カントリークラブ 12/21）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1221_iwasesakuragawa_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "tokyo-elem-12",
@@ -681,7 +861,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・森林公園ゴルフ倶楽部 2026/1/5）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0105_shinrinkouen_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "sponichi-kanto-elem-20",
@@ -730,7 +924,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・船橋カントリー倶楽部 2026/1/6）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0106_funabashi_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "ishikawa-region-2027-01-09-ibaraki",
@@ -755,7 +963,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・ロックヒルゴルフクラブ 2026/1/4）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0104_rockhill_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "jjgt-2027-01-10-asaka",
@@ -805,7 +1027,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・岩瀬桜川カントリークラブ 2026/1/11）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0111_iwasesakuragawa_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "ishikawa-region-2027-01-11-tochigi",
@@ -830,7 +1066,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・シリーズの結果一覧。前年度は同会場の開催なし）",
+    "links": [
+     {
+      "label": "2025年度 地区大会の結果一覧（会場別PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "jjgt-2027-01-17-murasaki",
@@ -879,7 +1125,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "神奈川アマ2026 ジュニア(小学生)の部 兼 関東小学生大会予選",
+    "links": [
+     {
+      "label": "成績（記事）",
+      "url": "https://www.knga.org/info/2026/junior_s_result"
+     },
+     {
+      "label": "成績（男子・PDF）",
+      "url": "https://www.knga.org/user/pages/05.compe/2026/k01702/成績(男子）.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-ichihara-doubles-4",
@@ -904,7 +1164,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第3回 市原市ジュニアゴルフダブルス",
+    "links": [
+     {
+      "label": "成績表（PDF）",
+      "url": "https://www.jgai.or.jp/wp-content/uploads/2025/12/da3107efba0ddb933d06651e415f3762.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-gunma-kanto-elem-2027",
@@ -1000,7 +1270,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第18回 スタジオアリス ジュニアカップ",
+    "links": [
+     {
+      "label": "成績表（決勝）",
+      "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html#result"
+     }
+    ]
+   }
   },
   {
    "id": "w-fcg-japan-2027",
@@ -1050,7 +1330,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "大東建託・いい部屋ネットジュニアゴルフトーナメント（2026・地区大会と東日本決勝）",
+    "links": [
+     {
+      "label": "東日本決勝の成績",
+      "url": "https://www.jjga.org/final/2026daito_east_result"
+     },
+     {
+      "label": "2026 地区大会の結果一覧（会場別PDF）",
+      "url": "https://www.jjga.org/convention/2026/spring_junior/"
+     }
+    ]
+   }
   },
   {
    "id": "w-akabane-elem",
@@ -1133,7 +1427,29 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 PGM世界ジュニアゴルフ選手権 日本代表選抜大会（関東予選・東日本決勝）",
+    "links": [
+     {
+      "label": "関東予選（1）結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e9%96%a2%e6%9d%b1%e4%ba%88%e9%81%b8%ef%bc%881%ef%bc%89/"
+     },
+     {
+      "label": "関東予選（2）結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e9%96%a2%e6%9d%b1%e4%ba%88%e9%81%b8%ef%bc%882%ef%bc%89/"
+     },
+     {
+      "label": "関東予選（3）結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e9%96%a2%e6%9d%b1%e4%ba%88%e9%81%b8%ef%bc%883%ef%bc%89/"
+     },
+     {
+      "label": "東日本決勝 最終日",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e6%9d%b1%e6%97%a5%e6%9c%ac%e6%b1%ba%e5%8b%9d%e5%a4%a7%e4%bc%9a%e6%9c%80%e7%b5%82%e6%97%a5/"
+     }
+    ]
+   }
   },
   {
    "id": "w-ichihara-open-2027",
@@ -1158,7 +1474,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第4回 市原市ジュニアゴルフオープン",
+    "links": [
+     {
+      "label": "成績表（PDF）",
+      "url": "https://www.jgai.or.jp/wp-content/uploads/2026/03/494e3cb654a976a2601208f6b036d32f.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-saitama-elem-2027",
@@ -1216,7 +1542,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年 関東小学生ゴルフ大会 決勝",
+    "links": [
+     {
+      "label": "成績（PDF）",
+      "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2631_23244_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jrplayers-2027",
@@ -1241,7 +1577,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "ジャパンジュニアプレーヤーズチャンピオンシップ（2026・地区大会の結果一覧）",
+    "links": [
+     {
+      "label": "2026 地区大会の結果一覧（会場別PDF）",
+      "url": "https://www.jjga.org/convention/2026/juniorplayers/"
+     }
+    ]
+   }
   },
   {
    "id": "w-gd-jrcup-30",
@@ -1266,7 +1612,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 ゴルフダイジェスト ジャパンジュニアカップ",
+    "links": [
+     {
+      "label": "成績（2026年大会）",
+      "url": "https://golf-digest.co.jp/event/jrcup/result/_2026/"
+     }
+    ]
+   }
   },
   {
    "id": "w-pga-jrleague-2027",
@@ -1316,7 +1672,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "PALMAX presents 小平智カップ（2026・地区大会の結果一覧）",
+    "links": [
+     {
+      "label": "2026 地区大会の結果一覧（会場別PDF）",
+      "url": "https://www.jjga.org/convention/2026/summer_junior/"
+     }
+    ]
+   }
   },
   {
    "id": "w-teletama-24",
@@ -1341,7 +1707,25 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第23回 テレ玉カップジュニアゴルフ大会",
+    "links": [
+     {
+      "label": "成績（中学生の部）",
+      "url": "https://tvs-creative.co.jp/event/images/2026_jrg_c.pdf"
+     },
+     {
+      "label": "成績（小学4〜6年の部）",
+      "url": "https://tvs-creative.co.jp/event/images/2026_jrg_b.pdf"
+     },
+     {
+      "label": "成績（小学1〜3年の部）",
+      "url": "https://tvs-creative.co.jp/event/images/2026_jrg_a.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-konami-14",
@@ -1365,7 +1749,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第13回 コナミスポーツ ジュニアカップ",
+    "links": [
+     {
+      "label": "予選の成績",
+      "url": "https://www.konami.com/sportsclub/undojuku/golf/konamisports-jr-cup/2026/qualify-results.html"
+     },
+     {
+      "label": "決勝の成績",
+      "url": "https://www.konami.com/sportsclub/undojuku/golf/konamisports-jr-cup/2026/final-results.html"
+     }
+    ]
+   }
   },
   {
    "id": "w-jb-challenge-2027",
@@ -1389,7 +1787,25 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "Jack Bunny!! Junior Golf Tour CHALLENGE CUP 2026",
+    "links": [
+     {
+      "label": "成績（日野GC 7/24）",
+      "url": "https://jb-cup.com/wp/wp-content/uploads/2026/07/Hino-GC_Challenge-Cup_Result_0724.pdf"
+     },
+     {
+      "label": "成績（太宰府GC 8/7）",
+      "url": "https://jb-cup.com/wp/wp-content/uploads/2026/08/Dazaifu-GC_Challenge-Cup_Result_0807.pdf"
+     },
+     {
+      "label": "成績（CPGカントリークラブ 8/24）",
+      "url": "https://jb-cup.com/wp/wp-content/uploads/2026/08/0824_CPG_Final-Result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kawagoe-future",
@@ -1438,7 +1854,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "東横インジュニアゴルフオープン 地区大会（2026・結果一覧）",
+    "links": [
+     {
+      "label": "2026 地区大会の結果一覧（会場別PDF）",
+      "url": "https://www.jjga.org/convention/2026/toyokoinn/"
+     }
+    ]
+   }
   },
   {
    "id": "w-nasu-royal-11",
@@ -1596,7 +2022,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2026年長野県小学生ゴルフ大会",
+    "links": [
+     {
+      "label": "成績（リザルト）",
+      "url": "https://www.naganogolf.jp/wp/wp-content/uploads/2025/10/3538_001.pdf"
+     },
+     {
+      "label": "大会ページ",
+      "url": "https://www.naganogolf.jp/games/396/"
+     }
+    ]
+   }
   },
   {
    "id": "chb-ishikawa-region-2026-11-23-mie",
@@ -1621,7 +2061,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会",
+    "links": [
+     {
+      "label": "成績（津CC会場）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1124_tsu_result.pdf"
+     },
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "chb-ishikawa-region-2026-12-12-shizuoka",
@@ -1646,7 +2100,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会",
+    "links": [
+     {
+      "label": "成績（菊川CC会場）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1214_kikukawa_result.pdf"
+     },
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "chb-ishikawa-region-2026-12-25-shizuoka",
@@ -1671,7 +2139,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会",
+    "links": [
+     {
+      "label": "成績（ザ・フォレストCC会場）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1225_theforest_result.pdf"
+     },
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "chb-ishikawa-region-2027-01-09-gifu",
@@ -1696,7 +2178,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会",
+    "links": [
+     {
+      "label": "成績（レイクグリーンGC会場）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0110_lakegreen_result.pdf"
+     },
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "chb-ishikawa-region-2027-01-11-aichi",
@@ -1721,7 +2217,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会",
+    "links": [
+     {
+      "label": "成績（ウッドフレンズ名古屋港GC会場）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1103_nagoyaport_result.pdf"
+     },
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "chb-ishikawa-ryo-final-2026",
@@ -1745,7 +2255,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 小学生決勝大会",
+    "links": [
+     {
+      "label": "大会結果",
+      "url": "https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e7%9f%b3%e5%b7%9d%e9%81%bc%e3%82%ab%e3%83%83%e3%83%97%e5%b0%8f%e5%ad%a6%e7%94%9f%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c"
+     }
+    ]
+   }
   },
   {
    "id": "chb-sponichi-chubu-elem-22",
@@ -1769,7 +2289,25 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第21回中部小学生ゴルフ選手権春季大会",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E6%9C%80%E7%B5%82%E7%94%B7%E5%AD%90%E6%88%90%E7%B8%BE.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E5%A5%B3%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-5.pdf"
+     },
+     {
+      "label": "大会ページ",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290408/"
+     }
+    ]
+   }
   },
   {
    "id": "chb-aga-snag-oyako-2026",
@@ -2315,7 +2853,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第20回四国小学生ゴルフ大会",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://sgu.gr.jp/wp-content/uploads/2026/01/1R%E6%88%90%E7%B8%BE%E8%A1%A8-1.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "cs-sponichi-shikoku-elem-22",
@@ -2388,7 +2936,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "島根県ジュニアゴルフ秋季大会",
+    "links": [
+     {
+      "label": "大会結果",
+      "url": "https://www.shimane-golf.com/wp-content/uploads/2025/11/2025junior_autum_resurl.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-cs-sanin-jr-open-spring-2027",
@@ -2627,7 +3185,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 PGM世界ジュニアゴルフ選手権 日本代表選抜大会 中国・四国予選",
+    "links": [
+     {
+      "label": "大会結果",
+      "url": "https://www.ijga.or.jp/wp-content/uploads/2026/03/dc48b2f239a92cddb01667361bd49804.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "cs-ishikawa-2026-11-07-bizan",
@@ -2652,7 +3220,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（眉山カントリークラブ・2025年11月8日）",
+    "links": [
+     {
+      "label": "成績（同会場の前回）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1108_bizan_result.pdf"
+     },
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "cs-ishikawa-2026-11-21-osafune",
@@ -2677,7 +3259,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（長船カントリークラブ・2025年11月29日）",
+    "links": [
+     {
+      "label": "成績（同会場の前回）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1129_osahune_result.pdf"
+     },
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "cs-ishikawa-2026-11-23-suzugamine",
@@ -2702,7 +3298,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度 地区大会の結果一覧。鈴が峰コースでの前回開催はなし）",
+    "links": [
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "cs-ishikawa-2026-12-26-matsuyama",
@@ -2727,7 +3333,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（松山シーサイドカントリークラブ・2025年12月27日）",
+    "links": [
+     {
+      "label": "成績（同会場の前回）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1227_matsuyama_result.pdf"
+     },
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "cs-ishikawa-2027-01-09-matsunaga",
@@ -2752,7 +3372,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（松永カントリークラブ・2026年1月10日）",
+    "links": [
+     {
+      "label": "成績（同会場の前回）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0110_matsunaga_result.pdf"
+     },
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "w-cs-daito-2027",
@@ -2777,7 +3411,37 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "大東建託・いい部屋ネットジュニアゴルフトーナメント 地区大会（2026年 中国・四国の5会場。シリーズの結果一覧）",
+    "links": [
+     {
+      "label": "全会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2026/spring_junior/"
+     },
+     {
+      "label": "成績（屋島CC 2/21）",
+      "url": "https://www.jjga.org/convention/2026/spring_junior/pdf/0221_yashima_result.pdf"
+     },
+     {
+      "label": "成績（広島GC鈴が峰 2/23）",
+      "url": "https://www.jjga.org/convention/2026/spring_junior/pdf/0223_hiroshima_result.pdf"
+     },
+     {
+      "label": "成績（長船CC 3/14）",
+      "url": "https://www.jjga.org/convention/2026/spring_junior/pdf/0314_osahune_result.pdf"
+     },
+     {
+      "label": "成績（松山シーサイドCC 3/21）",
+      "url": "https://www.jjga.org/convention/2026/spring_junior/pdf/0321_matsuyama_result.pdf"
+     },
+     {
+      "label": "成績（安芸CC 3/26）",
+      "url": "https://www.jjga.org/convention/2026/spring_junior/pdf/0326_aki_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-cs-kodaira-2027",
@@ -2802,7 +3466,37 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "PALMAX presents 小平智カップ 地区大会（2026年 中国・四国の5会場。シリーズの結果一覧）",
+    "links": [
+     {
+      "label": "全会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2026/summer_junior/"
+     },
+     {
+      "label": "成績（チェリーGC屋島 6/20）",
+      "url": "https://www.jjga.org/convention/2026/summer_junior/pdf/0620_yashima_result.pdf"
+     },
+     {
+      "label": "成績（眉山CC 7/11）",
+      "url": "https://www.jjga.org/convention/2026/summer_junior/pdf/0711_bizan_result.pdf"
+     },
+     {
+      "label": "成績（広島GC鈴が峰 7/18）",
+      "url": "https://www.jjga.org/convention/2026/summer_junior/pdf/0718_hiroshima_result.pdf"
+     },
+     {
+      "label": "成績（長船CC 7/20）",
+      "url": "https://www.jjga.org/convention/2026/summer_junior/pdf/0720_osahune_result.pdf"
+     },
+     {
+      "label": "成績（松永CC 7/25）",
+      "url": "https://www.jjga.org/convention/2026/summer_junior/pdf/0725_matsunaga_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-cs-toyoko-2027",
@@ -2827,7 +3521,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "東横インジュニアゴルフオープン 地区大会（2026年 中国・四国の5会場。シリーズの結果一覧）",
+    "links": [
+     {
+      "label": "全会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2026/toyokoinn/"
+     }
+    ]
+   }
   },
   {
    "id": "hkt-hokkaido-elem-20",
@@ -2851,7 +3555,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第19回北海道小学生ゴルフ大会",
+    "links": [
+     {
+      "label": "成績（大会ページ）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-289849/"
+     }
+    ]
+   }
   },
   {
    "id": "hkt-ishikawa-region-2026-10-25-hokkaido",
@@ -2876,7 +3590,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・真駒内カントリークラブ 11/3）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1103_makomanai_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "hkt-ishikawa-region-2026-11-08-hokkaido",
@@ -2901,7 +3629,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・シリーズの結果一覧。前年度は同会場の開催なし）",
+    "links": [
+     {
+      "label": "2025年度 地区大会の結果一覧（会場別PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "hkt-tohoku-elem-20",
@@ -2950,7 +3688,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・棚倉田舎倶楽部 11/2）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1102_tanakura_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-tohoku-jr-u11-2027",
@@ -2974,7 +3726,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第31回 東北ジュニアゴルフ選手権競技 11歳以下の部",
+    "links": [
+     {
+      "label": "成績表（男子）",
+      "url": "https://www.tga.gr.jp/reports_result.php?q=1001815"
+     },
+     {
+      "label": "成績表（女子）",
+      "url": "https://www.tga.gr.jp/reports_result.php?q=1001805"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-fukushima-jr-69",
@@ -3377,7 +4143,29 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第26回関西小学生ゴルフ選手権大会 第一予選・第二予選",
+    "links": [
+     {
+      "label": "第一予選 成績（男子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E7%94%B7%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-3.pdf"
+     },
+     {
+      "label": "第二予選 成績（男子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E7%94%B7%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-4.pdf"
+     },
+     {
+      "label": "第一予選 大会ページ",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290416/"
+     },
+     {
+      "label": "第二予選 大会ページ",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290419/"
+     }
+    ]
+   }
   },
   {
    "id": "ksi-spring-elem-27-q-girls",
@@ -3401,7 +4189,29 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第26回関西小学生ゴルフ選手権大会 第一予選・第二予選",
+    "links": [
+     {
+      "label": "第一予選 成績（女子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E5%A5%B3%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-3.pdf"
+     },
+     {
+      "label": "第二予選 成績（女子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E5%A5%B3%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-4.pdf"
+     },
+     {
+      "label": "第一予選 大会ページ",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290416/"
+     },
+     {
+      "label": "第二予選 大会ページ",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290419/"
+     }
+    ]
+   }
   },
   {
    "id": "ksi-spring-elem-27-final",
@@ -3464,7 +4274,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第24回TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ 9月大会【予選】つるやカントリークラブ西宮北コース",
+    "links": [
+     {
+      "label": "成績（小中・男女別）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/24th0927/"
+     }
+    ]
+   }
   },
   {
    "id": "ksi-tsuruya-24-final",
@@ -3489,7 +4309,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第23回TSURUYA CUP スポニチジュニアゴルフチャレンジ 決勝大会",
+    "links": [
+     {
+      "label": "成績（小中・男女別）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/resultpage/23rd/date0315/"
+     },
+     {
+      "label": "第23回 全大会の結果一覧",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/resultpage/23rd/"
+     }
+    ]
+   }
   },
   {
    "id": "w-ksi-tsuruya-25",
@@ -3807,7 +4641,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会（シリーズ結果一覧。同じ会場の前回開催なし）",
+    "links": [
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "ksi-ishikawa-region-2026-11-03-fukuchiyama",
@@ -3832,7 +4676,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会",
+    "links": [
+     {
+      "label": "成績（福知山CC会場）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1103_fukuchiyama_result.pdf"
+     },
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "ksi-ishikawa-region-2026-11-21-ikuno",
@@ -3857,7 +4715,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会",
+    "links": [
+     {
+      "label": "成績（生野高原CC会場）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1122_ikuno_result.pdf"
+     },
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "ksi-ishikawa-region-2026-12-20-westones",
@@ -3882,7 +4754,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会",
+    "links": [
+     {
+      "label": "成績（ウエストワンズCC会場）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1221_westones_result.pdf"
+     },
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "ksi-ishikawa-region-2027-01-11-kakogawa",
@@ -3907,7 +4793,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 キャロウェイゴルフ プレゼンツ 石川遼カップ ジュニア ゴルフ チャンピオンシップ 地区大会（シリーズ結果一覧。同じ会場の前回開催なし）",
+    "links": [
+     {
+      "label": "地区大会 各会場の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "kys-enagic-okinawa-2026",
@@ -3932,7 +4828,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025エナジック沖縄県小学生ゴルフ大会",
+    "links": [
+     {
+      "label": "最終成績（大会ページ）",
+      "url": "https://www.enagicgolfacademy.com/elementary/2025/"
+     }
+    ]
+   }
   },
   {
    "id": "kys-okinawa-school-24",
@@ -3981,7 +4887,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第14回ハイビスカスカップ小中学生ゴルフ伊江島大会",
+    "links": [
+     {
+      "label": "結果発表",
+      "url": "https://www.iejima.org/document/2025121400018/"
+     }
+    ]
+   }
   },
   {
    "id": "kys-guk-elem-20",
@@ -4005,7 +4921,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第19回九州小学生ゴルフ大会",
+    "links": [
+     {
+      "label": "成績表（男子）",
+      "url": "https://www.guk.jp/wp-content/uploads/2025/12/fb27f34daceaffac7e3c95dacb4fcef3.pdf"
+     },
+     {
+      "label": "成績表（女子）",
+      "url": "https://www.guk.jp/wp-content/uploads/2025/12/9b509d14e4ea34b8aa9843703b0d1b1b.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "kys-sponichi-kyushu-elem-22",
@@ -4195,7 +5125,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "長崎県小学生ゴルフ大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://nagasaki-golf.info/wp-content/uploads/%E7%9C%8C%E5%B0%8F%E5%AD%A6%E7%94%9F%E3%82%B4%E3%83%AB%E3%83%95%E5%A4%A7%E4%BC%9A%E6%88%90%E7%B8%BE.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-nagasaki-jr-2027",
@@ -4255,7 +5195,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "長崎県ジュニア親子大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://nagasaki-golf.info/wp-content/uploads/%E9%95%B7%E5%B4%8E%E7%9C%8C%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E8%A6%AA%E5%AD%90%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB%E3%82%B4%E3%83%AB%E3%83%95.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-kab-jr-34",
@@ -4478,7 +5428,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025エナジック沖縄県小学生ゴルフ大会",
+    "links": [
+     {
+      "label": "最終成績（大会ページ）",
+      "url": "https://www.enagicgolfacademy.com/elementary/2025/"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-okinawa-school-25",
@@ -4527,7 +5487,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第14回ハイビスカスカップ小中学生ゴルフ伊江島大会",
+    "links": [
+     {
+      "label": "結果発表",
+      "url": "https://www.iejima.org/document/2025121400018/"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-guk-elem-21",
@@ -4551,7 +5521,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第19回九州小学生ゴルフ大会",
+    "links": [
+     {
+      "label": "成績表（男子）",
+      "url": "https://www.guk.jp/wp-content/uploads/2025/12/fb27f34daceaffac7e3c95dacb4fcef3.pdf"
+     },
+     {
+      "label": "成績表（女子）",
+      "url": "https://www.guk.jp/wp-content/uploads/2025/12/9b509d14e4ea34b8aa9843703b0d1b1b.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-sponichi-kyushu-elem-23",
@@ -4717,7 +5701,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度 地区大会の結果一覧。大分CC月形コースでの前回開催はなし）",
+    "links": [
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "nat-ishikawa-region-2026-11-23-oita",
@@ -4742,7 +5736,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（久住高原ゴルフ倶楽部・2025年11月22日）",
+    "links": [
+     {
+      "label": "成績（同会場の前回）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1122_kuju_result.pdf"
+     },
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "nat-ishikawa-region-2026-11-29-yamanashi",
@@ -4767,7 +5775,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度・富士レイクサイドカントリー倶楽部 11/30）",
+    "links": [
+     {
+      "label": "同会場の成績（PDF）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1130_fujilake_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "nat-ishikawa-region-2026-12-21-fukuoka",
@@ -4792,7 +5814,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（西日本カントリークラブ・2025年12月22日）",
+    "links": [
+     {
+      "label": "成績（同会場の前回）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/1222_nishinihon_result.pdf"
+     },
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "nat-ishikawa-region-2027-01-09-kumamoto",
@@ -4817,7 +5853,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（熊本ゴルフ俱樂部 城南コース・2026年1月10日）",
+    "links": [
+     {
+      "label": "成績（同会場の前回）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0110_kumamoto_result.pdf"
+     },
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "nat-ishikawa-region-2027-01-11-okinawa",
@@ -4842,7 +5892,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（琉球ゴルフ俱楽部・2026年1月12日）",
+    "links": [
+     {
+      "label": "成績（同会場の前回）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0112_ryukyu_result.pdf"
+     },
+     {
+      "label": "全会場の結果一覧（2025年度）",
+      "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
+     }
+    ]
+   }
   },
   {
    "id": "w-nat-pgm-wj-west-2027",
@@ -4868,7 +5932,33 @@
     "小学生",
     "中学生"
    ],
-   "prev_venue": "滋賀ゴルフ倶楽部"
+   "prev_venue": "滋賀ゴルフ倶楽部",
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 PGM世界ジュニアゴルフ選手権 日本代表選抜大会（関東以外の予選・西日本決勝）",
+    "links": [
+     {
+      "label": "東北・北海道予選 結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e6%9d%b1%e5%8c%97%e5%8c%97%e6%b5%b7%e9%81%93%e4%ba%88%e9%81%b8/"
+     },
+     {
+      "label": "東海・関西予選 結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e6%9d%b1%e6%b5%b7%e9%96%a2%e8%a5%bf%e4%ba%88%e9%81%b8/"
+     },
+     {
+      "label": "中国・四国予選 結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e4%b8%ad%e5%9b%bd%e5%9b%9b%e5%9b%bd%e4%ba%88%e9%81%b8/"
+     },
+     {
+      "label": "九州・沖縄予選 結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e4%b9%9d%e5%b7%9e%e6%b2%96%e7%b8%84%e4%ba%88%e9%81%b8/"
+     },
+     {
+      "label": "西日本決勝 最終日",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e8%a5%bf%e6%97%a5%e6%9c%ac%e6%b1%ba%e5%8b%9d%e5%a4%a7%e4%bc%9a%e6%9c%80%e7%b5%82%e6%97%a5/"
+     }
+    ]
+   }
   },
   {
    "id": "w-nat-sponichi-national-final-20",
@@ -4954,7 +6044,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第46回 全国中学校ゴルフ選手権春季大会中部地区予選 兼 第48回 中部中学校ゴルフ選手権冬季大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.chsga.info/document/2025_j_touki_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-chubu-mie-jhs-2026",
@@ -5050,7 +6150,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 全国中学校ゴルフ選手権団体の部中部地区予選 兼 第11回 中部中学校ゴルフ対抗戦",
+    "links": [
+     {
+      "label": "団体成績",
+      "url": "https://www.chsga.info/document/2026_j_chubudantai_Result01.pdf"
+     },
+     {
+      "label": "個人成績",
+      "url": "https://www.chsga.info/document/2026_j_chubudantai_Result02.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-yonex-jcs-chubu-3",
@@ -5075,7 +6189,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第2回 ヨネックスジュニアチャンピオンシップ 中部地区予選",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.chsga.info/document/2026_Yonex_JCS_Result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-tsuruya-chubu-25",
@@ -5100,7 +6224,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第24回TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ 中部大会",
+    "links": [
+     {
+      "label": "成績（小中・男女別）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/24thchubu/"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-aichi-jhs-summer-15",
@@ -5621,7 +6755,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025年度 第34回四国ジュニア選手権秋季大会",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.shsga.jp/pdf/2025/R7akinew.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-chugoku-shikoku-chsga-spring-47",
@@ -5645,7 +6789,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "令和7年度 中国高等学校・中学校ゴルフ選手権 春季大会",
+    "links": [
+     {
+      "label": "成績（中学男子）",
+      "url": "https://chsga.jp/pdf/t20251215-090244-11.pdf"
+     },
+     {
+      "label": "成績（中学女子）",
+      "url": "https://chsga.jp/pdf/t20251215-090244-12.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-chugoku-shikoku-okayama-jhs-12",
@@ -5693,7 +6851,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第29回広島県高等学校・中学校ゴルフ選手権新人戦",
+    "links": [
+     {
+      "label": "成績（中学校）",
+      "url": "https://hiroshima.chsga.jp/pdf/t20251224-151551-10.pdf"
+     },
+     {
+      "label": "成績（高校）",
+      "url": "https://hiroshima.chsga.jp/pdf/t20251224-151551-9.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-chugoku-shikoku-shikoku-spring-47",
@@ -5717,7 +6889,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第46回四国高等学校・中学校ゴルフ選手権春季大会",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.shsga.jp/pdf/2025/R7haruNew.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-chugoku-shikoku-cgu-jr-32-2027",
@@ -5741,7 +6923,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第31回中国ジュニアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績（全部門）",
+      "url": "https://www.cgu.gr.jp/competition/result/7511.html"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chugoku-shikoku-chsga-shinjin-45",
@@ -5765,7 +6957,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第44回 中国高等学校・中学校ゴルフ選手権 新人戦",
+    "links": [
+     {
+      "label": "成績（中学の部）",
+      "url": "https://chsga.jp/pdf/t20260930-195054-10.pdf"
+     },
+     {
+      "label": "成績（高校の部）",
+      "url": "https://chsga.jp/pdf/t20261001-102444-9.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chugoku-shikoku-chsga-spring-48",
@@ -5789,7 +6995,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "令和7年度 中国高等学校・中学校ゴルフ選手権 春季大会",
+    "links": [
+     {
+      "label": "成績（中学男子）",
+      "url": "https://chsga.jp/pdf/t20251215-090244-11.pdf"
+     },
+     {
+      "label": "成績（中学女子）",
+      "url": "https://chsga.jp/pdf/t20251215-090244-12.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chugoku-shikoku-hiroshima-summer-30",
@@ -5934,7 +7154,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第45回四国ジュニアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表（1日目）",
+      "url": "https://sgu.gr.jp/wp-content/uploads/2026/01/1R%E6%88%90%E7%B8%BE%E8%A1%A8-6.pdf"
+     },
+     {
+      "label": "成績表（最終日）",
+      "url": "https://sgu.gr.jp/wp-content/uploads/2026/01/2R%E6%88%90%E7%B8%BE%E8%A1%A8-4.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chugoku-shikoku-shikoku-jr-autumn-36",
@@ -5959,7 +7193,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025年度 第34回四国ジュニア選手権秋季大会",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.shsga.jp/pdf/2025/R7akinew.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chugoku-shikoku-shikoku-spring-48",
@@ -5983,7 +7227,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第46回四国高等学校・中学校ゴルフ選手権春季大会",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.shsga.jp/pdf/2025/R7haruNew.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-hokkaido-tohoku-tohoku-jr-1214-32",
@@ -6007,7 +7261,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第31回 東北ジュニアゴルフ選手権競技 12〜14歳の部",
+    "links": [
+     {
+      "label": "成績表（男子）",
+      "url": "https://www.tga.gr.jp/reports_result.php?q=1001797"
+     },
+     {
+      "label": "大会ページ（女子）",
+      "url": "https://www.tga.gr.jp/reports.php?q=1003803"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-hokkaido-tohoku-hokkaido-jr-47",
@@ -6203,7 +7471,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "令和７年度 中学新人戦",
+    "links": [
+     {
+      "label": "大会成績（サマリ）",
+      "url": "https://www.hyogo-golf.com/wp-content/uploads/2025/12/R7%E4%B8%AD%E5%AD%A6%E6%96%B0%E4%BA%BA%E6%88%A6%E3%82%B5%E3%83%9E%E3%83%AA.pdf"
+     },
+     {
+      "label": "大会ページ",
+      "url": "https://www.hyogo-golf.com/news/604/"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-kansai-kyoto-hs-jhs-autumn-2026",
@@ -6227,7 +7509,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025年度 京都府高等学校・中学校ゴルフ選手権 秋季大会（関西決勝大会 京都予選）",
+    "links": [
+     {
+      "label": "京都府秋季大会 成績",
+      "url": "https://drive.google.com/file/d/17-lzJzkLLLDEtS5d4FL1RpS9bOSbmSiA/view?usp=drive_link"
+     },
+     {
+      "label": "関西決勝大会 京都府予選 成績",
+      "url": "https://drive.google.com/file/d/1Jw-nPnovp12zflp1Ad8cB3l5IQAFNgup/view?usp=drive_link"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-kansai-osaka-wakayama-jhs-autumn-2026-w",
@@ -6251,7 +7547,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "R７大阪府中学校ゴルフ選手権秋季大会（女子）",
+    "links": [
+     {
+      "label": "成績（中学女子）",
+      "url": "https://www.osaka-kogoren.com/news/476"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-kansai-khgu-matchplay-2027-q",
@@ -6323,7 +7629,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第28回奈良県高等学校・中学校ゴルフ秋季大会",
+    "links": [
+     {
+      "label": "成績（高校）",
+      "url": "https://www.nga.cc/score/score2025/10_27_1.pdf"
+     },
+     {
+      "label": "成績（中学）",
+      "url": "https://www.nga.cc/score/score2025/10_27_2.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kansai-khgu-hs-jhs-2027",
@@ -6439,7 +7759,29 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "令和８年度 大阪府高等学校・中学校ゴルフ選手権大会",
+    "links": [
+     {
+      "label": "成績（中学男子）",
+      "url": "https://www.osaka-kogoren.com/news/493"
+     },
+     {
+      "label": "成績（中学女子）",
+      "url": "https://www.osaka-kogoren.com/news/495"
+     },
+     {
+      "label": "成績（高校男子）",
+      "url": "https://www.osaka-kogoren.com/news/492"
+     },
+     {
+      "label": "成績（高校女子）",
+      "url": "https://www.osaka-kogoren.com/news/496"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kansai-nara-kokusupo-1st-2027",
@@ -6463,7 +7805,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第80回青森国民スポーツ大会奈良県代表選手一次選考会 兼 2026年度関西高等学校・中学校ゴルフ選手権大会奈良県予選",
+    "links": [
+     {
+      "label": "成績（中学）",
+      "url": "https://www.nga.cc/score/score2026/jr_hight.pdf"
+     },
+     {
+      "label": "成績（高校）",
+      "url": "https://www.nga.cc/score/score2026/senior_high.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kansai-osaka-shigaku-jhs-30",
@@ -6559,7 +7915,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025年度 関東中学校ゴルフ選手権 冬季大会 個人予選（男子B会場・琵琶池GC）",
+    "links": [
+     {
+      "label": "成績（PDF）",
+      "url": "https://www.k-hga.jp/file/20251118_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-kanto-khga-jh-winter-girls-b-2026",
@@ -6583,7 +7949,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025年度 関東中学校ゴルフ選手権 冬季大会 個人予選（女子B会場・金砂郷CC）",
+    "links": [
+     {
+      "label": "成績（PDF）",
+      "url": "https://www.k-hga.jp/file/20251111_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-kanto-khga-jh-winter-final-2026",
@@ -6645,7 +8021,29 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 関東中学校ゴルフ選手権",
+    "links": [
+     {
+      "label": "個人予選 成績（男子）",
+      "url": "https://www.k-hga.jp/file/20260526_result.pdf"
+     },
+     {
+      "label": "個人予選 成績（女子）",
+      "url": "https://www.k-hga.jp/file/20260616-kekka-kojin.pdf"
+     },
+     {
+      "label": "決勝 成績（男子）",
+      "url": "https://www.k-hga.jp/file/20260629_result_m.pdf"
+     },
+     {
+      "label": "決勝 成績（女子）",
+      "url": "https://www.k-hga.jp/file/20260629_result_f.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-khga-jh-winter-2027",
@@ -6669,7 +8067,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 関東中学校ゴルフ選手権 冬季大会（個人予選A会場。B会場・決勝はこれから）",
+    "links": [
+     {
+      "label": "予選A 成績（女子・熊谷GC）",
+      "url": "https://www.k-hga.jp/file/20260929_result.pdf"
+     },
+     {
+      "label": "予選A 成績（男子・那須野ヶ原CC）",
+      "url": "https://www.k-hga.jp/file/20261006_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-kga-jr-2027",
@@ -6693,7 +8105,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 関東ジュニアゴルフ選手権（決勝）",
+    "links": [
+     {
+      "label": "成績・最終日（男子）",
+      "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2629_23233_result.pdf"
+     },
+     {
+      "label": "成績・最終日（女子）",
+      "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2630_23238_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-tokyo-jr-1214-13",
@@ -6975,7 +8401,29 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "KGA杯ジュニアゴルフ大会（2026）",
+    "links": [
+     {
+      "label": "成績（男子12〜14歳）",
+      "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2632_23123_result.pdf"
+     },
+     {
+      "label": "成績（男子15〜17歳）",
+      "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2632_23124_result.pdf"
+     },
+     {
+      "label": "成績（女子12〜14歳）",
+      "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2633_23125_result.pdf"
+     },
+     {
+      "label": "成績（女子15〜17歳）",
+      "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2633_23126_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-hochi-jr-2027",
@@ -7200,7 +8648,33 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第45回九州ジュニアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表（男子12-14歳・最終日）",
+      "url": "https://www.guk.jp/wp-content/uploads/2025/12/dcada8ed24b81b86e40e4808374bebb3.pdf"
+     },
+     {
+      "label": "成績表（男子15-17歳・最終日）",
+      "url": "https://www.guk.jp/wp-content/uploads/2025/12/2c3ca1fa09097419d18791f02efd1306.pdf"
+     },
+     {
+      "label": "成績表（女子12-14歳・最終日）",
+      "url": "https://www.guk.jp/wp-content/uploads/2025/12/a728b97570c57f1d87893b82c1d3a40b.pdf"
+     },
+     {
+      "label": "成績表（女子15-17歳・最終日）",
+      "url": "https://www.guk.jp/wp-content/uploads/2025/12/cdbcaf58da96a63a819301dfe8687c65.pdf"
+     },
+     {
+      "label": "競技一覧（1日目成績・報告あり）",
+      "url": "https://www.guk.jp/kyougi/23235"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-kyushu-kougoren-spring-47",
@@ -7306,7 +8780,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第32回佐賀県アマチュアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "最終スコア（中高生の部を含む）",
+      "url": "https://saga-amagolf.net/wp/archives/7743"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kyushu-kumanichi-jr-2027",
@@ -7379,7 +8863,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026エナジックオープンアンダー22",
+    "links": [
+     {
+      "label": "最終成績",
+      "url": "https://www.enagic-junioropen.com/tournament/2026/"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kyushu-okinawa-kenmin-jr-31",
@@ -7476,7 +8970,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025年度11月 全国中学校・高等学校選抜 ゴルフマッチプレー選手権大会",
+    "links": [
+     {
+      "label": "大会結果（男女・各回戦）",
+      "url": "https://nihon-kougoren.jp/mcply/6749"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-national-kougoren-spring-47",
@@ -7559,7 +9063,21 @@
    "levels": [
     "中学生"
    ],
-   "prev_venue": "ピートダイゴルフクラブ VIPコース"
+   "prev_venue": "ピートダイゴルフクラブ VIPコース",
+   "prev_results": {
+    "year": 2026,
+    "name": "Sky presents 2026年度 文部科学大臣旗争奪（第34回男子 第19回女子）全国中学校ゴルフ選手権大会",
+    "links": [
+     {
+      "label": "団体 最終日成績（男子）",
+      "url": "https://nihon-kougoren.jp/kougoren/wp-content/uploads/2026/02/945a66f70640f3d65e3868e5a68fa2c3.pdf"
+     },
+     {
+      "label": "団体 最終日成績（女子）",
+      "url": "https://nihon-kougoren.jp/kougoren/wp-content/uploads/2026/02/ad2b116b41109d0212ea23d694b592cd.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-national-jga-japan-jr-71-1214",
@@ -7608,7 +9126,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第11回 東横インジュニアゴルフオープン決勝大会",
+    "links": [
+     {
+      "label": "成績（小学生・中高生）",
+      "url": "https://www.jjga.org/final/toyokoinn_2026_result"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-national-jjga-ishikawa-final-jhs-2026",
@@ -7632,7 +9160,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 中高生決勝大会（2025年度）",
+    "links": [
+     {
+      "label": "成績（中高生決勝）",
+      "url": "https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e7%9f%b3%e5%b7%9d%e9%81%bc%e3%82%ab%e3%83%83%e3%83%97%e4%b8%ad%e9%ab%98%e7%94%9f%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c-2"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-national-jjga-richardmille-cup-2026",
@@ -7656,7 +9194,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第4回 RICHARD MILLE JAPAN Foundation presents 宮里優作・青木瀬令奈・成田美寿々カップ",
+    "links": [
+     {
+      "label": "成績（男子・女子）",
+      "url": "https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90rmj%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c"
+     }
+    ]
+   }
   },
   {
    "id": "shindo-junior-2026",
@@ -7731,7 +9279,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第23回 TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ 関東大会",
+    "links": [
+     {
+      "label": "成績（小・中学生 男女）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/resultpage/23rd/kantou/"
+     }
+    ]
+   }
   },
   {
    "id": "w-ping-respoism-2026",
@@ -7780,7 +9338,21 @@
    "levels": [
     "中学生"
    ],
-   "prev_venue": "サンコーカントリークラブ"
+   "prev_venue": "サンコーカントリークラブ",
+   "prev_results": {
+    "year": 2026,
+    "name": "Jack Bunny!! Junior Golf Tour Championship 2026",
+    "links": [
+     {
+      "label": "決勝 成績（PDF）",
+      "url": "https://jb-cup.com/wp/wp-content/uploads/2026/09/2026_Final_Result_0923.pdf"
+     },
+     {
+      "label": "2026 地区大会の結果一覧",
+      "url": "https://jb-cup.com/calendar/"
+     }
+    ]
+   }
   },
   {
    "id": "w-shinjiyai-threebond",
@@ -7830,7 +9402,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "Fujikura東北ジュニアカップ2026",
+    "links": [
+     {
+      "label": "大会結果",
+      "url": "https://www.fujikurashaft.jp/tohokujuniorcup/result/"
+     }
+    ]
+   }
   },
   {
    "id": "w-tochigi-chiji-junior-2027",
@@ -7954,7 +9536,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第18回スナッグゴルフ関西小学生チーム選手権大会",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.w28sga.com/%E5%8D%94%E4%BC%9A%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E7%94%A8/2025%E7%AC%AC18%E5%9B%9E%E9%96%A2%E8%A5%BF%E5%A4%A7%E4%BC%9A%E6%88%90%E7%B8%BE%E8%A1%A8.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kato-junior-32",
@@ -7979,7 +9571,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第31回加東ジュニアゴルフ大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://kato-golf.com/wp-content/uploads/2026/07/junior_31.pdf"
+     },
+     {
+      "label": "結果のお知らせ",
+      "url": "https://kato-golf.com/news-list/%e7%ac%ac31%e5%9b%9e%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%82%b4%e3%83%ab%e3%83%95%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c/"
+     }
+    ]
+   }
   },
   {
    "id": "w-kato-junior-33",
@@ -8004,7 +9610,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第31回加東ジュニアゴルフ大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://kato-golf.com/wp-content/uploads/2026/07/junior_31.pdf"
+     },
+     {
+      "label": "結果のお知らせ",
+      "url": "https://kato-golf.com/news-list/%e7%ac%ac31%e5%9b%9e%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%82%b4%e3%83%ab%e3%83%95%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c/"
+     }
+    ]
+   }
   },
   {
    "id": "w-nishinomiya-snag-2027",
@@ -8028,7 +9648,25 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第２２回小学生スナッグゴルフ大会（２０２６年度）",
+    "links": [
+     {
+      "label": "成績（小6〜3年）",
+      "url": "https://www.nc-ga.net/app/download/13319472926/%E7%AC%AC22%E5%B0%8F%E5%AD%A6%E7%94%9FSG%E5%A4%A7%E4%BC%9A%28%E5%B0%8F6-3%E5%B9%B4%29.pdf?t=1787100840"
+     },
+     {
+      "label": "成績（小2〜園児）",
+      "url": "https://www.nc-ga.net/app/download/13319473126/%E7%AC%AC22%E5%B0%8F%E5%AD%A6%E7%94%9FSG%E5%A4%A7%E4%BC%9A%28%E5%B0%8F2%EF%BD%B0%E5%9C%92%E5%85%90%29.pdf?t=1787100840"
+     },
+     {
+      "label": "成績ページ",
+      "url": "https://www.nc-ga.net/%E3%82%B9%E3%83%8A%E3%83%83%E3%82%B0%E3%82%B4%E3%83%AB%E3%83%95/%E3%82%B9%E3%83%8A%E3%83%83%E3%82%B0%E3%82%B4%E3%83%AB%E3%83%95%E5%A4%A7%E4%BC%9A/"
+     }
+    ]
+   }
   },
   {
    "id": "w-hiroshima-snag-2026",
@@ -8052,7 +9690,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "スナッグゴルフ広島県小学生大会2025",
+    "links": [
+     {
+      "label": "開催報告（上位成績）",
+      "url": "https://snaggolf.jp/publics/index/1/detail=1/b_id=100/r_id=269"
+     }
+    ]
+   }
   },
   {
    "id": "w-kanucha-cup-2027",
@@ -8077,7 +9725,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第22回 ジュニアゴルフ・カヌチャカップ",
+    "links": [
+     {
+      "label": "結果",
+      "url": "https://www.kanucha.jp/document/uploads/2026/09/22th-Junior-Golf-Kanucha-Cup-Competition-Results.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-okinawa-open-junior-2027",
@@ -8176,7 +9834,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025年 群馬県プロ会オープントーナメント",
+    "links": [
+     {
+      "label": "成績表（PDF）",
+      "url": "https://www.golf-gunma-asc.gr.jp/junior/pdf/2025%E7%BE%A4%E9%A6%AC%E7%9C%8C%E3%83%97%E3%83%AD%E4%BC%9A%E3%80%80%E6%88%90%E7%B8%BE%E8%A1%A8.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-tokyorusk-cup-11",
@@ -8201,7 +9869,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第10回 東京ラスクジュニアゴルフカップ",
+    "links": [
+     {
+      "label": "大会結果",
+      "url": "https://www.tokyoruskgolf.jp/report"
+     }
+    ]
+   }
   },
   {
    "id": "w-chiba-cup",
@@ -8250,7 +9928,25 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第9回 厚木市ジュニアゴルファ選手権大会",
+    "links": [
+     {
+      "label": "成績（高校生）",
+      "url": "https://atsugi-golf.com/cms/wp-content/uploads/2026/08/9852569cdd6a9fd13120a898ae50bc44.pdf"
+     },
+     {
+      "label": "成績（中学生）",
+      "url": "https://atsugi-golf.com/cms/wp-content/uploads/2026/08/6577d838fc04d6f3b1a8c956dcb85f9c.pdf"
+     },
+     {
+      "label": "成績（小学生）",
+      "url": "https://atsugi-golf.com/cms/wp-content/uploads/2026/08/f8173d149c39367bdccb2d55f39191c9.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-niigata-junior-2027",
@@ -8275,7 +9971,37 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第２９回新潟県ジュニアゴルフ競技会",
+    "links": [
+     {
+      "label": "成績（小学男子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_202512291136506c0f9b6c8219_5.pdf"
+     },
+     {
+      "label": "成績（小学女子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_2025122911365039bd1373d79f_6.pdf"
+     },
+     {
+      "label": "成績（中学男子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_202512291136503543eaf22f80_7.pdf"
+     },
+     {
+      "label": "成績（中学女子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229113650da85523a091f_8.pdf"
+     },
+     {
+      "label": "成績（高校男子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229113650d6c75a1f07d2_9.pdf"
+     },
+     {
+      "label": "成績（高校女子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229113650749747f782fc_10.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-yonex-junior-2027",
@@ -8299,7 +10025,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "16th YONEX Junior Golf Championship 2026",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.yonex.co.jp/upload/result-sheet-4015.pdf"
+     },
+     {
+      "label": "大会報告",
+      "url": "https://www.yonex.co.jp/news/2026/4015.html"
+     }
+    ]
+   }
   },
   {
    "id": "w-makomanai-junior-2027",
@@ -8373,7 +10113,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "2025びんごスナッグゴルフ大会",
+    "links": [
+     {
+      "label": "開催報告（上位入賞）",
+      "url": "https://snaggolf.jp/publics/index/1/detail=1/b_id=100/r_id=267"
+     }
+    ]
+   }
   },
   {
    "id": "w-hiroshima-city-snag",
@@ -8397,7 +10147,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第2回広島市スナッグゴルフ大会",
+    "links": [
+     {
+      "label": "開催報告（成績）",
+      "url": "https://snaggolf.jp/publics/index/1/detail=1/b_id=100/r_id=252"
+     }
+    ]
+   }
   },
   {
    "id": "w-yamaguchi-snag",
@@ -8421,7 +10181,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第12回山口県小学生スナッグゴルフ大会",
+    "links": [
+     {
+      "label": "開催報告（成績）",
+      "url": "https://snaggolf.jp/publics/index/1/detail=1/b_id=100/r_id=257"
+     }
+    ]
+   }
   },
   {
    "id": "w-kochi-snag",
@@ -8542,7 +10312,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf World Championship 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/world/find-tournament/517536/world-championship-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-vanhorn-2027",
@@ -8567,7 +10347,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "World Van Horn Cup 2026",
+    "links": [
+     {
+      "label": "成績（公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/world/find-tournament/517678/world-van-horn-cup-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-european-2027",
@@ -8593,7 +10383,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "European Championship 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517047/european-championship-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-venice-2027",
@@ -8619,7 +10419,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Venice Open 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/518230/venice-open-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-british-2026",
@@ -8671,7 +10481,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "South American Championship 2025",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/516297/south-american-championship-2025/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-spanish-2026",
@@ -8697,7 +10517,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "Spanish Open 2025",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/516299/spanish-open-2025/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-mexico-2026",
@@ -8723,7 +10553,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "Mexico Invitational 2025",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/516538/mexico-invitational-2025/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-kenya-2026",
@@ -8749,7 +10589,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "NCBA Kenya Invitational 2025",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/516883/ncba-kenya-invitational-2025/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-india-2026",
@@ -8775,7 +10625,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "Indian Championship 2025",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/516579/indian-championship-2025/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-antalya-2027",
@@ -8800,7 +10660,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Antalya Turkish Open 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/516685/antalya-turkish-open-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-marcosimone-2027",
@@ -8826,7 +10696,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Marco Simone Invitational 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/516989/marco-simone-invitational-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-southafrica-2027",
@@ -8852,7 +10732,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "The Big 5 South African Open 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517123/big-5-south-african-open-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-ausmasters-2027",
@@ -8878,7 +10768,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Australian Masters 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517079/australian-masters-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-china-2027",
@@ -8904,7 +10804,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "China Championship 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/516952/china-championship-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-malaysia-2027",
@@ -8930,7 +10840,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Malaysian Championship 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517905/malaysian-championship-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-irish-2027",
@@ -8956,7 +10876,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Irish Open 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517374/irish-open-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-paris-2027",
@@ -8982,7 +10912,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Paris Invitational 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517730/paris-invitational-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-williamsburg-2026",
@@ -9008,7 +10948,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "Colonial Williamsburg Classic 2025",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/515903/colonial-williamsburg-classic-2025/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-monterey-2026",
@@ -9034,7 +10984,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "Monterey Challenge 2025",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/515902/monterey-challenge-2025/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-holiday-2026",
@@ -9060,7 +11020,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "Holiday Classic 2025",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/516789/holiday-classic-2025/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-sandestin-2027",
@@ -9086,7 +11056,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Sandestin Championship 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/516801/sandestin-championship-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-thailand-2027",
@@ -9112,7 +11092,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Thailand Championship 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517193/thailand-championship-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-korea-2027",
@@ -9138,7 +11128,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Korean Championship 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517215/korea-championship-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-philippines-2027",
@@ -9164,7 +11164,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Philippines Championship 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/518042/philippines-championship-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-ausopen-2027",
@@ -9190,7 +11200,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Australian Open 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/518558/australian-open-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-auschallenge-2027",
@@ -9216,7 +11236,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Australian Challenge 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/519179/australian-challenge-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-panama-2027",
@@ -9242,7 +11272,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Panama Invitational 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517189/panama-invitational-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-vallarta-2027",
@@ -9268,7 +11308,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Vallarta Open 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517581/vallarta-open-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-bahamas-2027",
@@ -9294,7 +11344,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Bahamas Invitational 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/518560/bahamas-invitational-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-colombia-2027",
@@ -9320,7 +11380,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Colombian Championship 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517997/colombian-championship-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-canada-2027",
@@ -9346,7 +11416,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Canadian Invitational 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/517375/canadian-invitational-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-belgium-2027",
@@ -9372,7 +11452,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Belgium Invitational 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/518592/belgium-invitational-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-germany-2027",
@@ -9398,7 +11488,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "German Masters 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/518939/german-masters-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-rome-2027",
@@ -9424,7 +11524,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Rome Classic 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/international/find-tournament/518948/rome-classic-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-desert-2027",
@@ -9450,7 +11560,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Desert Shootout 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/516958/desert-shootout-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-jekyll-2027",
@@ -9476,7 +11596,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Jekyll Island Cup 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/517061/jekyll-island-cup-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-texas-2027",
@@ -9502,7 +11632,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Texas Open 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/517558/texas-open-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-palmer-2027",
@@ -9528,7 +11668,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Palmer Foundation Kids Invitational 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/517996/palmer-foundation-kids-invitational-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-rwb-2027",
@@ -9554,7 +11704,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Red, White & Blue Invitational 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/518171/red-white-blue-invitational-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-seaview-2027",
@@ -9580,7 +11740,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Seaview Open 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/518696/seaview-open-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-palmsprings-2027",
@@ -9606,7 +11776,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "Palm Springs Open 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/518728/palm-springs-open-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-pgagc-2027",
@@ -9632,7 +11812,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "PGA Golf Club Invitational 2026",
+    "links": [
+     {
+      "label": "成績（全部門・公式Results）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/regional/find-tournament/519065/pga-golf-club-invitational-2026/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-korea-20261029",
@@ -9658,7 +11848,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Korea (KR) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/519181/korea-kr/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-korea-20261030",
@@ -9684,7 +11884,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Korea (KR) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/519181/korea-kr/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-philippines-20261107",
@@ -9710,7 +11920,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Philippines (PH) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/514230/philippines-ph/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-philippines-20261108",
@@ -9736,7 +11956,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Philippines (PH) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/514230/philippines-ph/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-malaysia-20261205",
@@ -9866,7 +12096,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Central Thailand (TH) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/510453/central-thailand-th/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-cthailand-20261027",
@@ -9892,7 +12132,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Central Thailand (TH) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/510453/central-thailand-th/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-sthailand-20261031",
@@ -10074,7 +12324,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Shanghai (CN) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/515380/shanghai-cn/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-shanghai-20261101",
@@ -10100,7 +12360,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Shanghai (CN) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/515380/shanghai-cn/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-newdelhi-20261022",
@@ -10126,7 +12396,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf New Delhi (IN) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/500361/new-delhi-ncr-in/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-newdelhi-20261023",
@@ -10152,7 +12432,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf New Delhi (IN) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/500361/new-delhi-ncr-in/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-newdelhi-20261112",
@@ -10178,7 +12468,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf New Delhi (IN) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/500361/new-delhi-ncr-in/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-newdelhi-20261113",
@@ -10204,7 +12504,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf New Delhi (IN) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/500361/new-delhi-ncr-in/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-melbourne-20261025",
@@ -10230,7 +12540,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Melbourne (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/495734/melbourne-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-melbourne-20261108",
@@ -10256,7 +12576,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Melbourne (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/495734/melbourne-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-melbourne-20261115",
@@ -10282,7 +12612,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Melbourne (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/495734/melbourne-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-melbourne-20261122",
@@ -10308,7 +12648,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Melbourne (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/495734/melbourne-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-melbourne-20261129",
@@ -10334,7 +12684,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Melbourne (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/495734/melbourne-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-melbourne-20261206",
@@ -10360,7 +12720,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Melbourne (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/495734/melbourne-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-canberra-20270107",
@@ -10386,7 +12756,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Canberra (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/513670/canberra-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-canberra-20270108",
@@ -10412,7 +12792,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Canberra (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/513670/canberra-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-sunshinecoast-20261101",
@@ -10438,7 +12828,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Sunshine Coast (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/507214/sunshine-coast-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-sunshinecoast-20261115",
@@ -10464,7 +12864,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Sunshine Coast (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/507214/sunshine-coast-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-sunshinecoast-20261129",
@@ -10490,7 +12900,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Sunshine Coast (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/507214/sunshine-coast-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-sunshinecoast-20261213",
@@ -10516,7 +12936,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Sunshine Coast (AU) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/507214/sunshine-coast-au/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-uae-20270124",
@@ -10750,7 +13180,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Beijing (CN) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/515438/beijing-cn/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-uskids-lt-gba-next",
@@ -10776,7 +13216,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "U.S. Kids Golf Greater Bay Area (CN) Local Tour 2026年の大会結果一覧（会場ごとの前回結果ではなくツアー全体の一覧）",
+    "links": [
+     {
+      "label": "ツアー結果一覧（大会を選んで表示）",
+      "url": "https://tournaments.uskidsgolf.com/tournaments/local/find-local-tour/515437/greater-bay-area-cn/results"
+     }
+    ]
+   }
   },
   {
    "id": "ov-fcg-hawaii-2026",
@@ -10802,7 +13252,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "2025 FCG Hawaii Championship",
+    "links": [
+     {
+      "label": "リーダーボード（FCG公式・BlueGolf）",
+      "url": "https://fcg.bluegolf.com/bluegolf/fcg25/event/fcg2584/contest/25/leaderboard.htm"
+     }
+    ]
+   }
   },
   {
    "id": "ov-fcg-asia-intl-2026",
@@ -10854,7 +13314,21 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2025,
+    "name": "19th Annual FCG National Championship（Week 1／Week 2）",
+    "links": [
+     {
+      "label": "大会ページ・成績（Week 1）",
+      "url": "https://fcg.bluegolf.com/bluegolf/fcg25/event/fcg25108/index.htm"
+     },
+     {
+      "label": "大会ページ・成績（Week 2）",
+      "url": "https://fcg.bluegolf.com/bluegolf/fcg25/event/fcg25112/index.htm"
+     }
+    ]
+   }
   },
   {
    "id": "ov-fcg-international-2027",
@@ -10880,7 +13354,21 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "19th Annual FCG International",
+    "links": [
+     {
+      "label": "大会ページ・成績（FCG公式・BlueGolf）",
+      "url": "https://fcg.bluegolf.com/bluegolf/fcg26/event/fcg261/index.htm"
+     },
+     {
+      "label": "成績（女子15-18歳）",
+      "url": "https://fcg.bluegolf.com/bluegolf/fcg26/event/fcg261/contest/25/leaderboard.htm"
+     }
+    ]
+   }
   },
   {
    "id": "ov-fcg-world-2027",
@@ -10906,7 +13394,17 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 FCG Callaway World Championship",
+    "links": [
+     {
+      "label": "リーダーボード（FCG公式・BlueGolf）",
+      "url": "https://fcg.bluegolf.com/bluegolf/fcg26/event/fcg268/leaderboard.htm"
+     }
+    ]
+   }
   },
   {
    "id": "ov-fcg-cabo-2027",
@@ -10932,7 +13430,17 @@
    "window_from": "2027-03-01",
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 FCG Cabo Championship",
+    "links": [
+     {
+      "label": "リーダーボード（FCG公式・BlueGolf）",
+      "url": "https://fcg.bluegolf.com/bluegolf/fcg26/event/fcg2638/leaderboard.htm"
+     }
+    ]
+   }
   },
   {
    "id": "ov-junior-world-2027",
@@ -10958,7 +13466,57 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 Junior World Golf Championships",
+    "links": [
+     {
+      "label": "成績一覧（公式リーダーボードページ）",
+      "url": "https://www.juniorworldgolf.com/leaderboard"
+     },
+     {
+      "label": "成績（男子15-18歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/16/leaderboard.htm"
+     },
+     {
+      "label": "成績（女子15-18歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/27/leaderboard.htm"
+     },
+     {
+      "label": "成績（男子13-14歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/35/leaderboard.htm"
+     },
+     {
+      "label": "成績（女子13-14歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/39/leaderboard.htm"
+     },
+     {
+      "label": "成績（男子11-12歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/31/leaderboard.htm"
+     },
+     {
+      "label": "成績（女子11-12歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/1/leaderboard.htm"
+     },
+     {
+      "label": "成績（男子9-10歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/43/leaderboard.htm"
+     },
+     {
+      "label": "成績（女子9-10歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/23/leaderboard.htm"
+     },
+     {
+      "label": "成績（男子7-8歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/8/leaderboard.htm"
+     },
+     {
+      "label": "成績（女子7-8歳）",
+      "url": "https://jwgc.bluegolf.com/bluegolf/jwgc26/event/jwgc261/contest/12/leaderboard.htm"
+     }
+    ]
+   }
   },
   {
    "id": "ov-optimist-2027",
@@ -10984,7 +13542,29 @@
    "window_from": null,
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 Optimist International Junior Golf Championship",
+    "links": [
+     {
+      "label": "成績（男子10-11・12-13／女子10-12）",
+      "url": "https://tndm-2026optimistphase11.golfgenius.com/pages/12869575553459456796"
+     },
+     {
+      "label": "成績（男子14-15／女子13-14）",
+      "url": "https://tndm-2026optimistphase2.golfgenius.com/pages/12872247960829725586"
+     },
+     {
+      "label": "成績（男子16-18／女子15-18）",
+      "url": "https://tndm-2026optimistphase3.golfgenius.com/pages/12872338008409410475"
+     },
+     {
+      "label": "歴代成績一覧（公式）",
+      "url": "https://www.optimist.org/golf/golf-championships-results.cfm"
+     }
+    ]
+   }
   },
   {
    "id": "ov-asean-junior-2026",
@@ -11036,7 +13616,17 @@
    "window_from": "2027-04-01",
    "window_to": null,
    "results": null,
-   "overseas": true
+   "overseas": true,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 Taiwan Junior Open（台灣青少年公開賽）",
+    "links": [
+     {
+      "label": "リーダーボード（公式サイトからリンクのGolf Genius）",
+      "url": "https://www.golfgenius.com/pages/12805036254710222102"
+     }
+    ]
+   }
   },
   {
    "id": "ov-jgs-korean-championship-2026",
