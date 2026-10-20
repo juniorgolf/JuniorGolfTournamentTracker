@@ -2772,6 +2772,14 @@
    "address": "Dynasty Golf & Country Club, Nakhon Pathom, Thailand",
    "lat": 14.034605,
    "lng": 100.124185
+  },
+  "ザイオン・ヒルG&CC（バンガロール）": {
+   "name": "ザイオン・ヒルG&CC（バンガロール）",
+   "pref": "インド",
+   "address": "Zion Hills Golf County, Bengaluru, Karnataka, India",
+   "lat": 12.97194,
+   "lng": 77.59369,
+   "approx": true
   }
  }
 }

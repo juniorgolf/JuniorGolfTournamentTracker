@@ -328,7 +328,7 @@ async function main() {
   }
   // 対象（小学生・中学生）とエリアで絞る。levels は大会に出られる学校段階
   const inLevelArea = (t) => (!fLevel.value || (t.levels || []).includes(fLevel.value))
-    && (!fPref.value || (fPref.value.startsWith("r:") ? regionOf(t.pref) === fPref.value.slice(2)
+    && (!fPref.value || (fPref.value.startsWith("r:") ? (t.overseas ? "海外" : regionOf(t.pref)) === fPref.value.slice(2)
       : fPref.value.startsWith("a:") ? t.overseas && abroadAreaOf(t.pref) === fPref.value.slice(2)
       : fPref.value.startsWith("c:") ? t.overseas && t.pref === fPref.value.slice(2)
       : t.pref === fPref.value));
