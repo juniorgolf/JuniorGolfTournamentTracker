@@ -15,6 +15,18 @@ const REGIONS = [
   ["海外", ["海外"]],  // 国名は読み込み時に overseas: true の大会から足す
 ];
 const regionOf = (pref) => (REGIONS.find(([, list]) => list.includes(pref)) || ["その他"])[0];
+// 海外の国は地域ごとにまとめて並べる。ここにない国は「その他の国」に入る
+const ABROAD_AREAS = [
+  ["東アジア", ["韓国", "台湾", "中国", "香港", "マカオ", "モンゴル"]],
+  ["東南アジア", ["タイ", "ベトナム", "マレーシア", "シンガポール", "フィリピン", "インドネシア", "カンボジア"]],
+  ["南アジア・中東", ["インド", "UAE", "カタール", "サウジアラビア"]],
+  ["オセアニア", ["オーストラリア", "ニュージーランド"]],
+  ["北米", ["アメリカ", "カナダ"]],
+  ["中南米", ["メキシコ", "バハマ", "パナマ", "コロンビア", "ブラジル"]],
+  ["ヨーロッパ", ["スコットランド", "イングランド", "ウェールズ", "アイルランド", "フランス", "ドイツ", "ベルギー", "オランダ", "スペイン", "イタリア", "トルコ"]],
+  ["アフリカ", ["ケニア", "南アフリカ"]],
+];
+const abroadAreaOf = (pref) => (ABROAD_AREAS.find(([, list]) => list.includes(pref)) || ["その他の国"])[0];
 const SOON_DAYS = 30;
 const DAY = 86400000;
 
@@ -302,12 +314,24 @@ async function main() {
     if (region !== "海外") { fPref.append(new Option(region === "全国" ? "全国決勝など" : region, `r:${region}`)); continue; }
     const g = document.createElement("optgroup");
     g.label = region;
-    g.append(new Option("海外すべて", `r:${region}`), ...present.map((p) => new Option(p, p)));
+    g.append(new Option("海外すべて", `r:${region}`));
     fPref.append(g);
+    // 海外は地域ごとの見出しの下に国名を並べる（地域全体も選べる）
+    for (const [area, countries] of [...ABROAD_AREAS, ["その他の国", present.filter((p) => abroadAreaOf(p) === "その他の国")]]) {
+      const here = countries.filter((p) => present.includes(p));
+      if (!here.length) continue;
+      const ag = document.createElement("optgroup");
+      ag.label = `海外：${area}`;
+      ag.append(new Option(`${area}すべて`, `a:${area}`), ...here.map((p) => new Option(p, `c:${p}`)));
+      fPref.append(ag);
+    }
   }
   // 対象（小学生・中学生）とエリアで絞る。levels は大会に出られる学校段階
   const inLevelArea = (t) => (!fLevel.value || (t.levels || []).includes(fLevel.value))
-    && (!fPref.value || (fPref.value.startsWith("r:") ? regionOf(t.pref) === fPref.value.slice(2) : t.pref === fPref.value));
+    && (!fPref.value || (fPref.value.startsWith("r:") ? regionOf(t.pref) === fPref.value.slice(2)
+      : fPref.value.startsWith("a:") ? t.overseas && abroadAreaOf(t.pref) === fPref.value.slice(2)
+      : fPref.value.startsWith("c:") ? t.overseas && t.pref === fPref.value.slice(2)
+      : t.pref === fPref.value));
   // おやこ手帳デザインでは、主催者の種類でも絞れる
   let fType = "";
   if (TECHO) try { const s = localStorage.getItem("otype"); if (s && ORG_TYPES[s]) fType = s; } catch {}
