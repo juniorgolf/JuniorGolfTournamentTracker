@@ -362,13 +362,8 @@ async function main() {
       fPref.append(ag);
     }
   }
-  // 対象とエリアで絞る。levels は大会に出られる学校段階。一般の大会（"一般"）は
-  // 「小・中学生」には出さず、「中学生」と「一般（中学生も可）」で出す
-  const levelOk = (t) => {
-    const v = fLevel.value, lv = t.levels || [];
-    if (!v) return !isGeneral(t);
-    return lv.includes(v) || (v === "中学生" && isGeneral(t));
-  };
+  // 対象とエリアで絞る。levels は大会に出られる学校段階。一般の大会（"一般"）は「中学生」で出す
+  const levelOk = (t) => (t.levels || []).includes(fLevel.value) || (fLevel.value === "中学生" && isGeneral(t));
   const inLevelArea = (t) => levelOk(t)
     && (!fPref.value || (fPref.value === "jp" ? !t.overseas : fPref.value.startsWith("r:") ? (t.overseas ? "海外" : regionOf(t.pref)) === fPref.value.slice(2)
       : fPref.value.startsWith("a:") ? t.overseas && abroadAreaOf(t.pref) === fPref.value.slice(2)
