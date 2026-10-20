@@ -16,7 +16,7 @@
 2. 手元確認：`python3 -m http.server` → http://localhost:8000
 
 ## データ項目
-id, name, organizer, pref（都道府県の短い名前。複数県にまたがる大会は「関東」など地方名。app.js の REGIONS で地方に分類）, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, levels（出られる学校段階。["小学生","中学生"] のように持ち、画面の「対象」で絞り込む）, stage（予選/決勝）, url, note, verified, results（終了大会の結果リンク [{label,url}]）, results_note, expected・window_from（日程未発表の大会）
+id, name, organizer, pref（都道府県の短い名前。複数県にまたがる大会は「関東」など地方名。app.js の REGIONS で地方に分類）, venue, start, end, entry_open, entry_close, entry_state（確認時点の受付状況。期間不明時のみ）, grades, levels（出られる学校段階。["小学生","中学生"] のように持ち、画面の「対象」で絞り込む。中学生も出られる一般の大会（県アマ・地区アマ・日本アマ系）は ["一般"] とし、「中学生」と「一般の大会」でだけ表示する）, stage（予選/決勝）, url, note, verified, results（終了大会の結果リンク [{label,url}]）, results_note, expected・window_from（日程未発表の大会）
 
 ## デザイン資料
 - `docs/DESIGN.md`：2つのデザインの決めごと、主催者の種類（7分類）、切り替え方
