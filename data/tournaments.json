@@ -3300,11 +3300,15 @@
     "中学生"
    ],
    "prev_results": {
-    "year": 2025,
-    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2025年度 地区大会の結果一覧。鈴が峰コースでの前回開催はなし）",
+    "year": 2024,
+    "name": "キャロウェイゴルフプレゼンツ 石川遼カップ ジュニアゴルフチャンピオンシップ 地区大会（2024年度・広島ゴルフ倶楽部 鈴が峰コース。2025年度は同会場の開催なし）",
     "links": [
      {
-      "label": "全会場の結果一覧（2025年度）",
+      "label": "成績（2024年11月4日）",
+      "url": "https://www.jjga.org/convention/2024/ishikawaryocup/pdf/1104_hiroshima_result.pdf"
+     },
+     {
+      "label": "2025年度 地区大会の結果一覧",
       "url": "https://www.jjga.org/convention/2025/ishikawaryocup/"
      }
     ]
