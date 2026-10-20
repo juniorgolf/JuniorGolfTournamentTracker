@@ -148,7 +148,9 @@
 [data-design="techo"] .cal-grid { border: 2px solid var(--rule); border-radius: 18px; overflow: hidden; }
 [data-design="techo"] .cal-ev { border-radius: 8px; }
 [data-design="techo"] .cal-cell.today .n { background: var(--yellow); color: #1d2a44; }
-[data-design="techo"] .cal-sum { background: #1d2a44; color: #ffffff; border-radius: 20px; }
+[data-design="techo"] .cal-sum { background: var(--blue-soft); color: var(--ink); border: 1px solid #cfd9f2; border-radius: 20px; }
+[data-design="techo"] .cal-sum span, [data-design="techo"] .cal-sum em { opacity: 1; color: var(--ink-2); }
+[data-design="techo"] .cal-sum b { color: var(--blue-ink); }
 [data-design="techo"] .cal-side h3 { border-bottom: 2px dashed var(--rule); }
 
 /* 詳細・ボタン・下の案内 */
