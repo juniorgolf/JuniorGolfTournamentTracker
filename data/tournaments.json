@@ -422,7 +422,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第138回 パピポジュニア月例競技会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.papipo.org/_files/ugd/0206f2_0748b098c31445c39a13b07dc115b95a.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jjgt-2026-11-29-asaka",
@@ -918,7 +928,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "関東小学生ゴルフ大会 群馬ブロック予選",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.golf-gunma-asc.gr.jp/junior/pdf/2026%E9%96%A2%E6%9D%B1%E5%B0%8F%E5%AD%A6%E7%94%9F%E5%A4%A7%E4%BC%9A%E7%BE%A4%E9%A6%AC%E4%BA%88%E9%81%B8%E6%88%90%E7%B8%BE.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-chiba-elem-2027",
@@ -942,7 +962,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "千葉県小学生ゴルフ大会（兼 関東小学生 千葉県予選）",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://www.chibaken-golf.com/juniorschool/pdf/2026boy.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://www.chibaken-golf.com/juniorschool/pdf/2026girl.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-studioalice-19",
@@ -1064,7 +1098,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "関東小学生ゴルフ大会 栃木予選",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.t-golf.jp/compe/upload/2026005001result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-pgm-wj-2027",
@@ -1138,7 +1182,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "埼玉県小学生ゴルフ大会（兼 関東小学生 埼玉県予選）",
+    "links": [
+     {
+      "label": "競技情報ページ（結果 男子・女子）",
+      "url": "https://saitamaken-ga.org/pg-kyo.php"
+     }
+    ]
+   }
   },
   {
    "id": "w-kga-elem-2027",
@@ -1458,7 +1512,29 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2025,
+    "name": "第21回 彩の国ジュニア（小・中学生）ゴルフ大会",
+    "links": [
+     {
+      "label": "成績（4年以下男子）",
+      "url": "https://saitama-dr-fed.com/wp-content/uploads/2025/12/1964c2706a02f3babfddcc2a1bb78ef1.pdf"
+     },
+     {
+      "label": "成績（4年以下女子）",
+      "url": "https://saitama-dr-fed.com/wp-content/uploads/2025/12/a23723b33ebcc5ffde4d0c10389d84e0.pdf"
+     },
+     {
+      "label": "成績（5・6年男子）",
+      "url": "https://saitama-dr-fed.com/wp-content/uploads/2025/12/cf14ecd65233932901b5435681885f26.pdf"
+     },
+     {
+      "label": "成績（5・6年女子）",
+      "url": "https://saitama-dr-fed.com/wp-content/uploads/2025/12/684639a0eca557ea3a57fe42455f52ab.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "chb-niigata-kanto-elem-2027",
@@ -1482,7 +1558,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 関東小学生ゴルフ大会 新潟ブロック予選会",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251226114552ebe936729ec1_5.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_2025122611455288f67ee6b8f4_6.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "chb-nagano-kanto-elem-2027",
@@ -1800,7 +1890,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "関東小学生ゴルフ大会 静岡県予選",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://shizu-golren.jp/wp/wp-content/uploads/2016/02/2026関東小学生‗男子.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://shizu-golren.jp/wp/wp-content/uploads/2016/02/2026小学生女子.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-chb-gifu-elem-2027",
@@ -1849,7 +1953,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第37回三重県ジュニアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績（小学生男子）",
+      "url": "http://mga-golf.jp/shusai/documents/2026MGA-JR_result_danshi-syou.pdf"
+     },
+     {
+      "label": "成績（小学生女子）",
+      "url": "http://mga-golf.jp/shusai/documents/2026MGA-JR_result_joshi-syou.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-chb-ishikawa-elem-11",
@@ -1873,7 +1991,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第10回石川県小学生ゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://iga5620.jp/com/pdf/2026/20260506-s_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-chb-nagano-jr-29",
@@ -1898,7 +2026,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第28回長野県ジュニアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.naganogolf.jp/wp/wp-content/uploads/2026/03/4814_001.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-chb-shizuoka-jr-28",
@@ -1922,7 +2060,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "シフティーンcup 第27回 静岡県ジュニアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "成績（部門別）",
+      "url": "https://shizu-golren.jp/wp/wp-content/uploads/2015/03/★成績表2026ジュニア‗部門別-2.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-chb-toyama-jr-33",
@@ -1972,7 +2120,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第29回福井県ジュニアゴルフ選手権",
+    "links": [
+     {
+      "label": "成績（全部門）",
+      "url": "https://www.golf.fukui.jp/wp-content/themes/fukui-golf/pdf/juniorgolf/2026/2026result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-chb-awara-jr-open-2027",
@@ -1996,7 +2154,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "福井県ジュニアオープンゴルフ選手権大会（2026）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.awara-golf.co.jp/_download.php?id=3419&kbn=2"
+     }
+    ]
+   }
   },
   {
    "id": "w-chb-yoro-argolf-17",
@@ -2046,7 +2214,25 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第22回 愛知県ゴルフ練習場連盟ジュニアゴルフ大会",
+    "links": [
+     {
+      "label": "成績（小学生低学年）",
+      "url": "https://cgra.jp/wp/wp-content/uploads/2026/08/91e0c4eda82f1cd4302bfd93112dd188.pdf"
+     },
+     {
+      "label": "成績（小学生高学年女子）",
+      "url": "https://cgra.jp/wp/wp-content/uploads/2026/08/198a5a753898e9e32068a092d1f01d9f.pdf"
+     },
+     {
+      "label": "成績（小学生高学年男子）",
+      "url": "https://cgra.jp/wp/wp-content/uploads/2026/08/7c1975ec0f72f7e20904afcd3eb0cdbc.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-chb-nbs-jr-fes-2027",
@@ -2095,7 +2281,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第19回 中国小学生ゴルフ大会",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.cgu.gr.jp/wp-content/uploads/result/2026/02/260402result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-cs-sgu-elem-21",
@@ -2217,7 +2413,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "さんいん未来・縁人杯 2026年度 ジュニアオープン 春季大会（島根・鳥取ジュニアオープン）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.shimane-golf.com/wp-content/uploads/2026/04/shimane_junior_open2026_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-cs-shimane-jr-spring-2027",
@@ -2242,7 +2448,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "島根県ジュニアゴルフ春季大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.shimane-golf.com/wp-content/uploads/2026/05/shimane_junior_spring2026_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-cs-yamaguchi-jr-58",
@@ -2267,7 +2483,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度（第57回）山口県ジュニアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績（12歳未満）",
+      "url": "https://yamaguchiken-golf-kyoukai.com/cms/wp-content/uploads/2026/08/75d3df4150b9fca1702c673724c046ab.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-cs-tanihara-jr-classic",
@@ -2316,7 +2542,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第18回 香川県ジュニアゴルフ大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.k-g-a.jp/compe/2026/junior/seiseki.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-cs-ehime-shochu-2027",
@@ -2763,7 +2999,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第68回 福島県ジュニアゴルフ大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.tga.gr.jp/fukushima/reports_result.php?q=1001941"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-miyagi-jr-30",
@@ -2788,7 +3034,29 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第29回 宮城県ジュニアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績（小4〜6男子）",
+      "url": "https://www.tga.gr.jp/miyagi/reports_result.php?q=1001862"
+     },
+     {
+      "label": "成績（小4〜6女子）",
+      "url": "https://www.tga.gr.jp/miyagi/reports_result.php?q=1001864"
+     },
+     {
+      "label": "成績（小1〜3男子）",
+      "url": "https://www.tga.gr.jp/miyagi/reports_result.php?q=1001899"
+     },
+     {
+      "label": "成績（小1〜3女子）",
+      "url": "https://www.tga.gr.jp/miyagi/reports_result.php?q=1001900"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-akita-jr-28",
@@ -2813,7 +3081,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第77回県民スポーツ大会 第27回 秋田県ジュニアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.tga.gr.jp/akita/reports_result.php?q=1001920"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-aomori-spring-jr-26",
@@ -2838,7 +3116,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第25回 青森県春季ジュニアゴルフ大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.tga.gr.jp/aomori/reports_result.php?q=1002006"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-yamagata-yamashin-jr-10",
@@ -2863,7 +3151,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第9回 山形新聞・山形放送杯ジュニアオープンゴルフ",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.tga.gr.jp/yamagata/reports_result.php?q=1001972"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-iwate-jr-28",
@@ -2888,7 +3186,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第27回 岩手県ジュニアゴルフ大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.tga.gr.jp/iwate/reports_result.php?q=1001839"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-yonex-higashinihon-jr-21",
@@ -2913,7 +3221,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年（第20回）YONEX杯 東日本オープンジュニアゴルフ競技大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.yonex.co.jp/upload/result-sheet-3825.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-hokkaido-meiji-jr-2027",
@@ -2938,7 +3256,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年 北海道 明治カップ ジュニアゴルフ大会（JLPGA全日本小学生 北海道予選）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.uhb.jp/event/juniorgolf2026/pdf/result2026.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-hkt-yonex-kids-hokkaido-2027",
@@ -3011,7 +3339,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第27回 関西小学生ゴルフ選手権競技 決勝",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/12/男子確定成績.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/12/確定女子成績.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "ksi-spring-elem-27-q-boys",
@@ -3083,7 +3425,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第26回 関西小学生ゴルフ選手権春季大会 決勝",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/男子の部（確定）.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/女子の部（確定）.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "ksi-tsuruya-24-12",
@@ -3158,7 +3514,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第24回 TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ 関西予選 9月大会",
+    "links": [
+     {
+      "label": "成績（小学生男子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/小学生男子　確定.pdf"
+     },
+     {
+      "label": "成績（小学生女子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/小学生女子　確定.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-ksi-hyogo-junior-26",
@@ -3256,7 +3626,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第25回 京都府小学生ゴルフ大会 夏季大会",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://www.kyotogolf.net/custom_contents/cms_rwd/linkfile/20260804syougakuseikakiseisekidansi.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://www.kyotogolf.net/custom_contents/cms_rwd/linkfile/20260804syougakuseikakiseisekijyosi.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-ksi-shiga-junior-2027",
@@ -3281,7 +3665,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "滋賀県 中学・高校選手権 兼 小学生大会 兼 国スポ大会選考会 2026",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.shiga-golf-union.com/common/pdf/2026/jr_kokutai/jr_kokutai_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-ksi-osaka-u15-2027",
@@ -3306,7 +3700,29 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "大阪府U-15ジュニアゴルフ大会 2026",
+    "links": [
+     {
+      "label": "成績（小学生男子）",
+      "url": "https://www.osaka-golf.jp/data_files/view/2609/mode:inline"
+     },
+     {
+      "label": "成績（小学生女子）",
+      "url": "https://www.osaka-golf.jp/data_files/view/2610/mode:inline"
+     },
+     {
+      "label": "成績（団体 ダブルペリア）",
+      "url": "https://www.osaka-golf.jp/data_files/view/2616/mode:inline"
+     },
+     {
+      "label": "成績（団体 スクラッチ）",
+      "url": "https://www.osaka-golf.jp/data_files/view/2617/mode:inline"
+     }
+    ]
+   }
   },
   {
    "id": "w-ksi-nara-junior-22",
@@ -3331,7 +3747,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第21回 奈良県ジュニアゴルフ選手権",
+    "links": [
+     {
+      "label": "成績（小学生）",
+      "url": "https://www.nga.cc/score/score2026/8_17_3.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-ksi-wakayama-junior-2027",
@@ -3603,7 +4029,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第21回 九州小学生ゴルフ選手権大会（兼 令和7年度 第19回全国小学生ゴルフ春季大会 九州予選）",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/男子（確定）-1.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/女子（確定）-1.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-kumanichi-elem-2027",
@@ -3627,7 +4067,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026熊本ゴルフ選手権 熊日トーナメント 小学生の部",
+    "links": [
+     {
+      "label": "結果記事（熊日）",
+      "url": "https://kumanichi.com/articles/1979935"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-izumi-cup-15",
@@ -3676,7 +4126,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第21回 小学生ゴルフトーナメント福岡県大会（JLPGA全日本小学生 九州予選）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.fga562.com/pdf/2026/2026_04_02_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-ncc-jr-17",
@@ -3701,7 +4161,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "長崎でじま青果杯 第16回 NCCジュニアゴルフ選手権",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://nagasaki-golf.info/wp-content/uploads/NCCジュニアゴルフ選手権2026.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-nagasaki-elem-2027",
@@ -3750,7 +4220,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "長崎県ジュニアゴルフ競技大会（令和8年度）",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://nagasaki-golf.info/wp-content/uploads/R8年県ジュニア成績表.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-nagasaki-oyako-2027",
@@ -3800,7 +4280,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "コスギ不動産スポーツスペシャル 第33回KABジュニアゴルフ選手権",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "http://www.kab.co.jp/special/jrgolf/pdf/result20260806A.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-tku-jr-13",
@@ -3825,7 +4315,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "林グループ PRESENTS オフィスバークレーCUP 第12回TKUジュニアゴルフ選手権",
+    "links": [
+     {
+      "label": "成績（小学生・1日目）",
+      "url": "https://www.tku.co.jp/wp-content/uploads/2026/05/result_shougakusei_0812.pdf"
+     },
+     {
+      "label": "成績（小学生・最終）",
+      "url": "https://www.tku.co.jp/wp-content/uploads/2026/05/result_shougakusei_0813.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-tsuruya-kyushu-25",
@@ -3850,7 +4354,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第24回 TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ 九州大会",
+    "links": [
+     {
+      "label": "成績（小学男子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/04/小学男子（確定）-1.pdf"
+     },
+     {
+      "label": "成績（小学女子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/04/小学女子（確定）-1.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-umk-jr-40",
@@ -3900,7 +4418,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第39回 鹿児島県ジュニアゴルフ選手権（小学生大会を含む）",
+    "links": [
+     {
+      "label": "成績表掲載ページ",
+      "url": "https://k-ga.jp/2026%e5%b9%b4-%e7%ac%ac39%e5%9b%9e%e9%b9%bf%e5%85%90%e5%b3%b6%e7%9c%8c%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%82%b4%e3%83%ab%e3%83%95%e9%81%b8%e6%89%8b%e6%a8%a9%e3%81%ae%e6%88%90%e7%b8%be%e8%a1%a8/"
+     }
+    ]
+   }
   },
   {
    "id": "w-kys-miyazakigas-jr-22",
@@ -4095,7 +4623,17 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "麗澤瑞浪ジュニアゴルフ大会（第20回 JLPGA全日本小学生 中部北陸予選）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://cdn.lpga.or.jp/lpga/cms/2026/08/20/2eecaff757fca222250e027d60e9ccfa67d2aff7.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-nat-jlpga-elem-tohoku-2027",
@@ -4144,7 +4682,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第52回 アオノジュニアゴルフ大会（JLPGA全日本小学生 近畿予選）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.aonoundoukouen.com/golf/g_competition/"
+     }
+    ]
+   }
   },
   {
    "id": "nat-ishikawa-region-2026-10-25-oita",
@@ -4344,7 +4892,21 @@
    "results": null,
    "levels": [
     "小学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "令和7年度（第19回）全国小学生ゴルフ春季大会",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2026/01/【元原稿】男子・全国小学生ゴルフ最終成績.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2026/01/【元原稿】女子・全国小学生ゴルフ最終成績.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-nat-jga-elem-national-20",
@@ -4562,7 +5124,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第14回 愛知県中学校ゴルフ夏季大会 兼 令和8年度 中部中学校ゴルフ選手権冬季大会 愛知県予選",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.chsga.info/aichi/data/第14回愛知県中学校ゴルフ選手権夏季大会成績表.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-mie-mga-shochu-2027-01",
@@ -4587,7 +5159,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "三重県ゴルフ連盟 ジュニア育成小中学生ゴルフ大会（1月大会）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://mga-golf.jp/nmgh/wp-content/uploads/2026/01/1.6MGA小中学生育成大会成績表.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-mie-mga-shochu-2027-02",
@@ -4637,7 +5219,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "令和8年 三重県ジュニアゴルフ育成団体戦競技会（3月競技会）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://mga-golf.jp/nmgh/wp-content/uploads/2026/03/R80308団体戦3月成績表.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-mie-ikusei-6",
@@ -4662,7 +5254,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第5回 三重県ジュニアゴルフ育成大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://mga-golf.jp/nmgh/wp-content/uploads/2026/08/0824result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-mie-hiraishi-15",
@@ -4687,7 +5289,21 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "三重県ジュニアゴルフ 第14回 平石杯小中学生ゴルフ大会（兼 U15全国ジュニアアスリートゴルフクラブチーム選手権 三重県予選）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://mga-golf.jp/nmgh/wp-content/uploads/2026/09/R8平石杯成績表.pdf"
+     },
+     {
+      "label": "成績（U15県予選）",
+      "url": "https://mga-golf.jp/nmgh/wp-content/uploads/2026/09/R8平石杯U15ジュニア三重県予選成績表（改訂版）.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-mie-jhs-2027",
@@ -4735,7 +5351,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 全国中学校ゴルフ選手権春季大会（岐阜地区予選）兼 中部中学校ゴルフ選手権（岐阜県予選）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.chsga.info/gifu/document/2026chu005.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-ishikawa-jhs-15",
@@ -4759,7 +5385,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第14回 石川県中学校ゴルフ選手権大会（兼 全国中学校ゴルフ選手権春季大会・中部中学校ゴルフ選手権冬季大会 石川県予選）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.chsga.info/ishikawa/Documents/ihsga_20260921__result.pdf"
+     },
+     {
+      "label": "予選通過",
+      "url": "https://www.chsga.info/ishikawa/Documents/ihsga_20260921_qualify.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-toyama-jhs-14",
@@ -4832,7 +5472,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第23回 石川県ジュニアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://iga5620.jp/com/pdf/2026/20260506_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-shizuoka-kanto-jr-2027",
@@ -4856,7 +5506,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 関東ジュニアゴルフ選手権 静岡県予選",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://shizu-golren.jp/wp/wp-content/uploads/2026/01/2026関東ジュニア成績（朝霧ジャンボリー.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-niigata-kanto-jr-2027",
@@ -4880,7 +5540,29 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026 関東ジュニア 新潟ブロック予選",
+    "links": [
+     {
+      "label": "成績（中学男子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_202512291351347670bacd0702_5.pdf"
+     },
+     {
+      "label": "成績（中学女子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_202512291351345b9ba3a6a8d1_6.pdf"
+     },
+     {
+      "label": "成績（高校男子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229135134ceade938b82f_7.pdf"
+     },
+     {
+      "label": "成績（高校女子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229135134c673cfb4e95c_8.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chubu-niigata-jr-senbatsu-29",
@@ -4904,7 +5586,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第28回 新潟県ジュニア選抜競技会 兼 第47回 北信越国スポ 少年男子選手選考会",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229135353cba222f48757_5.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-chugoku-shikoku-shikoku-jr-autumn-35",
@@ -5121,7 +5813,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第29回 広島県高等学校・中学校ゴルフ選手権夏季大会",
+    "links": [
+     {
+      "label": "成績（中学 最終）",
+      "url": "https://hiroshima.chsga.jp/pdf/t20260805-151647-12.pdf"
+     },
+     {
+      "label": "成績（高校 最終）",
+      "url": "https://hiroshima.chsga.jp/pdf/t20260805-145533-11.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chugoku-shikoku-kochi-jr-2027",
@@ -5145,7 +5851,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 高知県ジュニアゴルフ選手権競技（兼 国民スポーツ大会少年男子の部選考会）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://kochi-kga.com/relays/download/115/203/596/0/?file=/files/libs/1047/202605171618464716.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-chugoku-shikoku-okayama-jhs-13",
@@ -5315,7 +6031,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第46回 北海道ジュニアゴルフ選手権競技（12歳〜14歳の部）兼 第80回 国民スポーツ大会（少年男子）予選会",
+    "links": [
+     {
+      "label": "成績（12〜14歳 男子）",
+      "url": "https://compe.hga.gr.jp/hga/kyogi/result/2026/j12mk01"
+     },
+     {
+      "label": "成績（12〜14歳 女子）",
+      "url": "https://compe.hga.gr.jp/hga/kyogi/result/2026/j12wk01"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-hokkaido-tohoku-hokkaido-jhs-spring-2027",
@@ -5411,7 +6141,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度（第51回）関西ジュニアゴルフ選手権競技 決勝（日本ジュニアゴルフ選手権 関西予選）",
+    "links": [
+     {
+      "label": "成績（男子12〜14歳 最終日）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2026/04/男子1214歳の部（確定）-2.pdf"
+     },
+     {
+      "label": "成績（女子12〜14歳 最終日）",
+      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2026/04/女子1214歳の部（確定）-1.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-kansai-khgu-jhs-final-2026",
@@ -5627,7 +6371,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "令和8年度 兵庫県中学校ゴルフ選手権大会（兼 関西中学校ゴルフ選手権大会 予選）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.hyogo-golf.com/wp-content/uploads/2026/04/R8中学生大会サマリ3.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kansai-kyoto-hs-jhs-spring-2027",
@@ -5651,7 +6405,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 京都府高等学校・中学校ゴルフ選手権 春季大会（関西大会 京都予選）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://drive.google.com/file/d/1v7JHUwEK2ZhUECCciB_DZQPTVCp-bSBV/view?usp=drive_link"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kansai-osaka-hs-jhs-2027",
@@ -5723,7 +6487,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "令和8年度 第29回 大阪府中学校私学総合体育大会（ゴルフ競技の部）",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://www.osaka-kogoren.com/news/511"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://www.osaka-kogoren.com/news/514"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kansai-hyogo-jhs-autumn-2027",
@@ -5747,7 +6525,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "令和8年度 兵庫県高等学校・中学校ゴルフ選手権秋季大会（中学生の部）",
+    "links": [
+     {
+      "label": "成績（中学）",
+      "url": "https://www.hyogo-golf.com/wp-content/uploads/2026/08/R8%E7%A7%8B%E5%AD%A3%E5%A4%A7%E4%BC%9A%E4%B8%AD%E5%AD%A6.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-kanto-khga-jh-winter-boys-b-2026",
@@ -5819,7 +6607,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2025年度 関東中学校ゴルフ選手権 冬季大会 個人決勝（男女）",
+    "links": [
+     {
+      "label": "成績（男子）",
+      "url": "https://www.k-hga.jp/file/20260113_result_m.pdf"
+     },
+     {
+      "label": "成績（女子）",
+      "url": "https://www.k-hga.jp/file/20260113_result_w.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-khga-jh-2027",
@@ -5939,7 +6741,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "神奈川アマ ジュニアの部（12〜14歳・15〜17歳）兼 関東ジュニア予選",
+    "links": [
+     {
+      "label": "成績（男子12〜14歳）",
+      "url": "https://www.knga.org/user/pages/05.compe/2026/k01752/%E6%88%90%E7%B8%BE%28%E7%94%B7%E5%AD%9012%EF%BD%9E14%E6%AD%B3%29.pdf"
+     },
+     {
+      "label": "成績（女子12〜14歳）",
+      "url": "https://www.knga.org/user/pages/05.compe/2026/k01751/%E6%88%90%E7%B8%BE%28%E5%A5%B3%E5%AD%9012%EF%BD%9E14%E6%AD%B3%29.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-chiba-jr-23",
@@ -5963,7 +6779,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第22回 千葉県ジュニア選手権競技",
+    "links": [
+     {
+      "label": "成績（中学男子）",
+      "url": "https://chiba-amagolf.jp/wp/wp-content/uploads/2026/05/20260506-7.pdf"
+     },
+     {
+      "label": "成績（中学女子）",
+      "url": "https://chiba-amagolf.jp/wp/wp-content/uploads/2026/05/20260506-8.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-chiba-kanto-jr-2027",
@@ -5987,7 +6817,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年 関東ジュニアゴルフ選手権 千葉ブロック予選",
+    "links": [
+     {
+      "label": "成績（12〜14歳男子）",
+      "url": "https://chiba-amagolf.jp/wp/wp-content/uploads/2026/06/20260622-7-1.pdf"
+     },
+     {
+      "label": "成績（12〜14歳女子）",
+      "url": "https://chiba-amagolf.jp/wp/wp-content/uploads/2026/06/20260622-8-1.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-saitama-kanto-jr-2027",
@@ -6035,7 +6879,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年 関東ジュニアゴルフ選手権 栃木ブロック予選",
+    "links": [
+     {
+      "label": "成績（男子の部）",
+      "url": "https://t-golf.jp/compe/upload/2026009002result.pdf"
+     },
+     {
+      "label": "成績（女子の部）",
+      "url": "https://t-golf.jp/compe/upload/2026010001result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-gunma-jr-39",
@@ -6059,7 +6917,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第38回 群馬県ジュニア選手権（兼）関東ジュニアゴルフ選手権 群馬予選",
+    "links": [
+     {
+      "label": "成績（予選通過）",
+      "url": "https://www.golf-gunma-asc.gr.jp/junior/pdf/2026%E3%82%B8%E3%83%A5%E3%83%8B%E9%81%B8%E6%89%8B%E6%A8%A9%E6%88%90%E7%B8%BE%E4%BA%88%E9%81%B8%E9%80%9A%E9%81%8E.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-ibaraki-kanto-jr-2027",
@@ -6155,7 +7023,21 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第36回 埼玉県ジュニアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "成績（男子12〜14歳）",
+      "url": "https://www.saitama-np.co.jp/information/amagolf/img/2026/juniorhi_boy_12_14.pdf"
+     },
+     {
+      "label": "成績（女子12〜14歳）",
+      "url": "https://www.saitama-np.co.jp/information/amagolf/img/2026/juniorhi_girl_12_14.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-tochigi-jr-35",
@@ -6179,7 +7061,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第34回 栃木県ジュニアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://t-golf.jp/compe/upload/2026008001result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-gunma-lesson-jr-38",
@@ -6204,7 +7096,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第37回 群馬県ジュニアゴルフ・レッスン＆競技大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.golf-gunma-asc.gr.jp/junior/pdf/KGA%E6%8F%90%E5%87%BA2026%E6%98%A5%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A%E6%88%90%E7%B8%BE%E8%A1%A8%E8%A8%82%E6%AD%A3.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-gunma-summer-kusatsu-8",
@@ -6229,7 +7131,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第7回 群馬県ジュニアゴルフサマー大会 in 草津",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.golf-gunma-asc.gr.jp/junior/pdf/%E7%AC%AC7%E5%9B%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%B5%E3%83%9E%E3%83%BC%E5%A4%A7%E4%BC%9A%EF%BD%89%EF%BD%8E%E8%8D%89%E6%B4%A5%E6%88%90%E7%B8%BE%E8%A1%A8.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kanto-yamanashi-jr-36",
@@ -6254,7 +7166,17 @@
    "levels": [
     "小学生",
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 第35回 山梨県ジュニアゴルフ大会",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://yamanashi-golf.net/2026/0805_result_01.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kyushu-guk-jr-46",
@@ -6350,7 +7272,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第7回 福岡県ジュニアゴルフ大会（第19回 中学生の部・第12回 高校生の部）",
+    "links": [
+     {
+      "label": "成績",
+      "url": "https://www.fga562.com/pdf/2026/2026_08_18_result.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "w-jhs-kyushu-saga-ama-33-jhs",
@@ -6568,7 +7500,17 @@
    "results": null,
    "levels": [
     "中学生"
-   ]
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "2025年度 文部科学大臣楯争奪（第46回）全国中学校ゴルフ選手権春季大会",
+    "links": [
+     {
+      "label": "成績（中学）",
+      "url": "https://nihon-kougoren.jp/img/schedule_pdf/2026spring_j.pdf"
+     }
+    ]
+   }
   },
   {
    "id": "jhs-national-ajga-pathway-2026",

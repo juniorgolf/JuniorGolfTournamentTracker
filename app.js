@@ -108,7 +108,7 @@ const abroadNote = (t) => t.overseas ? `<p class="d-abroad">🌏 海外の大会
 function watchRow(t) {
   return `<div class="row${rowCls(t)}">
     <div class="date"><span class="d tbd">未定</span></div>
-    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}</span></div>
+    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}${prevMark(t)}</span></div>
     <div class="venue"><span class="pref">${prefLabel(t)}</span>${esc(t.venue)}</div>
     <div class="org">${orgCell(t)}</div>
     <div class="cell-status"><span class="status st-unknown"><b><span class="dot"></span>発表待ち</b>${t.window_from ? `<small>${esc(fmtY(t.window_from))}ごろから注意</small>` : ""}</span></div>
@@ -125,7 +125,7 @@ function row(t) {
     : `<span class="status st-${st.kind}"><b><span class="dot"></span>${esc(st.label)}</b>${period ? `<small>${esc(period)}</small>` : ""}</span>`;
   return `<div class="row${rowCls(t)}">
     <div class="date"><span class="d">${d.getMonth() + 1}/${d.getDate()}</span><span class="w">${WEEK[d.getDay()]}</span>${multi}</div>
-    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}・${esc(t.stage)}</span></div>
+    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}・${esc(t.stage)}${isPast(t) ? "" : prevMark(t)}</span></div>
     <div class="venue"><span class="pref">${prefLabel(t)}</span>${esc(t.venue)}</div>
     <div class="org">${orgCell(t)}</div>
     <div class="cell-status">${status}</div>
@@ -144,6 +144,16 @@ function resultBlock(t) {
     return `<div class="d-results"><p class="d-results-h">大会結果・スコア</p><div class="d-actions">${t.results.map((r) => `<a class="btn btn-solid" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a>`).join("")}</div></div>`;
   }
   return `<div class="d-results"><p class="d-results-h">大会結果・スコア</p><p class="d-note">${esc(t.results_note || "結果は公式ページでご確認ください。")}</p></div>`;
+}
+
+// 前回の大会の結果（これからの大会・日程発表待ちに付ける。今年の結果と混同しないよう年を出す）
+const prevMark = (t) => t.prev_results ? `<span class="prev-mark">前回結果あり</span>` : "";
+function prevBlock(t) {
+  const p = t.prev_results;
+  if (!p || !p.links || !p.links.length) return "";
+  return `<div class="d-prev"><p class="d-results-h">前回（${p.year}年）の大会結果・スコア</p>
+    <p class="d-prev-name">${esc(p.name)}</p>
+    <div class="d-actions">${p.links.map((r) => `<a class="btn btn-line" href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.label)}</a>`).join("")}</div></div>`;
 }
 
 // 地図の横に出す、幅の狭い一覧の行
@@ -179,6 +189,7 @@ function watchDetail(t) {
     </dl>
     ${t.note ? `<p class="d-note">${esc(t.note)}</p>` : ""}
     <div class="d-actions"><a class="btn btn-solid" href="${esc(t.url)}" target="_blank" rel="noopener">公式ページを見る</a></div>
+    ${prevBlock(t)}
     <p class="d-verified">${esc(t.verified)} 時点の情報。前年の実績をもとにしており、今年の確定日ではありません。</p>`;
 }
 
@@ -206,7 +217,7 @@ function detail(t) {
       <a class="btn btn-solid" href="${esc(t.url)}" target="_blank" rel="noopener">公式ページで要項を見る</a>
       <a class="btn btn-line" href="${esc(gmapsDir(t))}" target="_blank" rel="noopener">経路を調べる（Googleマップ）</a>
     </div>
-    ${isPast(t) ? "" : calBlock(t)}
+    ${isPast(t) ? "" : prevBlock(t) + calBlock(t)}
     <p class="d-verified">${esc(t.verified)} 時点で公式ページを確認</p>`;
 }
 
