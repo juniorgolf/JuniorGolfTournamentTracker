@@ -1470,20 +1470,107 @@
    ]
   },
   {
-   "id": "p-w-studioalice-19-2026-03-07",
-   "name": "第18回 スタジオアリス ジュニアカップ",
+   "id": "p-studioalice-18-kyushu-2026",
+   "name": "第18回 スタジオアリス ジュニアカップ 九州予選",
    "organizer": "スタジオアリス（JLPGA協力）",
-   "pref": "全国",
-   "venue": "花屋敷ゴルフ倶楽部 よかわコース ほか",
+   "pref": "熊本",
+   "venue": "グランドチャンピオンゴルフクラブ",
    "start": "2026-03-07",
-   "end": "2026-04-03",
+   "end": "2026-03-07",
    "entry_open": null,
-   "entry_close": null,
+   "entry_close": "2026-01-30",
    "entry_state": null,
    "grades": "小学1〜2年（男女混合）／小学3〜4年 男子・女子／小学5〜6年 男子・女子",
-   "stage": "単独",
-   "url": "https://www.studio-alice.co.jp/",
-   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "stage": "予選",
+   "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html",
+   "note": "開催日・会場・申込締切は公式ページで確認（2026-10-20）。参加資格：日本国内在住の小学1〜6年生で、決勝大会・表彰式まで参加できること、保護者が予選・決勝・表彰式まで同伴すること。会員登録不要。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績表（決勝）",
+     "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html#result"
+    }
+   ],
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
+   "id": "p-studioalice-18-kanto-2026",
+   "name": "第18回 スタジオアリス ジュニアカップ 関東予選",
+   "organizer": "スタジオアリス（JLPGA協力）",
+   "pref": "茨城",
+   "venue": "静ヒルズカントリークラブ",
+   "start": "2026-03-27",
+   "end": "2026-03-27",
+   "entry_open": null,
+   "entry_close": "2026-01-30",
+   "entry_state": null,
+   "grades": "小学1〜2年（男女混合）／小学3〜4年 男子・女子／小学5〜6年 男子・女子",
+   "stage": "予選",
+   "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html",
+   "note": "開催日・会場・申込締切は公式ページで確認（2026-10-20）。参加資格：日本国内在住の小学1〜6年生で、決勝大会・表彰式まで参加できること、保護者が予選・決勝・表彰式まで同伴すること。会員登録不要。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績表（決勝）",
+     "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html#result"
+    }
+   ],
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
+   "id": "p-studioalice-18-kansai-2026",
+   "name": "第18回 スタジオアリス ジュニアカップ 関西予選",
+   "organizer": "スタジオアリス（JLPGA協力）",
+   "pref": "兵庫",
+   "venue": "花屋敷ゴルフ倶楽部 ひろのコース",
+   "start": "2026-03-31",
+   "end": "2026-03-31",
+   "entry_open": null,
+   "entry_close": "2026-01-30",
+   "entry_state": null,
+   "grades": "小学1〜2年（男女混合）／小学3〜4年 男子・女子／小学5〜6年 男子・女子",
+   "stage": "予選",
+   "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html",
+   "note": "開催日・会場・申込締切は公式ページで確認（2026-10-20）。参加資格：日本国内在住の小学1〜6年生で、決勝大会・表彰式まで参加できること、保護者が予選・決勝・表彰式まで同伴すること。会員登録不要。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績表（決勝）",
+     "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html#result"
+    }
+   ],
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
+   "id": "p-studioalice-18-final-2026",
+   "name": "第18回 スタジオアリス ジュニアカップ 決勝",
+   "organizer": "スタジオアリス（JLPGA協力）",
+   "pref": "兵庫",
+   "venue": "花屋敷ゴルフ倶楽部 よかわコース",
+   "start": "2026-04-03",
+   "end": "2026-04-03",
+   "entry_open": null,
+   "entry_close": "2026-01-30",
+   "entry_state": null,
+   "grades": "小学1〜2年（男女混合）／小学3〜4年 男子・女子／小学5〜6年 男子・女子",
+   "stage": "決勝",
+   "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html",
+   "note": "開催日・会場・申込締切は公式ページで確認（2026-10-20）。参加資格：日本国内在住の小学1〜6年生で、決勝大会・表彰式まで参加できること、保護者が予選・決勝・表彰式まで同伴すること。会員登録不要。",
    "verified": "2026-10-20",
    "expected": null,
    "window_from": null,
@@ -10783,7 +10870,7 @@
    "id": "p-w-jackbunny-championship-2027-2026-09-23",
    "name": "Jack Bunny!! Junior Golf Tour 2026 Championship Final",
    "organizer": "Jack Bunny!! Junior Golf Tour",
-   "pref": "全国",
+   "pref": "群馬",
    "venue": "サンコーカントリークラブ 東コース",
    "start": "2026-09-23",
    "end": null,

@@ -2852,6 +2852,78 @@
    "lng": 136.237091,
    "precision": "番地",
    "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/180001"
+  },
+  "四日市カンツリー倶楽部": {
+   "name": "四日市カンツリー倶楽部",
+   "pref": "三重",
+   "address": "〒512-8048 三重県四日市市山城町640",
+   "lat": 35.025721,
+   "lng": 136.585409,
+   "precision": "番地",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_828.htm"
+  },
+  "北海道ブルックスカントリークラブ": {
+   "name": "北海道ブルックスカントリークラブ",
+   "pref": "北海道",
+   "address": "〒059-1365 北海道苫小牧市字植苗437",
+   "lat": 42.721852,
+   "lng": 141.668181,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_2238.htm"
+  },
+  "浜野ゴルフクラブ": {
+   "name": "浜野ゴルフクラブ",
+   "pref": "千葉",
+   "address": "〒290-0168 千葉県市原市永吉937",
+   "lat": 35.506249,
+   "lng": 140.203524,
+   "precision": "番地",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_1396.htm"
+  },
+  "平川カントリークラブ": {
+   "name": "平川カントリークラブ",
+   "pref": "千葉",
+   "address": "〒266-0004 千葉県千葉市緑区平川町405",
+   "lat": 35.553099,
+   "lng": 140.25257,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_1400.htm"
+  },
+  "岐阜カンツリー倶楽部": {
+   "name": "岐阜カンツリー倶楽部",
+   "pref": "岐阜",
+   "address": "〒504-0801 岐阜県各務原市蘇原北山町2-8",
+   "lat": 35.432082,
+   "lng": 136.86852,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_319.htm"
+  },
+  "グランドチャンピオンゴルフクラブ": {
+   "name": "グランドチャンピオンゴルフクラブ",
+   "pref": "熊本",
+   "address": "〒861-2404 熊本県阿蘇郡西原村大字河原",
+   "lat": 32.79849,
+   "lng": 130.89715,
+   "precision": "施設名",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_478.htm"
+  },
+  "静ヒルズカントリークラブ": {
+   "name": "静ヒルズカントリークラブ",
+   "pref": "茨城",
+   "address": "茨城県常陸大宮市小場5766",
+   "lat": 36.502986,
+   "lng": 140.413288,
+   "precision": "番地",
+   "source": "https://reserve.golfdigest.co.jp/golf-course/312208/"
+  },
+  "花屋敷ゴルフ倶楽部よかわコース": {
+   "name": "花屋敷ゴルフ倶楽部よかわコース",
+   "pref": "兵庫",
+   "address": "〒673-1113 兵庫県三木市吉川町福井字小西谷534-1",
+   "lat": 34.901687,
+   "lng": 135.121717,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_2005.htm"
   }
  }
 }

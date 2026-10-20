@@ -11,7 +11,7 @@ const REGIONS = [
   ["四国", ["四国", "徳島", "香川", "愛媛", "高知"]],
   ["九州", ["九州", "九州・沖縄", "福岡", "佐賀", "長崎", "熊本", "大分", "宮崎", "鹿児島"]],
   ["沖縄", ["沖縄"]],
-  ["全国", ["全国"]],
+  ["全国", ["全国"]],  // 予選と決勝は会場の県に分けて登録するため、エリアの選択肢には出さない（日本すべてで表示）
   ["海外", ["海外"]],  // 国名は読み込み時に overseas: true の大会から足す
 ];
 const regionOf = (pref) => (REGIONS.find(([, list]) => list.includes(pref)) || ["その他"])[0];
@@ -347,7 +347,8 @@ async function main() {
   for (const [region, list] of REGIONS) {
     const present = list.filter((p) => prefs.has(p) && p !== region);
     if (!present.length && !prefs.has(region)) continue;
-    if (region !== "海外") { jg.append(new Option(region === "全国" ? "全国大会（決勝など）" : region, `r:${region}`)); continue; }
+    if (region === "全国") continue;
+    if (region !== "海外") { jg.append(new Option(region, `r:${region}`)); continue; }
     const g = document.createElement("optgroup");
     g.label = region;
     g.append(new Option("海外すべて", `r:${region}`));
@@ -418,7 +419,7 @@ async function main() {
       // 終了した大会は新しい順
       past: pastYear && pastLoaded.has(pastYear) ? base.filter((t) => isPast(t) && t.start.startsWith(String(pastYear))).sort((a, b) => byDate(b, a)) : null,
     };
-    // 地図には、日程発表待ちでも前年の会場が分かる大会（全国決勝など）を前年の会場に出す
+    // 地図には、日程発表待ちでも前年の会場が分かる大会を前年の会場に出す
     sets.map = [...sets.upcoming, ...sets.watch.filter((t) => t.prev_venue)];
     [sets.open.length, sets.upcoming.length, sets.watch.length].forEach((n, i) => flipTo(statDds[i], n));
     if (TECHO) renderTypes();

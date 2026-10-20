@@ -1249,16 +1249,16 @@
    }
   },
   {
-   "id": "w-studioalice-19",
-   "name": "スタジオアリス ジュニアカップ（第19回）",
+   "id": "w-studioalice-19-kyushu",
+   "name": "スタジオアリス ジュニアカップ（第19回）九州予選",
    "organizer": "スタジオアリス（JLPGA協力）",
-   "pref": "全国",
-   "venue": "未発表",
+   "pref": "熊本",
+   "venue": "未発表（前年はグランドチャンピオンゴルフクラブ）",
    "grades": "小学1〜2年（男女混合）／小学3〜4年 男子・女子／小学5〜6年 男子・女子",
-   "url": "https://www.studio-alice.co.jp/",
-   "expected": "申込：前年は1/30締切",
+   "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html",
+   "expected": "開催：前年は3/7（グランドチャンピオンゴルフクラブ）　申込：前年は1/30必着締切（予選・決勝共通）",
    "window_from": "2026-12-01",
-   "note": "会員登録不要。",
+   "note": "参加資格（前年）：日本国内在住の小学1〜6年生で、決勝大会・表彰式まで参加できること、保護者が予選・決勝・表彰式まで同伴すること。会員登録不要。 各予選の上位者が決勝へ進む。",
    "start": null,
    "stage": "発表待ち",
    "end": null,
@@ -1266,7 +1266,7 @@
    "entry_close": null,
    "entry_state": null,
    "window_to": null,
-   "verified": "2026-10-17",
+   "verified": "2026-10-20",
    "results": null,
    "levels": [
     "小学生"
@@ -1280,7 +1280,113 @@
       "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html#result"
      }
     ]
-   }
+   },
+   "prev_venue": "グランドチャンピオンゴルフクラブ"
+  },
+  {
+   "id": "w-studioalice-19-kanto",
+   "name": "スタジオアリス ジュニアカップ（第19回）関東予選",
+   "organizer": "スタジオアリス（JLPGA協力）",
+   "pref": "茨城",
+   "venue": "未発表（前年は静ヒルズカントリークラブ）",
+   "grades": "小学1〜2年（男女混合）／小学3〜4年 男子・女子／小学5〜6年 男子・女子",
+   "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html",
+   "expected": "開催：前年は3/27（静ヒルズカントリークラブ）　申込：前年は1/30必着締切（予選・決勝共通）",
+   "window_from": "2026-12-01",
+   "note": "参加資格（前年）：日本国内在住の小学1〜6年生で、決勝大会・表彰式まで参加できること、保護者が予選・決勝・表彰式まで同伴すること。会員登録不要。 各予選の上位者が決勝へ進む。",
+   "start": null,
+   "stage": "発表待ち",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "window_to": null,
+   "verified": "2026-10-20",
+   "results": null,
+   "levels": [
+    "小学生"
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第18回 スタジオアリス ジュニアカップ",
+    "links": [
+     {
+      "label": "成績表（決勝）",
+      "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html#result"
+     }
+    ]
+   },
+   "prev_venue": "静ヒルズカントリークラブ"
+  },
+  {
+   "id": "w-studioalice-19-kansai",
+   "name": "スタジオアリス ジュニアカップ（第19回）関西予選",
+   "organizer": "スタジオアリス（JLPGA協力）",
+   "pref": "兵庫",
+   "venue": "未発表（前年は花屋敷ゴルフ倶楽部 ひろのコース）",
+   "grades": "小学1〜2年（男女混合）／小学3〜4年 男子・女子／小学5〜6年 男子・女子",
+   "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html",
+   "expected": "開催：前年は3/31（花屋敷ゴルフ倶楽部 ひろのコース）　申込：前年は1/30必着締切（予選・決勝共通）",
+   "window_from": "2026-12-01",
+   "note": "参加資格（前年）：日本国内在住の小学1〜6年生で、決勝大会・表彰式まで参加できること、保護者が予選・決勝・表彰式まで同伴すること。会員登録不要。 各予選の上位者が決勝へ進む。",
+   "start": null,
+   "stage": "発表待ち",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "window_to": null,
+   "verified": "2026-10-20",
+   "results": null,
+   "levels": [
+    "小学生"
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第18回 スタジオアリス ジュニアカップ",
+    "links": [
+     {
+      "label": "成績表（決勝）",
+      "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html#result"
+     }
+    ]
+   },
+   "prev_venue": "花屋敷ゴルフ倶楽部 ひろのコース"
+  },
+  {
+   "id": "w-studioalice-19-final",
+   "name": "スタジオアリス ジュニアカップ（第19回）決勝",
+   "organizer": "スタジオアリス（JLPGA協力）",
+   "pref": "兵庫",
+   "venue": "未発表（前年は花屋敷ゴルフ倶楽部 よかわコース）",
+   "grades": "小学1〜2年（男女混合）／小学3〜4年 男子・女子／小学5〜6年 男子・女子",
+   "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html",
+   "expected": "開催：前年は4/3（花屋敷ゴルフ倶楽部 よかわコース）　申込：前年は1/30必着締切（予選・決勝共通）",
+   "window_from": "2026-12-01",
+   "note": "参加資格（前年）：日本国内在住の小学1〜6年生で、決勝大会・表彰式まで参加できること、保護者が予選・決勝・表彰式まで同伴すること。会員登録不要。 出場は九州・関東・関西の各予選の上位者。",
+   "start": null,
+   "stage": "発表待ち",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "window_to": null,
+   "verified": "2026-10-20",
+   "results": null,
+   "levels": [
+    "小学生"
+   ],
+   "prev_results": {
+    "year": 2026,
+    "name": "第18回 スタジオアリス ジュニアカップ",
+    "links": [
+     {
+      "label": "成績表（決勝）",
+      "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html#result"
+     }
+    ]
+   },
+   "prev_venue": "花屋敷ゴルフ倶楽部 よかわコース"
   },
   {
    "id": "w-fcg-japan-2027",
@@ -9237,7 +9343,7 @@
    "id": "w-jhs-national-kougoren-summer-2027",
    "name": "2027年度 文部科学大臣旗争奪 全国中学校ゴルフ選手権大会（夏季・団体）",
    "organizer": "日本高等学校・中学校ゴルフ連盟（高ゴ連）",
-   "pref": "全国",
+   "pref": "栃木",
    "venue": "未発表（前年はピートダイゴルフクラブ VIPコース）",
    "start": null,
    "end": null,
@@ -9276,7 +9382,7 @@
    "id": "w-jhs-national-jga-japan-jr-71-1214",
    "name": "2027年度（第71回）日本ジュニアゴルフ選手権競技 12〜14歳の部",
    "organizer": "日本ゴルフ協会（JGA）",
-   "pref": "全国",
+   "pref": "千葉",
    "venue": "未発表（前年は千葉カントリークラブ 梅郷コース）",
    "start": null,
    "end": null,
@@ -9512,7 +9618,7 @@
    "id": "w-jackbunny-championship-2027",
    "name": "Jack Bunny!! Junior Golf Tour Championship 2027",
    "organizer": "Jack Bunny!! Junior Golf Tour",
-   "pref": "全国",
+   "pref": "群馬",
    "venue": "未発表",
    "start": null,
    "entry_open": null,
@@ -16680,8 +16786,8 @@
    "id": "jga-japan-amateur-2027",
    "name": "日本アマチュアゴルフ選手権競技（2027年度）",
    "organizer": "公益財団法人日本ゴルフ協会",
-   "pref": "全国",
-   "venue": null,
+   "pref": "三重",
+   "venue": "未発表（前年は四日市カンツリー倶楽部）",
    "start": null,
    "end": null,
    "entry_open": null,
@@ -16708,14 +16814,15 @@
       "url": "https://www.jga.or.jp/championship/2026/03/fullleaderboard.php"
      }
     ]
-   }
+   },
+   "prev_venue": "四日市カンツリー倶楽部"
   },
   {
    "id": "jga-japan-amateur-qual-east-2027",
    "name": "日本アマチュアゴルフ選手権 予選競技 東日本予選（2027年度）",
    "organizer": "公益財団法人日本ゴルフ協会",
-   "pref": "全国",
-   "venue": null,
+   "pref": "千葉",
+   "venue": "未発表（前年は浜野ゴルフクラブ）",
    "start": null,
    "end": null,
    "entry_open": null,
@@ -16742,14 +16849,15 @@
       "url": "https://www.golfgenius.com/pages/12609230235263617762?locale=jp"
      }
     ]
-   }
+   },
+   "prev_venue": "浜野ゴルフクラブ"
   },
   {
    "id": "jga-japan-amateur-qual-west-2027",
    "name": "日本アマチュアゴルフ選手権 予選競技 西日本予選（2027年度）",
    "organizer": "公益財団法人日本ゴルフ協会",
-   "pref": "全国",
-   "venue": null,
+   "pref": "兵庫",
+   "venue": "未発表（前年はよみうりカントリークラブ）",
    "start": null,
    "end": null,
    "entry_open": null,
@@ -16776,14 +16884,15 @@
       "url": "https://www.golfgenius.com/pages/12609300792449485544?locale=jp"
      }
     ]
-   }
+   },
+   "prev_venue": "よみうりカントリークラブ"
   },
   {
    "id": "jga-japan-women-amateur-2027",
    "name": "日本女子アマチュアゴルフ選手権競技（2027年度）",
    "organizer": "公益財団法人日本ゴルフ協会",
-   "pref": "全国",
-   "venue": null,
+   "pref": "北海道",
+   "venue": "未発表（前年は北海道ブルックスカントリークラブ）",
    "start": null,
    "end": null,
    "entry_open": null,
@@ -16810,14 +16919,15 @@
       "url": "https://www.jga.or.jp/championship/2026/02/fullleaderboard.php"
      }
     ]
-   }
+   },
+   "prev_venue": "北海道ブルックスカントリークラブ"
   },
   {
    "id": "jga-japan-women-amateur-qual-east-2027",
    "name": "日本女子アマチュアゴルフ選手権 予選競技 東日本予選（2027年度）",
    "organizer": "公益財団法人日本ゴルフ協会",
-   "pref": "全国",
-   "venue": null,
+   "pref": "千葉",
+   "venue": "未発表（前年は平川カントリークラブ）",
    "start": null,
    "end": null,
    "entry_open": null,
@@ -16844,14 +16954,15 @@
       "url": "https://www.golfgenius.com/pages/12600367014586927989?locale=jp"
      }
     ]
-   }
+   },
+   "prev_venue": "平川カントリークラブ"
   },
   {
    "id": "jga-japan-women-amateur-qual-west-2027",
    "name": "日本女子アマチュアゴルフ選手権 予選競技 西日本予選（2027年度）",
    "organizer": "公益財団法人日本ゴルフ協会",
-   "pref": "全国",
-   "venue": null,
+   "pref": "岐阜",
+   "venue": "未発表（前年は岐阜カンツリー倶楽部）",
    "start": null,
    "end": null,
    "entry_open": null,
@@ -16878,7 +16989,8 @@
       "url": "https://www.golfgenius.com/pages/12600398508609031035?locale=jp"
      }
     ]
-   }
+   },
+   "prev_venue": "岐阜カンツリー倶楽部"
   }
  ]
 }
