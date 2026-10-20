@@ -337,13 +337,13 @@ async function main() {
   const fPref = document.getElementById("f-pref");
   const fOrg = document.getElementById("f-org");
   const fLevel = document.getElementById("f-level");
-  // エリアは地方ごとにまとめる。「r:関東」は地方全体、それ以外は都道府県
+  // エリアは地方ごとにまとめる。「jp」は国内すべて（最初の表示）、「r:関東」は地方全体、それ以外は都道府県
   const prefs = new Set(tournaments.map((t) => t.pref));
   // 国内は地方単位だけ（県単位では大会が少ないため）。海外は国ごとにも選べる
   for (const [region, list] of REGIONS) {
     const present = list.filter((p) => prefs.has(p) && p !== region);
     if (!present.length && !prefs.has(region)) continue;
-    if (region !== "海外") { fPref.append(new Option(region === "全国" ? "全国決勝など" : region, `r:${region}`)); continue; }
+    if (region !== "海外") { fPref.append(new Option(region === "全国" ? "全国大会（決勝など）" : region, `r:${region}`)); continue; }
     const g = document.createElement("optgroup");
     g.label = region;
     g.append(new Option("海外すべて", `r:${region}`));
@@ -366,7 +366,7 @@ async function main() {
     return lv.includes(v) || (v === "中学生" && isGeneral(t));
   };
   const inLevelArea = (t) => levelOk(t)
-    && (!fPref.value || (fPref.value.startsWith("r:") ? (t.overseas ? "海外" : regionOf(t.pref)) === fPref.value.slice(2)
+    && (!fPref.value || (fPref.value === "jp" ? !t.overseas : fPref.value.startsWith("r:") ? (t.overseas ? "海外" : regionOf(t.pref)) === fPref.value.slice(2)
       : fPref.value.startsWith("a:") ? t.overseas && abroadAreaOf(t.pref) === fPref.value.slice(2)
       : fPref.value.startsWith("c:") ? t.overseas && t.pref === fPref.value.slice(2)
       : t.pref === fPref.value));
@@ -395,7 +395,7 @@ async function main() {
   };
   // 選んだエリアは次回も使う（保存できない環境では無視）
   try {
-    const saved = localStorage.getItem("area"); if (saved && [...fPref.options].some((o) => o.value === saved)) fPref.value = saved;
+    const saved = localStorage.getItem("area"); if (saved !== null && [...fPref.options].some((o) => o.value === saved)) fPref.value = saved;
     const lv = localStorage.getItem("level"); if (lv && [...fLevel.options].some((o) => o.value === lv)) fLevel.value = lv;
   } catch {}
   fillOrgs();
