@@ -14070,6 +14070,2626 @@
    "window_to": null,
    "results": null,
    "overseas": true
+  },
+  {
+   "id": "ama-nagasaki-2026",
+   "name": "令和8年度長崎県アマチュア選手権大会",
+   "organizer": "長崎県ゴルフ協会",
+   "pref": "長崎",
+   "venue": "佐世保・平戸カントリークラブ",
+   "start": "2026-10-28",
+   "end": "2026-10-28",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般の部・レディスの部",
+   "levels": [
+    "一般"
+   ],
+   "stage": "単独",
+   "url": "https://nagasaki-golf.info/tournaments/",
+   "note": "18Hストロークプレー。出場資格は要項で確認（協会サイトに参加資格・申込用紙の掲載なし。掲載はローカルルール・競技条件と組合せ表のみで、組合せ発表済み）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-fukui-2026",
+   "name": "第50回福井県アマチュアゴルフ選手権大会",
+   "organizer": "福井新聞社",
+   "pref": "福井",
+   "venue": "芦原ゴルフクラブ 海コース",
+   "start": "2026-11-06",
+   "end": "2026-11-07",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "単独",
+   "url": "https://www.golf.fukui.jp/organizing_competition/fukuiamateur.php",
+   "note": "福井県ゴルフ協会の競技日程に掲載、大会ページの主催表記は福井新聞社。予選は9/25・26 芦原GC 湖コース（終了）、決勝は予選通過者等による。開催要項・申込は福井新聞社のページ（https://www.fukuishimbun.co.jp/common/usr/kenama_golf/）だが読み込めず、出場資格は要項で確認。2025年（第49回）は予選5/30・31、決勝6/27・28で、年により時期が違う。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-mie-2026",
+   "name": "第4回 三重県アマチュアゴルフ選手権競技",
+   "organizer": "三重県ゴルフ連盟",
+   "pref": "三重",
+   "venue": "タートルエースゴルフ倶楽部",
+   "start": "2026-11-06",
+   "end": "2026-11-06",
+   "entry_open": null,
+   "entry_close": "2026-10-06",
+   "entry_state": null,
+   "grades": "一般 ※年齢制限の記載なし（三重県ゴルフ連盟ジュニア会員登録者も資格あり）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "単独",
+   "url": "https://www.mga-golf.jp/shusai/mie_ama.html",
+   "note": "競技規定の参加資格：「三重県ゴルフ連盟加盟倶楽部会員、もしくは三重県ゴルフ練習場連盟公認で、ハンディキャップインデックスまたは倶楽部ハンディキャップが9.9以下の者(参加申込締切時)。」「三重県ゴルフ連盟ジュニア会員登録者」「三重県学生ゴルフ連盟登録者」「上記(2)(3)に該当する人は、グロス80程度でラウンドできる技量を有すること。」申込締切10/6（火）17時必着（終了、定員超過分はキャンセル待ち）。ジュニア会員・学生連盟登録者は連盟へ直接申込。日程・会場は当初の11/5 ライオンズGCから変更。18ホールストロークプレー、ミッドシニア選手権と合わせて144名。優勝者は翌年度の中部アマ本戦、2〜9位は中部アマ予選の出場資格。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-hiroshima-women-2026",
+   "name": "第46回 広島県女子ゴルフ選手権大会",
+   "organizer": "広島県ゴルフクラブ連盟",
+   "pref": "広島",
+   "venue": "広島カンツリー倶楽部西条コース",
+   "start": "2026-11-16",
+   "end": "2026-11-16",
+   "entry_open": null,
+   "entry_close": "2026-10-16",
+   "entry_state": null,
+   "grades": "一般（女子）レギュラーの部 ※年齢制限の記載なし／シニアの部は1976年12月31日以前生まれ",
+   "levels": [
+    "一般"
+   ],
+   "stage": "単独",
+   "url": "https://www.hgcf.jp/c_detail.php?num=125&y=2026",
+   "note": "競技規定の参加資格：広島県ゴルフクラブ連盟に加盟するクラブの女子正会員、ハンディキャップインデックスを取得していること。年齢下限の記載なし（「正会員」が条件）。18Hストローク、スクラッチとネット。申込は所属クラブ経由、締切10/16（受付終了）。競技規定：https://www.hgcf.jp/pdf/t20260915-153031-0.pdf",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-wakayama-2026",
+   "name": "2026年度 和歌山県アマチュアゴルフ選手権競技",
+   "organizer": "和歌山県ゴルフ連盟",
+   "pref": "和歌山",
+   "venue": "白浜ゴルフ倶楽部",
+   "start": "2026-11-24",
+   "end": "2026-11-24",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※年齢制限の記載なし（出場は有資格者・推薦者のみ）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "単独",
+   "url": "https://golf.wakayama.jp/schedule.html",
+   "note": "スクラッチ、18ホールストロークプレー（セルフ）。出場資格：連盟の競技会No.3・4・5・8・9・10・11（会長杯、春季競技会、国スポ・マスターズ選考会予選、シニア・レディース競技会、県下クラブ対抗、種目別競技会、夏季競技会）でグロス上位15位タイまで（重複者を除く）と、各加盟クラブからの推薦者4名。連盟競技の共通参加資格は和歌山県在住者・在勤者・在学生、加盟クラブ会員。連盟の年齢区分は成年男子18〜54歳・成年女子18〜64歳など。中学生の扱いの記載はなく、要項で確認。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-kansai-women-2027",
+   "name": "第73回 関西女子アマチュアゴルフ選手権決勝競技",
+   "organizer": "一般社団法人関西ゴルフ連盟",
+   "pref": "関西",
+   "venue": "千刈カンツリー倶楽部",
+   "start": "2027-05-05",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "予選",
+   "url": "https://www.kgu.gr.jp/game/",
+   "note": "KGU 2027年度競技日程PDFで決勝開始日5/5(水)・千刈カンツリー倶楽部を確認（終了日未記載。2026年は3日間）。会場の府県は日程PDFに記載なし。予選競技 2027/4/6(火) 伏尾ゴルフ倶楽部。日本女子アマチュアゴルフ選手権の予選を兼ねる（2026年競技規定、枠数は後日発表）。出場資格（2026年）：予選は「ハンディキャップインデックス14.4（申込時）までのKGU加盟クラブ女子会員」、前年関西ジュニア女子15〜17歳・12〜14歳の部の第2日進出者（最終ラウンド完了者）、前年各府県女子アマ上位10位、KGU承認者等。年齢下限の記載なし（12〜14歳の資格区分あり＝中学生可）。2026年の申込締切は予選3/4・決勝4/1。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第72回 関西女子アマチュアゴルフ選手権",
+    "links": [
+     {
+      "label": "競技日程・成績一覧（KGU）",
+      "url": "https://www.kgu.gr.jp/game/"
+     },
+     {
+      "label": "競技結果（KGU）",
+      "url": "https://www.kgu.gr.jp/compe/final/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-chugoku-women-2027",
+   "name": "第56回 中国女子アマチュアゴルフ選手権競技",
+   "organizer": "一般財団法人中国ゴルフ連盟",
+   "pref": "中国",
+   "venue": "グリーンバーズゴルフ倶楽部",
+   "start": "2027-05-12",
+   "end": "2027-05-13",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "予選",
+   "url": "https://www.cgu.gr.jp/info/8036.html",
+   "note": "CGU 2027年度主催競技日程PDFで確認（会場の県は記載なしのため pref は null。国名「中国」との混同を避けた）。2026年は「今大会上位7名に」日本女子アマ（本戦）の参加資格を付与。出場資格（2026年）：ハンディキャップインデックス所持の女子（出生時）アマチュアで、中国ゴルフ連盟の会員クラブの会員、または中国ゴルフ連盟の競技登録者（申込時に登録完了者）。年齢下限の記載なし。2026年（第55回）は5/13〜14 鬼ノ城GC（岡山）、申込締切4/13。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第55回 中国女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "大会ページ（CGU）",
+      "url": "https://www.cgu.gr.jp/competition/result/7279.html"
+     },
+     {
+      "label": "第2日成績表",
+      "url": "https://www.cgu.gr.jp/wp-content/uploads/result/2026/02/260514result.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-chugoku-2027",
+   "name": "第56回 中国アマチュアゴルフ選手権競技",
+   "organizer": "一般財団法人中国ゴルフ連盟",
+   "pref": "岡山",
+   "venue": "東児が丘マリンヒルズゴルフクラブ",
+   "start": "2027-05-18",
+   "end": "2027-05-20",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "予選",
+   "url": "https://www.cgu.gr.jp/info/8036.html",
+   "note": "CGU 2027年度主催競技日程（2026/10/1発表、https://www.cgu.gr.jp/wp-content/uploads/info/2026/10/2027.pdf）で確認。日本アマへの出場資格がかかる（2026年資格に「日本アマ出場有資格者（中国アマより出場の者）」、枠数は未確認）。出場資格（2026年）：ハンディキャップインデックスを所持する男子アマチュアで、各県協会（連盟）による選考競技会の通過者、前年中国アマ上位10名、前年中国ジュニア男子15〜17歳・12〜14歳の部優勝者、JGAナショナルチーム認定選手、CGU特別承認者等。県予選（選考競技会）は各県協会主催。年齢下限の記載なし（12〜14歳の部優勝者の資格区分あり＝中学生可）。2026年（第55回）は5/19〜21 金城CC（島根）、申込締切5/8。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第55回 中国アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "大会ページ（CGU）",
+      "url": "https://www.cgu.gr.jp/competition/result/7388.html"
+     },
+     {
+      "label": "第3日成績表",
+      "url": "https://www.cgu.gr.jp/wp-content/uploads/result/2026/03/260521result.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-hokkaido-2027",
+   "name": "2027年度（第77回）北海道アマチュアゴルフ選手権 決勝競技",
+   "organizer": "北海道ゴルフ連盟",
+   "pref": "北海道",
+   "venue": "恵庭カントリー倶楽部",
+   "start": "2027-05-25",
+   "end": "2027-05-27",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "単独",
+   "url": "https://www.hga.gr.jp/kyogiinfo/",
+   "note": "2027年度の決勝は恵庭カントリー倶楽部で2027年5月25日〜27日（3日間に短縮。日程は変更の場合あり）。予選競技は2026年9〜10月に道内各地区で実施済み（函館9/23、日胆9/29、道北10/4ほか。予選申込は締切済み）。予選の出場資格（2026年度・第76回の競技規定による）：男子アマチュアで、HGA正会員（加盟倶楽部会員）またはHGA準会員（HGA個人会員、北海道学生ゴルフ連盟会員、道内在住のJGAジュニア会員）で申込時点のハンディキャップインデックス25.0以下の者／前年度東日本アマチュアゴルファーズ選手権2位〜10位タイの北海道在住者／常務理事会の特別承認者。予選免除：過去5年の優勝者、前年度上位10位タイ、前年度北海道ジュニア選手権男子15〜17歳・12〜14歳の部の優勝者ほか。年齢下限の記載なし。2027年度の競技規定は未確認（要項で確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-kansai-2027",
+   "name": "第94回 関西アマチュアゴルフ選手権決勝競技",
+   "organizer": "一般社団法人関西ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "よみうりカントリークラブ",
+   "start": "2027-06-01",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "予選",
+   "url": "https://www.kgu.gr.jp/game/",
+   "note": "KGU 2027年度競技日程（https://www.kgu.gr.jp/wp-content/uploads/2026/09/2027game.pdf）で決勝開始日6/1(火)・よみうりCCを確認（終了日は未記載。2026年は4日間）。予選競技 2027/4/13(火) 小野ゴルフ倶楽部、有馬ロイヤルゴルフクラブ・ロイヤルコース、宝塚ゴルフ倶楽部・新コース、城陽カントリー倶楽部・東コース。日本アマチュアゴルフ選手権の予選を兼ねる（2026年競技規定A5項、枠数は後日発表）。出場資格（2026年）：予選は「ハンディキャップインデックス14.4（申込時）までのKGU加盟クラブ男子（出生時）会員」、前年関西ジュニア男子15〜17才の部・12〜14才の部の第2日進出者（最終ラウンド完了者）、前年各府県アマ上位20位、前年関西学生第3日進出者、KGU承認者等。年齢下限の記載なし（12〜14才の資格区分あり＝中学生可）。2026年の申込締切は予選3/12・決勝4/8。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第93回 関西アマチュアゴルフ選手権",
+    "links": [
+     {
+      "label": "競技日程・成績一覧（KGU）",
+      "url": "https://www.kgu.gr.jp/game/"
+     },
+     {
+      "label": "競技結果（KGU）",
+      "url": "https://www.kgu.gr.jp/compe/final/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-akita-2027",
+   "name": "秋田県アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "秋田県ゴルフ連盟",
+   "pref": "秋田",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/akita/hostcompe.php",
+   "note": "2026年（第53回）は5/13〜14、大館カントリークラブ、36ホール・ストロークプレー、東北アマ秋田県予選を兼ねる。申込4/15〜4/29。参加資格（2026年競技規定）：ハンディキャップインデックス14.4までの男子アマで、(1)秋田県ゴルフ連盟加盟倶楽部の会員 (2)秋田県在住のJGAジュニア会員 (3)秋田県在住のJGAプレミアム会員 (4)秋田県在住で前年東北ジュニア選手権男子15〜17歳の部2〜10位 のいずれか。年齢下限の記載なし。他県・他地区のアマ予選との重複申込は不可。",
+   "verified": "2026-10-20",
+   "expected": "例年5月中旬（2026年は5/13〜14）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-06-10",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第53回秋田県アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/akita/reports_result.php?q=1001924"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-aomori-2027",
+   "name": "青森県アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "青森県ゴルフ連盟",
+   "pref": "青森",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/aomori/hostcompe.php",
+   "note": "2026年（第53回）は7/28〜29、青森カントリー倶楽部、36ホール・ストロークプレー、申込7/1〜7/14。参加資格（2026年競技規定）：(1)青森県ゴルフ連盟加盟倶楽部の会員 (2)青森県在住のJGAプレミアム会員・JGAジュニア会員 で、ハンディキャップインデックス14.4までのアマチュアゴルファー（申込時の数値）。年齢下限の記載なし（JGAジュニア会員の県内在住者が対象に含まれる）。東北ミッドアマ青森県予選を併催（ミッドアマは年齢条件あり）。",
+   "verified": "2026-10-20",
+   "expected": "例年7月下旬（2026年は7/28〜29）",
+   "window_from": "2027-07-01",
+   "window_to": "2027-08-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第53回青森県アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/aomori/reports_result.php?q=1002003"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-chiba-2027",
+   "name": "千葉県アマチュアゴルフ選手権（2027年）",
+   "organizer": "一般社団法人千葉県アマチュアゴルフ協会",
+   "pref": "千葉",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://chiba-amagolf.jp/schedule/",
+   "note": "予選→決勝の構成。2026年は予選4/14（千葉夷隅GC）・4/16（平川CC）・4/22（藤ヶ谷CC）、決勝5/18〜19（鷹之台CC、上位72位タイまで第2日へ）。予選免除者は3/23までに協会へ申込。協会の会員資格は「千葉県内在住又は在勤者。但し、他県ゴルフ競技団体に所属しない者」で、学生登録料（高校生・大学生）の区分あり。年齢下限など大会の出場資格は要項で確認。",
+   "verified": "2026-10-20",
+   "expected": "例年4月予選・5月決勝（2026年は予選4/14〜4/22、決勝5/18〜19）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-05-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "千葉県アマチュアゴルフ選手権",
+    "links": [
+     {
+      "label": "決勝第2日 成績（PDF）",
+      "url": "https://chiba-amagolf.jp/wp/wp-content/uploads/2026/05/20260519-5.pdf"
+     },
+     {
+      "label": "申込状況・成績",
+      "url": "https://chiba-amagolf.jp/grades/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-chubu-2027",
+   "name": "中部アマチュアゴルフ選手権（2027年）",
+   "organizer": "一般社団法人中部ゴルフ連盟",
+   "pref": "中部",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "http://www.cga.jp/oc_schedule/",
+   "note": "2027年の日程は未確認。中部ゴルフ連盟の公式サイト（cga.jp）はrobotsでWebFetch不可のため、要項・資格を確認できず。2026年日程はCGA作成の2026年度主催競技日程PDF（2026/2/3現在、rtg.jp掲載）で読んだ値で、表組み崩れのため要確認。2026年（第58回）本戦は5/19〜22（会場は愛知カンツリー倶楽部 東山コースと読めるが確定できず）、県別予選あり。出場資格は要項で確認（中学生の可否も未確認）。日本アマ予選を兼ねるかも未確認。",
+   "verified": "2026-10-20",
+   "expected": "例年5月中旬〜下旬（2026年は5/19〜22とCGA日程PDFで読める）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-06-05",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-chubu-women-2027",
+   "name": "中部女子アマチュアゴルフ選手権（2027年）",
+   "organizer": "一般社団法人中部ゴルフ連盟",
+   "pref": "中部",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "http://www.cga.jp/oc_schedule/",
+   "note": "2027年の日程は未確認。中部ゴルフ連盟の公式サイト（cga.jp）はrobotsでWebFetch不可のため、要項・資格を確認できず。2026年日程はCGA作成の2026年度主催競技日程PDF（2026/2/3現在、rtg.jp掲載）で読んだ値で、表組み崩れのため要確認。2026年（第55回）本戦は5/13〜15 呉羽カントリークラブ 立山コース、申込3/4〜4/6、地区予選4/22（三重：伊勢CC、北陸：越前CC）・4/24（愛知：豊田CC、岐阜：瑞陵GC）。出場資格は要項で確認（中学生の可否も未確認）。日本女子アマ予選を兼ねるかも未確認。",
+   "verified": "2026-10-20",
+   "expected": "例年5月中旬（2026年は5/13〜15とCGA日程PDFで読める）",
+   "window_from": "2027-04-15",
+   "window_to": "2027-05-31",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-ehime-2027",
+   "name": "愛媛アマチュアゴルフ選手権競技",
+   "organizer": "愛媛県ゴルフ協会",
+   "pref": "愛媛",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://ehime-gu.jp/pages/23/",
+   "note": "予選（四国アマ1次予選を兼ねる）→決勝（四国アマ2次予選を兼ねる）。2026年は予選4/2 Aブロック チサンCC北条・Bブロック 道後GC、決勝4/21〜22 滝の宮CC。出場資格は要項で確認（掲載PDFは競技の条件で、参加資格の記載なし）。",
+   "verified": "2026-10-20",
+   "expected": "例年4月（2026年は予選4/2、決勝4/21〜22）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 愛媛アマチュアゴルフ選手権競技 決勝",
+    "links": [
+     {
+      "label": "決勝成績（PDF）",
+      "url": "https://ehime-gu.jp/files/libs/1465/2026042216031214.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-ehime-women-2027",
+   "name": "愛媛女子アマ選手権競技",
+   "organizer": "愛媛県ゴルフ協会",
+   "pref": "愛媛",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※選手権（スクラッチ）・親善の部",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://ehime-gu.jp/pages/23/",
+   "note": "2026年は8/19 松山GC（愛媛女子アマ親善競技・愛媛県小中学生ゴルフ大会と同日）。出場資格は要項で確認（掲載PDFは競技の条件で、参加資格の記載なし）。",
+   "verified": "2026-10-20",
+   "expected": "例年8月ごろ（2026年は8/19）",
+   "window_from": "2027-08-01",
+   "window_to": "2027-08-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年 愛媛女子アマ選手権競技",
+    "links": [
+     {
+      "label": "成績表（PDF）",
+      "url": "https://ehime-gu.jp/files/libs/1524/202608201633289302.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-fukuoka-2027",
+   "name": "福岡県民アマチュアゴルフ選手権競技",
+   "organizer": "福岡県ゴルフ協会",
+   "pref": "福岡",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子・女子）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.fga562.com/topics.html",
+   "note": "福岡県の県アマ相当（成年男子・女子、国スポ代表選手選考会を兼ねる）。2026年は第28回、4/16〜17 筑紫野CC。出場資格は要項で確認（協会の要項・申込書PDFが画像のため本文を確認できず）。",
+   "verified": "2026-10-20",
+   "expected": "例年4月ごろ（2026年は4/16〜17）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第28回 福岡県民アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "結果（PDF）",
+      "url": "https://www.fga562.com/pdf/2026/2026_04_17_result.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-fukushima-2027",
+   "name": "福島県アマチュアゴルフ選手権 知事杯争奪競技（2027年）",
+   "organizer": "福島県ゴルフ連盟",
+   "pref": "福島",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/fukushima/hostcompe.php",
+   "note": "2026年（第60回）は5/10〜11、矢吹ゴルフ倶楽部、36ホール・ストロークプレー（セルフ）、東北アマ福島県予選を兼ねる。申込3/27〜4/10。参加資格（2026年競技規定）：男子アマで、加盟クラブの会員、福島県在住在校のJGAプレミアム会員（大学生は県内在住在学を問わない）、JGAジュニア会員のいずれか、かつ申込時ハンディキャップインデックス13.4以下。定員160名（超過時はインデックス順、同数は抽選）。年齢下限の記載なし。他県・他地区のアマ予選との重複申込は禁止。",
+   "verified": "2026-10-20",
+   "expected": "例年5月上旬（2026年は5/10〜11）",
+   "window_from": "2027-04-25",
+   "window_to": "2027-06-05",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第60回福島県アマチュア選手権競技",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/fukushima/reports_result.php?q=1001945"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-gifu-2027",
+   "name": "岐阜県アマチュアゴルフ選手権競技",
+   "organizer": "一般社団法人 岐阜県ゴルフ連盟",
+   "pref": "岐阜",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.gag-golf.jp/event/?year=2026",
+   "note": "2026年（第48回）予選の要項：アマチュア資格を有し、次のいずれかに該当する者「加盟倶楽部会員で、JGA/USGAハンディキャップインデックスが14.4まで」「加盟倶楽部会員で、JGAハンディキャップ方式によるハンディキャップが14.4まで」「前年度の岐阜県民スポーツ大会ゴルフ競技 個人の部で10位タイまで」、特別推薦者（非会員でインデックス14.4までの伊深の森CC推薦者、岐阜県学生ゴルフ連盟推薦者）、GAG特別承認者。年齢・中学生に関する記載なし。前年度の岐阜県ジュニア男子優勝者などは予選免除。会員は所属倶楽部経由で申込（締切は2026年3/17）。2026年は予選4/16または4/17（美濃白川GC、いずれか1日）、本戦5/28〜29 スプリングフィールドGC。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年4月に予選、5月下旬に本戦（2026年は本戦5/28〜29）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-06-15",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-gifu-women-2027",
+   "name": "岐阜県レディスゴルフ選手権競技",
+   "organizer": "一般社団法人 岐阜県ゴルフ連盟",
+   "pref": "岐阜",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※岐阜県在学・在住の中学生・高校生・大学生女子の資格あり",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.gag-golf.jp/event/?year=2026",
+   "note": "2026年（第48回、国スポ女子選手選考参考競技）の要項：女子（出生時）でアマチュア資格を有し「加盟倶楽部会員で、JGA/USGAハンディキャップインデックスが19.4まで」、または「岐阜県在学・在住の中学生・高校生・大学生女子で、2025年度の指定競技（岐阜県レディス、岐阜県ジュニア、中部女子アマ、中部ジュニア予選）において1ラウンド以上90ストローク以内の実績」、または特別推薦者（岐阜県在住・在学の中学生・高校生で岐阜県高等学校ゴルフ連盟推薦者 など）、GAG特別承認者。中学生・高校生は学校ごとまたは個人で申込書を送付。ミッドアマ大会と合わせて定員約100名。2026年は5/21〜22 ベルフラワーCC、締切4/14。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年5月下旬（2026年は5/21〜22）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-06-15",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-gunma-2027",
+   "name": "群馬県アマチュアゴルフ選手権（2027年）",
+   "organizer": "上毛新聞社",
+   "pref": "群馬",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www2.jomo-news.co.jp/gga/",
+   "note": "上毛新聞社主催（2018年度の案内で確認。群馬県ゴルフ協会サイトは上毛新聞社の大会ページへ誘導）。2018年度（第44回）は予選4〜7月の4会場、決勝8月。2026年の日程・出場資格は公式ページで確認できず。出場資格は要項で確認。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-hiroshima-2027",
+   "name": "広島県アマチュアゴルフ選手権",
+   "organizer": "広島県ゴルフクラブ連盟",
+   "pref": "広島",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.hgcf.jp/c_list.php",
+   "note": "地区予選→決勝（2026年は第59回：地区予選4/2 東部 久井CC／中部 呉CC／西部 芸南CC、決勝4/23〜24 広島CC八本松コース）。2026年競技規定の参加資格：広島県ゴルフクラブ連盟加盟クラブの男子正会員、「ハンディキャップインデックス 7.9まで」（申込時）、他県・他地区予選との重複不可。決勝シード：前年決勝上位5名、中国アマ優勝者（5年）、前年広島県オープン本戦上位3名（会員資格は必要）。年齢下限の記載なし（ただし「正会員」が条件）。2026年締切3/2（所属クラブ経由）。",
+   "verified": "2026-10-20",
+   "expected": "例年4月（2026年は地区予選4/2、決勝4/23〜24）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第59回 広島県アマチュアゴルフ選手権 決勝大会",
+    "links": [
+     {
+      "label": "決勝大会ページ",
+      "url": "https://www.hgcf.jp/c_detail.php?num=117&y=2026"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-hyogo-2027",
+   "name": "兵庫県アマチュアゴルフ選手権競技",
+   "organizer": "兵庫県ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（成年男子の部・少年男子の部・女子の部）※予選に少年の部・中学1・2年生の部あり",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://hgu1995.com/competitions/01JF9A5M6QGNQ97KB0PN24ABJ6/latest",
+   "note": "兵庫県ゴルフ連盟の主催大会。2026年（第29回、国スポ出場選手選考競技を兼ねる）は予選4/10 小野東洋GC、4/16 三木GC、5/4 北六甲CC西コース（少年の部・中学1・2年生の部、それぞれ男子・女子）、決勝は東広野GC（2日間）。三木予選の申込は2026年1/9〜2/8、北六甲予選は3/13〜4/5（申込は連盟サイトのエントリー）。大会ページに要項の掲載がなく、出場資格は要項で確認。連盟サイトによると2027年度の競技情報は11月下旬ごろ発表予定。",
+   "verified": "2026-10-20",
+   "expected": "例年4〜5月に予選、その後決勝（2026年は予選4/10・4/16・5/4）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-06-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第29回兵庫県アマチュアゴルフ選手権競技 決勝",
+    "links": [
+     {
+      "label": "決勝の記事（成年男子・少年男子・女子の成績PDF）",
+      "url": "https://hgu1995.com/articles/01KDA75DMTJJ4FA35EDJQGFQT8"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-ibaraki-open-2027",
+   "name": "茨城県アマチュアオープンゴルフ選手権（2027年）",
+   "organizer": "茨城県アマチュアゴルフ連盟",
+   "pref": "茨城",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://iaga.jp/MobileJOB/2026/25amaOPEN.html",
+   "note": "茨城県アマチュアゴルフ連盟（関東ゴルフ連盟加盟団体）の連盟主催競技。予選（2026年は第1〜第5会場）→決勝の構成。日程・会場・出場資格は要項PDF（Googleドライブ）に掲載されているが読み取れず、未確認。出場資格は要項で確認。同連盟には別に「茨城県アマチュアゴルフ連盟選手権」（2025年は第38回）もあり、どちらが一般的な「県アマ」に当たるかは未確認。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "茨城県アマチュアオープンゴルフ選手権",
+    "links": [
+     {
+      "label": "大会ページ（各会場・決勝の結果リンク）",
+      "url": "https://iaga.jp/MobileJOB/2026/25amaOPEN.html"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-ishikawa-2027",
+   "name": "石川県ゴルフ選手権競技",
+   "organizer": "石川県ゴルフ協会",
+   "pref": "石川",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "http://iga5620.jp/info.html",
+   "note": "石川県ゴルフ協会の主催・主管競技。「石川県アマチュアゴルフ選手権」の名称の大会はなく、県協会の選手権はこの大会。要項PDFは画像のみで読めず、アマチュア限定かどうか・出場資格は要項で確認。2026年（第46回）は予選5/27、決勝7/1〜2 いずれも片山津GC 白山コース。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年5月下旬に予選、7月上旬に決勝（2026年は予選5/27、決勝7/1〜2）",
+   "window_from": "2027-05-15",
+   "window_to": "2027-07-31",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-ishikawa-women-2027",
+   "name": "石川県女子ゴルフ選手権",
+   "organizer": "石川県ゴルフ協会",
+   "pref": "石川",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "http://iga5620.jp/info.html",
+   "note": "石川県ゴルフ協会の主催・主管競技。要項PDFは画像のみで読めず、アマチュア限定かどうか・出場資格は要項で確認。2026年（第47回）は7/1〜2 片山津GC 白山コース（石川県ゴルフ選手権決勝と同日・同会場）。予選の掲載なし。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年7月上旬（2026年は7/1〜2）",
+   "window_from": "2027-06-15",
+   "window_to": "2027-07-31",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-iwate-2027",
+   "name": "岩手県アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "岩手県ゴルフ連盟",
+   "pref": "岩手",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢下限の一般規定なし（JGAジュニア会員枠は国スポ少年男子の年齢条件）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/iwate/hostcompe.php",
+   "note": "予選会→決勝の構成。2026年（第53回）は予選会4/23（南部富士CC）・4/24（一関CC）、決勝5/14〜15（ローズランドCC）。東北アマ岩手県予選・国スポ（成年男子）予選等を兼ねる。予選会の参加資格（2026年競技規定）：男子アマでハンディキャップインデックス所持者で、(1)岩手県ゴルフ連盟加盟倶楽部の会員でインデックス14.4以下 (2)JGAプレミアム会員（岩手県在住・勤務・在学またはふるさと登録者）でインデックス14.4以下 (3)JGAジュニア会員（岩手県在住・在学者）で国民スポーツ大会少年男子の参加資格を満たし、インデックス28.4以下（2026年の国スポ少年男子は2008/4/2〜2012/4/1生まれで「中学2年生以下は対象外」とされ、中学3年生は対象） (4)前年度東北ジュニア選手権男子15〜17歳の部2〜10位の岩手県在住・在学者。決勝は前年上位者・各種優勝者・JGAナショナルチームメンバー等の予選免除者と予選通過者。2026年の申込：予選3/18〜4/8、決勝4/16〜4/30。",
+   "verified": "2026-10-20",
+   "expected": "例年4月予選・5月中旬決勝（2026年は予選4/23・4/24、決勝5/14〜15）",
+   "window_from": "2027-04-15",
+   "window_to": "2027-05-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第53回岩手県アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/iwate/reports_result.php?q=1001832"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-kanagawa-2027",
+   "name": "神奈川県アマチュアゴルフ選手権大会 男子の部（2027年）",
+   "organizer": "神奈川県ゴルフ協会",
+   "pref": "神奈川",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://ama.knga.org/",
+   "note": "共催：神奈川新聞社、tvk。予選→準決勝→決勝の構成。2026年は予選7会場（3/27〜4/13）、準決勝3会場（4/21・5/11・5/13）、決勝6/4〜5（相模原G.C.東）。国民スポーツ大会代表候補選抜会を兼ねる。申込（2026年）：第一次1/7〜1/27（抽選）、第二次1/30〜2/13（先着順）。参加資格（2026年要項）：JGAのアマチュア資格に抵触しないアマチュアで、神奈川県ゴルフ協会の加盟団体に所属または個人登録し、原則として県内在住（大学生、県高ゴ連登録者、過去の国スポ参加者などは県外在住でも可の例外あり）。男子の部に年齢下限の記載なし。決勝ではJ-sysハンディキャップの提示を求める場合あり。ジュニアの部は別レコードで既存。",
+   "verified": "2026-10-20",
+   "expected": "例年3〜4月予選・6月上旬決勝（2026年は予選3/27〜、決勝6/4〜5）",
+   "window_from": "2027-03-15",
+   "window_to": "2027-06-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "神奈川県アマチュアゴルフ選手権大会2026 男子の部",
+    "links": [
+     {
+      "label": "決勝 最終日",
+      "url": "https://www.knga.org/info/2026/ama_men_final_2"
+     },
+     {
+      "label": "大会ページ",
+      "url": "https://www.knga.org/compe/ama/2026"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-kanto-2027",
+   "name": "関東アマチュアゴルフ選手権（2027年）",
+   "organizer": "一般社団法人関東ゴルフ連盟",
+   "pref": "関東",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.kga.gr.jp/compe/general_detail.php?year=2026&id=2619",
+   "note": "2027年の日程は未発表（KGA競技一覧は2026年まで、2026-10-20確認）。日本アマの選手選考を兼ねる（2026年競技規定「本競技の上位者に…日本アマチュアゴルフ選手権…の出場資格を付与」、人数の記載なし）。2026年は予選9ブロック 3/23〜4/7（大洗GC、鳩山CC、日高CC、カレドニアンGC、総武CC、南総CC、青梅GC、立川国際CC、箱根CC）、決勝 5/26〜29 鷹之台カンツリー倶楽部（千葉）、申込1/15〜2/12（KGAホームページ）。出場資格（2026年）：男子（出生時）アマチュア・ハンディキャップインデックス所持・J-sys登録の倶楽部/団体経由（所属なしはKGAに直接）。予選：「KGA加盟倶楽部会員（正会員、平日会員）でハンディキャップインデックスが18.0（申込時）までの者」、前年KGA主催各都県アマ上位10名、前年関東ジュニア決勝で日本ジュニア出場資格を得た者、「TEAM KGA ジュニア」認定選手、前年KGA杯ジュニア12〜14歳の部上位3位・15〜17歳の部上位5位等。決勝シード：前年上位5位、前年関東ジュニア男子12〜14歳・15〜17歳の部優勝者等。年齢下限の記載なし（12〜14歳の資格区分あり＝中学生可）。他地区連盟の日本アマ選考競技に申し込んだ者は参加不可。",
+   "verified": "2026-10-20",
+   "expected": "例年 予選3月下旬〜4月上旬・決勝5月下旬（2026年は決勝5/26〜29）",
+   "window_from": "2027-03-15",
+   "window_to": "2027-06-05",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年 関東アマチュアゴルフ選手権",
+    "links": [
+     {
+      "label": "決勝最終日成績（KGA）",
+      "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2619_23156_result.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-kanto-women-2027",
+   "name": "関東女子ゴルフ選手権（2027年）",
+   "organizer": "一般社団法人関東ゴルフ連盟",
+   "pref": "関東",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子アマチュア）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.kga.gr.jp/compe/general_detail.php?year=2026&id=2616",
+   "note": "関東の女子アマ選手権（KGAでの名称は「関東女子ゴルフ選手権」。「関東女子アマチュアゴルフ選手権」という名称の競技はKGAの2026年一覧にない）。日本女子アマの選手選考を兼ねる（2026年競技規定「本競技の上位者に本年日本女子アマチュアゴルフ選手権競技…の出場資格を付与する」、人数の記載なし）。2027年の日程は未発表。2026年は予選3/16（東松山CC 3ブロック、袖ヶ浦CC新袖）、決勝4/20〜23 龍ヶ崎カントリー倶楽部（茨城）、申込1/14〜2/12。出場資格（2026年）：「女子（出生時）アマチュアゴルファー」・ハンディキャップインデックス所持・J-sys登録。予選：「KGA加盟倶楽部会員（正会員、平日会員、家族会員）でハンディキャップインデックスが14.9（申込時）までの者」、前年関東ジュニア決勝で日本ジュニア出場資格を得た者、「TEAM KGA ジュニア」認定選手、前年KGA杯ジュニア12〜14歳の部上位3位・15〜17歳の部上位5位等。決勝シード：前年関東ジュニア女子12〜14歳の部優勝者等。年齢下限の記載なし（12〜14歳の資格区分あり＝中学生可）。",
+   "verified": "2026-10-20",
+   "expected": "例年 予選3月中旬・決勝4月下旬（2026年は決勝4/20〜23）",
+   "window_from": "2027-03-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年 関東女子ゴルフ選手権",
+    "links": [
+     {
+      "label": "決勝最終日成績（KGA）",
+      "url": "https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2616_23245_result.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-kochi-2027",
+   "name": "高知県アマチュアゴルフ選手権競技",
+   "organizer": "高知県ゴルフ協会",
+   "pref": "高知",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://kochi-kga.com/pages/20/",
+   "note": "予選会（四国アマ1次予選を兼ねる）→本競技（四国アマ2次予選を兼ねる）。2026年は予選会4/2 パシフィックGC、本競技4/21〜22 グリーンフィールGC。2026年予選会要項の参加資格（男子）：次のいずれか「協会加盟クラブ所属で令和7年度クラブ選手権に出場し、JGAHD取得者」「協会加盟クラブ所属でJGAHD9以下」「今年度の高知県民ゴルフ大会一般男子の部の各会場上位5名」。他地区協会の男子アマ選手権予選との重複出場不可。年齢下限の記載なし。予選は1位から9打以内（50名未満なら上位50名）が本競技へ。2026年締切3/15（所属クラブ経由）。",
+   "verified": "2026-10-20",
+   "expected": "例年4月（2026年は予選4/2、本競技4/21〜22）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-kochi-women-2027",
+   "name": "高知県女子アマチュアゴルフ選手権競技",
+   "organizer": "高知県ゴルフ協会",
+   "pref": "高知",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://kochi-kga.com/pages/116/",
+   "note": "2026年は5/28 土佐ユートピアCC（国スポ女子の部選考会を兼ねる）。2026年要項の参加資格：女子アマチュアで次のいずれか「協会加盟クラブ所属会員で、ＨＣ１８までの者（JGA HC・クラブHCは問わない）」「今年度県民ゴルフ大会女子の部の各会場上位2名」。年齢下限の記載なし。2026年締切5/10（所属クラブ経由）。",
+   "verified": "2026-10-20",
+   "expected": "例年5月ごろ（2026年は5/28）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-05-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 高知県女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表（PDF）",
+      "url": "https://kochi-kga.com/relays/download/116/204/602/0/?file=/files/libs/1053/202605281632424128.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-kyushu-2027",
+   "name": "九州アマチュア選手権競技（2027年）",
+   "organizer": "一般社団法人九州ゴルフ連盟",
+   "pref": "九州",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.guk.jp/kyougi",
+   "note": "2027年の日程は未発表（GUK競技ページに2027年度の九州アマ掲載なし、2026-10-20確認）。2026年（第56回）は予選4/2〜4/9（自由選択エントリー制、沖縄：かねひで喜瀬CC、福岡南部A：古賀GC、長崎：大村湾CC、熊本：球磨CC、宮崎：宮崎大淀CC、福岡北部：JR内野CC、福岡南部B：福岡センチュリーGC）、決勝5/19〜22 門司ゴルフ倶楽部。九州ゴルフ連盟の競技規定PDFは画像のみで本文を読めず、出場資格・日本アマ枠は要項で確認。中学生の可否も未確認。",
+   "verified": "2026-10-20",
+   "expected": "例年 予選4月上旬・決勝5月中旬〜下旬（2026年は決勝5/19〜22）",
+   "window_from": "2027-03-25",
+   "window_to": "2027-05-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第56回 九州アマチュア選手権競技",
+    "links": [
+     {
+      "label": "2026年度競技一覧（各会場の成績へのリンクあり）",
+      "url": "https://www.guk.jp/kyougi/23235"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-kyushu-women-2027",
+   "name": "九州女子選手権競技（2027年）",
+   "organizer": "一般社団法人九州ゴルフ連盟",
+   "pref": "九州",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.guk.jp/kyougi",
+   "note": "九州の女子アマ選手権（GUKでの名称は「九州女子選手権競技」）。2027年の日程は未発表。2026年（第56回）は予選3/31（福岡：ザ・クラシックGC）・4/2（沖縄：かねひで喜瀬CC）、決勝5/12〜14 熊本ゴルフ倶樂部 城南コース。九州ゴルフ連盟の競技規定PDFは画像のみで本文を読めず、出場資格・日本アマ枠は要項で確認。中学生の可否も未確認。",
+   "verified": "2026-10-20",
+   "expected": "例年 予選3月末〜4月上旬・決勝5月中旬（2026年は決勝5/12〜14）",
+   "window_from": "2027-03-20",
+   "window_to": "2027-05-25",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第56回 九州女子選手権競技",
+    "links": [
+     {
+      "label": "2026年度競技一覧（各会場の成績へのリンクあり）",
+      "url": "https://www.guk.jp/kyougi/23235"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-mie-women-open-2027",
+   "name": "三重県女子オープンゴルフ選手権競技",
+   "organizer": "三重県ゴルフ連盟",
+   "pref": "三重",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子、プロ・アマ）※アマの年齢制限の記載なし（国スポの部は2012年4月1日以前生まれ＝中学3年生を含む）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "http://www.mga-golf.jp/shusai/mie_woman.html",
+   "note": "三重県には女子アマ選手権の名称の大会がなく、県の女子選手権はこのオープン競技（プロ・アマ）。2026年（第20回）競技規定のアマチュア資格：三重県または中部ゴルフ連盟加盟倶楽部会員・加盟練習場登録者で「ハンディキャップインデックスまたはハンディキャップが14.4 までの者」、三重県ゴルフ連盟ジュニア会員登録者（HDCP14.4以下）、三重県学生ゴルフ連盟登録者（HDCP14.4以下）。インデックスのないジュニア・学生はグロス90程度。国スポの部は2012年4月1日以前生まれ（中学3年生を含む）・三重県現住所・J-sys登録。2026年は6/24 メナードCC青山コース、締切5/21。国スポの部アマ上位10名に翌年の中部女子アマ出場資格。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年6月下旬（2026年は6/24）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-07-15",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-miyagi-2027",
+   "name": "宮城県アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "宮城県ゴルフ連盟",
+   "pref": "宮城",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/miyagi/hostcompe.php",
+   "note": "2026年（第54回）は5/18〜19、東蔵王ゴルフ倶楽部、36ホール・ストロークプレー、東北アマ宮城県予選を兼ねる。申込4/13〜4/27。参加資格（2026年競技規定）：宮城県ゴルフ連盟加盟倶楽部の会員、同連盟の個人会員、宮城県在住のJGAプレミアム会員、宮城県内在住のJGAジュニア会員のいずれかで、申込時ハンディキャップインデックス10.4以下の男子アマ。ほかに前年度東北ジュニア選手権男子15〜17歳の部2〜10位（宮城県在住）の枠。年齢下限の記載なし。他県・他地区のアマ予選との重複申込は禁止。",
+   "verified": "2026-10-20",
+   "expected": "例年5月中旬（2026年は5/18〜19）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-06-10",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第54回宮城県アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/miyagi/reports_result.php?q=1001870"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-nara-2027",
+   "name": "奈良県アマチュアゴルフ選手権 兼 国民スポーツ大会一次選考会",
+   "organizer": "奈良県ゴルフ協会",
+   "pref": "奈良",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子・女子）※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.nga.cc/game.html",
+   "note": "奈良県ゴルフ協会の「有資格者競技」として掲載。出場資格は要項で確認（競技日程ページ・組合せPDFに記載なし）。2026年は4/10 花吉野カンツリー倶楽部、男女別（男子青ティ・女子白ティ）。上位5位タイまでとシード選手が国スポ最終選考会へ。協会の共通ルールでは競技日の2か月前から受付、1か月前締切。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年4月ごろ（2026年は4/10）",
+   "window_from": "2027-03-15",
+   "window_to": "2027-05-15",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-niigata-2027",
+   "name": "新潟県アマチュアゴルフ選手権",
+   "organizer": "新潟日報社・BSN新潟放送・新潟県ゴルフ連盟",
+   "pref": "新潟",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.n-golfrenmei.com/compe/?search_year=2026",
+   "note": "2026年（第52回）の競技規定：参加資格「県内在住で他に迷惑をかけない技量とマナーを有する男子アマチュアゴルファー。」「学生は県内に在住か在学で他に迷惑をかけない技量とマナーを有する男子アマチュアゴルファー。」年齢・ハンディキャップの条件の記載なし。2026年は予選が7/12（ノーブルウッドGC・米山水源CC）と8/4（柏崎CC・フォレストCC東）、決勝9/3〜4（長岡CC、1日目は悪天候で中止）。予選は各会場へ申込（参加費添付）、予選通過者は別途決勝申込が必要。予選免除：過去10年の優勝者、前回上位15名、前年の新潟県月例競技会ポイント上位など。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年7〜8月に予選、9月上旬に決勝（2026年は予選7/12・8/4、決勝9/3〜4）",
+   "window_from": "2027-07-01",
+   "window_to": "2027-09-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第52回新潟県アマチュアゴルフ選手権 決勝",
+    "links": [
+     {
+      "label": "決勝 競技結果（PDF）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229115534822dff9ca02f_5.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-niigata-women-2027",
+   "name": "新潟県女子アマチュアゴルフ選手権",
+   "organizer": "新潟日報社・新潟県ゴルフ連盟",
+   "pref": "新潟",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）総合の部 ※年齢制限の記載なし（同時開催のミッドアマの部は30歳以上）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.n-golfrenmei.com/compe/?search_year=2026&page=2",
+   "note": "2026年（第29回、新潟県女子ミッドアマチュアゴルフ選手権と併催）の競技規定：総合の部「県内在住でエチケット、マナーともに他の迷惑にならない女子アマチュアゴルファー。」学生は「県内に在住か在学で」。ミッドの部は30歳以上。18ホールストロークプレー、募集60名、開催会場へ参加費を添えて申込。2026年は6/23 胎内高原GC、受付5/8〜6/8。総合の部優勝者にヨネックスレディス2027の出場資格。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年6月ごろ（2026年は6/23）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-07-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第29回新潟県女子アマチュアゴルフ選手権",
+    "links": [
+     {
+      "label": "総合の部 競技結果（PDF）",
+      "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_2025122913201509fe0d25371a_5.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-okayama-2027",
+   "name": "岡山県アマチュアゴルフ選手権競技",
+   "organizer": "岡山県ゴルフクラブ連盟",
+   "pref": "岡山",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://okayama-ga.jp/competition/?hd=un",
+   "note": "予選→決勝（中国アマ岡山地区予選を兼ねる）。2026年（第52回）は予選3/18〜19 作州武蔵CC、決勝4/23〜24 東児が丘マリンヒルズGC。2026年連盟実施要領の参加資格：岡山県ゴルフクラブ連盟加盟クラブの会員で所属クラブの推薦がある者（会員以外は中国ゴルフ連盟・岡山県ゴルフ協会への競技者登録が必要）、ハンディキャップインデックス所持。シード枠にジュニアゴルフ選手権前大会の中学生男子の部上位2名が含まれる。年齢下限の記載なし（「満55歳未満」は県民ゴルフ大会枠の条件）。2026年予選申込は1/28〜2/3とみられる（要領PDFの表が崩れており要確認）。",
+   "verified": "2026-10-20",
+   "expected": "例年3〜4月（2026年は予選3/18〜19、決勝4/23〜24）",
+   "window_from": "2027-03-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-okayama-ladies-2027",
+   "name": "岡山県レディースゴルフ選手権競技",
+   "organizer": "岡山県ゴルフクラブ連盟",
+   "pref": "岡山",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※「年齢条件無」",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://okayama-ga.jp/competition/?hd=un",
+   "note": "岡山県の女子県選手権（2026年は第47回、4/24 東児が丘マリンヒルズGC）。2026年連盟実施要領：「年齢条件無」、加盟クラブ会員で推薦がある者、会員以外は岡山県クイーンズゴルフ大会の成績上位10名、ハンディキャップインデックス所持。クイーンズゴルフ大会（2026年は11/18 玉野GC）には「満13歳以上・HI10.0以下」の記載があるが、どの範囲に掛かるかは要領PDFの表崩れで要確認。申込期間は要項で確認。",
+   "verified": "2026-10-20",
+   "expected": "例年4月ごろ（2026年は4/24）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-saga-2027",
+   "name": "佐賀県アマチュアゴルフ選手権大会（一般の部）",
+   "organizer": "佐賀県スポーツ協会、佐賀県ゴルフ協会（主管：佐賀県アマチュアゴルフ選手権大会実行委員会）",
+   "pref": "佐賀",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般の部（男子・女子）「年齢は問わない」",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://saga-amagolf.net/wp/",
+   "note": "既存の「中学・高校生の部」とは別の一般の部。2026年（第32回）実施要項の参加資格：「2026年3月1日以降、佐賀県在住のアマチュアゴルファー及び県内ゴルフクラブ会員」（県外在住でも県内企業勤務者は在職証明で可）、「大学・専門学生及び児童を除く」。一般の部は「年齢は問わない」。中学・高校生が一般の部を選べるかは要項に明記なし（別に中学・高校生の部あり）→事務局で要確認。予選（各クラブ）→決勝。2026年は予選6/7、決勝8/22〜23、予選申込3/20〜4/20（定員になり次第締切）。",
+   "verified": "2026-10-20",
+   "expected": "例年 予選6月・決勝8月（2026年は予選6/7、決勝8/22〜23）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-08-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第32回佐賀県アマチュアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "決勝スコア",
+      "url": "https://saga-amagolf.net/wp/top/30finalscore"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-saitama-2027",
+   "name": "埼玉県アマチュアゴルフ選手権大会（2027年）",
+   "organizer": "埼玉新聞社（埼玉アマゴルフ事務局）",
+   "pref": "埼玉",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.saitama-np.co.jp/information/amagolf/amateur.php",
+   "note": "事務局は埼玉新聞社（埼玉アマゴルフ事務局）。主催者名はページに明記なし。予選→（復活戦）→決勝の構成。2026年（第48回）は予選6/5（高坂CC）・6/9（鳩山CC）・6/12（高麗川CC）・6/16（森林公園GC）・7/2（鴻巣CC）、復活戦9/29（越生GC）、決勝10/19〜20（日高CC東・西、36ホール）。予選申込締切は各会場の約2〜3週間前（5/15〜6/4）。参加資格（2026年）：「埼玉県在住・在勤・在学のアマチュアゴルファー」（年齢・ハンディキャップの条件の記載なし）。",
+   "verified": "2026-10-20",
+   "expected": "例年6〜7月予選・10月決勝（2026年は予選6/5〜7/2、決勝10/19〜20）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-10-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第48回埼玉県アマチュアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "大会ページ（予選・決勝の成績PDF）",
+      "url": "https://www.saitama-np.co.jp/information/amagolf/amateur.php"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-shiga-2027",
+   "name": "滋賀県アマチュアゴルフ選手権 兼 国スポ派遣選手選考会",
+   "organizer": "滋賀県ゴルフ連盟",
+   "pref": "滋賀",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子の部・女子の部）※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.shiga-golf-union.com/game/taikai.html",
+   "note": "2026年は予選3/27（女子の部：朝日野CC、男子の部：朝日野CC・ベアズパウジャパンCC・メイプルヒルズGC）、決勝4/27 琵琶湖CC。予選通過者は自動的に決勝へエントリー（辞退は辞退届が必要）。要項PDFは画像のみで読めず、出場資格は要項で確認。2025年は予選3/7・決勝4/28、2024年は予選4/12・決勝5/13。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年3〜4月に予選、4〜5月に決勝（2026年は予選3/27、決勝4/27）",
+   "window_from": "2027-03-01",
+   "window_to": "2027-05-31",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-shikoku-2027",
+   "name": "四国アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "一般社団法人四国ゴルフ連盟",
+   "pref": "四国",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://sgu.gr.jp/competition-date/2026/",
+   "note": "2027年の日程は未発表（SGU競技日程は2026年分のみ）。2026年（第45回）は5/20〜22 Jクラシックゴルフクラブ（徳島）、1次予選4/2（兼 各県選手権予選）・2次予選4/21〜22（兼 各県選手権決勝）、申込締切5/7。2026年は上位7名（シード除く）に日本アマ（本戦）の出場資格。出場資格（2026年）：WHSハンディキャップインデックスを所持する男子アマチュアで、SGU加盟倶楽部会員は県予選経由（県別通過枠あり）、過去3年優勝者・前年上位30位、前年四国ジュニア15〜17歳・12〜14歳の部優勝者・準優勝者、四国地区強化選手、SGU特別承認者等。年齢下限の記載なし（12〜14歳の資格区分あり＝中学生可）。他地区の同種競技との重複申込不可。",
+   "verified": "2026-10-20",
+   "expected": "例年5月中旬〜下旬（2026年は5/20〜22）",
+   "window_from": "2027-03-25",
+   "window_to": "2027-05-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第45回 四国アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "最終ラウンド成績表（SGU）",
+      "url": "https://sgu.gr.jp/wp-content/uploads/2026/01/3R%E6%88%90%E7%B8%BE%E8%A1%A8.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-shikoku-women-2027",
+   "name": "四国女子アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "一般社団法人四国ゴルフ連盟",
+   "pref": "四国",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://sgu.gr.jp/competition-date/2026/",
+   "note": "2027年の日程は未発表。2026年（第45回）は5/7〜8 エリエールゴルフクラブ松山（愛媛）、申込締切4/17（所属倶楽部経由FAX）。上位者（シード除く）に日本女子アマ（本戦）の出場資格。出場資格（2026年）：WHSハンディキャップインデックス所持で、連盟加盟倶楽部の会員、前年四国ジュニア女子15〜17歳・12〜14歳の部優勝者・準優勝者、四国地区指定ナショナルチーム選手、SGU特別承認者等。年齢下限の記載なし（12〜14歳の資格区分あり＝中学生可）。",
+   "verified": "2026-10-20",
+   "expected": "例年5月上旬（2026年は5/7〜8）",
+   "window_from": "2027-04-25",
+   "window_to": "2027-05-20",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第45回 四国女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "最終ラウンド成績表（SGU）",
+      "url": "https://sgu.gr.jp/wp-content/uploads/2026/01/2R%E6%88%90%E7%B8%BE%E8%A1%A8-1.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-shimane-2027",
+   "name": "山陰中央新報社杯 島根県アマチュアゴルフ選手権競技",
+   "organizer": "島根県・島根県教育委員会、島根県スポーツ協会、山陰中央新報社、中国ゴルフ連盟（主管：島根県ゴルフ協会）",
+   "pref": "島根",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.shimane-golf.com/game_list2026",
+   "note": "2026年は第56回（国スポ男子島根県第3次予選・中国アマ島根県予選を兼ねる、36Hストローク、初日上位80位タイが2日目へ）。2026年規定の参加資格：男子アマチュアでJGAハンディキャップインデックスを保持していること。次のいずれか：県民ゴルフ大会決勝出場者、シード（前年上位15名・過去5回の優勝者）、島根県内ゴルフクラブ会員で所属クラブの推薦を受けた者、島根県ゴルフ協会強化指定選手。他県・他地区予選との重複申込不可。年齢下限の記載なし。2026年は4/22〜23 いづも大社CC、締切3/24。",
+   "verified": "2026-10-20",
+   "expected": "例年4月ごろ（2026年は4/22〜23）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第56回山陰中央新報社杯 島根県アマチュアゴルフ選手権",
+    "links": [
+     {
+      "label": "成績（PDF）",
+      "url": "https://www.shimane-golf.com/wp-content/uploads/2026/04/shimane_amateur2026_result.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-shimane-women-2027",
+   "name": "島根県女子アマチュアゴルフ選手権競技",
+   "organizer": "島根県、島根県教育委員会、島根県スポーツ協会（主管：島根県ゴルフ協会）",
+   "pref": "島根",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.shimane-golf.com/game_list2026",
+   "note": "2026年は第31回（国スポ女子島根県第4次予選を兼ねる、18Hストローク・スクラッチ）。2026年規定の参加資格：島根県内ゴルフクラブの会員、または島根県ゴルフ協会競技登録者であること、JGAハンディキャップインデックスを所持していること、女子アマチュアゴルファー。年齢下限の記載なし。2026年は6/11 玉造温泉CC、締切5/11。",
+   "verified": "2026-10-20",
+   "expected": "例年6月ごろ（2026年は6/11）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-06-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第31回島根県女子アマチュアゴルフ選手権",
+    "links": [
+     {
+      "label": "成績（PDF）",
+      "url": "https://www.shimane-golf.com/wp-content/uploads/2026/06/2026_womanamateur_result.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-shizuoka-2027",
+   "name": "静岡県アマチュアゴルフ選手権大会",
+   "organizer": "静岡県ゴルフ連盟、静岡新聞社・静岡放送",
+   "pref": "静岡",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男女）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://shizu-golren.jp/event/sekisui",
+   "note": "2026年（セキスイハイム東海CUP 第55回）の大会要項：参加資格「静岡県内に在住（住民登録を含む）または在勤、在学するアマチュアゴルファーで、日本ゴルフ協会アマチュア資格に抵触しない方。」（女子も参加可能）「オフィシャルハンディキャップ15以内、または、ここ３ヵ月のスコア５回の平均が85以内程度の方。」年齢の条件の記載なし。2026年は1次予選6か所（6/16〜9/3）、2次予選2か所（9/14・9/25）、敗者復活戦10/5、決勝10/14〜15 静岡C浜岡C（高松）。連盟ホームページから申込、参加費14,000円（予選・決勝通し）。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年6〜9月に1次・2次予選、10月中旬に決勝（2026年は決勝10/14〜15）",
+   "window_from": "2027-09-20",
+   "window_to": "2027-10-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "セキスイハイム東海CUP 第55回 県アマチュアゴルフ選手権 決勝",
+    "links": [
+     {
+      "label": "決勝2日目 成績表（PDF）",
+      "url": "https://shizu-golren.jp/wp/wp-content/uploads/2015/03/セキスイハイム東海CUP第55回県アマチュアゴルフ選手権決勝_2日目成績表-大会結果.pdf"
+     },
+     {
+      "label": "大会ページ（各予選の結果PDFあり）",
+      "url": "https://shizu-golren.jp/event/sekisui"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-shizuoka-women-2027",
+   "name": "静岡県女子アマチュアゴルフ選手権大会",
+   "organizer": "静岡新聞社・静岡放送、静岡県ゴルフ連盟",
+   "pref": "静岡",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）チャンピオンフライト：年齢制限なし・HDCP15以下／Aフライト（チャレンジ部門）：年齢制限なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://shizu-golren.jp/event/honda_woman",
+   "note": "2026年（オリエンタルバイオcup 第40回）の大会要項：「静岡県内に在住（住民登録含む）、在学または在勤している女子アマチュアゴルファー」。チャンピオンフライトは年齢制限なし・HDCP15以下、ミッドフライト20歳以上、シニアフライト50歳以上、Aフライト（チャレンジ部門）年齢制限なし・120ストローク程度。オフィシャルHDCPがない方は自己申告。連盟ホームページからのインターネット申込のみ、定員120名。2026年は10/7 葛城GC（宇刈）、締切9/28。チャンピオンフライト優勝者に静岡県アマチュアゴルフ選手権の出場資格。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年10月上旬（2026年は10/7）",
+   "window_from": "2027-09-15",
+   "window_to": "2027-10-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第40回静岡県女子アマチュアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "結果（PDF）",
+      "url": "https://shizu-golren.jp/wp/wp-content/uploads/2015/03/第４０回女子アマ（葛城）結果①.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-tochigi-2027",
+   "name": "栃木県アマチュアゴルフ選手権大会（2027年）",
+   "organizer": "下野新聞社、栃木県ゴルフ連盟",
+   "pref": "栃木",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.t-golf.jp/compe.html",
+   "note": "予選→決勝の構成。2026年は予選5/28（塩原CC）・6/2（宇都宮CC）・6/11（ジュンクラシックCC）、決勝7/9（東松苑ゴルフ倶楽部）。予選申込締切は5/2との記載（全会場共通かは不明）。参加資格（2026年）：「栃木県在住、在勤、在学の方、または栃木県ゴルフ場協議会に所属するクラブ会員」。決勝出場者はJGA HDCPの取得が必要。年齢下限の記載なし。2026年の案内は下野新聞社の記事（https://www.shimotsuke.co.jp/articles/-/1298564）。",
+   "verified": "2026-10-20",
+   "expected": "例年5〜6月予選・7月決勝（2026年は予選5/28〜6/11、決勝7/9）",
+   "window_from": "2027-05-15",
+   "window_to": "2027-07-20",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-tohoku-2027",
+   "name": "東北アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "一般社団法人東北ゴルフ連盟",
+   "pref": "東北",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/hostcompe.php",
+   "note": "日本アマチュア選手権競技の予選を兼ねる（2026年競技規定「本競技は日本アマチュア選手権の予選となる」、上位者に日本アマ参加資格、人数は後日発表）。2026年（第60回）は6/3〜5 江刺カントリー倶楽部（岩手）、申込5/12〜5/21。出場資格（2026年）：「ハンディキャップインデックスを所持する男子アマチュアゴルファー」で、「各県連より推薦された者」（各県割当数は136名からシードを引き、各県予選参加者数〈ハンディキャップインデックス10.4までの者〉等で決定）、過去3大会優勝者、前年東北アマ2〜10位、前年東北ジュニア男子15〜17歳の部優勝者、JGAナショナルチーム認定選手（東北在住）等。県予選は各県ゴルフ連盟。年齢下限の記載なし（中学生も各県予選から出場可能とみられるが明記なし）。「2地区以上の参加申込は認めない」。",
+   "verified": "2026-10-20",
+   "expected": "例年6月上旬（2026年は6/3〜5）",
+   "window_from": "2027-05-20",
+   "window_to": "2027-06-20",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第60回東北アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表（TGA）",
+      "url": "https://www.tga.gr.jp/reports_result.php?q=1001810"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-tohoku-women-2027",
+   "name": "東北女子アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "一般社団法人東北ゴルフ連盟",
+   "pref": "東北",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/hostcompe.php",
+   "note": "日本女子アマチュアゴルフ選手権競技の予選を兼ねる（2026年競技規定、上位者に参加資格・人数は後日発表）。2026年（第48回）は5/20〜22 湯の浜カントリークラブ（山形）、申込4/14〜4/24。出場資格（2026年）：「ハンディキャップインデックス20.4（申込時）までの女子（出生時）アマチュアゴルファー」で、「加盟倶楽部の会員」「東北地区在校に所属するJGAジュニア会員」「東北地区在住のJGAプレミアム会員」「宮城県ゴルフ連盟個人会員と福島県体協部会会員」、前年東北ジュニア女子15〜17歳の部優勝者、JGAナショナルチーム認定選手（東北在住）等。年齢下限の記載なし（JGAジュニア会員の在校生が対象に含まれ中学生も可）。",
+   "verified": "2026-10-20",
+   "expected": "例年5月下旬（2026年は5/20〜22）",
+   "window_from": "2027-05-10",
+   "window_to": "2027-06-05",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第48回東北女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表（TGA）",
+      "url": "https://www.tga.gr.jp/reports_result.php?q=1001804"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-tokushima-2027",
+   "name": "徳島県アマチュアゴルフ選手権競技",
+   "organizer": "徳島県ゴルフ協会",
+   "pref": "徳島",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tokushima-tga.jp/combination/",
+   "note": "予選（四国アマ1次予選を兼ねる）→決勝（四国アマ2次予選を兼ねる）。2026年は予選4/2、決勝4/21〜22（会場は協会サイトに記載なし）。出場資格は要項で確認（協会サイトに2026年要項の掲載が見当たらず）。四国ゴルフ連盟の2027年度日程表では4/1〜2に各県会場の記載あり（表崩れのため競技との対応は未確定）。",
+   "verified": "2026-10-20",
+   "expected": "例年4月（2026年は予選4/2、決勝4/21〜22）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "徳島県アマチュアゴルフ選手権競技決勝",
+    "links": [
+     {
+      "label": "決勝 最終日成績表（PDF）",
+      "url": "https://www.tokushima-tga.jp/wp-content/uploads/20260422_徳島県アマチュアゴルフ選手権競技決勝成績表.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-tokushima-women-2027",
+   "name": "徳島県女子アマチュアゴルフ選手権競技",
+   "organizer": "徳島県ゴルフ協会",
+   "pref": "徳島",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※スクラッチの部・ダブルペリアの部",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tokushima-tga.jp/combination/",
+   "note": "2026年は8/19開催（会場は協会サイトに記載なし）。出場資格は要項で確認。",
+   "verified": "2026-10-20",
+   "expected": "例年8月ごろ（2026年は8/19）",
+   "window_from": "2027-08-01",
+   "window_to": "2027-08-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "徳島県女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表（PDF）",
+      "url": "https://www.tokushima-tga.jp/wp-content/uploads/20260819_徳島県女子アマチュアゴルフ選手権競技成績表1.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-tokyo-2027",
+   "name": "東京都知事杯 東京都アマチュアゴルフ選手権・東京都女子アマチュアゴルフ選手権（2027年）",
+   "organizer": "東京都ゴルフ連盟",
+   "pref": "東京",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子・女子）※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tokyo-mga.com/競技日程",
+   "note": "男子・女子を同じ大会として実施（予選→決勝）。2026年（第28回）は予選3/2（府中CC）・3/19（多摩CC）→決勝。2025年は予選3/3（府中CC）・3/7（多摩CC）、決勝4/17〜18（八王子CC）。申込は例年1月上旬開始のWeb個人申込（2025年は1/8〜1/31、先着順）。東京都ゴルフ連盟の競技規定は確認できず。加盟の世田谷区ゴルフ連盟の案内では、都連盟主催競技は地区連盟の会員が対象で、申込後に都連盟・区連盟が資格を照合する。年齢下限は未確認。出場資格は要項で確認。",
+   "verified": "2026-10-20",
+   "expected": "例年3月予選・4月決勝（2025年は予選3/3・3/7、決勝4/17〜18）",
+   "window_from": "2027-03-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第28回東京都アマ・女子アマ選手権",
+    "links": [
+     {
+      "label": "決勝（Golf Genius）",
+      "url": "https://www.golfgenius.com/pages/12310431708821353816"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-tottori-2027",
+   "name": "鳥取県ゴルフ選手権大会",
+   "organizer": "鳥取県ゴルフ協会、鳥取県スポーツ協会",
+   "pref": "鳥取",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga-golf.net/pg2026.html",
+   "note": "鳥取県の男子県アマ相当（2026年度は第56回、国スポ鳥取県代表予選会・中国アマ鳥取県最終予選会を兼ねる、36Hストローク）。2026年要項の参加資格：「県民ゴルフ大会予選通過者（シード選手を除く）」、シード＝過去5年の優勝者・前年度上位10名、大会までにハンディキャップインデックスを取得していること、他県予選との重複参加不可。年齢下限の記載なし。申込は所属クラブ経由。予選にあたる県民ゴルフ大会は2026年は10/1（東部・旭国際浜村温泉GC）・10/2（西部・大山アークCC）で開催済み。2026年は4/22〜23 大山アークCC。",
+   "verified": "2026-10-20",
+   "expected": "例年4月ごろ（2026年は4/22〜23）",
+   "window_from": "2027-04-01",
+   "window_to": "2027-04-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 第56回鳥取県ゴルフ選手権大会",
+    "links": [
+     {
+      "label": "最終成績（PDF）",
+      "url": "https://www.tga-golf.net/_src/95243037/obj20260425114541368549.pdf?v=1792113086388"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-tottori-women-2027",
+   "name": "鳥取県女子ゴルフ選手権大会",
+   "organizer": "鳥取県ゴルフ協会",
+   "pref": "鳥取",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢制限の記載なし（表彰は50歳未満の部・50歳以上の部）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga-golf.net/pg2026.html",
+   "note": "2026年度は第31回（国スポ鳥取県代表選手予選会・日本スポーツマスターズ選考会を兼ねる）。2026年要項の参加資格：「鳥取県ゴルフ協会加盟7クラブに所属するメンバー、または推薦者」、ハンディキャップインデックス取得者。年齢下限の記載なし。申込は加盟ゴルフ場経由（2026年締切4/7）。2026年は5/8 大山平原GC。",
+   "verified": "2026-10-20",
+   "expected": "例年5月ごろ（2026年は5/8）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-05-31",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度 第31回鳥取県女子ゴルフ選手権大会",
+    "links": [
+     {
+      "label": "成績表（PDF）",
+      "url": "https://www.tga-golf.net/_src/95841250/jyosiseiseki.pdf?v=1792113086388"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-toyama-2027",
+   "name": "富山県アマチュアゴルフ選手権大会",
+   "organizer": "主催者は要項で確認（富山県ゴルフ連盟 後援）",
+   "pref": "富山",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://tga54.com/game/",
+   "note": "富山県ゴルフ連盟の競技会一覧では「後援」競技として掲載（主催団体名・要項の掲載なし）。出場資格は要項で確認。2026年は予選8/7・8 呉羽CC、本戦9/10・11 呉羽CC。結果は会場の呉羽CCのお知らせに掲載。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年8月に予選、9月に本戦（2026年は予選8/7・8、本戦9/10・11）",
+   "window_from": "2027-08-01",
+   "window_to": "2027-09-30",
+   "results": null,
+   "prev_results": {
+    "year": 2025,
+    "name": "第51回富山県アマチュアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "予選 競技結果（呉羽CC）",
+      "url": "https://www.kurehacc.jp/information/news/5859/"
+     },
+     {
+      "label": "1日目結果（呉羽CC）",
+      "url": "https://www.kurehacc.jp/information/news/6173/"
+     },
+     {
+      "label": "2日目結果（呉羽CC）",
+      "url": "https://www.kurehacc.jp/information/news/6264/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-toyama-women-2027",
+   "name": "富山県女子アマゴルフ選手権大会",
+   "organizer": "主催者は要項で確認（富山県ゴルフ連盟 後援）",
+   "pref": "富山",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://tga54.com/game/",
+   "note": "富山県ゴルフ連盟の競技会一覧では「後援」競技として掲載（主催団体名・要項の掲載なし）。出場資格は要項で確認。2026年は8/27 富山CC。2027年の日程は未発表。",
+   "verified": "2026-10-20",
+   "expected": "例年8月下旬（2026年は8/27）",
+   "window_from": "2027-08-01",
+   "window_to": "2027-09-15",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-w-akita-2027",
+   "name": "秋田県女子アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "秋田県ゴルフ連盟",
+   "pref": "秋田",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/akita/hostcompe.php",
+   "note": "2026年（第30回）は6/25、秋田太平山カントリークラブ、18ホール・ストロークプレー。申込5/27〜6/10。参加資格（2026年競技規定）：ハンディキャップインデックス20.4までの女子アマで、秋田県ゴルフ連盟加盟倶楽部の会員、秋田県在住のJGAジュニア会員、秋田県在住のJGAプレミアム会員のいずれか。年齢下限の記載なし。日本スポーツマスターズ秋田県予選を兼ねる（マスターズ代表は50歳以上の条件）。",
+   "verified": "2026-10-20",
+   "expected": "例年6月下旬（2026年は6/25）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-07-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第30回秋田県女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/akita/reports_result.php?q=1001929"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-w-aomori-2027",
+   "name": "青森県女子アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "青森県ゴルフ連盟",
+   "pref": "青森",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/aomori/hostcompe.php",
+   "note": "2026年（第26回）は7/28〜29、青森カントリー倶楽部、36ホール・ストロークプレー、申込7/1〜7/14。参加資格（2026年競技規定）：(1)青森県ゴルフ連盟加盟倶楽部の会員 (2)青森県在住のJGAプレミアム会員・JGAジュニア会員 で、申込時点のハンディキャップインデックス20.4以下の女子。年齢下限の記載なし。",
+   "verified": "2026-10-20",
+   "expected": "例年7月下旬（2026年は7/28〜29）",
+   "window_from": "2027-07-01",
+   "window_to": "2027-08-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第26回青森県女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "大会ページ（組表・参加者）",
+      "url": "https://www.tga.gr.jp/aomori/reports.php?q=1002018"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-w-fukushima-2027",
+   "name": "福島県女子アマ選手権競技（2027年）",
+   "organizer": "福島県ゴルフ連盟",
+   "pref": "福島",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/fukushima/hostcompe.php",
+   "note": "「福島県Mシニア・Gシニア・女子アマ選手権競技」の女子アマの部。2026年（第32回）は6/18、棚倉田舎倶楽部（東・西）、申込5/4〜5/18。参加資格（2026年競技規定）：加盟クラブの会員・福島県在住在校のJGAプレミアム会員（大学生は県内在住在学を問わない）・JGAジュニア会員のいずれかで、申込時ハンディキャップインデックス20.4まで。年齢下限の記載なし。",
+   "verified": "2026-10-20",
+   "expected": "例年6月中旬（2026年は6/18）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-07-10",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第32回福島県女子アマ選手権競技",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/fukushima/reports_result.php?q=1001947"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-w-gunma-2027",
+   "name": "群馬県女子アマチュアゴルフ選手権（2027年）",
+   "organizer": "上毛新聞社",
+   "pref": "群馬",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www2.jomo-news.co.jp/gga/",
+   "note": "上毛新聞社主催（2018年度の案内で確認）。2018年度（第38回）は予選4〜7月の3会場、決勝8月（男子の県アマと同会場）。2026年の日程・出場資格は公式ページで確認できず。出場資格は要項で確認。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-w-hokkaido-2027",
+   "name": "北海道女子アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "北海道ゴルフ連盟",
+   "pref": "北海道",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.hga.gr.jp/kyogiinfo/",
+   "note": "2027年の日程は未発表。国民スポーツ大会（女子）予選会を兼ねる年がある（2024年の第56回は5/15、北海道ブルックスカントリークラブ、申込締切4/21）。2024年の案内では参加資格は「HDCP15.4以下」で年齢下限の記載なし。2026年は第58回が実施されたが、公式サイトで日程・資格を確認できなかった。出場資格は要項で確認。",
+   "verified": "2026-10-20",
+   "expected": "例年5〜6月ごろ（2024年は5/15）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-06-30",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-w-ibaraki-open-2027",
+   "name": "茨城女子アマチュアオープンゴルフ選手権（2027年）",
+   "organizer": "茨城新聞社",
+   "pref": "茨城",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://golf.ibarakinews.jp/",
+   "note": "茨城新聞社主催。2026年（第26回）は8/27、宍戸ヒルズカントリークラブ東コース。2026年度からの案内は新サイト（compekun.com/-/ibarakinews）とされる。出場資格（年齢・在住等）は要項で確認。",
+   "verified": "2026-10-20",
+   "expected": "例年8月下旬（2026年は8/27）",
+   "window_from": "2027-08-01",
+   "window_to": "2027-09-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第26回茨城女子アマチュアオープンゴルフ選手権",
+    "links": [
+     {
+      "label": "成績（PDF）",
+      "url": "https://compekun.com/tournaments/cCTzsPtDWF/attachments?file=20260828_26th.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-w-iwate-2027",
+   "name": "岩手県女子アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "岩手県ゴルフ連盟",
+   "pref": "岩手",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/iwate/hostcompe.php",
+   "note": "2026年（第32回）は7/16、ニュー軽米カントリークラブ（白樺・桜コース）、申込6/18〜7/2。参加資格（2026年競技規定）：申込時点のハンディキャップインデックス24.4までの女子アマチュアで、岩手県ゴルフ連盟加盟倶楽部の会員、またはJGAジュニア会員で岩手県在住・在学の者。年齢下限の記載なし。同日に県ミッドシニア・グランドシニア等を併催。",
+   "verified": "2026-10-20",
+   "expected": "例年7月中旬（2026年は7/16）",
+   "window_from": "2027-06-20",
+   "window_to": "2027-08-10",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第32回岩手県女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/iwate/reports_result.php?q=1001838"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-w-kanagawa-2027",
+   "name": "神奈川県アマチュアゴルフ選手権大会 女子の部（2027年）",
+   "organizer": "神奈川県ゴルフ協会",
+   "pref": "神奈川",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://ama.knga.org/",
+   "note": "共催：神奈川新聞社、tvk。2026年は予選4/7（芙蓉C.C.）、決勝6/2〜3（レイクウッドG.C.東）。申込（2026年）：2/2〜2/27（先着順）。参加資格は男子の部と共通（JGAアマチュア資格に抵触しない、神奈川県ゴルフ協会の加盟団体所属または個人登録、原則県内在住）。女子の部に年齢下限の記載なし。",
+   "verified": "2026-10-20",
+   "expected": "例年4月予選・6月上旬決勝（2026年は予選4/7、決勝6/2〜3）",
+   "window_from": "2027-03-15",
+   "window_to": "2027-06-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "神奈川県アマチュアゴルフ選手権大会2026 女子の部",
+    "links": [
+     {
+      "label": "決勝",
+      "url": "https://www.knga.org/info/2026/ama_women_final_1"
+     },
+     {
+      "label": "大会ページ",
+      "url": "https://www.knga.org/compe/ama/2026"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-w-miyagi-2027",
+   "name": "宮城県女子アマチュアゴルフ選手権競技（2027年）",
+   "organizer": "宮城県ゴルフ連盟",
+   "pref": "宮城",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/miyagi/hostcompe.php",
+   "note": "2026年（第40回）は5/18〜19、東蔵王ゴルフ倶楽部（男子の県アマと同日・同会場、同じ競技規定）。申込4/13〜4/27。参加資格（2026年競技規定）：宮城県ゴルフ連盟加盟倶楽部の会員、同連盟の個人会員、宮城県在住のJGAプレミアム会員、宮城県内在住のJGAジュニア会員のいずれかで、申込時ハンディキャップインデックス17.4以下の女子アマ。年齢下限の記載なし。",
+   "verified": "2026-10-20",
+   "expected": "例年5月中旬（2026年は5/18〜19）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-06-10",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第40回宮城県女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "大会ページ",
+      "url": "https://www.tga.gr.jp/miyagi/reports.php?q=1001871"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-w-yamagata-2027",
+   "name": "山形県ミッドシニア・グランドシニア・レディス選手権競技 レディスの部（2027年）",
+   "organizer": "山形県ゴルフ連盟",
+   "pref": "山形",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※中学生以上・年齢上限なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/yamagata/hostcompe.php",
+   "note": "山形県の女子の県選手権（独立した「女子アマ」はなく、Mシニア・Gシニアと同時開催の「レディス」の部）。2026年（第53回）は6/24、ニューブラッサムガーデンクラブ、18ホール・ストロークプレー、申込6/3〜6/13。レディスの部の参加資格（2026年競技規定）：中学生以上（上限なし）、ハンディキャップインデックス30.4までで、山形県在住の加盟倶楽部会員またはJGAプレミアム会員・JGAジュニア会員、または県外在住の加盟倶楽部会員で所属倶楽部推薦と競技委員会承認を得た者（上部競技の資格は付与しない）。日本スポーツマスターズ（女子）山形県予選を兼ねる（代表資格は1976年12月31日以前生まれの上位3名）。",
+   "verified": "2026-10-20",
+   "expected": "例年6月下旬（2026年は6/24）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-07-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第53回山形県Mシニア・Gシニア・レディス選手権競技 レディス",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/yamagata/reports_result.php?q=1001978"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-w-yamanashi-2027",
+   "name": "山梨県女子アマチュアゴルフ選手権大会（2027年）",
+   "organizer": "山梨県ゴルフ連盟（共催）",
+   "pref": "山梨",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※出場資格は要項で確認",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://yamanashi-golf.net/",
+   "note": "山梨県ゴルフ連盟の日程表では「共催」。シニア大会を兼ねる。2026年（第38回）は6/24、ヴィンテージゴルフ倶楽部。主催者の正式表記と出場資格（年齢等）は要項で確認（2026年要項PDFは読み取れず）。",
+   "verified": "2026-10-20",
+   "expected": "例年6月下旬（2026年は6/24）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-07-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第38回山梨県女子アマチュアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "成績（PDF）",
+      "url": "https://yamanashi-golf.net/2026/0624_result_01.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-yamagata-2027",
+   "name": "山形県アマチュアゴルフ選手権（2027年）",
+   "organizer": "山形県ゴルフ連盟",
+   "pref": "山形",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※中学生以上（小学生は推薦・承認で可）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.tga.gr.jp/yamagata/hostcompe.php",
+   "note": "2026年（第60回）は5/12〜13、庄内ゴルフ倶楽部、36ホール・ストロークプレー、東北アマ山形県予選を兼ねる。申込4/21〜5/1。参加資格（2026年競技規定）：(1)山形県在住の山形県ゴルフ連盟加盟倶楽部会員で、中学生以上かつハンディキャップインデックス18.0以下（小学生は加盟倶楽部の推薦と連盟競技委員会の承認で参加可） (2)山形県在住のJGAプレミアム会員・JGAジュニア会員で、中学生以上かつインデックス18.0以下 (3)県外在住の加盟倶楽部会員で所属倶楽部の推薦と競技委員会の承認を得た者（上部競技の資格は付与しない） (4)前年度東北ジュニア男子15〜17歳の部2〜10位の県内在住者。東北アマ出場希望者はエントリー時インデックス10.4以下。",
+   "verified": "2026-10-20",
+   "expected": "例年5月中旬（2026年は5/12〜13）",
+   "window_from": "2027-05-01",
+   "window_to": "2027-06-10",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第60回山形県アマチュアゴルフ選手権",
+    "links": [
+     {
+      "label": "成績表",
+      "url": "https://www.tga.gr.jp/yamagata/reports_result.php?q=1001969"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-yamaguchi-2027",
+   "name": "第55回山口県アマチュアゴルフ選手権",
+   "organizer": "中国ゴルフ連盟、山口県スポーツ協会、山口県ゴルフ協会",
+   "pref": "山口",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": "2026-08-25",
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子）※年齢制限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://yamaguchiken-golf-kyoukai.com/2026/08/25/2024%e5%b9%b4%e5%ba%a6-%e5%b1%b1%e5%8f%a3%e7%9c%8c%e3%82%a2%e3%83%9e%e3%83%81%e3%83%a5%e3%82%a2%e3%82%b4%e3%83%ab%e3%83%95%e9%81%b8%e6%89%8b%e6%a8%a9%e4%ba%88%e9%81%b8%e7%ab%b6%e6%8a%80%e3%81%ae/",
+   "note": "2027年度（第55回）予選競技：2026/10/23（金）中須GC・宇部72CC（万年池東）各定員176名、18Hストローク。予選規定の参加資格：中国ゴルフ連盟または山口県ゴルフ協会加盟クラブの正会員でハンディキャップインデックスを取得している者、または山口県ゴルフ協会の競技登録者。申込時点および締切日（9/24）時点でHI9.9以下。他県・他地区予選との重複申込禁止。年齢下限の記載なし。予選申込はWeb 8/25〜／申込書 8/26〜、9/24正午締切（受付終了）。決勝は2027年春、定員120名（シード含む）。協会の2027年度日程PDFでは決勝が4月上旬・周南CCと読めるが、表が崩れており未確定。",
+   "verified": "2026-10-20",
+   "expected": "2027年春（決勝日程・会場は協会発表待ち）",
+   "window_from": "2027-03-15",
+   "window_to": "2027-05-15",
+   "results": null,
+   "prev_results": null
+  },
+  {
+   "id": "ama-yamaguchi-women-2027",
+   "name": "山口県女子ゴルフ大会",
+   "organizer": "山口県ゴルフ協会",
+   "pref": "山口",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子）※A組・B組・ネットの部（区分の定義は未確認）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://yamaguchiken-golf-kyoukai.com/2026/10/15/%e5%b1%b1%e5%8f%a3%e7%9c%8c%e5%a5%b3%e5%ad%90%e3%82%b4%e3%83%ab%e3%83%95%e5%a4%a7%e4%bc%9a%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b-5/",
+   "note": "山口県ゴルフ協会の女子の県大会（2026年度は10/15 厚狭GC、日本スポーツマスターズ・国スポ女子の県代表選考会の出場資格につながる）。主催の明記なし（協会サイト掲載）。出場資格は要項で確認。",
+   "verified": "2026-10-20",
+   "expected": "2026年は10/15開催",
+   "window_from": "2027-09-15",
+   "window_to": "2027-11-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度山口県女子ゴルフ大会",
+    "links": [
+     {
+      "label": "A組成績表（PDF）",
+      "url": "https://yamaguchiken-golf-kyoukai.com/cms/wp-content/uploads/2026/10/1fb042cef8a8a2fa8df1900ce3e4dd37.pdf"
+     },
+     {
+      "label": "B組成績表（PDF）",
+      "url": "https://yamaguchiken-golf-kyoukai.com/cms/wp-content/uploads/2026/10/f24610865c3dae44b28add5bb1c6f58c.pdf"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ama-yamanashi-2027",
+   "name": "山梨県アマチュアゴルフ選手権大会（2027年）",
+   "organizer": "山梨県ゴルフ連盟",
+   "pref": "山梨",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般 ※年齢下限の記載なし",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://yamanashi-golf.net/",
+   "note": "予選→決勝の構成。2026年（第39回）は予選9/24（甲斐駒CC）、決勝10/1・10/8（春日居GC）、申込締切9/10（連盟HPから申込）。参加資格（2026年要項）：「連盟加盟の市町村在住者で、連盟の個人登録者（登録費5000円 ジュニアは除く）」。年齢下限・ハンディキャップの記載なし。",
+   "verified": "2026-10-20",
+   "expected": "例年9月予選・10月決勝（2026年は予選9/24、決勝10/1・10/8）",
+   "window_from": "2027-08-15",
+   "window_to": "2027-10-20",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "第39回山梨県アマチュアゴルフ選手権大会",
+    "links": [
+     {
+      "label": "決勝2日目 成績（PDF）",
+      "url": "https://yamanashi-golf.net/2026/0924_result_03.pdf"
+     },
+     {
+      "label": "大会ページ",
+      "url": "https://yamanashi-golf.net/2026/0924.html"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jga-japan-amateur-2027",
+   "name": "日本アマチュアゴルフ選手権競技（2027年度）",
+   "organizer": "公益財団法人日本ゴルフ協会",
+   "pref": "全国",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子アマチュア）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.jga.or.jp/championship/champ_schedule/",
+   "note": "2027年度の日程・会場は未発表（JGA本選競技日程は2026年度分のみ掲載、2026-10-20確認）。2026年度（第110回）は6/30〜7/3 四日市カンツリー倶楽部（三重）、出場枠は地区連盟主催の地区アマ上位者と東日本・西日本予選の通過者など。出場資格は要項で確認。中学生：2026年の日本女子アマ第1ラウンドのJGA公式レポート（スポーツナビ掲載）に中学生選手が上位にいると記載があり、中学生の出場実績あり。年齢下限の記載は確認できず（JGAの競技規定PDFはGoogleドライブ上で本文を取得できなかった）。",
+   "verified": "2026-10-20",
+   "expected": "例年6月下旬〜7月上旬（2026年は6/30〜7/3）",
+   "window_from": "2027-06-15",
+   "window_to": "2027-07-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度（第110回）日本アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "最終リーダーボード（JGA）",
+      "url": "https://www.jga.or.jp/championship/2026/03/fullleaderboard.php"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jga-japan-amateur-qual-east-2027",
+   "name": "日本アマチュアゴルフ選手権 予選競技 東日本予選（2027年度）",
+   "organizer": "公益財団法人日本ゴルフ協会",
+   "pref": "全国",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子アマチュア）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.jga.or.jp/championship/qualifying_schedule/",
+   "note": "日本アマの地区予選（JGA主催、18ホール・約120名）。2027年度は未発表（2026-10-20確認）。2026年度は6/16 浜野ゴルフクラブ（千葉）、エントリー4/15〜6/8（Golf Genius）。予選のためstageは本来「予選」だが日程未発表のため「発表待ち」。出場資格は要項で確認（競技規定PDFはGoogleドライブ上で本文取得不可）。エントリーはGolf Geniusアカウントが必要。",
+   "verified": "2026-10-20",
+   "expected": "例年6月中旬（2026年は6/16）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-06-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "日本アマチュアゴルフ選手権 予選競技 東日本予選（2026年度）",
+    "links": [
+     {
+      "label": "2026年 大会ページ・成績（Golf Genius）",
+      "url": "https://www.golfgenius.com/pages/12609230235263617762?locale=jp"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jga-japan-amateur-qual-west-2027",
+   "name": "日本アマチュアゴルフ選手権 予選競技 西日本予選（2027年度）",
+   "organizer": "公益財団法人日本ゴルフ協会",
+   "pref": "全国",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（男子アマチュア）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.jga.or.jp/championship/qualifying_schedule/",
+   "note": "日本アマの地区予選（JGA主催、18ホール・約120名）。2027年度は未発表（2026-10-20確認）。2026年度は6/16 よみうりカントリークラブ（兵庫）。予選のためstageは本来「予選」だが日程未発表のため「発表待ち」。出場資格は要項で確認（競技規定PDFはGoogleドライブ上で本文取得不可）。エントリーはGolf Geniusアカウントが必要。",
+   "verified": "2026-10-20",
+   "expected": "例年6月中旬（2026年は6/16）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-06-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "日本アマチュアゴルフ選手権 予選競技 西日本予選（2026年度）",
+    "links": [
+     {
+      "label": "2026年 大会ページ・成績（Golf Genius）",
+      "url": "https://www.golfgenius.com/pages/12609300792449485544?locale=jp"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jga-japan-women-amateur-2027",
+   "name": "日本女子アマチュアゴルフ選手権競技（2027年度）",
+   "organizer": "公益財団法人日本ゴルフ協会",
+   "pref": "全国",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子アマチュア）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.jga.or.jp/championship/champ_schedule/",
+   "note": "2027年度の日程・会場は未発表（2026-10-20確認）。2026年度（第67回）は6/16〜19 北海道ブルックスカントリークラブ（北海道）。出場枠は地区アマ（関東女子ゴルフ選手権、関西女子アマ、中国女子アマ、四国女子アマ、東北女子アマ等）の上位者と東日本・西日本予選の通過者など。出場資格は要項で確認。中学生：2026年の日本女子アマ第1ラウンドのJGA公式レポート（スポーツナビ掲載）に中学生選手が上位にいると記載があり、中学生の出場実績あり。年齢下限の記載は確認できず（JGAの競技規定PDFはGoogleドライブ上で本文を取得できなかった）。",
+   "verified": "2026-10-20",
+   "expected": "例年6月中旬（2026年は6/16〜19）",
+   "window_from": "2027-06-01",
+   "window_to": "2027-06-30",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "2026年度（第67回）日本女子アマチュアゴルフ選手権競技",
+    "links": [
+     {
+      "label": "最終リーダーボード（JGA）",
+      "url": "https://www.jga.or.jp/championship/2026/02/fullleaderboard.php"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jga-japan-women-amateur-qual-east-2027",
+   "name": "日本女子アマチュアゴルフ選手権 予選競技 東日本予選（2027年度）",
+   "organizer": "公益財団法人日本ゴルフ協会",
+   "pref": "全国",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子アマチュア）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.jga.or.jp/championship/qualifying_schedule/",
+   "note": "日本女子アマの地区予選（JGA主催、18ホール・約120名）。2027年度は未発表（2026-10-20確認）。2026年度は6/1 平川カントリークラブ（千葉）、エントリー4/9〜5/26（Golf Genius）。予選のためstageは本来「予選」だが日程未発表のため「発表待ち」。出場資格は要項で確認（競技規定PDFはGoogleドライブ上で本文取得不可）。エントリーはGolf Geniusアカウントが必要。",
+   "verified": "2026-10-20",
+   "expected": "例年6月上旬（2026年は6/1）",
+   "window_from": "2027-05-20",
+   "window_to": "2027-06-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "日本女子アマチュアゴルフ選手権 予選競技 東日本予選（2026年度）",
+    "links": [
+     {
+      "label": "2026年 大会ページ・成績（Golf Genius）",
+      "url": "https://www.golfgenius.com/pages/12600367014586927989?locale=jp"
+     }
+    ]
+   }
+  },
+  {
+   "id": "jga-japan-women-amateur-qual-west-2027",
+   "name": "日本女子アマチュアゴルフ選手権 予選競技 西日本予選（2027年度）",
+   "organizer": "公益財団法人日本ゴルフ協会",
+   "pref": "全国",
+   "venue": null,
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "一般（女子アマチュア）",
+   "levels": [
+    "一般"
+   ],
+   "stage": "発表待ち",
+   "url": "https://www.jga.or.jp/championship/qualifying_schedule/",
+   "note": "日本女子アマの地区予選（JGA主催、18ホール・約120名）。2027年度は未発表（2026-10-20確認）。2026年度は6/2 岐阜カンツリー倶楽部（岐阜）。予選のためstageは本来「予選」だが日程未発表のため「発表待ち」。出場資格は要項で確認（競技規定PDFはGoogleドライブ上で本文取得不可）。エントリーはGolf Geniusアカウントが必要。",
+   "verified": "2026-10-20",
+   "expected": "例年6月上旬（2026年は6/2）",
+   "window_from": "2027-05-20",
+   "window_to": "2027-06-15",
+   "results": null,
+   "prev_results": {
+    "year": 2026,
+    "name": "日本女子アマチュアゴルフ選手権 予選競技 西日本予選（2026年度）",
+    "links": [
+     {
+      "label": "2026年 大会ページ・成績（Golf Genius）",
+      "url": "https://www.golfgenius.com/pages/12600398508609031035?locale=jp"
+     }
+    ]
+   }
   }
  ]
 }

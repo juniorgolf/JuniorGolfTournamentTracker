@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-20",
- "note": "住所は各ゴルフ場の公式ページ等で確認し、緯度・経度は国土地理院の住所検索で求めた。海外の会場は ArcGIS の住所検索・Wikipedia などで求め、approx: true は都市の位置（目安）。",
+ "note": "住所は各ゴルフ場の公式ページ等で確認し、緯度・経度は国土地理院の住所検索（一部は ArcGIS の住所検索）で求めた。海外の会場は ArcGIS の住所検索・Wikipedia などで求め、approx: true は都市の位置（目安）。",
  "venues": {
   "JGMセベバレステロスゴルフクラブ": {
    "name": "JGMセベバレステロスゴルフクラブ",
@@ -2780,6 +2780,78 @@
    "lat": 12.97194,
    "lng": 77.59369,
    "approx": true
+  },
+  "よみうりカントリークラブ": {
+   "name": "よみうりカントリークラブ",
+   "pref": "兵庫",
+   "address": "〒669-1141 兵庫県西宮市塩瀬町名塩北山",
+   "lat": 34.826957,
+   "lng": 135.304867,
+   "precision": "町名",
+   "source": "https://www.shotnavi.jp/gcguide/gcinfo_1987.htm"
+  },
+  "千刈カンツリー倶楽部": {
+   "name": "千刈カンツリー倶楽部",
+   "pref": "兵庫",
+   "address": "〒669-1511 兵庫県三田市山田大道ケ平605",
+   "lat": 34.895512,
+   "lng": 135.267671,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_2049.htm"
+  },
+  "東児が丘マリンヒルズゴルフクラブ": {
+   "name": "東児が丘マリンヒルズゴルフクラブ",
+   "pref": "岡山",
+   "address": "〒706-0302 岡山県玉野市下山坂字清外寺1345",
+   "lat": 34.556145,
+   "lng": 134.009913,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_236.htm"
+  },
+  "恵庭カントリー倶楽部": {
+   "name": "恵庭カントリー倶楽部",
+   "pref": "北海道",
+   "address": "北海道恵庭市",
+   "lat": 42.852053,
+   "lng": 141.487866,
+   "precision": "施設名",
+   "source": "https://geocode.arcgis.com/"
+  },
+  "タートルエースゴルフ倶楽部": {
+   "name": "タートルエースゴルフ倶楽部",
+   "pref": "三重",
+   "address": "〒519-0147 三重県亀山市山下町1055番地",
+   "lat": 34.847396,
+   "lng": 136.422863,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_796.htm"
+  },
+  "白浜ゴルフ倶楽部": {
+   "name": "白浜ゴルフ倶楽部",
+   "pref": "和歌山",
+   "address": "〒649-2211 和歌山県西牟婁郡白浜町2927-1",
+   "lat": 33.671572,
+   "lng": 135.343524,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_2285.htm"
+  },
+  "佐世保・平戸カントリークラブ": {
+   "name": "佐世保・平戸カントリークラブ",
+   "pref": "長崎",
+   "address": "〒859-6121 長崎県北松浦郡江迎町奥川内免220-6（現 佐世保市江迎町）",
+   "lat": 33.301014,
+   "lng": 129.676872,
+   "precision": "番地",
+   "source": "https://shotnavi.jp/gcguide/gcinfo_1500.htm"
+  },
+  "芦原ゴルフクラブ海コース": {
+   "name": "芦原ゴルフクラブ 海コース",
+   "pref": "福井",
+   "address": "福井県あわら市浜坂66",
+   "lat": 36.285488,
+   "lng": 136.237091,
+   "precision": "番地",
+   "source": "https://booking.gora.golf.rakuten.co.jp/golf_course/guide/180001"
   }
  }
 }

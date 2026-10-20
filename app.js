@@ -108,7 +108,7 @@ const abroadNote = (t) => t.overseas ? `<p class="d-abroad">🌏 海外の大会
 function watchRow(t) {
   return `<div class="row${rowCls(t)}">
     <div class="date"><span class="d tbd">未定</span></div>
-    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}${prevMark(t)}</span></div>
+    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${genMark(t)}${esc(t.grades)}${prevMark(t)}</span></div>
     <div class="venue"><span class="pref">${prefLabel(t)}</span>${esc(t.venue)}</div>
     <div class="org">${orgCell(t)}</div>
     <div class="cell-status"><span class="status st-unknown"><b><span class="dot"></span>発表待ち</b>${t.window_from ? `<small>${esc(fmtY(t.window_from))}ごろから注意</small>` : ""}</span></div>
@@ -125,7 +125,7 @@ function row(t) {
     : `<span class="status st-${st.kind}"><b><span class="dot"></span>${esc(st.label)}</b>${period ? `<small>${esc(period)}</small>` : ""}</span>`;
   return `<div class="row${rowCls(t)}">
     <div class="date"><span class="d">${d.getMonth() + 1}/${d.getDate()}</span><span class="w">${WEEK[d.getDay()]}</span>${multi}</div>
-    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${esc(t.grades)}・${esc(t.stage)}${isPast(t) ? "" : prevMark(t)}</span></div>
+    <div class="cell-name"><button class="name" data-id="${esc(t.id)}">${esc(t.name)}</button><span class="sub">${genMark(t)}${esc(t.grades)}・${esc(t.stage)}${isPast(t) ? "" : prevMark(t)}</span></div>
     <div class="venue"><span class="pref">${prefLabel(t)}</span>${esc(t.venue)}</div>
     <div class="org">${orgCell(t)}</div>
     <div class="cell-status">${status}</div>
@@ -148,6 +148,9 @@ function resultBlock(t) {
 
 // 前回の大会の結果（これからの大会・日程発表待ちに付ける。今年の結果と混同しないよう年を出す）
 const prevMark = (t) => t.prev_results ? `<span class="prev-mark">前回結果あり</span>` : "";
+// 一般のアマチュア大会（県アマなど）。ジュニア大会ではないが中学生も出られる
+const isGeneral = (t) => (t.levels || []).includes("一般");
+const genMark = (t) => isGeneral(t) ? `<span class="gen-mark">一般（中学生も可）</span>` : "";
 function prevBlock(t) {
   const p = t.prev_results;
   if (!p || !p.links || !p.links.length) return "";
@@ -185,7 +188,7 @@ function watchDetail(t) {
       ${t.window_from ? `<dt>注意する時期</dt><dd>${esc(fmtY(t.window_from))}ごろから公式ページを確認</dd>` : ""}
       <dt>会場</dt><dd>${esc(t.venue)}（${esc(t.pref)}）</dd>
       <dt>主催</dt><dd>${esc(t.organizer)}</dd>
-      <dt>対象</dt><dd>${esc(t.grades)}</dd>
+      <dt>対象</dt><dd>${genMark(t)}${esc(t.grades)}</dd>
     </dl>
     ${t.note ? `<p class="d-note">${esc(t.note)}</p>` : ""}
     <div class="d-actions"><a class="btn btn-solid" href="${esc(t.url)}" target="_blank" rel="noopener">公式ページを見る</a></div>
@@ -209,7 +212,7 @@ function detail(t) {
       <dt>開催日</dt><dd>${esc(dateRange(t))}</dd>
       <dt>会場</dt><dd>${esc(t.venue)}（${esc(t.pref)}）</dd>
       <dt>主催</dt><dd>${esc(t.organizer)}</dd>
-      <dt>対象</dt><dd>${esc(t.grades)}</dd>
+      <dt>対象</dt><dd>${genMark(t)}${esc(t.grades)}</dd>
       <dt>区分</dt><dd>${esc(t.stage)}</dd>
     </dl>
     ${t.note ? `<p class="d-note">${esc(t.note)}</p>` : ""}
@@ -355,8 +358,14 @@ async function main() {
       fPref.append(ag);
     }
   }
-  // 対象（小学生・中学生）とエリアで絞る。levels は大会に出られる学校段階
-  const inLevelArea = (t) => (!fLevel.value || (t.levels || []).includes(fLevel.value))
+  // 対象とエリアで絞る。levels は大会に出られる学校段階。一般の大会（"一般"）は
+  // 「小・中学生」には出さず、「中学生」と「一般（中学生も可）」で出す
+  const levelOk = (t) => {
+    const v = fLevel.value, lv = t.levels || [];
+    if (!v) return !isGeneral(t);
+    return lv.includes(v) || (v === "中学生" && isGeneral(t));
+  };
+  const inLevelArea = (t) => levelOk(t)
     && (!fPref.value || (fPref.value.startsWith("r:") ? (t.overseas ? "海外" : regionOf(t.pref)) === fPref.value.slice(2)
       : fPref.value.startsWith("a:") ? t.overseas && abroadAreaOf(t.pref) === fPref.value.slice(2)
       : fPref.value.startsWith("c:") ? t.overseas && t.pref === fPref.value.slice(2)
