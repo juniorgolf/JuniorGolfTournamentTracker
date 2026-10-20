@@ -355,8 +355,13 @@ async function main() {
   if (TECHO) try { const s = localStorage.getItem("otype"); if (s && ORG_TYPES[s]) fType = s; } catch {}
   const inArea = (t) => inLevelArea(t) && (!fType || orgType(t.organizer) === fType);
   const typesEl = document.getElementById("otypes");
+  // 主催者の種類ごとの件数は、いま開いているタブに出る大会で数える（種類の絞り込み自体は除く）
+  const inView = (t) => view === "watch" ? isWatch(t)
+    : view === "open" ? isOpenView(t)
+    : view === "past" ? isPast(t) && pastLoaded.has(pastYear) && t.start.startsWith(String(pastYear))
+    : !isWatch(t) && !isPast(t);
   const renderTypes = () => {
-    const pool = tournaments.filter((t) => inLevelArea(t) && !isWatch(t) && !isPast(t));
+    const pool = tournaments.filter((t) => inLevelArea(t) && inView(t));
     const count = (k) => pool.filter((t) => !k || orgType(t.organizer) === k).length;
     typesEl.innerHTML = `<span class="ot-lbl">主催者の種類</span>` + [["", "すべて"], ...Object.entries(ORG_TYPES).map(([k, v]) => [k, v.label])]
       .map(([k, label]) => `<button class="otc${k ? ` ot-${k}` : ""}" data-otype="${k}" aria-pressed="${fType === k}">${k ? `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="${ORG_TYPES[k].icon}"/></svg>` : ""}${esc(label)}<span class="n">${count(k)}</span></button>`).join("");
