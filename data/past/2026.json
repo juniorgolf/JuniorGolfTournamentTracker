@@ -2,6 +2,36 @@
  "year": 2026,
  "tournaments": [
   {
+   "id": "p-ishikawa-region-2027-01-09-ibaraki-2026-01-04",
+   "name": "キャロウェイゴルフプレゼンツ 石川遼カップジュニアゴルフチャンピオンシップ 茨城大会",
+   "organizer": "日本ジュニアゴルフ協会（JJGA）",
+   "pref": "茨城",
+   "venue": "ロックヒルゴルフクラブ・ロックコース",
+   "start": "2026-01-04",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "8・9歳／10・11歳／12〜14歳（中1〜3）／15〜18歳（高1〜3）（各男女別、会場により8・9歳の部なし）",
+   "stage": "予選",
+   "url": "https://www.jjga.org/convention/2026/ishikawaryocup/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "同会場の成績（PDF）",
+     "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0104_rockhill_result.pdf"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
    "id": "kys-sponichi-kyushu-elem-21",
    "name": "第21回 九州小学生ゴルフ選手権大会（兼 令和7年度 第19回全国小学生ゴルフ春季大会 九州予選）",
    "organizer": "スポーツニッポン新聞社",
@@ -35,6 +65,36 @@
    ]
   },
   {
+   "id": "p-ishikawa-region-2027-01-04-saitama-2026-01-05",
+   "name": "石川遼カップジュニアゴルフチャンピオンシップ 埼玉大会",
+   "organizer": "日本ジュニアゴルフ協会（JJGA）",
+   "pref": "埼玉",
+   "venue": "森林公園ゴルフ倶楽部",
+   "start": "2026-01-05",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "8・9歳／10・11歳／12〜14歳（中1〜3）／15〜18歳（高1〜3）（各男女別、会場により8・9歳の部なし）",
+   "stage": "予選",
+   "url": "https://www.jjga.org/convention/2026/ishikawaryocup/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "同会場の成績（PDF）",
+     "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0105_shinrinkouen_result.pdf"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
    "id": "jhs-chubu-mie-mga-shochu-2026-01",
    "name": "三重県ゴルフ連盟 ジュニア育成小中学生ゴルフ大会（1月大会）",
    "organizer": "三重県ゴルフ連盟（主管：三重県高等学校中学校ゴルフ連盟）",
@@ -57,6 +117,125 @@
     {
      "label": "成績",
      "url": "https://mga-golf.jp/nmgh/wp-content/uploads/2026/01/1.6MGA小中学生育成大会成績表.pdf"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-ishikawa-region-2027-01-05-chiba-2026-01-06",
+   "name": "石川遼カップジュニアゴルフチャンピオンシップ 千葉大会",
+   "organizer": "日本ジュニアゴルフ協会（JJGA）",
+   "pref": "千葉",
+   "venue": "船橋カントリー倶楽部",
+   "start": "2026-01-06",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "8・9歳／10・11歳／12〜14歳（中1〜3）／15〜18歳（高1〜3）（各男女別、会場により8・9歳の部なし）",
+   "stage": "予選",
+   "url": "https://www.jjga.org/convention/2026/ishikawaryocup/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "同会場の成績（PDF）",
+     "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0106_funabashi_result.pdf"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-w-hiroshima-snag-2026-2026-01-06",
+   "name": "スナッグゴルフ広島県小学生大会2025",
+   "organizer": "広島県ジュニアゴルフ振興会",
+   "pref": "広島",
+   "venue": "広島カンツリー倶楽部 八本松コース",
+   "start": "2026-01-06",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学生（高学年・低学年に分けた個人戦と4名1組の団体戦）。広島県内の小学生とみられる（要項で確認）",
+   "stage": "単独",
+   "url": "https://snaggolf.jp/publics/index/1/detail=1/b_id=100/r_id=269",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "開催報告（上位成績）",
+     "url": "https://snaggolf.jp/publics/index/1/detail=1/b_id=100/r_id=269"
+    }
+   ],
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
+   "id": "p-cs-ishikawa-2027-01-09-matsunaga-2026-01-10",
+   "name": "キャロウェイゴルフプレゼンツ 石川遼カップジュニアゴルフチャンピオンシップ 広島大会",
+   "organizer": "日本ジュニアゴルフ協会（JJGA）",
+   "pref": "広島",
+   "venue": "松永カントリークラブ",
+   "start": "2026-01-10",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "8・9歳（小3・4）／10・11歳（小5・6）／12〜14歳／15〜18歳（男女別）",
+   "stage": "予選",
+   "url": "https://www.jjga.org/convention/2026/ishikawaryocup/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（同会場の前回）",
+     "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0110_matsunaga_result.pdf"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-nat-ishikawa-region-2027-01-09-kumamoto-2026-01-10",
+   "name": "キャロウェイゴルフプレゼンツ 石川遼カップジュニアゴルフチャンピオンシップ 熊本大会",
+   "organizer": "日本ジュニアゴルフ協会（JJGA）",
+   "pref": "熊本",
+   "venue": "熊本ゴルフ倶樂部 城南コース",
+   "start": "2026-01-10",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学3〜4年（8・9歳）／5〜6年（10・11歳）／中学生／高校生（男女別）",
+   "stage": "予選",
+   "url": "https://www.jjga.org/convention/2026/ishikawaryocup/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（同会場の前回）",
+     "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0110_kumamoto_result.pdf"
     }
    ],
    "levels": [
@@ -91,6 +270,118 @@
     {
      "label": "成績（女子・1/12）",
      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/女子（確定）-4.pdf"
+    }
+   ],
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
+   "id": "p-ishikawa-region-2027-01-10-ibaraki-2026-01-11",
+   "name": "石川遼カップジュニアゴルフチャンピオンシップ 茨城大会",
+   "organizer": "日本ジュニアゴルフ協会（JJGA）",
+   "pref": "茨城",
+   "venue": "岩瀬桜川カントリークラブ",
+   "start": "2026-01-11",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "8・9歳／10・11歳／12〜14歳（中1〜3）／15〜18歳（高1〜3）（各男女別、会場により8・9歳の部なし）",
+   "stage": "予選",
+   "url": "https://www.jjga.org/convention/2026/ishikawaryocup/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "同会場の成績（PDF）",
+     "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0111_iwasesakuragawa_result.pdf"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-ksi-spring-elem-27-q-boys-2026-01-11",
+   "name": "第26回関西小学生ゴルフ選手権大会 第一予選・第二予選",
+   "organizer": "関西高等学校・中学校ゴルフ連盟／スポーツニッポン新聞社",
+   "pref": "兵庫",
+   "venue": "ダンロップパースリーコース",
+   "start": "2026-01-11",
+   "end": "2026-01-12",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学生男子",
+   "stage": "予選",
+   "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_20/golf-387565/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "第一予選 成績（男子）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E7%94%B7%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-3.pdf"
+    },
+    {
+     "label": "第二予選 成績（男子）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E7%94%B7%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-4.pdf"
+    },
+    {
+     "label": "第一予選 大会ページ",
+     "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290416/"
+    },
+    {
+     "label": "第二予選 大会ページ",
+     "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290419/"
+    }
+   ],
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
+   "id": "p-ksi-spring-elem-27-q-girls-2026-01-11",
+   "name": "第26回関西小学生ゴルフ選手権大会 第一予選・第二予選",
+   "organizer": "関西高等学校・中学校ゴルフ連盟／スポーツニッポン新聞社",
+   "pref": "兵庫",
+   "venue": "ダンロップパースリーコース",
+   "start": "2026-01-11",
+   "end": "2026-01-12",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学生女子",
+   "stage": "予選",
+   "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_20/golf-387572/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "第一予選 成績（女子）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E5%A5%B3%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-3.pdf"
+    },
+    {
+     "label": "第二予選 成績（女子）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E5%A5%B3%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-4.pdf"
+    },
+    {
+     "label": "第一予選 大会ページ",
+     "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290416/"
+    },
+    {
+     "label": "第二予選 大会ページ",
+     "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290419/"
     }
    ],
    "levels": [
@@ -157,6 +448,36 @@
    ],
    "levels": [
     "小学生"
+   ]
+  },
+  {
+   "id": "p-nat-ishikawa-region-2027-01-11-okinawa-2026-01-12",
+   "name": "キャロウェイゴルフプレゼンツ 石川遼カップジュニアゴルフチャンピオンシップ 沖縄大会",
+   "organizer": "日本ジュニアゴルフ協会（JJGA）",
+   "pref": "沖縄",
+   "venue": "琉球ゴルフ倶楽部",
+   "start": "2026-01-12",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学3〜4年（8・9歳）／5〜6年（10・11歳）／中学生／高校生（男女別）",
+   "stage": "予選",
+   "url": "https://www.jjga.org/convention/2026/ishikawaryocup/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（同会場の前回）",
+     "url": "https://www.jjga.org/convention/2025/ishikawaryocup/pdf/0112_ryukyu_result.pdf"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
    ]
   },
   {
@@ -236,6 +557,35 @@
    "window_from": null,
    "window_to": null,
    "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-w-jhs-kyushu-enagic-u22-2027-2026-01-17",
+   "name": "2026 エナジックオープンU-22",
+   "organizer": "エナジック株式会社",
+   "pref": "沖縄",
+   "venue": "エナジック瀬嵩カントリークラブ",
+   "start": "2026-01-17",
+   "end": "2026-01-18",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "12〜22歳（男女別）",
+   "stage": "単独",
+   "url": "https://www.enagic-junioropen.com/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "最終成績",
+     "url": "https://www.enagic-junioropen.com/tournament/2026/"
+    }
+   ],
    "levels": [
     "中学生"
    ]
@@ -368,6 +718,39 @@
    "window_from": null,
    "window_to": null,
    "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-w-jhs-kansai-hyogo-jhs-shinjin-2027-2026-02-14",
+   "name": "令和７年度 中学新人戦",
+   "organizer": "兵庫県高等学校・中学校ゴルフ連盟",
+   "pref": "兵庫",
+   "venue": "三木ゴルフ倶楽部",
+   "start": "2026-02-14",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生（男女）",
+   "stage": "単独",
+   "url": "https://www.hyogo-golf.com/schedule/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "大会成績（サマリ）",
+     "url": "https://www.hyogo-golf.com/wp-content/uploads/2025/12/R7%E4%B8%AD%E5%AD%A6%E6%96%B0%E4%BA%BA%E6%88%A6%E3%82%B5%E3%83%9E%E3%83%AA.pdf"
+    },
+    {
+     "label": "大会ページ",
+     "url": "https://www.hyogo-golf.com/news/604/"
+    }
+   ],
    "levels": [
     "中学生"
    ]
@@ -699,6 +1082,39 @@
    ]
   },
   {
+   "id": "p-w-kanagawa-elem-2027-2026-02-22",
+   "name": "神奈川アマ2026・小学生の部",
+   "organizer": "神奈川県ゴルフ協会",
+   "pref": "神奈川",
+   "venue": "相模湖カントリークラブ",
+   "start": "2026-02-22",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学生",
+   "stage": "単独",
+   "url": "https://www.knga.org/compe",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（記事）",
+     "url": "https://www.knga.org/info/2026/junior_s_result"
+    },
+    {
+     "label": "成績（男子・PDF）",
+     "url": "https://www.knga.org/user/pages/05.compe/2026/k01702/成績(男子）.pdf"
+    }
+   ],
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
    "id": "chb-shizuoka-kanto-elem-2026",
    "name": "関東小学生ゴルフ大会 静岡県予選",
    "organizer": "静岡県ゴルフ連盟",
@@ -880,6 +1296,43 @@
    ]
   },
   {
+   "id": "p-chb-sponichi-chubu-elem-22-2026-02-28",
+   "name": "第21回中部小学生ゴルフ選手権春季大会",
+   "organizer": "スポーツニッポン新聞社",
+   "pref": "愛知",
+   "venue": "岐阜関カントリー倶楽部・西コース",
+   "start": "2026-02-28",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学生",
+   "stage": "予選",
+   "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_20/golf-387560/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（男子）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E6%9C%80%E7%B5%82%E7%94%B7%E5%AD%90%E6%88%90%E7%B8%BE.pdf"
+    },
+    {
+     "label": "成績（女子）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/08/%E5%A5%B3%E5%AD%90%EF%BC%88%E7%A2%BA%E5%AE%9A%EF%BC%89-5.pdf"
+    },
+    {
+     "label": "大会ページ",
+     "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/shogakusei_19/golf-290408/"
+    }
+   ],
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
    "id": "cs-kagawa-snag-11",
    "name": "第11回 香川県スナッグゴルフ交流大会 supported by kasco",
    "organizer": "香川県ジュニアゴルフ振興会",
@@ -1010,6 +1463,35 @@
     {
      "label": "決勝成績（女子）",
      "url": "https://sponichi-plus-alpha.sponichi.net/wp-content/uploads/2025/12/確定女子成績.pdf"
+    }
+   ],
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
+   "id": "p-w-studioalice-19-2026-03-07",
+   "name": "第18回 スタジオアリス ジュニアカップ",
+   "organizer": "スタジオアリス（JLPGA協力）",
+   "pref": "全国",
+   "venue": "花屋敷ゴルフ倶楽部 よかわコース ほか",
+   "start": "2026-03-07",
+   "end": "2026-04-03",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学1〜2年（男女混合）／小学3〜4年 男子・女子／小学5〜6年 男子・女子",
+   "stage": "単独",
+   "url": "https://www.studio-alice.co.jp/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績表（決勝）",
+     "url": "https://www.studio-alice.co.jp/golf/2026/junior/index.html#result"
     }
    ],
    "levels": [
@@ -2304,6 +2786,36 @@
    ]
   },
   {
+   "id": "p-w-fujikura-tohoku-2027-2026-04-02",
+   "name": "Fujikura東北ジュニアカップ2026",
+   "organizer": "藤倉コンポジット株式会社",
+   "pref": "福島",
+   "venue": "鹿島カントリー倶楽部",
+   "start": "2026-04-02",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "2026年大会は北海道・東北6県在住の18歳までの男女（小学校低学年=新1〜3年・高学年=新4〜6年・中学生・高校生の部）。2027年の資格は要項で確認",
+   "stage": "単独",
+   "url": "https://www.fujikurashaft.jp/tohokujuniorcup/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "大会結果",
+     "url": "https://www.fujikurashaft.jp/tohokujuniorcup/result/"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
    "id": "pgm-wj-kanto-3",
    "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜 関東予選③",
    "organizer": "国際ジュニアゴルフ育成協会（IJGA）",
@@ -2892,6 +3404,39 @@
    "window_from": null,
    "window_to": null,
    "results": null,
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-w-jhs-kansai-nara-kokusupo-1st-2027-2026-04-27",
+   "name": "第80回青森国民スポーツ大会奈良県代表選手一次選考会 兼 2026年度関西高等学校・中学校ゴルフ選手権奈良県予選",
+   "organizer": "奈良県ゴルフ協会（NGA）",
+   "pref": "奈良",
+   "venue": "飛鳥カンツリー倶楽部",
+   "start": "2026-04-27",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生（男女別）",
+   "stage": "予選",
+   "url": "https://www.nga.cc/jr_game.html",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（中学）",
+     "url": "https://www.nga.cc/score/score2026/jr_hight.pdf"
+    },
+    {
+     "label": "成績（高校）",
+     "url": "https://www.nga.cc/score/score2026/senior_high.pdf"
+    }
+   ],
    "levels": [
     "中学生"
    ]
@@ -3938,6 +4483,35 @@
    "window_from": null,
    "window_to": null,
    "results": null,
+   "levels": [
+    "小学生"
+   ]
+  },
+  {
+   "id": "p-w-kys-nagasaki-elem-2027-2026-05-06",
+   "name": "2026年度 第1回 長崎県小学生ゴルフ大会",
+   "organizer": "長崎県ゴルフ協会",
+   "pref": "長崎",
+   "venue": "喜々津カントリー倶楽部",
+   "start": "2026-05-06",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学1〜3年／4・5・6年（学年別・男女別）",
+   "stage": "単独",
+   "url": "https://nagasaki-golf.info/tournaments/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://nagasaki-golf.info/wp-content/uploads/%E7%9C%8C%E5%B0%8F%E5%AD%A6%E7%94%9F%E3%82%B4%E3%83%AB%E3%83%95%E5%A4%A7%E4%BC%9A%E6%88%90%E7%B8%BE.pdf"
+    }
+   ],
    "levels": [
     "小学生"
    ]
@@ -6318,6 +6892,40 @@
    ]
   },
   {
+   "id": "p-w-kato-junior-32-2026-07-20",
+   "name": "第31回加東市ジュニア（加東市ゴルフ協会 第31回ジュニアゴルフ大会）",
+   "organizer": "加東市ゴルフ協会",
+   "pref": "兵庫",
+   "venue": "ウエストワンズカンツリー倶楽部",
+   "start": "2026-07-20",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学生・中学生とみられる（要項で確認）。第31回の案内に「今大会より高校生の部がなくなりました」とある",
+   "stage": "単独",
+   "url": "https://kato-golf.com/news-list/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://kato-golf.com/wp-content/uploads/2026/07/junior_31.pdf"
+    },
+    {
+     "label": "結果のお知らせ",
+     "url": "https://kato-golf.com/news-list/%e7%ac%ac31%e5%9b%9e%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e3%82%b4%e3%83%ab%e3%83%95%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c/"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
    "id": "hkt-aomori-jr-29",
    "name": "第29回 青森県ジュニアゴルフ選手権",
    "organizer": "青森県ゴルフ連盟",
@@ -6559,6 +7167,35 @@
    ],
    "levels": [
     "小学生",
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-jhs-chugoku-shikoku-cgu-jr-32-2027-2026-07-23",
+   "name": "第31回中国ジュニアゴルフ選手権競技",
+   "organizer": "中国ゴルフ連盟（CGU）／中国高等学校・中学校ゴルフ連盟",
+   "pref": "山口",
+   "venue": "後楽ゴルフ倶楽部",
+   "start": "2026-07-23",
+   "end": "2026-07-24",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "12〜14歳／15〜17歳（男女別）",
+   "stage": "予選",
+   "url": "https://www.cgu.gr.jp/wp-content/uploads/info/2026/10/2027.pdf",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（全部門）",
+     "url": "https://www.cgu.gr.jp/competition/result/7511.html"
+    }
+   ],
+   "levels": [
     "中学生"
    ]
   },
@@ -6884,6 +7521,39 @@
    ]
   },
   {
+   "id": "p-w-yonex-junior-2027-2026-07-29",
+   "name": "16th YONEX Junior Golf Championship 2026",
+   "organizer": "ヨネックス株式会社",
+   "pref": "新潟",
+   "venue": "ヨネックスカントリークラブ",
+   "start": "2026-07-29",
+   "end": "2026-07-31",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生とみられる（要項で確認）。中部地区予選の要項では中学・高校の部で上位者が本戦へ進む。本戦の参加資格・出場方法（予選・推薦・海外招待など）は公式ページに記載なし",
+   "stage": "単独",
+   "url": "https://www.yonex.co.jp/news/2026/4015.html",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績表",
+     "url": "https://www.yonex.co.jp/upload/result-sheet-4015.pdf"
+    },
+    {
+     "label": "大会報告",
+     "url": "https://www.yonex.co.jp/news/2026/4015.html"
+    }
+   ],
+   "levels": [
+    "中学生"
+   ]
+  },
+  {
    "id": "jhs-national-jjga-kodaira-2026-07-30-tachikawa",
    "name": "PALMAX presents 小平智カップ 地区大会（東京）",
    "organizer": "日本ジュニアゴルフ協会（JJGA）",
@@ -7036,6 +7706,36 @@
    ],
    "levels": [
     "小学生"
+   ]
+  },
+  {
+   "id": "p-w-jhs-chubu-tsuruya-chubu-25-2026-07-31",
+   "name": "第24回TSURUYA CUP スポニチ・ジュニアゴルフチャレンジ 中部大会",
+   "organizer": "スポーツニッポン新聞社（特別協賛 つるや）",
+   "pref": "中部",
+   "venue": "岐阜関カントリー倶楽部 西コース",
+   "start": "2026-07-31",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学4〜6年／中学生（男女別）",
+   "stage": "単独",
+   "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/24thchubu/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（小中・男女別）",
+     "url": "https://sponichi-plus-alpha.sponichi.net/golf/junior-golf/tsuruya-cup/24thchubu/"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
    ]
   },
   {
@@ -7295,6 +7995,44 @@
    "results": null,
    "levels": [
     "小学生"
+   ]
+  },
+  {
+   "id": "p-w-teletama-24-2026-08-03",
+   "name": "第23回 テレ玉カップジュニアゴルフ大会",
+   "organizer": "熊谷市ゴルフ連盟／テレ玉",
+   "pref": "埼玉",
+   "venue": "大麻生ゴルフ場",
+   "start": "2026-08-03",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小学1〜3年 男女（9H）／小学4〜6年 男女（18H）／中学生 男子・女子（18H）",
+   "stage": "単独",
+   "url": "https://tvs-creative.co.jp/event/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（中学生の部）",
+     "url": "https://tvs-creative.co.jp/event/images/2026_jrg_c.pdf"
+    },
+    {
+     "label": "成績（小学4〜6年の部）",
+     "url": "https://tvs-creative.co.jp/event/images/2026_jrg_b.pdf"
+    },
+    {
+     "label": "成績（小学1〜3年の部）",
+     "url": "https://tvs-creative.co.jp/event/images/2026_jrg_a.pdf"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
    ]
   },
   {
@@ -7944,6 +8682,56 @@
    ]
   },
   {
+   "id": "p-w-niigata-junior-2027-2026-08-11",
+   "name": "第２９回新潟県ジュニアゴルフ競技会",
+   "organizer": "新潟県ゴルフ連盟（NGA）",
+   "pref": "新潟",
+   "venue": "ヨネックスカントリークラブ",
+   "start": "2026-08-11",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "2026年（第29回）は新潟県在住または在学で、JGAジュニア会員かつJ-sys登録者。小学の部は4〜6年生、中学の部・高校の部あり（男女別）。2027年の資格は要項で確認",
+   "stage": "単独",
+   "url": "https://www.n-golfrenmei.com/compe/?page=4&search_year=2026",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（小学男子）",
+     "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_202512291136506c0f9b6c8219_5.pdf"
+    },
+    {
+     "label": "成績（小学女子）",
+     "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_2025122911365039bd1373d79f_6.pdf"
+    },
+    {
+     "label": "成績（中学男子）",
+     "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_202512291136503543eaf22f80_7.pdf"
+    },
+    {
+     "label": "成績（中学女子）",
+     "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229113650da85523a091f_8.pdf"
+    },
+    {
+     "label": "成績（高校男子）",
+     "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229113650d6c75a1f07d2_9.pdf"
+    },
+    {
+     "label": "成績（高校女子）",
+     "url": "https://www.n-golfrenmei.com/resources/data/compe/image/file_20251229113650749747f782fc_10.pdf"
+    }
+   ],
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
    "id": "jhs-national-pga-jr-taiheiyo-9",
    "name": "第9回 PGAジュニアゴルフ選手権 太平洋クラブカップ",
    "organizer": "日本プロゴルフ協会（PGA）",
@@ -8475,6 +9263,36 @@
    "window_from": null,
    "window_to": null,
    "results": null,
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-w-kys-nagasaki-oyako-2027-2026-08-23",
+   "name": "長崎県ジュニア親子スクランブルゴルフ大会",
+   "organizer": "長崎県ゴルフ協会",
+   "pref": "長崎",
+   "venue": "雲仙ゴルフ場",
+   "start": "2026-08-23",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "小中学生と保護者のペア",
+   "stage": "単独",
+   "url": "https://nagasaki-golf.info/tournaments/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://nagasaki-golf.info/wp-content/uploads/%E9%95%B7%E5%B4%8E%E7%9C%8C%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E8%A6%AA%E5%AD%90%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%B3%E3%83%96%E3%83%AB%E3%82%B4%E3%83%AB%E3%83%95.pdf"
+    }
+   ],
    "levels": [
     "小学生",
     "中学生"
@@ -9958,6 +10776,35 @@
    "results": null,
    "levels": [
     "小学生",
+    "中学生"
+   ]
+  },
+  {
+   "id": "p-w-jackbunny-championship-2027-2026-09-23",
+   "name": "Jack Bunny!! Junior Golf Tour 2026 Championship Final",
+   "organizer": "Jack Bunny!! Junior Golf Tour",
+   "pref": "全国",
+   "venue": "サンコーカントリークラブ 東コース",
+   "start": "2026-09-23",
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "中学生・高校生の男女とみられる（要項で確認）",
+   "stage": "単独",
+   "url": "https://jb-cup.com/calendar/",
+   "note": "前回大会として登録。開催日・会場は公式の結果資料で確認（申込期間などは未確認）。",
+   "verified": "2026-10-20",
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "決勝 成績（PDF）",
+     "url": "https://jb-cup.com/wp/wp-content/uploads/2026/09/2026_Final_Result_0923.pdf"
+    }
+   ],
+   "levels": [
     "中学生"
    ]
   },
