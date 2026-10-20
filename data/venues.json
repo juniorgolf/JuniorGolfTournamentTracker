@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19",
+ "updated": "2026-10-20",
  "note": "住所は各ゴルフ場の公式ページ等で確認し、緯度・経度は国土地理院の住所検索で求めた。海外の会場は ArcGIS の住所検索・Wikipedia などで求め、approx: true は都市の位置（目安）。",
  "venues": {
   "JGMセベバレステロスゴルフクラブ": {
@@ -2721,6 +2721,57 @@
    "lat": 2.781386,
    "lng": 101.774045,
    "approx": true
+  },
+  "北京パインバレーGC（北京市昌平区）": {
+   "name": "北京パインバレーGC（北京市昌平区）",
+   "pref": "中国",
+   "address": "Beijing Pine Valley Golf Club, Changping, Beijing, China",
+   "lat": 40.21612,
+   "lng": 116.23471,
+   "approx": true
+  },
+  "南一ゴルフカントリー倶楽部（台南市）": {
+   "name": "南一ゴルフカントリー倶楽部（台南市）",
+   "pref": "台湾",
+   "address": "Nanyi Golf Country Club, Tainan, Taiwan",
+   "lat": 22.9124679,
+   "lng": 120.3297862
+  },
+  "大溪ゴルフ倶楽部東中コース（桃園市大溪区）": {
+   "name": "大溪ゴルフ倶楽部 東中コース（桃園市大溪区）",
+   "pref": "台湾",
+   "address": "Ta Shee Golf & Country Club, Daxi, Taoyuan, Taiwan",
+   "lat": 24.882099,
+   "lng": 121.325736
+  },
+  "再興ゴルフ倶楽部（新竹県湖口郷）": {
+   "name": "再興ゴルフ倶楽部（新竹県湖口郷）",
+   "pref": "台湾",
+   "address": "Zaixing Golf Club, Hukou, Hsinchu County, Taiwan",
+   "lat": 24.8834619,
+   "lng": 121.0867031
+  },
+  "ロイヤル・ロンアンG&CC（ロンアン省）": {
+   "name": "ロイヤル・ロンアンG&CC（ロンアン省）",
+   "pref": "ベトナム",
+   "address": "Royal Long An Golf & Country Club, Thu Thua, Long An, Vietnam",
+   "lat": 10.60232,
+   "lng": 106.40207,
+   "approx": true
+  },
+  "ロータス・バレー・ゴルフリゾート（チャチューンサオ県）": {
+   "name": "ロータス・バレー・ゴルフリゾート（チャチューンサオ県）",
+   "pref": "タイ",
+   "address": "Lotus Valley Golf Resort, Chachoengsao, Thailand",
+   "lat": 13.960377,
+   "lng": 101.058926
+  },
+  "ダイナスティG&CC（ナコーンパトム県）": {
+   "name": "ダイナスティG&CC（ナコーンパトム県）",
+   "pref": "タイ",
+   "address": "Dynasty Golf & Country Club, Nakhon Pathom, Thailand",
+   "lat": 14.034605,
+   "lng": 100.124185
   }
  }
 }
