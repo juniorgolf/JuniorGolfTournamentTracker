@@ -1,0 +1,47 @@
+{
+ "year": 2025,
+ "tournaments": [
+  {
+   "organizer": "埼玉県ゴルフ練習場連盟",
+   "pref": "埼玉",
+   "grades": "小学生4年以下／小学5・6年／中学生（男女別）",
+   "url": "https://saitama-dr-fed.com/%e7%ac%ac%ef%bc%92%ef%bc%91%e5%9b%9e%e3%80%80%e5%bd%a9%e3%81%ae%e5%9b%bd%e3%82%b8%e3%83%a5%e3%83%8b%e3%82%a2%e5%b0%8f%e3%83%bb%e4%b8%ad%e5%ad%a6%e7%94%9f%e3%82%b4%e3%83%ab%e3%83%95%e5%a4%a7%e4%bc%9a/",
+   "verified": "2026-10-17",
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "expected": null,
+   "window_from": null,
+   "window_to": null,
+   "results": [
+    {
+     "label": "成績（4年以下男子）",
+     "url": "https://saitama-dr-fed.com/wp-content/uploads/2025/12/1964c2706a02f3babfddcc2a1bb78ef1.pdf"
+    },
+    {
+     "label": "成績（4年以下女子）",
+     "url": "https://saitama-dr-fed.com/wp-content/uploads/2025/12/a23723b33ebcc5ffde4d0c10389d84e0.pdf"
+    },
+    {
+     "label": "成績（5・6年男子）",
+     "url": "https://saitama-dr-fed.com/wp-content/uploads/2025/12/cf14ecd65233932901b5435681885f26.pdf"
+    },
+    {
+     "label": "成績（5・6年女子）",
+     "url": "https://saitama-dr-fed.com/wp-content/uploads/2025/12/684639a0eca557ea3a57fe42455f52ab.pdf"
+    }
+   ],
+   "id": "sainokuni-junior-2025",
+   "name": "第21回 彩の国ジュニア（小・中学生）ゴルフ大会",
+   "venue": "吉見ゴルフ場",
+   "start": "2025-12-26",
+   "end": "2025-12-26",
+   "stage": "単独",
+   "note": "",
+   "levels": [
+    "小学生",
+    "中学生"
+   ]
+  }
+ ]
+}

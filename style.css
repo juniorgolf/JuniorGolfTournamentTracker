@@ -303,3 +303,8 @@ dialog::backdrop { background: rgba(10, 14, 12, .55); backdrop-filter: blur(2px)
 .stats dd .fl { display: inline-block; transform-origin: 50% 55%; }
 .stats dd .fl.flip { animation: stat-flip .16s ease-out; }
 @keyframes stat-flip { from { transform: perspective(240px) rotateX(-80deg); opacity: .35; } to { transform: none; opacity: 1; } }
+
+/* 終了した大会：開催年の切り替え */
+.past-years { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 0 4px; }
+.past-years button { font: inherit; font-size: 13px; padding: 6px 14px; border-radius: 999px; border: 1px solid var(--rule); background: var(--surface); color: var(--ink-2); cursor: pointer; }
+.past-years button[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--surface); }

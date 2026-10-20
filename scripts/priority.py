@@ -12,6 +12,12 @@ today = date.today()
 iso = today.isoformat()
 plus = lambda d: (today + timedelta(days=d)).isoformat()
 ts = json.load(open("data/tournaments.json", encoding="utf-8"))["tournaments"]
+# 終わった大会は data/past/<年>.json に移してある。結果待ち（C）を探すため今年と前年の分も読む
+for y in (today.year, today.year - 1):
+    try:
+        ts += json.load(open(f"data/past/{y}.json", encoding="utf-8"))["tournaments"]
+    except FileNotFoundError:
+        pass
 
 
 def show(title, items, key):

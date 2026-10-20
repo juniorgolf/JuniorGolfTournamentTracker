@@ -296,6 +296,24 @@ async function main() {
   const byId = Object.fromEntries(tournaments.map((t) => [t.id, t]));
   document.getElementById("updated").textContent = updated;
 
+  // 終了した大会は data/past/<開催年>.json に年ごとに分けてあり、必要になったときだけ読む
+  // （終了した大会のタブ・申込カレンダー・終了した大会への直接リンク）
+  let pastYears = null;
+  const pastLoaded = new Set();
+  const pastIndex = async () => pastYears || (pastYears = (await (await fetch("data/past/index.json", { cache: "no-cache" })).json()).years);
+  const loadPast = async (years) => {
+    const all = await pastIndex();
+    const need = years.filter((y) => all.includes(y) && !pastLoaded.has(y));
+    if (!need.length) return false;
+    await Promise.all(need.map(async (y) => {
+      const { tournaments: list } = await (await fetch(`data/past/${y}.json`, { cache: "no-cache" })).json();
+      for (const t of list) if (!byId[t.id]) { tournaments.push(t); byId[t.id] = t; }
+      pastLoaded.add(y);
+    }));
+    return true;
+  };
+  let pastYear = null;
+
   // 上段の3つの数字。絞り込みに合わせて render() で数え直す
   const statsEl = document.getElementById("stats");
   statsEl.innerHTML = ["申込受付中・まもなく", "これからの大会", "日程発表待ち"]
@@ -374,7 +392,7 @@ async function main() {
       watch: base.filter(isWatch).sort((a, b) => (a.window_from || "9999").localeCompare(b.window_from || "9999")),
       open: base.filter(isOpenView).sort(byDate),
       // 終了した大会は新しい順
-      past: base.filter(isPast).sort((a, b) => byDate(b, a)),
+      past: pastYear && pastLoaded.has(pastYear) ? base.filter((t) => isPast(t) && t.start.startsWith(String(pastYear))).sort((a, b) => byDate(b, a)) : null,
     };
     // 地図には、日程発表待ちでも前年の会場が分かる大会（全国決勝など）を前年の会場に出す
     sets.map = [...sets.upcoming, ...sets.watch.filter((t) => t.prev_venue)];
@@ -392,7 +410,13 @@ async function main() {
     mapEl.hidden = !isMap;
     calEl.hidden = !isCal;
     // 申込カレンダーは日程の決まった大会すべて（終了した大会も含め、月を戻して見られる）
-    if (isCal) { showCalendar(calEl, base.filter((t) => !isWatch(t))); return; }
+    if (isCal) {
+      showCalendar(calEl, base.filter((t) => !isWatch(t)));
+      // 表示している月の締切・開催日に、終了した大会（その年と翌年に開催）も出す
+      const y = cal.month.getFullYear();
+      loadPast([y, y + 1]).then((added) => { if (added && view === "cal") render(); });
+      return;
+    }
     if (isMap) {
       // 絞り込みが変わったとき（と初回）だけ、該当する会場が全部見える位置へ動かす
       const key = fPref.value + "|" + fOrg.value;
@@ -406,6 +430,22 @@ async function main() {
     }
     document.querySelector(".table-head span:last-child").textContent = view === "past" ? "結果" : "申込";
     const el = document.getElementById("list");
+    if (view === "past") {
+      // 開催年を選んで表示する。まだ読んでいない年は読み込んでから描き直す
+      if (!pastYears) { el.innerHTML = `<p class="empty">読み込み中…</p>`; pastIndex().then(() => { pastYear = pastYear || pastYears[0]; render(); }); return; }
+      pastYear = pastYear || pastYears[0];
+      if (!pastLoaded.has(pastYear)) { el.innerHTML = `<p class="empty">読み込み中…</p>`; loadPast([pastYear]).then(render); return; }
+      const years = `<div class="past-years" role="group" aria-label="開催年">${pastYears.map((y) => `<button data-past-year="${y}" aria-pressed="${y === pastYear}">${y}年</button>`).join("")}</div>`;
+      if (!list.length) { el.innerHTML = years + `<p class="empty">該当する大会はありません。</p>`; return; }
+      let html = years, month = "";
+      for (const t of list) {
+        const m = `${t.start.slice(0, 4)}.${t.start.slice(5, 7)}`;
+        if (m !== month) { html += `<p class="month">${m}</p>`; month = m; }
+        html += row(t);
+      }
+      el.innerHTML = html;
+      return;
+    }
     if (!list.length) { el.innerHTML = `<p class="empty">該当する大会はありません。</p>`; return; }
     if (view === "watch") {
       const rows = list.map(row).join("");
@@ -461,6 +501,8 @@ async function main() {
   document.getElementById("d-close").addEventListener("click", close);
 
   document.addEventListener("click", (e) => {
+    const yb = e.target.closest("[data-past-year]");
+    if (yb) { pastYear = Number(yb.dataset.pastYear); render(); return; }
     const name = e.target.closest("[data-id]");
     if (name) { open(name.dataset.id); return; }
     const ics = e.target.closest("[data-ics]");
@@ -469,6 +511,11 @@ async function main() {
 
   render();
   // URL の #大会ID で詳細を直接開ける（共有用）
-  if (location.hash.length > 1) open(decodeURIComponent(location.hash.slice(1)));
+  // 見つからなければ終了した大会を新しい年から読んで探す
+  if (location.hash.length > 1) {
+    const id = decodeURIComponent(location.hash.slice(1));
+    if (!byId[id]) for (const y of await pastIndex()) { await loadPast([y]); if (byId[id]) break; }
+    open(id);
+  }
 }
 main();
