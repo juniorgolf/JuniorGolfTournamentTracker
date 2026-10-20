@@ -1405,45 +1405,142 @@
    }
   },
   {
-   "id": "w-pgm-wj-2027",
-   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 2027",
+   "id": "w-pgm-wj-kanto-1-2027",
+   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 関東予選① 2027",
    "organizer": "国際ジュニアゴルフ育成協会（IJGA）",
-   "pref": "関東",
-   "venue": "未発表（前年は大日向CC・千成GCほか）",
-   "grades": "7-8歳／9-10歳／11-12歳／13-14歳／15-18歳（各男女、年齢基準日時点）",
-   "url": "https://www.ijga.or.jp/info/",
-   "expected": "開催：前年の関東予選は3/22・3/25・4/2　申込：前年は1/7 11:00開始・先着順",
-   "window_from": "2027-01-07",
-   "note": "先着順で定員に達し次第終了。要項は例年12月下旬に公開。",
+   "pref": "栃木",
+   "venue": "未発表（前年は千成ゴルフクラブ）",
    "start": null,
-   "stage": "発表待ち",
    "end": null,
    "entry_open": null,
    "entry_close": null,
    "entry_state": null,
-   "window_to": null,
-   "verified": "2026-10-17",
+   "grades": "7〜8歳／9〜10歳／11〜12歳／13〜14歳／15〜18歳（男女別）",
+   "stage": "発表待ち",
+   "url": "https://www.ijga.or.jp/info/",
+   "note": "予選。スポーツエントリーで先着順、前年は各予選の2週間前締切。参加費は前年6,600円＋プレー費。7〜10歳は保護者とペアでプレー。上位者が決勝へ進む。2027年の日程・会場は未発表（2026-10-20 IJGAお知らせで確認）。",
+   "verified": "2026-10-20",
+   "expected": "開催：前年は3/22（千成ゴルフクラブ）　申込：前年は1/7 11:00開始・先着順",
+   "window_from": "2027-01-07",
+   "window_to": "2027-01-07",
    "results": null,
    "levels": [
     "小学生",
     "中学生"
    ],
+   "prev_venue": "千成ゴルフクラブ",
    "prev_results": {
     "year": 2026,
-    "name": "2026 PGM世界ジュニアゴルフ選手権 日本代表選抜大会（関東予選・東日本決勝）",
+    "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜 関東予選①",
     "links": [
      {
       "label": "関東予選（1）結果",
       "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e9%96%a2%e6%9d%b1%e4%ba%88%e9%81%b8%ef%bc%881%ef%bc%89/"
-     },
+     }
+    ]
+   }
+  },
+  {
+   "id": "w-pgm-wj-kanto-2-2027",
+   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 関東予選② 2027",
+   "organizer": "国際ジュニアゴルフ育成協会（IJGA）",
+   "pref": "栃木",
+   "venue": "未発表（前年は大日向カントリー倶楽部）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "7〜8歳／9〜10歳／11〜12歳／13〜14歳／15〜18歳（男女別）",
+   "stage": "発表待ち",
+   "url": "https://www.ijga.or.jp/info/",
+   "note": "予選。スポーツエントリーで先着順、前年は各予選の2週間前締切。参加費は前年6,600円＋プレー費。7〜10歳は保護者とペアでプレー。上位者が決勝へ進む。2027年の日程・会場は未発表（2026-10-20 IJGAお知らせで確認）。",
+   "verified": "2026-10-20",
+   "expected": "開催：前年は3/25（大日向カントリー倶楽部）　申込：前年は1/7 11:00開始・先着順",
+   "window_from": "2027-01-07",
+   "window_to": "2027-01-07",
+   "results": null,
+   "levels": [
+    "小学生",
+    "中学生"
+   ],
+   "prev_venue": "大日向カントリー倶楽部",
+   "prev_results": {
+    "year": 2026,
+    "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜 関東予選②",
+    "links": [
      {
       "label": "関東予選（2）結果",
       "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e9%96%a2%e6%9d%b1%e4%ba%88%e9%81%b8%ef%bc%882%ef%bc%89/"
-     },
+     }
+    ]
+   }
+  },
+  {
+   "id": "w-pgm-wj-kanto-3-2027",
+   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 関東予選③ 2027",
+   "organizer": "国際ジュニアゴルフ育成協会（IJGA）",
+   "pref": "千葉",
+   "venue": "未発表（前年はムーンレイクゴルフクラブ 茂原コース）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "7〜8歳／9〜10歳／11〜12歳／13〜14歳／15〜18歳（男女別）",
+   "stage": "発表待ち",
+   "url": "https://www.ijga.or.jp/info/",
+   "note": "予選。スポーツエントリーで先着順、前年は各予選の2週間前締切。参加費は前年6,600円＋プレー費。7〜10歳は保護者とペアでプレー。上位者が決勝へ進む。2027年の日程・会場は未発表（2026-10-20 IJGAお知らせで確認）。",
+   "verified": "2026-10-20",
+   "expected": "開催：前年は4/2（ムーンレイクゴルフクラブ 茂原コース）　申込：前年は1/7 11:00開始・先着順",
+   "window_from": "2027-01-07",
+   "window_to": "2027-01-07",
+   "results": null,
+   "levels": [
+    "小学生",
+    "中学生"
+   ],
+   "prev_venue": "ムーンレイクゴルフクラブ 茂原コース",
+   "prev_results": {
+    "year": 2026,
+    "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜 関東予選③",
+    "links": [
      {
       "label": "関東予選（3）結果",
       "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e9%96%a2%e6%9d%b1%e4%ba%88%e9%81%b8%ef%bc%883%ef%bc%89/"
-     },
+     }
+    ]
+   }
+  },
+  {
+   "id": "w-pgm-wj-east-final-2027",
+   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 東日本決勝 2027",
+   "organizer": "国際ジュニアゴルフ育成協会（IJGA）",
+   "pref": "茨城",
+   "venue": "未発表（前年は美浦ゴルフ倶楽部）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "7〜8歳／9〜10歳／11〜12歳／13〜14歳／15〜18歳（男女別）",
+   "stage": "発表待ち",
+   "url": "https://www.ijga.or.jp/info/",
+   "note": "決勝。各予選の上位者が出場（36ホール）。各カテゴリー上位者が米国の世界ジュニア選手権へ派遣される。2027年の日程・会場は未発表（2026-10-20 IJGAお知らせで確認）。 出場は関東予選①〜③の上位者。",
+   "verified": "2026-10-20",
+   "expected": "開催：前年は4/25〜4/26（美浦ゴルフ倶楽部）",
+   "window_from": null,
+   "window_to": null,
+   "results": null,
+   "levels": [
+    "小学生",
+    "中学生"
+   ],
+   "prev_venue": "美浦ゴルフ倶楽部",
+   "prev_results": {
+    "year": 2026,
+    "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜 東日本決勝",
+    "links": [
      {
       "label": "東日本決勝 最終日",
       "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e6%9d%b1%e6%97%a5%e6%9c%ac%e6%b1%ba%e5%8b%9d%e5%a4%a7%e4%bc%9a%e6%9c%80%e7%b5%82%e6%97%a5/"
@@ -5913,11 +6010,11 @@
    }
   },
   {
-   "id": "w-nat-pgm-wj-west-2027",
-   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 2027（関東以外の予選・西日本決勝）",
+   "id": "w-pgm-wj-kyushu-2027",
+   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 九州・沖縄予選 2027",
    "organizer": "国際ジュニアゴルフ育成協会（IJGA）／BSフジ",
-   "pref": "全国",
-   "venue": "未発表（前年は福岡国際CC・亀山GC・たけべの森GC・仙台ヒルズGC、西日本決勝は滋賀GC）",
+   "pref": "福岡",
+   "venue": "未発表（前年は福岡国際カントリークラブ）",
    "start": null,
    "end": null,
    "entry_open": null,
@@ -5925,12 +6022,120 @@
    "entry_state": null,
    "grades": "7〜8歳／9〜10歳／11〜12歳／13〜14歳／15〜18歳（男女別）",
    "stage": "発表待ち",
-   "url": "https://www.ijga.or.jp/category/competition/",
-   "note": "前年はスポーツエントリーで先着順、各予選の2週間前締切。",
-   "verified": "2026-10-17",
-   "expected": "開催：前年は2/21〜4/3（予選）、西日本決勝3/28〜29　申込：前年は1/7開始",
+   "url": "https://www.ijga.or.jp/info/",
+   "note": "予選。スポーツエントリーで先着順、前年は各予選の2週間前締切。参加費は前年6,600円＋プレー費。7〜10歳は保護者とペアでプレー。上位者が決勝へ進む。2027年の日程・会場は未発表（2026-10-20 IJGAお知らせで確認）。",
+   "verified": "2026-10-20",
+   "expected": "開催：前年は2/21（福岡国際カントリークラブ）　申込：前年は1/7開始",
    "window_from": "2026-12-15",
    "window_to": "2027-01-07",
+   "results": null,
+   "levels": [
+    "小学生",
+    "中学生"
+   ],
+   "prev_venue": "福岡国際カントリークラブ",
+   "prev_results": {
+    "year": 2026,
+    "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 九州・沖縄予選",
+    "links": [
+     {
+      "label": "九州・沖縄予選 結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e4%b9%9d%e5%b7%9e%e6%b2%96%e7%b8%84%e4%ba%88%e9%81%b8/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "w-pgm-wj-tokai-kansai-2027",
+   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 東海・関西予選 2027",
+   "organizer": "国際ジュニアゴルフ育成協会（IJGA）／BSフジ",
+   "pref": "三重",
+   "venue": "未発表（前年は亀山ゴルフクラブ）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "7〜8歳／9〜10歳／11〜12歳／13〜14歳／15〜18歳（男女別）",
+   "stage": "発表待ち",
+   "url": "https://www.ijga.or.jp/info/",
+   "note": "予選。スポーツエントリーで先着順、前年は各予選の2週間前締切。参加費は前年6,600円＋プレー費。7〜10歳は保護者とペアでプレー。上位者が決勝へ進む。2027年の日程・会場は未発表（2026-10-20 IJGAお知らせで確認）。",
+   "verified": "2026-10-20",
+   "expected": "開催：前年は3/8（亀山ゴルフクラブ）　申込：前年は1/7開始",
+   "window_from": "2026-12-15",
+   "window_to": "2027-01-07",
+   "results": null,
+   "levels": [
+    "小学生",
+    "中学生"
+   ],
+   "prev_venue": "亀山ゴルフクラブ",
+   "prev_results": {
+    "year": 2026,
+    "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 東海・関西予選",
+    "links": [
+     {
+      "label": "東海・関西予選 結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e6%9d%b1%e6%b5%b7%e9%96%a2%e8%a5%bf%e4%ba%88%e9%81%b8/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "w-pgm-wj-tohoku-hokkaido-2027",
+   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 東北・北海道予選 2027",
+   "organizer": "国際ジュニアゴルフ育成協会（IJGA）／BSフジ",
+   "pref": "宮城",
+   "venue": "未発表（前年は仙台ヒルズゴルフ倶楽部）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "7〜8歳／9〜10歳／11〜12歳／13〜14歳／15〜18歳（男女別）",
+   "stage": "発表待ち",
+   "url": "https://www.ijga.or.jp/info/",
+   "note": "予選。スポーツエントリーで先着順、前年は各予選の2週間前締切。参加費は前年6,600円＋プレー費。7〜10歳は保護者とペアでプレー。上位者が決勝へ進む。2027年の日程・会場は未発表（2026-10-20 IJGAお知らせで確認）。",
+   "verified": "2026-10-20",
+   "expected": "開催：前年は4/3（仙台ヒルズゴルフ倶楽部）　申込：前年は1/7開始",
+   "window_from": "2026-12-15",
+   "window_to": "2027-01-07",
+   "results": null,
+   "levels": [
+    "小学生",
+    "中学生"
+   ],
+   "prev_venue": "仙台ヒルズゴルフ倶楽部",
+   "prev_results": {
+    "year": 2026,
+    "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 東北・北海道予選",
+    "links": [
+     {
+      "label": "東北・北海道予選 結果",
+      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e6%9d%b1%e5%8c%97%e5%8c%97%e6%b5%b7%e9%81%93%e4%ba%88%e9%81%b8/"
+     }
+    ]
+   }
+  },
+  {
+   "id": "w-pgm-wj-west-final-2027",
+   "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 西日本決勝 2027",
+   "organizer": "国際ジュニアゴルフ育成協会（IJGA）／BSフジ",
+   "pref": "滋賀",
+   "venue": "未発表（前年は滋賀ゴルフ倶楽部）",
+   "start": null,
+   "end": null,
+   "entry_open": null,
+   "entry_close": null,
+   "entry_state": null,
+   "grades": "7〜8歳／9〜10歳／11〜12歳／13〜14歳／15〜18歳（男女別）",
+   "stage": "発表待ち",
+   "url": "https://www.ijga.or.jp/info/",
+   "note": "決勝。各予選の上位者が出場（36ホール）。各カテゴリー上位者が米国の世界ジュニア選手権へ派遣される。2027年の日程・会場は未発表（2026-10-20 IJGAお知らせで確認）。 出場は九州・沖縄、東海・関西、中国・四国、東北・北海道の各予選の上位者。",
+   "verified": "2026-10-20",
+   "expected": "開催：前年は3/28〜3/29（滋賀ゴルフ倶楽部）",
+   "window_from": null,
+   "window_to": null,
    "results": null,
    "levels": [
     "小学生",
@@ -5939,24 +6144,8 @@
    "prev_venue": "滋賀ゴルフ倶楽部",
    "prev_results": {
     "year": 2026,
-    "name": "2026 PGM世界ジュニアゴルフ選手権 日本代表選抜大会（関東以外の予選・西日本決勝）",
+    "name": "PGM世界ジュニアゴルフ選手権 日本代表選抜大会 西日本決勝",
     "links": [
-     {
-      "label": "東北・北海道予選 結果",
-      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e6%9d%b1%e5%8c%97%e5%8c%97%e6%b5%b7%e9%81%93%e4%ba%88%e9%81%b8/"
-     },
-     {
-      "label": "東海・関西予選 結果",
-      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e6%9d%b1%e6%b5%b7%e9%96%a2%e8%a5%bf%e4%ba%88%e9%81%b8/"
-     },
-     {
-      "label": "中国・四国予選 結果",
-      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e4%b8%ad%e5%9b%bd%e5%9b%9b%e5%9b%bd%e4%ba%88%e9%81%b8/"
-     },
-     {
-      "label": "九州・沖縄予選 結果",
-      "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e4%b9%9d%e5%b7%9e%e6%b2%96%e7%b8%84%e4%ba%88%e9%81%b8/"
-     },
      {
       "label": "西日本決勝 最終日",
       "url": "https://www.ijga.or.jp/competition/cp-2026/2026%e8%a5%bf%e6%97%a5%e6%9c%ac%e6%b1%ba%e5%8b%9d%e5%a4%a7%e4%bc%9a%e6%9c%80%e7%b5%82%e6%97%a5/"
