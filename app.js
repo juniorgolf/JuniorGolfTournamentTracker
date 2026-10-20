@@ -339,11 +339,15 @@ async function main() {
   const fLevel = document.getElementById("f-level");
   // エリアは地方ごとにまとめる。「jp」は国内すべて（最初の表示）、「r:関東」は地方全体、それ以外は都道府県
   const prefs = new Set(tournaments.map((t) => t.pref));
-  // 国内は地方単位だけ（県単位では大会が少ないため）。海外は国ごとにも選べる
+  // 国内は「日本」の見出しの下に日本すべてと地方を並べる（県単位では大会が少ないため）。海外は国ごとにも選べる
+  const jg = document.createElement("optgroup");
+  jg.label = "日本";
+  jg.append(fPref.querySelector('option[value="jp"]'));
+  fPref.append(jg);
   for (const [region, list] of REGIONS) {
     const present = list.filter((p) => prefs.has(p) && p !== region);
     if (!present.length && !prefs.has(region)) continue;
-    if (region !== "海外") { fPref.append(new Option(region === "全国" ? "全国大会（決勝など）" : region, `r:${region}`)); continue; }
+    if (region !== "海外") { jg.append(new Option(region === "全国" ? "全国大会（決勝など）" : region, `r:${region}`)); continue; }
     const g = document.createElement("optgroup");
     g.label = region;
     g.append(new Option("海外すべて", `r:${region}`));
