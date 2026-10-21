@@ -11821,9 +11821,14 @@
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "verified": "2026-10-17",
+   "verified": "2026-10-22",
    "stage": "予選",
-   "results": null,
+   "results": [
+    {
+     "label": "成績",
+     "url": "https://www.jjgt.net/tour-info/result/r2727.pdf"
+    }
+   ],
    "levels": [
     "小学生",
     "中学生"
@@ -11868,11 +11873,16 @@
    "stage": "予選",
    "url": "https://www.osaka-kogoren.com/news/508",
    "note": "大阪府または和歌山県の高等学校・中学校ゴルフ連盟に登録済みで、セルフプレー経験があり平均130以内の中学生が対象。大阪府連盟HPから申込（和歌山の選手は備考欄に記載）、参加料3,000円は9/11までに振込、プレー費8,000円。公式指定練習は9/28。",
-   "verified": "2026-10-17",
+   "verified": "2026-10-22",
    "expected": null,
    "window_from": null,
    "window_to": null,
-   "results": null,
+   "results": [
+    {
+     "label": "成績（中学男子）",
+     "url": "https://www.osaka-kogoren.com/news/523"
+    }
+   ],
    "levels": [
     "中学生"
    ]
