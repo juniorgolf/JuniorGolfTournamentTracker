@@ -72,6 +72,8 @@
 [data-design="techo"] .catch { grid-area: catch; margin: 0; font-size: clamp(30px, 4.4vw, 54px); font-weight: 800; line-height: 1.32; }
 [data-design="techo"] .catch span { display: inline-block; box-shadow: inset 0 -.42em 0 var(--yellow); }
 [data-design="techo"] .lead { grid-area: lead; margin: 16px 0 0; opacity: 1; color: var(--ink-2); font-size: 15px; }
+[data-design="techo"] .guide-link { background: var(--yellow-soft); border-color: var(--yellow); color: var(--ink); }
+[data-design="techo"] .guide-link b { color: var(--coral-ink); }
 [data-design="techo"] .stats { grid-area: stats; position: relative; display: block; height: 262px; margin: 0; padding: 0; border: 0; }
 [data-design="techo"] .stats div {
   position: absolute; display: flex; flex-direction: column-reverse; align-items: center; justify-content: center;

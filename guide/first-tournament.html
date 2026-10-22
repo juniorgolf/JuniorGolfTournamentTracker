@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>はじめてのジュニアゴルフ大会　申し込みから当日まで｜ジュニアゴルフ大会カレンダー</title>
+<meta name="description" content="はじめてジュニアゴルフ大会に出る保護者の方へ。大会の選び方、要項の読み方、会員登録、申し込みと支払い、持ち物、当日の受付と観戦、結果の確かめ方までを、図とイラストで順番に説明します。">
+<link rel="canonical" href="https://jrgolf.jp/guide/first-tournament.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBVQKV6REJ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MBVQKV6REJ');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9497500384977113"
+     crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+/* はじめての方へ（2026-10-22 公開）。構成：サイトの「おやこ手帳」と同じ色・字体。1列の読み物に、STEPごとに図を1〜3点。サイトに合わせ明るい地のみ */
+:root{
+  --bg:#fffdf7; --surface:#ffffff; --paper:#fbf8ef;
+  --ink:#1d2a44; --ink-2:#4c5872; --ink-3:#6b7488; --rule:#e8e2d2;
+  --yellow:#f6c343; --yellow-soft:#fff4d2; --amber-ink:#7a5600;
+  --coral:#e2574c; --coral-ink:#b8352b; --coral-soft:#fce3e0;
+  --blue-ink:#2b4590; --blue-soft:#e3eafb;
+  --green:#3b6b1f; --green-soft:#e8f0e1; --teal:#00796b; --teal-soft:#e0f1ee;
+  --purple:#6a47a8; --purple-soft:#eee9f7; --brown:#8f5000; --brown-soft:#f7ecdd;
+  --grey:#56636e; --grey-soft:#eceff1;
+  --turf:#7fb069; --turf-soft:#dcebd2; --sand:#e9d8a6;
+  --font:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Noto Sans JP",system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.85;letter-spacing:.01em}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+h1,h2,h3{text-wrap:balance;line-height:1.4;margin:0}
+h1{font-size:clamp(1.6rem,4.6vw,2.3rem);font-weight:800}
+h2{font-size:1.4rem;font-weight:800}
+h3{font-size:1.08rem;font-weight:700}
+p{margin:0}
+.muted{color:var(--ink-2)}
+.nw{display:inline-block}
+.small{font-size:.86rem}
+.src{color:var(--ink-3);font-size:.78rem;white-space:nowrap}
+section{display:grid;gap:18px;padding-block:36px;border-top:2px dashed var(--rule)}
+.prose{display:grid;gap:12px;max-width:44em}
+
+
+.fig{position:relative;background:var(--surface);border:1.5px solid var(--rule);border-radius:18px;padding:18px;display:grid;gap:12px;min-width:0}
+.fig figcaption{font-size:.84rem;color:var(--ink-2)}
+.fig svg{display:block;width:100%;height:auto}
+.scroll{overflow-x:auto}
+
+
+/* ヒーロー */
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px;align-items:center;padding-block:28px 12px}
+.hero .lead{display:grid;gap:12px}
+.kicker{display:inline-block;background:var(--yellow);border-radius:99px;padding:2px 12px;font-size:.8rem;font-weight:700;justify-self:start}
+@media (max-width:640px){.hero{grid-template-columns:1fr}}
+
+/* 道のり */
+.road{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;position:relative}
+.road::before{content:"";position:absolute;left:7%;right:7%;top:30px;border-top:3px dotted var(--yellow)}
+.road li{position:relative;display:grid;justify-items:center;gap:6px;text-align:center;font-size:.8rem;font-weight:700;line-height:1.35}
+.road .ic{width:60px;height:60px;border-radius:50%;background:var(--surface);border:2.5px solid var(--ink);display:grid;place-items:center}
+.road .ic svg{width:30px;height:30px}
+.road .n{font-size:.7rem;color:var(--coral-ink);letter-spacing:.06em}
+.road a{color:inherit;text-decoration:none}
+@media (max-width:640px){
+  .road{grid-template-columns:1fr;gap:10px}
+  .road::before{left:29px;right:auto;top:20px;bottom:20px;border-top:0;border-left:3px dotted var(--yellow)}
+  .road li{grid-template-columns:60px 1fr;justify-items:start;text-align:left;align-items:center;column-gap:12px;font-size:.95rem}
+  .road .n{grid-column:2;grid-row:1;align-self:end}
+  .road .ic{grid-row:1 / span 2}
+  .road .t{grid-column:2}
+}
+
+/* STEP見出し */
+.step-head{display:flex;gap:14px;align-items:center}
+.step-badge{flex:none;width:64px;height:64px;border-radius:18px;background:var(--yellow);display:grid;place-items:center;text-align:center;line-height:1.1;font-weight:800}
+.step-badge small{display:block;font-size:.6rem;letter-spacing:.1em}
+.step-badge span{font-size:1.6rem}
+
+/* カード並び */
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.grid3,.grid2{grid-template-columns:1fr}}
+.card{background:var(--paper);border-radius:14px;padding:14px;display:grid;gap:8px;align-content:start;min-width:0}
+.card .pic{height:84px;display:grid;place-items:center}
+.card .pic svg{height:84px;width:auto}
+.card h3{font-size:1rem}
+.card p{font-size:.88rem}
+
+/* 要項チェック */
+.checks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.checks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.chk{background:var(--paper);border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:28px 1fr;gap:4px 8px;align-items:start;min-width:0}
+.chk svg{width:28px;height:28px;grid-row:1 / span 2}
+.chk b{font-size:.9rem}
+.chk span{font-size:.78rem;color:var(--ink-2);line-height:1.5}
+
+/* 会員カード */
+.mem{background:var(--surface);border:2px solid var(--c);border-radius:14px;overflow:hidden;display:grid;align-content:start;min-width:0}
+.mem .band{background:var(--c);color:#fff;padding:8px 14px;font-weight:700;font-size:.92rem;display:flex;justify-content:space-between;gap:8px}
+.mem .band small{opacity:.9;font-weight:500}
+.mem .body{padding:12px 14px;display:grid;gap:6px;font-size:.88rem}
+.mem .price{font-size:1.5rem;font-weight:800;color:var(--c);line-height:1.2;font-variant-numeric:tabular-nums}
+.mem .price small{font-size:.8rem;font-weight:700;color:var(--ink-2)}
+
+/* する・しない */
+.dodont{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:520px){.dodont{grid-template-columns:1fr}}
+.dd{border-radius:14px;padding:14px;display:grid;grid-template-columns:88px 1fr;gap:12px;align-items:center}
+.dd.ok{background:var(--green-soft)} .dd.ng{background:var(--coral-soft)}
+.dd .mark{font-weight:800;font-size:.95rem}
+.dd.ok .mark{color:var(--green)} .dd.ng .mark{color:var(--coral-ink)}
+.dd p{font-size:.88rem}
+
+/* 種類 */
+.types{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.type{border-left:6px solid var(--c);background:var(--surface);border-radius:4px 12px 12px 4px;padding:10px 14px;display:grid;gap:4px;box-shadow:0 0 0 1.5px var(--rule) inset}
+.type b{color:var(--c)}
+.type span{font-size:.84rem;color:var(--ink-2);line-height:1.6}
+
+/* 費用 */
+.cost{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.ct{background:var(--paper);border-radius:12px;padding:12px 14px;display:grid;gap:6px}
+.ct .nm{font-size:.86rem;font-weight:700}
+.ct .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.pill{border-radius:99px;padding:1px 10px;font-size:.8rem;font-weight:700;font-variant-numeric:tabular-nums}
+.p-fee{background:var(--blue-soft);color:var(--blue-ink)}
+.p-play{background:var(--turf-soft);color:var(--green)}
+.p-all{background:var(--yellow-soft);color:var(--amber-ink)}
+
+details{background:var(--paper);border-radius:12px;padding:10px 14px}
+details summary{cursor:pointer;font-weight:700}
+details ol{font-size:.8rem;color:var(--ink-2);padding-left:1.4em;overflow-wrap:anywhere}
+a{color:var(--blue-ink)}
+:focus-visible{outline:3px solid var(--blue-ink);outline-offset:2px}
+.tag{font-size:.7rem;font-weight:700;border-radius:6px;padding:0 6px;background:var(--grey-soft);color:var(--grey)}
+
+/* サイト共通の頭とフッター */
+.g-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:4px 8px;border-bottom:2px dashed var(--rule)}
+.g-brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:800;font-size:1rem}
+.g-brand img{width:36px;height:36px}
+.g-back{font-size:.86rem;color:var(--ink-2)}
+.g-foot{margin-top:24px;padding-block:24px;border-top:2px dashed var(--rule);font-size:.78rem;color:var(--ink-3);display:grid;gap:6px}
+.g-foot a{color:inherit}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/></g></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></g></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><rect x="3" y="6" width="18" height="13" rx="2.5"/><circle cx="8.5" cy="12" r="2"/><path d="M13 11h5M13 14.5h4"/></g></symbol>
+    <symbol id="i-yen" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 7l3.5 5 3.5-5M12 12v5.5M9 12.5h6M9 15h6"/></g></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="8" width="10" height="13" rx="3"/><path d="M9 8V3M12 8V2M15 8V4M7 13h10"/></g></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><path d="M7 17a5 5 0 0 1 10 0M3 17h18M12 7V4M5.5 10.5L3.8 8.8M18.5 10.5l1.7-1.7M6 21h12"/></g></symbol>
+    <symbol id="i-medal" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3l3 7M16 3l-3 7"/><circle cx="12" cy="15" r="6"/><path d="M12 12.5v5"/></g></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></g></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 21a7 7 0 0 1 14 0"/></g></symbol>
+    <symbol id="i-score" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 9h16M4 15h16M10 3v18"/></g></symbol>
+    <symbol id="i-group" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="8" r="2.8"/><circle cx="16" cy="8" r="2.8"/><path d="M3 20a5 5 0 0 1 10 0M11 20a5 5 0 0 1 10 0"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+    <symbol id="i-shirt" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linejoin="round"><path d="M8 3l-5 3 2 5 3-1v11h8V10l3 1 2-5-5-3a4 4 0 0 1-8 0z"/></g></symbol>
+    <symbol id="i-rain" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><path d="M7 15a4 4 0 0 1 .5-8 5.5 5.5 0 0 1 10.3 1.5A3.3 3.3 0 0 1 17 15z"/><path d="M9 18l-1 3M13 18l-1 3M17 18l-1 3"/></g></symbol>
+  </defs>
+</svg>
+
+<div class="wrap">
+  <nav class="g-head" aria-label="サイト">
+    <a class="g-brand" href="../"><img src="../favicon.svg" alt="">ジュニアゴルフ大会カレンダー</a>
+    <a class="g-back" href="../">← 大会を探す</a>
+  </nav>
+
+
+  <!-- ヒーロー -->
+  <header class="hero">
+    <div class="lead">
+      <span class="kicker">はじめての方へ</span>
+      <h1><span class="nw">はじめての</span><span class="nw">ジュニアゴルフ大会</span><br><span class="nw">申し込みから</span><span class="nw">当日まで</span></h1>
+      <p class="muted">「子どもが大会に出てみたいと言い出したけれど、何から始めればいいのか分からない」。そんな保護者の方に向けて、はじめての大会に出るまでの流れを、順番に説明します。</p>
+    </div>
+    <figure class="fig" style="margin:0">
+      <svg viewBox="0 0 360 230" role="img" aria-label="保護者と子どもが、カレンダーに向かって芝生の道を歩いている絵">
+        <rect x="0" y="0" width="360" height="230" rx="14" fill="#fff4d2"/>
+        <circle cx="300" cy="52" r="24" fill="#f6c343"/>
+        <path d="M0 170 Q90 130 180 160 T360 150 V230 H0z" fill="#dcebd2"/>
+        <path d="M0 196 Q120 168 240 190 T360 186 V230 H0z" fill="#7fb069"/>
+        <path d="M40 230 Q120 190 200 182 T330 150" fill="none" stroke="#fffdf7" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 16"/>
+        <!-- カレンダー -->
+        <g transform="translate(248 78)">
+          <rect x="0" y="8" width="78" height="70" rx="10" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M0 30h78" stroke="#1d2a44" stroke-width="3"/>
+          <rect x="1.5" y="9.5" width="75" height="19" rx="8" fill="#e2574c"/>
+          <path d="M20 2v14M58 2v14" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="39" cy="54" r="13" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+          <circle cx="35" cy="50" r="2" fill="#1d2a44"/><circle cx="43" cy="52" r="2" fill="#1d2a44"/><circle cx="38" cy="58" r="2" fill="#1d2a44"/>
+        </g>
+        <!-- 保護者 -->
+        <g transform="translate(70 92)">
+          <circle cx="24" cy="14" r="13" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M4 92 V48 a20 20 0 0 1 40 0 V92" fill="#2b4590" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M44 56 L62 70" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+        </g>
+        <!-- 子ども＋バッグ -->
+        <g transform="translate(128 120)">
+          <rect x="34" y="4" width="18" height="48" rx="7" fill="#e2574c" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M38 4V-8M43 4V-12M48 4V-6" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="18" cy="12" r="11" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M6 9 a12 10 0 0 1 24 0 h6" fill="#f6c343" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M3 66 V36 a15 15 0 0 1 30 0 V66" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M3 42 L-8 52" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+        </g>
+      </svg>
+    </figure>
+  </header>
+
+  <div class="prose">
+    <p>ジュニアゴルフの大会は、主催する団体ごとに申し込み方やルールが違います。このページでは、どの大会にも共通する考え方と、実際の大会の要項に書かれている例を紹介します。申し込む前には、必ず出場する大会の「要項（ようこう）」を読んでください。要項とは、日程・参加条件・参加費・申し込み方法などをまとめた、大会の案内のことです。</p>
+  </div>
+
+  <!-- 道のり -->
+  <section>
+    <h2>はじめての大会までの流れ</h2>
+    <figure class="fig" style="margin:0">
+      <ol class="road">
+        <li><a href="#s1"><span class="ic"><svg><use href="#i-search"/></svg></span></a><span class="n">STEP 1</span><span class="t">出る大会を選ぶ</span></li>
+        <li><a href="#s2"><span class="ic"><svg><use href="#i-doc"/></svg></span></a><span class="n">STEP 2</span><span class="t">要項を読む</span></li>
+        <li><a href="#s3"><span class="ic"><svg><use href="#i-card"/></svg></span></a><span class="n">STEP 3</span><span class="t">必要なら会員登録</span></li>
+        <li><a href="#s4"><span class="ic"><svg><use href="#i-yen"/></svg></span></a><span class="n">STEP 4</span><span class="t">申し込んで参加費を払う</span></li>
+        <li><a href="#s5"><span class="ic"><svg><use href="#i-bag"/></svg></span></a><span class="n">STEP 5</span><span class="t">前日までに準備</span></li>
+        <li><a href="#s6"><span class="ic"><svg><use href="#i-sun"/></svg></span></a><span class="n">STEP 6</span><span class="t">当日を迎える</span></li>
+        <li><a href="#s7"><span class="ic"><svg><use href="#i-medal"/></svg></span></a><span class="n">STEP 7</span><span class="t">結果を確かめる</span></li>
+      </ol>
+      <figcaption>丸を押すと、そのSTEPへ移ります。スマホでは縦の道のりになります。</figcaption>
+    </figure>
+  </section>
+
+  <!-- STEP1 -->
+  <section id="s1">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>1</span></div></div><h2>出る大会を選ぶ</h2></div>
+    <div class="prose"><p>大会には、地域の小さな大会から、予選を勝ち抜いて全国大会に進むものまで、いろいろな種類があります。はじめての大会では、次の3つを目安に選ぶと安心です。</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="grid3">
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><rect x="14" y="14" width="92" height="58" rx="10" fill="#e3eafb" stroke="#1d2a44" stroke-width="3"/><circle cx="40" cy="42" r="11" fill="#fff" stroke="#1d2a44" stroke-width="3"/><path d="M60 36h32M60 48h22" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/><circle cx="98" cy="18" r="13" fill="#f6c343" stroke="#1d2a44" stroke-width="3"/><path d="M92 18h12" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/></svg></div>
+          <h3>① 会員登録がなくても出られるか</h3>
+          <p>JGAの日本ジュニアや全国小学生ゴルフ大会は、原則JGAジュニア会員のみ<span class="src">［出典1］</span>。JJGAの石川遼カップ地区大会は、会員でなくても出られます<span class="src">［出典9］</span>。</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><circle cx="40" cy="22" r="11" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/><path d="M24 80V52a16 16 0 0 1 32 0v28" fill="#2b4590" stroke="#1d2a44" stroke-width="3"/><rect x="60" y="34" width="12" height="38" rx="5" fill="#e2574c" stroke="#1d2a44" stroke-width="3"/><path d="M56 56l8-6" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/><circle cx="92" cy="40" r="9" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/><path d="M80 80V62a12 12 0 0 1 24 0v18" fill="#fff" stroke="#1d2a44" stroke-width="3"/></svg></div>
+          <h3>② 保護者がそばにいられるか</h3>
+          <p>JGAIカップでは小学4年生以下は保護者のキャディーが必須<span class="src">［出典12］</span>。中学生の大会ではキャディーを使えないものもあります<span class="src">［出典14］</span>。</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><rect x="26" y="8" width="68" height="70" rx="8" fill="#fff" stroke="#1d2a44" stroke-width="3"/><path d="M26 26h68M26 44h68M26 62h68M50 8v70" stroke="#1d2a44" stroke-width="2"/><text x="72" y="40" font-family="M PLUS Rounded 1c,sans-serif" font-size="13" font-weight="800" fill="#b8352b" text-anchor="middle">5</text><text x="72" y="58" font-family="M PLUS Rounded 1c,sans-serif" font-size="13" font-weight="800" fill="#b8352b" text-anchor="middle">4</text><path d="M86 70l14 -14" stroke="#f6c343" stroke-width="6" stroke-linecap="round"/></svg></div>
+          <h3>③ 今の腕前に合っているか</h3>
+          <p>「1ラウンド120ストローク未満」（関東小学生）<span class="src">［出典4］</span>、「18ホール平均100以内」（関東ジュニア）<span class="src">［出典3］</span>のように、スコアの条件がある大会もあります。</p>
+        </div>
+      </div>
+      <figcaption>キャディーとは、選手のバッグを運んだり、助言をしたりする人のことです。</figcaption>
+    </figure>
+    <figure class="fig" style="margin:0">
+      <svg viewBox="0 0 640 170" role="img" aria-label="このサイトの対象とエリアを選ぶと、出られる大会だけが並ぶ様子の図">
+        <rect x="0" y="0" width="640" height="170" rx="12" fill="#fbf8ef"/>
+        <g font-family="M PLUS Rounded 1c,sans-serif" font-size="14" fill="#1d2a44">
+          <text x="24" y="36" font-weight="700">対象</text>
+          <rect x="24" y="46" width="150" height="38" rx="10" fill="#fff" stroke="#1d2a44" stroke-width="2"/><text x="40" y="70">小学生</text><path d="M150 61l6 6 6-6" fill="none" stroke="#1d2a44" stroke-width="2"/>
+          <text x="24" y="114" font-weight="700">エリア</text>
+          <rect x="24" y="124" width="150" height="38" rx="10" fill="#fff" stroke="#1d2a44" stroke-width="2"/><text x="40" y="148">関東</text><path d="M150 139l6 6 6-6" fill="none" stroke="#1d2a44" stroke-width="2"/>
+          <path d="M200 103h70" stroke="#e2574c" stroke-width="4" stroke-linecap="round"/><path d="M260 92l14 11-14 11" fill="none" stroke="#e2574c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <g transform="translate(300 24)">
+            <rect width="316" height="40" rx="10" fill="#fff" stroke="#e8e2d2" stroke-width="2"/><rect x="10" y="12" width="44" height="16" rx="8" fill="#fce3e0"/><text x="32" y="25" font-size="10" text-anchor="middle" fill="#b8352b" font-weight="700">受付中</text><rect x="66" y="14" width="140" height="12" rx="6" fill="#e8e2d2"/><rect x="220" y="14" width="80" height="12" rx="6" fill="#efebdf"/>
+            <rect y="50" width="316" height="40" rx="10" fill="#fff" stroke="#e8e2d2" stroke-width="2"/><rect x="66" y="64" width="170" height="12" rx="6" fill="#e8e2d2"/><rect x="250" y="64" width="50" height="12" rx="6" fill="#efebdf"/>
+            <rect y="100" width="316" height="40" rx="10" fill="#fff" stroke="#e8e2d2" stroke-width="2"/><rect x="66" y="114" width="120" height="12" rx="6" fill="#e8e2d2"/><rect x="200" y="114" width="100" height="12" rx="6" fill="#efebdf"/>
+          </g>
+        </g>
+      </svg>
+      <figcaption>このサイトでは、「対象」で小学生・中学生を、「エリア」で地方を選ぶと、出られる大会だけを並べて見られます。大会名を押すと、主催者・会場・申込期間などの詳しい情報が開きます。</figcaption>
+    </figure>
+  </section>
+
+  <!-- STEP2 -->
+  <section id="s2">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>2</span></div></div><h2>要項を読む</h2></div>
+    <div class="prose"><p>出たい大会が決まったら、大会の公式ページで要項を開きます。要項には、少なくとも次のことが書いてあります。読みながら、メモをとっておくと安心です。</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="checks">
+        <div class="chk"><svg><use href="#i-cal"/></svg><b>開催日・会場</b><span>予選と決勝で日程や会場が違う大会もあります。</span></div>
+        <div class="chk"><svg><use href="#i-person"/></svg><b>参加資格</b><span>学年や年齢、地域、スコアの条件、会員かどうか。</span></div>
+        <div class="chk"><svg><use href="#i-group"/></svg><b>部門の分け方</b><span>「○年○月○日時点の年齢」や学年で決まります。</span></div>
+        <div class="chk"><svg><use href="#i-doc"/></svg><b>申込期間と方法</b><span>いつからいつまでか。申込サイト、マイページ、FAXなど。</span></div>
+        <div class="chk"><svg><use href="#i-search"/></svg><b>定員と決め方</b><span>先着順か、抽選か。</span></div>
+        <div class="chk"><svg><use href="#i-yen"/></svg><b>参加費とプレー費</b><span>支払い方法と期限。プレー費は当日に別に払う大会も多いです。</span></div>
+        <div class="chk"><svg><use href="#i-bag"/></svg><b>キャディー</b><span>保護者ができるか、必須か、禁止か。</span></div>
+        <div class="chk"><svg><use href="#i-clock"/></svg><b>当日のきまり</b><span>受付の時刻、持ち物、服装、観戦のルール。</span></div>
+        <div class="chk"><svg><use href="#i-rain"/></svg><b>中止のとき</b><span>雨などで中止になったときの扱い（返金など）。</span></div>
+      </div>
+      <figcaption>要項で確かめる9つのこと。</figcaption>
+    </figure>
+    <figure class="fig" style="margin:0">
+      <div class="scroll">
+      <svg viewBox="0 0 640 150" style="min-width:520px" role="img" aria-label="2026年度関東ジュニアの12から14歳の部は、2011年4月2日から2014年4月1日生まれ、という生年月日の範囲を示した図">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="28" font-size="14" font-weight="700">生まれた日</text>
+          <path d="M30 92H610" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <g font-size="12" fill="#4c5872" text-anchor="middle">
+            <path d="M70 86v12M190 86v12M310 86v12M430 86v12M550 86v12" stroke="#4c5872" stroke-width="2"/>
+            <text x="70" y="118">2010年</text><text x="190" y="118">2011年</text><text x="310" y="118">2012年</text><text x="430" y="118">2013年</text><text x="550" y="118">2014年</text>
+          </g>
+          <rect x="220" y="52" width="360" height="30" rx="10" fill="#f6c343"/>
+          <text x="400" y="72" font-size="14" font-weight="800" text-anchor="middle">12〜14歳の部</text>
+          <path d="M220 48v48M580 48v48" stroke="#b8352b" stroke-width="3" stroke-linecap="round"/>
+          <text x="220" y="142" font-size="12.5" font-weight="700" fill="#b8352b" text-anchor="middle">2011年4月2日</text>
+          <text x="580" y="142" font-size="12.5" font-weight="700" fill="#b8352b" text-anchor="middle">2014年4月1日</text>
+        </g>
+      </svg>
+      </div>
+      <figcaption><b>部門を決める「基準日」に注意。</b>同じ学年でも、誕生日によって部門が変わることがあります。2026年度の関東ジュニアの12〜14歳の部は「2011年4月2日〜2014年4月1日生まれ」です<span class="src">［出典3］</span>。関東小学生ゴルフ大会は「2026年4月2日現在」で小学4〜6年生でした<span class="src">［出典4］</span>。</figcaption>
+    </figure>
+  </section>
+
+  <!-- STEP3 -->
+  <section id="s3">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>3</span></div></div><h2>必要なら会員登録をする</h2></div>
+    <div class="prose"><p>会員でないと出られない大会では、申し込みの前に会員登録をします。登録には数日かかることもあるので、締切ぎりぎりにならないよう早めに済ませましょう。</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="grid3">
+        <div class="mem" style="--c:#3b6b1f"><div class="band">JGA ジュニア会員 <small>日本ゴルフ協会</small></div><div class="body"><span class="muted">満6〜18歳</span><span class="price">2,000<small>円／年</small></span><span>入会金1,000円（税込）。オンラインのみ。新規登録は保護者などが行います<span class="src">［出典1］</span>。</span></div></div>
+        <div class="mem" style="--c:#1d5fa8"><div class="band">JJGA <small>日本ジュニアゴルフ協会</small></div><div class="body"><span class="muted">8歳（小学3年）〜18歳</span><span class="price">8,000<small>円／1年（新規）</small></span><span>まず「マイページ」に登録し、そこから入会を申請します<span class="src">［出典10］</span>。</span></div></div>
+        <div class="mem" style="--c:#00796b"><div class="band">JJGT <small>日本ジュニアゴルフツアー</small></div><div class="body"><span class="muted">会員登録は無料</span><span class="price">10,800<small>円／1年</small></span><span>全国ジュニアゴルフツアーの対象大会に出るときのランキング登録料。ネットから登録します<span class="src">［出典11］</span>。</span></div></div>
+      </div>
+      <figcaption>費用は2026年10月時点。色はサイトの「主催者の種類」と同じです。学校のゴルフの大会に出るには、各地の高等学校・中学校ゴルフ連盟への登録が必要で、ゴルフ部がなくても個人で加盟できます<span class="src">［出典15］</span>。</figcaption>
+    </figure>
+  </section>
+
+  <!-- STEP4 -->
+  <section id="s4">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>4</span></div></div><h2>申し込んで、参加費を払う</h2></div>
+    <div class="prose"><p><b>申込サイトは大会ごとに違います。</b>JGAの競技はGolf Genius（オンラインの競技受付システム）<span class="src">［出典2］</span>、JJGAはマイページ<span class="src">［出典9］</span>、JGAIカップはスポーツエントリー<span class="src">［出典12］</span>で受け付けています。FAXで申し込む大会もあります<span class="src">［出典7］</span>。</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="grid2">
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 200 84" aria-hidden="true"><g stroke="#1d2a44" stroke-width="2.5"><g fill="#e3eafb"><circle cx="22" cy="30" r="8"/><circle cx="50" cy="30" r="8"/><circle cx="78" cy="30" r="8"/><circle cx="106" cy="30" r="8"/></g><g fill="#e3eafb"><path d="M10 64a12 12 0 0 1 24 0zM38 64a12 12 0 0 1 24 0zM66 64a12 12 0 0 1 24 0zM94 64a12 12 0 0 1 24 0z"/></g><g fill="#efebdf" stroke="#6b7488" stroke-dasharray="4 3"><circle cx="160" cy="30" r="8"/><path d="M148 64a12 12 0 0 1 24 0z"/></g></g><path d="M132 14v58" stroke="#e2574c" stroke-width="4" stroke-linecap="round"/><text x="134" y="82" font-family="M PLUS Rounded 1c,sans-serif" font-size="11" font-weight="800" fill="#b8352b" text-anchor="middle">定員</text></svg></div>
+          <h3>先着順</h3>
+          <p>受付開始の日にすぐ埋まることがあります。麗澤瑞浪ジュニア（JLPGA全日本小学生の中部北陸予選）は、各部20名の先着順でした<span class="src">［出典7］</span>。</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 200 84" aria-hidden="true"><rect x="60" y="22" width="80" height="56" rx="8" fill="#fff4d2" stroke="#1d2a44" stroke-width="3"/><rect x="84" y="20" width="32" height="7" rx="3.5" fill="#1d2a44"/><text x="100" y="58" font-family="M PLUS Rounded 1c,sans-serif" font-size="16" font-weight="800" fill="#7a5600" text-anchor="middle">抽選</text><g transform="rotate(-12 150 18)"><rect x="132" y="6" width="36" height="22" rx="4" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/><path d="M140 17h20" stroke="#e2574c" stroke-width="3" stroke-linecap="round"/></g><g transform="rotate(10 40 18)"><rect x="24" y="8" width="36" height="22" rx="4" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/></g></svg></div>
+          <h3>抽選</h3>
+          <p>ミヤギテレビの東北予選のように、応募が多いときは抽選になる大会もあります<span class="src">［出典8］</span>。</p>
+        </div>
+      </div>
+    </figure>
+    <figure class="fig" style="margin:0">
+      <div class="scroll">
+      <svg viewBox="0 0 640 180" style="min-width:520px" role="img" aria-label="石川遼カップの例。2026年9月25日から10月9日に申し込みを受け付け、10月から11月に地区大会を開く、という時間の流れの図">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="26" font-size="14" font-weight="700">例：石川遼カップ 地区大会（2026年）</text>
+          <!-- 9/1=40, 1日=6.2px（9/1〜11/30の91日で 40〜604） -->
+          <path d="M40 110H604" stroke="#e8e2d2" stroke-width="10" stroke-linecap="round"/>
+          <g font-size="12" fill="#4c5872" text-anchor="middle"><text x="40" y="160">9月</text><text x="226" y="160">10月</text><text x="418" y="160">11月</text></g>
+          <path d="M226 100v20M418 100v20" stroke="#6b7488" stroke-width="2"/>
+          <rect x="189" y="100" width="87" height="20" rx="10" fill="#2b4590"/>
+          <text x="232" y="88" font-size="13" font-weight="800" fill="#2b4590" text-anchor="middle">受付 9/25〜10/9</text>
+          <rect x="226" y="126" width="378" height="12" rx="6" fill="#7fb069"/>
+          <text x="415" y="62" font-size="13" font-weight="800" fill="#3b6b1f" text-anchor="middle">地区大会 10〜11月</text>
+          <path d="M415 68v54" stroke="#3b6b1f" stroke-width="2" stroke-dasharray="3 3"/>
+          <path d="M276 92v34" stroke="#b8352b" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="276" cy="92" r="5" fill="#b8352b"/>
+          <text x="290" y="96" font-size="12.5" font-weight="800" fill="#b8352b">10/9 締切</text>
+        </g>
+      </svg>
+      </div>
+      <figcaption><b>締切は意外と早い。</b>石川遼カップでは、2026年10〜11月に開く地区大会の申し込みを、9月25日〜10月9日に受け付けていました<span class="src">［出典9］</span>。大会の数週間前に締め切る大会が多いので、早めに要項を確認しましょう。このサイトの「申込カレンダー」では、受付開始と締切の日を月ごとに見られます。</figcaption>
+    </figure>
+    <div class="prose"><p><b>参加費の払い忘れに注意。</b>入金が期限までに確認できないと、申し込みが取り消される大会があります<span class="src">［出典9・11］</span>。申し込んだら、支払いの期限もすぐに確かめておきましょう。</p></div>
+  </section>
+
+  <!-- STEP5 -->
+  <section id="s5">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>5</span></div></div><h2>前日までに準備する</h2></div>
+    <figure class="fig" style="margin:0">
+      <div class="grid3">
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><path d="M38 24h44l6 52H32z" fill="#f7ecdd" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><path d="M34 52q26-8 52 0l2 24H32z" fill="#e9d8a6"/><path d="M38 24h44l6 52H32z" fill="none" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><path d="M46 24q14-16 28 0" fill="none" stroke="#1d2a44" stroke-width="3"/></svg></div>
+          <h3>目土袋（めつちぶくろ）</h3><p>ボールを打って芝が削れた跡を埋める、砂の入った袋です。</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><rect x="44" y="10" width="32" height="34" rx="9" fill="#e2574c" stroke="#1d2a44" stroke-width="3"/><path d="M52 44v30M68 44v30" stroke="#1d2a44" stroke-width="4" stroke-linecap="round"/><circle cx="60" cy="27" r="7" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/></svg></div>
+          <h3>グリーンフォーク</h3><p>グリーンについたボールの跡を直す道具です。</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><path d="M60 22q-18-10-36-4v56q18-6 36 4q18-10 36-4V18q-18-6-36 4z" fill="#e3eafb" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><path d="M60 22v56" stroke="#1d2a44" stroke-width="3"/><path d="M32 34q10-3 20 0M32 46q10-3 20 0M68 34q10-3 20 0M68 46q10-3 20 0" stroke="#2b4590" stroke-width="2.5" stroke-linecap="round" fill="none"/></svg></div>
+          <h3>ルールブック</h3><p>石川遼カップの地区大会では、この3つを必ず持っていくことになっています<span class="src">［出典9］</span>。</p>
+        </div>
+      </div>
+      <figcaption>ボールやドライバーは、R&amp;A（ゴルフのルールを定める団体）の「適合リスト」に載っているものを使うよう、要項に書かれていることがあります<span class="src">［出典3・9］</span>。</figcaption>
+    </figure>
+    <figure class="fig" style="margin:0">
+      <div class="grid2">
+        <div class="dd ok"><svg viewBox="0 0 88 70" aria-hidden="true"><path d="M14 40a30 22 0 0 1 60 0z" fill="#f6c343" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><path d="M70 40h14" stroke="#1d2a44" stroke-width="4" stroke-linecap="round"/><path d="M14 40h60" stroke="#1d2a44" stroke-width="3"/></svg><div><div class="mark">選手は帽子</div><p>選手は帽子をかぶります<span class="src">［出典9］</span>。</p></div></div>
+        <div class="dd ng"><svg viewBox="0 0 88 70" aria-hidden="true"><path d="M26 10h16l2 52H34l-2-30-2 30H20l2-52z" fill="#2b4590" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><ellipse cx="62" cy="56" rx="16" ry="7" fill="#f7ecdd" stroke="#1d2a44" stroke-width="3"/><path d="M52 52q10-10 20 0" fill="none" stroke="#1d2a44" stroke-width="3"/><circle cx="44" cy="36" r="30" fill="none" stroke="#b8352b" stroke-width="4"/><path d="M23 15l42 42" stroke="#b8352b" stroke-width="4"/></svg><div><div class="mark">保護者もデニム・サンダル不可</div><p>ゴルフ場が禁止している服装では、ゴルフ場に入れません<span class="src">［出典9］</span>。</p></div></div>
+      </div>
+    </figure>
+    <figure class="fig" style="margin:0">
+      <div class="scroll">
+      <svg viewBox="0 0 640 170" style="min-width:540px" role="img" aria-label="スタート時刻から逆算する例。スタート8時なら、10分前の7時50分にスタート地点の近く、45分前の7時15分までに受付">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="26" font-size="14" font-weight="700">例：スタート 8:00 の場合（石川遼カップのきまりで計算）</text>
+          <path d="M60 96H600" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <path d="M96 96l-14 -8v16z" fill="#1d2a44"/>
+          <g text-anchor="middle">
+            <circle cx="120" cy="96" r="22" fill="#fff" stroke="#1d2a44" stroke-width="3"/><g transform="translate(108 84)"><use href="#i-sun" width="24" height="24"/></g>
+            <text x="120" y="142" font-size="13" font-weight="800">家を出る</text><text x="120" y="160" font-size="11.5" fill="#4c5872">移動時間を足す</text>
+            <circle cx="320" cy="96" r="22" fill="#fce3e0" stroke="#b8352b" stroke-width="3"/><text x="320" y="101" font-size="13" font-weight="800" fill="#b8352b">7:15</text>
+            <text x="320" y="142" font-size="13" font-weight="800">受付の締切</text><text x="320" y="160" font-size="11.5" fill="#4c5872">スタートの45分前まで</text>
+            <circle cx="460" cy="96" r="22" fill="#fff4d2" stroke="#7a5600" stroke-width="3"/><text x="460" y="101" font-size="13" font-weight="800" fill="#7a5600">7:50</text>
+            <text x="460" y="142" font-size="13" font-weight="800">スタート地点へ</text><text x="460" y="160" font-size="11.5" fill="#4c5872">10分前には近くで待つ</text>
+            <circle cx="570" cy="96" r="22" fill="#7fb069" stroke="#1d2a44" stroke-width="3"/><text x="570" y="101" font-size="13" font-weight="800" fill="#fff">8:00</text>
+            <text x="570" y="142" font-size="13" font-weight="800">スタート</text>
+          </g>
+          <text x="330" y="60" font-size="12" fill="#4c5872" text-anchor="middle">← 受付の時刻から逆算して、家を出る時間を決める</text>
+        </g>
+      </svg>
+      </div>
+      <figcaption>スタート時刻（何時に1番ホールから打ち始めるか）は、事前に案内されます。受付はそれより早く締め切られます。図の時刻は説明のための例です。</figcaption>
+    </figure>
+  </section>
+
+  <!-- STEP6 -->
+  <section id="s6">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>6</span></div></div><h2>当日を迎える</h2></div>
+    <div class="prose"><p><b>受付は時間厳守。</b>石川遼カップの地区大会では「スタート時刻の45分前まで」に受付を済ませ、スタートの10分前にはスタート地点の近くで待つきまりです<span class="src">［出典9］</span>。麗澤瑞浪ジュニアは「スタート時刻の30分前まで」で、遅れると失格になります<span class="src">［出典7］</span>。</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="dodont">
+        <div class="dd ok"><svg viewBox="0 0 88 80" aria-hidden="true"><path d="M0 62q44-14 88 0v18H0z" fill="#dcebd2"/><path d="M6 50h76" stroke="#3b6b1f" stroke-width="3" stroke-dasharray="6 5"/><circle cx="28" cy="20" r="8" fill="#f3d2b5" stroke="#1d2a44" stroke-width="2.5"/><path d="M16 50V38a12 12 0 0 1 24 0v12" fill="#2b4590" stroke="#1d2a44" stroke-width="2.5"/><circle cx="64" cy="58" r="6" fill="#f3d2b5" stroke="#1d2a44" stroke-width="2.5"/><path d="M56 78V72a8 8 0 0 1 16 0v6" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/></svg><div><div class="mark">決められた場所から見守る</div><p>観戦できる場所が決まっていたり、コースの中に入れなかったりします。</p></div></div>
+        <div class="dd ng"><svg viewBox="0 0 88 80" aria-hidden="true"><circle cx="26" cy="24" r="9" fill="#f3d2b5" stroke="#1d2a44" stroke-width="2.5"/><path d="M12 60V46a14 14 0 0 1 28 0v14" fill="#2b4590" stroke="#1d2a44" stroke-width="2.5"/><path d="M44 10h34a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H58l-8 8v-8h-6a6 6 0 0 1-6-6V16a6 6 0 0 1 6-6z" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/><path d="M52 16l18 14M70 16L52 30" stroke="#b8352b" stroke-width="4" stroke-linecap="round"/></svg><div><div class="mark">プレー中の助言はしない</div><p>キャディーでない保護者は、プレーの途中で子どもに助言をすることはできません<span class="src">［出典9］</span>。</p></div></div>
+      </div>
+      <figcaption>応援したい気持ちを抑えて、決められた場所から見守りましょう。</figcaption>
+    </figure>
+    <div class="prose"><p><b>天気が悪いとき。</b>雨や雷で中止や短縮になったときの扱いは、要項に書いてあります<span class="src">［出典9］</span>。当日の朝、大会からの案内がないか確かめましょう。</p></div>
+  </section>
+
+  <!-- STEP7 -->
+  <section id="s7">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>7</span></div></div><h2>終わったら結果を確かめる</h2></div>
+    <div class="prose"><p>大会の成績は、多くの場合、主催者の公式ページに掲載されます。このサイトでは、終わった大会の詳細から、公式の結果ページへ進めます。はじめての大会を終えたら、次の目標を考えるのも楽しみのひとつです。多くの大会は、地区の予選を勝ち抜くと決勝や全国大会に進めるしくみになっています。</p></div>
+    <figure class="fig" style="margin:0">
+      <svg viewBox="0 0 640 220" role="img" aria-label="関東小学生ゴルフ大会の例。都県の予選を通過した最大120名が関東の決勝へ進み、決勝の上位者が全国小学生ゴルフ大会に出場できる、という3段の階段の図">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="26" font-size="14" font-weight="700">例：関東小学生ゴルフ大会（2026年の競技規定）</text>
+          <rect x="30" y="150" width="190" height="56" rx="10" fill="#dcebd2" stroke="#1d2a44" stroke-width="2.5"/>
+          <text x="125" y="176" font-size="14" font-weight="800" text-anchor="middle">都県の予選</text><text x="125" y="195" font-size="11.5" fill="#4c5872" text-anchor="middle">前の年の秋から始まる</text>
+          <rect x="225" y="100" width="190" height="106" rx="10" fill="#fff4d2" stroke="#1d2a44" stroke-width="2.5"/>
+          <text x="320" y="128" font-size="14" font-weight="800" text-anchor="middle">関東の決勝</text><text x="320" y="147" font-size="11.5" fill="#4c5872" text-anchor="middle">最大120名</text>
+          <rect x="420" y="50" width="190" height="156" rx="10" fill="#fce3e0" stroke="#1d2a44" stroke-width="2.5"/>
+          <text x="515" y="78" font-size="14" font-weight="800" text-anchor="middle">全国小学生</text><text x="515" y="96" font-size="14" font-weight="800" text-anchor="middle">ゴルフ大会</text><text x="515" y="115" font-size="11.5" fill="#4c5872" text-anchor="middle">決勝の上位者</text>
+          <g transform="translate(497 140)"><use href="#i-medal" width="36" height="36"/></g>
+        </g>
+      </svg>
+      <figcaption>都県の予選を通過した最大120名が決勝に進み、決勝の上位者はJGAの全国小学生ゴルフ大会に出場できます<span class="src">［出典4］</span>。長野県の予選は2026年10月に申し込みを受け付けました<span class="src">［出典5］</span>。</figcaption>
+    </figure>
+  </section>
+
+  <!-- もっと知りたい -->
+  <section>
+    <h2>もっと知りたい方へ</h2>
+    <h3>予選から決勝までの流れ（代表的な例）</h3>
+    <figure class="fig" style="margin:0">
+      <div class="types">
+        <div class="type" style="--c:#3b6b1f"><b>日本ジュニアゴルフ選手権（JGA）</b><span>都県ブロックの予選 → 関東ジュニアの決勝 → 上位者が日本ジュニアへ（2026年度の関東の例）<span class="src">［出典3］</span></span></div>
+        <div class="type" style="--c:#3b6b1f"><b>関東小学生ゴルフ大会（関東ゴルフ連盟）</b><span>都県の予選 → 決勝（最大120名） → 上位者が全国小学生ゴルフ大会へ<span class="src">［出典4］</span></span></div>
+        <div class="type" style="--c:#b0306a"><b>JLPGA全日本小学生ゴルフトーナメント</b><span>全国9地区の予選 → 決勝（2026年は合計76名）。小学3〜4年と5〜6年の男女別<span class="src">［出典6］</span></span></div>
+        <div class="type" style="--c:#1d5fa8"><b>石川遼カップ（JJGA）</b><span>全国39会場の地区大会 → 決勝（2027年2〜3月）。8〜11歳の部は各会場の優勝者（優勝スコア100以内）と全国ランキング上位者<span class="src">［出典9］</span></span></div>
+      </div>
+      <figcaption>左の色は、サイトの「主催者の種類」と同じです。</figcaption>
+    </figure>
+
+    <h3>大会の種類</h3>
+    <figure class="fig" style="margin:0">
+      <div class="types">
+        <div class="type" style="--c:#00796b"><b>ジュニアツアー・育成団体</b><span>JJGAの地区大会、JJGTの予選会。年間を通して数多く開かれます。JJGAは「年間約100試合の地区大会」と案内しています<span class="src">［出典10］</span>。</span></div>
+        <div class="type" style="--c:#3b6b1f"><b>協会・連盟の選手権</b><span>JGAの日本ジュニア、地区連盟のジュニア選手権・小学生大会。JGAジュニア会員が条件の大会が多いです<span class="src">［出典1］</span>。</span></div>
+        <div class="type" style="--c:#6a47a8"><b>学校の大会</b><span>各地の高等学校・中学校ゴルフ連盟の大会。連盟への登録が必要です<span class="src">［出典15］</span>。</span></div>
+        <div class="type" style="--c:#8f5000"><b>企業の大会</b><span>スタジオアリスとJLPGAのジュニアカップなど。抽選で参加者を決める大会もあります<span class="src">［出典13］</span>。</span></div>
+        <div class="type" style="--c:#56636e"><b>海外の大会</b><span>U.S. Kids Golf（米国の団体）のローカルツアー・国際大会。世界各地で開かれます<span class="src">［出典16］</span>。</span></div>
+      </div>
+    </figure>
+
+    <h3>ハンディキャップのこと</h3>
+    <div class="prose"><p>ハンディキャップとは、その人の腕前を数字で表したものです。世界共通のしくみでは「ハンディキャップインデックス」と呼びます。はじめての大会では必要ないことも多いですが、上の大会を目指すときに必要になります。</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="scroll">
+      <svg viewBox="0 0 640 150" style="min-width:520px" role="img" aria-label="直近20のスコアのうち、良い8つを選んで平均をもとに計算する、という図">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="26" font-size="14" font-weight="700">直近の20スコア</text>
+          <g stroke="#1d2a44" stroke-width="2">
+            <g fill="#efebdf">
+              <circle cx="34" cy="62" r="11"/><circle cx="62" cy="62" r="11"/><circle cx="118" cy="62" r="11"/><circle cx="174" cy="62" r="11"/><circle cx="202" cy="62" r="11"/><circle cx="258" cy="62" r="11"/>
+              <circle cx="34" cy="98" r="11"/><circle cx="90" cy="98" r="11"/><circle cx="146" cy="98" r="11"/><circle cx="174" cy="98" r="11"/><circle cx="230" cy="98" r="11"/><circle cx="258" cy="98" r="11"/>
+            </g>
+            <g fill="#f6c343">
+              <circle cx="90" cy="62" r="11"/><circle cx="146" cy="62" r="11"/><circle cx="230" cy="62" r="11"/><circle cx="62" cy="98" r="11"/><circle cx="118" cy="98" r="11"/><circle cx="202" cy="98" r="11"/><circle cx="286" cy="62" r="11"/><circle cx="286" cy="98" r="11"/>
+            </g>
+          </g>
+          <path d="M318 80h70" stroke="#e2574c" stroke-width="4" stroke-linecap="round"/><path d="M378 69l14 11-14 11" fill="none" stroke="#e2574c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="410" y="48" width="210" height="64" rx="12" fill="#fff4d2" stroke="#1d2a44" stroke-width="2.5"/>
+          <text x="515" y="74" font-size="14" font-weight="800" text-anchor="middle">良い8つの平均をもとに計算</text>
+          <text x="515" y="96" font-size="12" fill="#4c5872" text-anchor="middle">上限は54.0</text>
+          <text x="20" y="140" font-size="12" fill="#4c5872">● 黄色＝良い8つ（並びは例）</text>
+        </g>
+      </svg>
+      </div>
+      <figcaption>JGAの認可を受けた倶楽部などに所属し、スコアを合計54ホール分提出すると取得できます<span class="src">［出典17］</span>。倶楽部に所属していないJGAジュニア会員は、J-sysで取得できます。日本ジュニアと全国小学生ゴルフ大会には、J-sysへの登録が必要です<span class="src">［出典1］</span>。</figcaption>
+    </figure>
+
+    <h3>費用の目安</h3>
+    <div class="prose"><p>参加費のほかに、プレー費（ゴルフ場に払う料金）が別にかかることが多いです。公式の要項に載っている実例です。</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="cost">
+        <div class="ct"><span class="nm">JGAIカップ（2026年度）</span><div class="row"><span class="pill p-fee">参加費 3,300円</span>＋<span class="pill p-play">プレー費 3,500円（昼食付）</span></div><span class="src">［出典12］</span></div>
+        <div class="ct"><span class="nm">東北予選（JLPGA全日本小学生、2026年）</span><div class="row"><span class="pill p-fee">参加費 3,000円</span>＋<span class="pill p-play">プレー費 6,000円（税別）</span></div><span class="src">［出典8］</span></div>
+        <div class="ct"><span class="nm">関東小学生ゴルフ大会 決勝（2026年）</span><div class="row"><span class="pill p-fee">参加費 5,500円</span>＋<span class="pill p-play">プレー費は当日精算</span></div><span class="src">［出典4］</span></div>
+        <div class="ct"><span class="nm">石川遼カップ 地区大会（2026年度）</span><div class="row"><span class="pill p-fee">会員7,000円／非会員7,500円</span>＋<span class="pill p-play">プレー費は当日精算</span></div><span class="src">［出典9］</span></div>
+        <div class="ct"><span class="nm">麗澤瑞浪ジュニア（2026年）</span><div class="row"><span class="pill p-all">7,500円（参加費・昼食などを含む）</span></div><span class="src">［出典7］</span></div>
+        <div class="ct"><span class="nm">スタジオアリス ジュニアカップ予選（2026年）</span><div class="row"><span class="pill p-all">12,000円（プレー代・昼食代などを含む）</span></div><span class="src">［出典13］</span></div>
+      </div>
+      <figcaption><span class="pill p-fee">青</span>は参加費、<span class="pill p-play">緑</span>はゴルフ場に払うプレー費、<span class="pill p-all">黄</span>はまとめて払う金額です。このほかに会費（JGAジュニア会員の年会費2,000円など）<span class="src">［出典1］</span>や交通費がかかります。</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <details>
+      <summary>出典一覧（17件）</summary>
+      <ol>
+        <li>日本ゴルフ協会（JGA）「JGAジュニア会員の募集について」 <a href="https://www.jga.or.jp/junior/members_junior/" target="_blank" rel="noopener">https://www.jga.or.jp/junior/members_junior/</a></li>
+        <li>日本ゴルフ協会（JGA）「本選競技日程・エントリー」 <a href="https://www.jga.or.jp/championship/champ_schedule/" target="_blank" rel="noopener">https://www.jga.or.jp/championship/champ_schedule/</a></li>
+        <li>関東ゴルフ連盟（KGA）「2026年度 関東ジュニアゴルフ選手権 競技規定」 <a href="https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2629_rule.pdf" target="_blank" rel="noopener">https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2629_rule.pdf</a> （大会ページ <a href="https://www.kga.gr.jp/junior/junior_championship.php" target="_blank" rel="noopener">https://www.kga.gr.jp/junior/junior_championship.php</a> ）</li>
+        <li>関東ゴルフ連盟（KGA）「2026年 関東小学生ゴルフ大会 競技規定」 <a href="https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2631_rule.pdf" target="_blank" rel="noopener">https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2631_rule.pdf</a> （大会ページ <a href="https://www.kga.gr.jp/junior/elementary_championship.php" target="_blank" rel="noopener">https://www.kga.gr.jp/junior/elementary_championship.php</a> ）</li>
+        <li>長野県ゴルフ協会「2027長野県小学生大会（兼 関東小学生大会 長野県予選）」 <a href="https://www.naganogolf.jp/games/1068/" target="_blank" rel="noopener">https://www.naganogolf.jp/games/1068/</a></li>
+        <li>日本女子プロゴルフ協会（JLPGA）「全日本小学生ゴルフトーナメント」 <a href="https://www.lpga.or.jp/junior/alljapanjunior/" target="_blank" rel="noopener">https://www.lpga.or.jp/junior/alljapanjunior/</a> ／「地区予選」 <a href="https://www.lpga.or.jp/junior/alljapanjunior/qualify" target="_blank" rel="noopener">https://www.lpga.or.jp/junior/alljapanjunior/qualify</a></li>
+        <li>麗澤瑞浪ジュニアゴルフ大会 要項（JLPGAサイト掲載） <a href="https://cdn.lpga.or.jp/lpga/cms/2026/06/16/727b9bec3e3062db333eb42df84449300d6cc9c1.pdf" target="_blank" rel="noopener">https://cdn.lpga.or.jp/lpga/cms/2026/06/16/727b9bec3e3062db333eb42df84449300d6cc9c1.pdf</a></li>
+        <li>宮城テレビ放送「全日本小学生ゴルフトーナメント東北予選大会」 <a href="https://www.mmt-tv.co.jp/event/articles/uozre44y754rj1jz.html" target="_blank" rel="noopener">https://www.mmt-tv.co.jp/event/articles/uozre44y754rj1jz.html</a></li>
+        <li>日本ジュニアゴルフ協会（JJGA）「石川遼カップ ジュニアゴルフチャンピオンシップ」 <a href="https://www.jjga.org/convention/2026/ishikawaryocup/" target="_blank" rel="noopener">https://www.jjga.org/convention/2026/ishikawaryocup/</a> ／地区大会募集要項 <a href="https://www.jjga.org/convention/2026/ishikawaryocup/pdf/Qualifying_about.pdf" target="_blank" rel="noopener">https://www.jjga.org/convention/2026/ishikawaryocup/pdf/Qualifying_about.pdf</a> ／地区大会会場共通・競技規定 <a href="https://www.jjga.org/convention/2026/ishikawaryocup/pdf/Qualifying_rules.pdf" target="_blank" rel="noopener">https://www.jjga.org/convention/2026/ishikawaryocup/pdf/Qualifying_rules.pdf</a></li>
+        <li>日本ジュニアゴルフ協会（JJGA）「入会案内」 <a href="https://www.jjga.org/admission" target="_blank" rel="noopener">https://www.jjga.org/admission</a></li>
+        <li>日本ジュニアゴルフツアー（JJGT）「ご利用ガイド」 <a href="http://www.jjgt.net/guide/index.php" target="_blank" rel="noopener">http://www.jjgt.net/guide/index.php</a></li>
+        <li>市原市ジュニアゴルフ協会「JGAIカップ」 <a href="https://www.jgai.or.jp/ijgt202611/" target="_blank" rel="noopener">https://www.jgai.or.jp/ijgt202611/</a></li>
+        <li>スタジオアリス「ジュニアカップ 2026」 <a href="https://www.studio-alice.co.jp/golf/2026/junior/index.html" target="_blank" rel="noopener">https://www.studio-alice.co.jp/golf/2026/junior/index.html</a></li>
+        <li>大阪府高等学校・中学校ゴルフ連盟「令和8年度 大阪府・和歌山県中学校ゴルフ選手権秋季大会要項」 <a href="http://www.osaka-kogoren.com/news/pdf/508.pdf" target="_blank" rel="noopener">http://www.osaka-kogoren.com/news/pdf/508.pdf</a></li>
+        <li>日本高等学校・中学校ゴルフ連盟「個人加盟申込み」 <a href="https://nihon-kougoren.jp/inquiry_apply.html" target="_blank" rel="noopener">https://nihon-kougoren.jp/inquiry_apply.html</a></li>
+        <li>U.S. Kids Golf「Registration Information」 <a href="https://tournaments.uskidsgolf.com/tournaments/local-tours/registration-information" target="_blank" rel="noopener">https://tournaments.uskidsgolf.com/tournaments/local-tours/registration-information</a></li>
+        <li>日本ゴルフ協会（JGA）「ハンディキャップ規則 リファレンスガイド（プレーヤー向け）」（2024年1月施行） <a href="https://www.jga.or.jp/data/wp-content/uploads/2024/03/Player_Reference_Guide-202401.pdf" target="_blank" rel="noopener">https://www.jga.or.jp/data/wp-content/uploads/2024/03/Player_Reference_Guide-202401.pdf</a></li>
+      </ol>
+          </details>
+    <p class="small muted">※2026年10月時点の情報です。金額・日程・条件は年度によって変わります。最新の情報は、各大会の公式ページで確認してください。</p>
+  </section>
+
+  <footer class="g-foot">
+    <p class="links"><a href="../">大会を探す</a>　<a href="https://forms.gle/VmovrR1eMaNUZNGb7" target="_blank" rel="noopener">大会情報の提供</a>　<a href="../disclaimer.html">免責事項</a>　<a href="../privacy.html">プライバシーポリシー</a></p>
+    <p><small>&copy; 2026 ジュニアゴルフ大会カレンダー運営委員会. All rights reserved.</small></p>
+  </footer>
+</div>
+</body>
+</html>
