@@ -1,8 +1,8 @@
 // 地図タブ：OpenStreetMap（Leaflet）に会場ごとのピンを立て、経路は Google マップに渡す
 // app.js の esc / fmt / entryStatus / isPast / TECHO / orgType を使う
 
-const LEAFLET = "vendor/leaflet/";
-const CLUSTER = "vendor/leaflet.markercluster/";
+const LEAFLET = ROOT + "vendor/leaflet/";
+const CLUSTER = ROOT + "vendor/leaflet.markercluster/";
 const venueKey = (s) => String(s || "").replace(/[\s　]/g, "");
 
 // Google マップの経路・地点リンク（会場名＋都道府県で検索させると、ゴルフ場の正しい入口へ案内されやすい）
@@ -32,7 +32,7 @@ let venues = null;
 async function loadVenues() {
   if (!venues) {
     try {
-      venues = (await (await fetch("data/venues.json", { cache: "no-cache" })).json()).venues;
+      venues = (await (await fetch(ROOT + "data/venues.json", { cache: "no-cache" })).json()).venues;
     } catch {
       venues = {};
     }
@@ -63,17 +63,18 @@ function groupByVenue(list) {
 function popupHtml(g) {
   // 会場名は会場データから（日程発表待ちの大会の venue は「未発表（前年は…）」のため）
   const first = { venue: g.v.name || g.items[0].venue, pref: g.v.pref || g.items[0].pref };
+  const place = placeName(first.pref, g.items[0].overseas);
   const rows = g.items.map((t) => {
-    if (!t.start) return `<li><button class="pop-name" data-id="${esc(t.id)}">日程未定（前年の会場） ${esc(t.name)}</button><span class="pop-st st-unknown">日程発表待ち</span></li>`;
+    if (!t.start) return `<li><button class="pop-name" data-id="${esc(t.id)}">${tr("日程未定（前年の会場）", "TBA (last year’s venue)")} ${esc(nameOf(t))}</button><span class="pop-st st-unknown">${tr("日程発表待ち", "Dates TBA")}</span></li>`;
     const st = entryStatus(t);
-    return `<li><button class="pop-name" data-id="${esc(t.id)}">${esc(fmt(t.start))} ${esc(t.name)}</button><span class="pop-st st-${st.kind}">${esc(st.label)}</span></li>`;
+    return `<li><button class="pop-name" data-id="${esc(t.id)}">${esc(fmt(t.start))} ${esc(nameOf(t))}</button><span class="pop-st st-${st.kind}">${esc(st.label)}</span></li>`;
   }).join("");
   return `<div class="pop">
-    <p class="pop-venue">${esc(first.venue)}<span>${esc(first.pref)}</span></p>
+    <p class="pop-venue"${EN ? ' lang="ja"' : ""}>${esc(first.venue)}<span>${esc(place)}</span></p>
     <ul class="pop-list">${rows}</ul>
     <div class="pop-actions">
-      <a href="${esc(gmapsDir(first))}" target="_blank" rel="noopener">経路を調べる（Googleマップ）</a>
-      <a href="${esc(gmapsPlace(first))}" target="_blank" rel="noopener">Googleマップで見る</a>
+      <a href="${esc(gmapsDir(first))}" target="_blank" rel="noopener">${tr("経路を調べる（Googleマップ）", "Directions (Google Maps)")}</a>
+      <a href="${esc(gmapsPlace(first))}" target="_blank" rel="noopener">${tr("Googleマップで見る", "View on Google Maps")}</a>
     </div>
   </div>`;
 }
@@ -86,11 +87,11 @@ let onVisible = null;
 // list: 表示する大会（これからの大会を絞り込んだもの）。fit: 絞り込みが変わったら全体が見える位置へ動かす
 async function showMap(container, list, { fit, onListChange }) {
   onVisible = onListChange;
-  container.querySelector(".map-status").textContent = "地図を読み込んでいます…";
+  container.querySelector(".map-status").textContent = tr("地図を読み込んでいます…", "Loading the map…");
   try {
     await Promise.all([loadLeaflet(), loadVenues()]);
   } catch {
-    container.querySelector(".map-status").textContent = "地図を読み込めませんでした。通信状況をご確認ください。";
+    container.querySelector(".map-status").textContent = tr("地図を読み込めませんでした。通信状況をご確認ください。", "The map could not be loaded. Check your connection.");
     return;
   }
   const L = window.L;
@@ -117,8 +118,8 @@ async function showMap(container, list, { fit, onListChange }) {
   layer.addTo(map);
   if (fit && groups.length) map.fitBounds(L.latLngBounds(groups.map((g) => [g.v.lat, g.v.lng])).pad(0.15), { maxZoom: 11 });
   container.querySelector(".map-status").textContent = [
-    missing.length ? `会場の位置を確認中の大会が${missing.length}件あり、地図には出ていません（一覧タブには表示されます）。` : "",
-    abroad ? `海外の大会${abroad}件は、エリアで「海外」か国名を選ぶと地図に出ます。` : "",
+    missing.length ? tr(`会場の位置を確認中の大会が${missing.length}件あり、地図には出ていません（一覧タブには表示されます）。`, `${missing.length} tournament${missing.length === 1 ? " is" : "s are"} not on the map because the venue location is not confirmed yet (see the list tabs). `) : "",
+    abroad ? tr(`海外の大会${abroad}件は、エリアで「海外」か国名を選ぶと地図に出ます。`, `${abroad} overseas tournament${abroad === 1 ? "" : "s"} appear on the map when you choose “Overseas” or a country in Area.`) : "",
   ].join("");
   reportVisible();
 }

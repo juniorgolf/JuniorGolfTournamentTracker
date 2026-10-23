@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Junior Golf Tournament Calendar Japan | Find your next tournament</title>
+<meta name="description" content="Junior golf tournaments in Japan for elementary and junior high school players, in English. Find dates, entry periods, venues and official links on a map and an entry calendar, so you never miss a deadline.">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://jrgolf.jp/en/">
+<link rel="alternate" hreflang="ja" href="https://jrgolf.jp/">
+<link rel="alternate" hreflang="en" href="https://jrgolf.jp/en/">
+<!-- Google AdSense（2026-10-18 追加）。英語版も同じ -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBVQKV6REJ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MBVQKV6REJ');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9497500384977113"
+     crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="../design.js?v=20261022a"></script>
+<link rel="stylesheet" href="../style.css?v=20261022a">
+<link rel="stylesheet" href="../techo.css?v=20261023a">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="lang-link" href="../" hreflang="ja" lang="ja">日本語</a>
+    <p class="eyebrow">JAPAN JUNIOR GOLF CALENDAR</p>
+    <h1>Junior Golf<br class="sp"> Tournament Calendar</h1>
+    <p class="catch techo-only">Find your child’s <span>next tournament.</span></p>
+    <p class="lead">Tournaments in Japan for elementary and junior high school players, with dates, venues, organizers and entry periods in English. Entry pages are usually in Japanese, so we link to the official page for each event.<a class="guide-link" href="guide/how-to-enter.html"><b>New to this?</b>How to enter a tournament in Japan</a></p>
+    <dl class="stats" id="stats"></dl>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="toolbar">
+    <div class="tabs" role="tablist" id="tabs">
+      <button role="tab" data-view="map" aria-selected="true">Map</button>
+      <button role="tab" data-view="cal" aria-selected="false">Entry calendar</button>
+      <button role="tab" data-view="upcoming" aria-selected="false">Upcoming</button>
+      <button role="tab" data-view="open" aria-selected="false">Entry open</button>
+      <button role="tab" data-view="watch" aria-selected="false">Dates TBA</button>
+      <button role="tab" data-view="past" aria-selected="false">Past</button>
+    </div>
+    <div class="filters">
+      <label class="select"><span>Level</span><select id="f-level"><option value="小学生" selected>Elementary</option><option value="中学生">Junior high</option></select></label>
+      <label class="select"><span>Area</span><select id="f-pref"><option value="">All (Japan and overseas)</option><option value="jp" selected>All of Japan</option></select></label>
+      <label class="select"><span>Organizer</span><select id="f-org"><option value="">All organizers</option></select></label>
+    </div>
+  </div>
+
+  <div class="otypes techo-only" id="otypes" role="group" aria-label="Organizer type"></div>
+
+  <div class="table-head" aria-hidden="true">
+    <span>Date</span><span>Tournament</span><span>Venue</span><span>Organizer</span><span>Entry</span>
+  </div>
+  <div id="list"></div>
+  <section class="calview" id="calview" hidden aria-label="Entry calendar">
+    <div class="cal-main">
+      <div class="cal-bar">
+        <div class="cal-nav">
+          <button data-cal="-1" aria-label="Previous month">‹</button>
+          <h2 id="cal-title"></h2>
+          <button data-cal="1" aria-label="Next month">›</button>
+          <button class="cal-today" data-cal-today>This month</button>
+        </div>
+        <div class="cal-layers" id="cal-layers"></div>
+      </div>
+      <div class="cal-grid" id="cal-grid"></div>
+      <p class="empty" id="cal-empty" hidden>Nothing to show this month.</p>
+    </div>
+    <aside class="cal-side" aria-label="Entry deadlines this month">
+      <div class="cal-sum"><span>Entry deadlines this month</span><b id="cal-n"></b></div>
+      <h3>By deadline</h3>
+      <div id="cal-deadlines"></div>
+    </aside>
+  </section>
+  <section class="mapview" id="mapview" hidden aria-label="Map of venues">
+    <div class="map-canvas"></div>
+    <div class="map-side">
+      <p class="map-count" id="map-count"></p>
+      <p class="map-status"></p>
+      <div id="map-list"></div>
+    </div>
+  </section>
+
+  <aside class="cal-cta tip-cta">
+    <div>
+      <p class="cal-title">Know a tournament we have missed?</p>
+      <p class="cal-text">Tell us with the form (the form is in Japanese; you can answer in English). We add tournaments after checking the organizer’s official information. Please do not include personal details such as your child’s name.</p>
+    </div>
+    <a class="btn btn-line" href="https://forms.gle/VmovrR1eMaNUZNGb7" target="_blank" rel="noopener">Send a tournament</a>
+  </aside>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <p>We check each listing by hand against the organizer’s official page. Last updated <span id="updated"></span></p>
+    <p>English names and descriptions are unofficial. Always check the latest official guidelines (要項) before entering.</p>
+    <p class="links"><a href="guide/how-to-enter.html">How to enter</a>　<a href="https://forms.gle/VmovrR1eMaNUZNGb7" target="_blank" rel="noopener">Suggest a tournament</a>　<a href="../disclaimer.html" lang="ja">免責事項 (Disclaimer, Japanese)</a>　<a href="../privacy.html" lang="ja">プライバシーポリシー (Privacy, Japanese)</a>　<a href="../" lang="ja">日本語版</a></p>
+    <p class="copy"><small>&copy; 2026 Junior Golf Tournament Calendar. <span class="nw">All rights reserved.</span></small></p>
+  </div>
+</footer>
+
+<dialog id="detail" aria-labelledby="d-title">
+  <div class="sheet">
+    <button class="close" id="d-close" aria-label="Close">×</button>
+    <div id="d-body"></div>
+  </div>
+</dialog>
+
+<script src="../i18n.js?v=20261023a"></script>
+<script src="../map.js?v=20261023a"></script>
+<script src="../cal.js?v=20261023a"></script>
+<script src="../app.js?v=20261023a"></script>
+</body>
+</html>
