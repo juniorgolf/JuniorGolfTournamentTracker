@@ -207,7 +207,7 @@
   .head-nav { top: 20px; }
   /* スマホは右上のボタン2つと重ならないよう、サイト名を2行にする */
   html[lang="ja"][data-design="techo"] h1 { padding-right: 136px; line-height: 1.3; }
-  html[lang="en"][data-design="techo"] h1 { padding-right: 84px; }
+  html[lang="en"][data-design="techo"] h1 { padding-right: 140px; }
   /* 英語は言葉が長いので、スマホでは「Level」「Area」を1行に、「Organizer」を次の行に置く */
   html[lang="en"] .filters { grid-template-columns: 1fr 1fr; }
   html[lang="en"] .filters .select:last-child { grid-column: 1 / -1; }
