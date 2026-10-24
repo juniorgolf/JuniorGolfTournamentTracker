@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ジュニアのクラブの選び方｜ジュニアゴルフ大会カレンダー</title>
+<meta name="description" content="ジュニアゴルファーの保護者の方へ。クラブは年齢ではなく靴をはいた身長で選ぶ、短く握るのは約2.5cmまで、大人用を切ったクラブの注意点、本数の増やし方と大会の14本ルール、買い替えのめやすを、メーカーの案内・ゴルフ規則・研究をもとに図で説明します。">
+<link rel="canonical" href="https://jrgolf.jp/guide/choosing-clubs.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBVQKV6REJ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MBVQKV6REJ');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9497500384977113"
+     crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+/* クラブの選び方（2026-10-24 作成）。年齢別の飛距離ページの見た目を流用。構成：サイトの「おやこ手帳」と同じ色・字体。1列の読み物に、STEPごとに図を1〜3点。サイトに合わせ明るい地のみ */
+:root{
+  --bg:#fffdf7; --surface:#ffffff; --paper:#fbf8ef;
+  --ink:#1d2a44; --ink-2:#4c5872; --ink-3:#6b7488; --rule:#e8e2d2;
+  --yellow:#f6c343; --yellow-soft:#fff4d2; --amber-ink:#7a5600;
+  --coral:#e2574c; --coral-ink:#b8352b; --coral-soft:#fce3e0;
+  --blue-ink:#2b4590; --blue-soft:#e3eafb;
+  --green:#3b6b1f; --green-soft:#e8f0e1; --teal:#00796b; --teal-soft:#e0f1ee;
+  --purple:#6a47a8; --purple-soft:#eee9f7; --brown:#8f5000; --brown-soft:#f7ecdd;
+  --grey:#56636e; --grey-soft:#eceff1;
+  --turf:#7fb069; --turf-soft:#dcebd2; --sand:#e9d8a6;
+  --font:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Noto Sans JP",system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.85;letter-spacing:.01em}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+h1,h2,h3{text-wrap:balance;line-height:1.4;margin:0}
+h1{font-size:clamp(1.6rem,4.6vw,2.3rem);font-weight:800}
+h2{font-size:1.4rem;font-weight:800}
+h3{font-size:1.08rem;font-weight:700}
+p{margin:0}
+.muted{color:var(--ink-2)}
+.small{font-size:.86rem}
+.src{color:var(--ink-3);font-size:.78rem;white-space:nowrap}
+section{display:grid;gap:18px;padding-block:36px;border-top:2px dashed var(--rule)}
+.prose{display:grid;gap:12px;max-width:44em}
+
+/* 図の番号（本文から「図6で」のように参照する） */
+.fig{position:relative;background:var(--surface);border:1.5px solid var(--rule);border-radius:18px;padding:18px;display:grid;gap:12px;min-width:0}
+.fig-no{position:absolute;top:-11px;left:14px;background:var(--ink);color:#fff;font-size:.72rem;font-weight:700;border-radius:99px;padding:1px 10px;letter-spacing:.06em}
+.fig figcaption{font-size:.84rem;color:var(--ink-2)}
+.fig svg{display:block;width:100%;height:auto}
+.scroll{overflow-x:auto}
+
+
+/* ヒーロー */
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px;align-items:center;padding-block:28px 12px}
+.hero .lead{display:grid;gap:12px}
+.kicker{display:inline-block;background:var(--yellow);border-radius:99px;padding:2px 12px;font-size:.8rem;font-weight:700;justify-self:start}
+@media (max-width:640px){.hero{grid-template-columns:1fr}}
+
+/* 道のり */
+.road{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;position:relative}
+.road::before{content:"";position:absolute;left:7%;right:7%;top:30px;border-top:3px dotted var(--yellow)}
+.road li{position:relative;display:grid;justify-items:center;gap:6px;text-align:center;font-size:.8rem;font-weight:700;line-height:1.35}
+.road .ic{width:60px;height:60px;border-radius:50%;background:var(--surface);border:2.5px solid var(--ink);display:grid;place-items:center}
+.road .ic svg{width:30px;height:30px}
+.road .n{font-size:.7rem;color:var(--coral-ink);letter-spacing:.06em}
+.road a{color:inherit;text-decoration:none}
+@media (max-width:640px){
+  .road{grid-template-columns:1fr;gap:10px}
+  .road::before{left:29px;right:auto;top:20px;bottom:20px;border-top:0;border-left:3px dotted var(--yellow)}
+  .road li{grid-template-columns:60px 1fr;justify-items:start;text-align:left;align-items:center;column-gap:12px;font-size:.95rem}
+  .road .n{grid-column:2;grid-row:1;align-self:end}
+  .road .ic{grid-row:1 / span 2}
+  .road .t{grid-column:2}
+}
+
+/* STEP見出し */
+.step-head{display:flex;gap:14px;align-items:center}
+.step-badge{flex:none;width:64px;height:64px;border-radius:18px;background:var(--yellow);display:grid;place-items:center;text-align:center;line-height:1.1;font-weight:800}
+.step-badge small{display:block;font-size:.6rem;letter-spacing:.1em}
+.step-badge span{font-size:1.6rem}
+
+/* カード並び */
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.grid3,.grid2{grid-template-columns:1fr}}
+.card{background:var(--paper);border-radius:14px;padding:14px;display:grid;gap:8px;align-content:start;min-width:0}
+.card .pic{height:84px;display:grid;place-items:center}
+.card .pic svg{height:84px;width:auto}
+.card h3{font-size:1rem}
+.card p{font-size:.88rem}
+
+/* 要項チェック */
+.checks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.checks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.chk{background:var(--paper);border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:28px 1fr;gap:4px 8px;align-items:start;min-width:0}
+.chk svg{width:28px;height:28px;grid-row:1 / span 2}
+.chk b{font-size:.9rem}
+.chk span{font-size:.78rem;color:var(--ink-2);line-height:1.5}
+
+/* 会員カード */
+.mem{background:var(--surface);border:2px solid var(--c);border-radius:14px;overflow:hidden;display:grid;align-content:start;min-width:0}
+.mem .band{background:var(--c);color:#fff;padding:8px 14px;font-weight:700;font-size:.92rem;display:flex;justify-content:space-between;gap:8px}
+.mem .band small{opacity:.9;font-weight:500}
+.mem .body{padding:12px 14px;display:grid;gap:6px;font-size:.88rem}
+.mem .price{font-size:1.5rem;font-weight:800;color:var(--c);line-height:1.2;font-variant-numeric:tabular-nums}
+.mem .price small{font-size:.8rem;font-weight:700;color:var(--ink-2)}
+
+/* する・しない */
+.dodont{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:520px){.dodont{grid-template-columns:1fr}}
+.dd{border-radius:14px;padding:14px;display:grid;grid-template-columns:88px 1fr;gap:12px;align-items:center}
+.dd.ok{background:var(--green-soft)} .dd.ng{background:var(--coral-soft)}
+.dd .mark{font-weight:800;font-size:.95rem}
+.dd.ok .mark{color:var(--green)} .dd.ng .mark{color:var(--coral-ink)}
+.dd p{font-size:.88rem}
+
+/* 種類 */
+.types{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.type{border-left:6px solid var(--c);background:var(--surface);border-radius:4px 12px 12px 4px;padding:10px 14px;display:grid;gap:4px;box-shadow:0 0 0 1.5px var(--rule) inset}
+.type b{color:var(--c)}
+.type span{font-size:.84rem;color:var(--ink-2);line-height:1.6}
+
+/* 費用 */
+.cost{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.ct{background:var(--paper);border-radius:12px;padding:12px 14px;display:grid;gap:6px}
+.ct .nm{font-size:.86rem;font-weight:700}
+.ct .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.pill{border-radius:99px;padding:1px 10px;font-size:.8rem;font-weight:700;font-variant-numeric:tabular-nums}
+.p-fee{background:var(--blue-soft);color:var(--blue-ink)}
+.p-play{background:var(--turf-soft);color:var(--green)}
+.p-all{background:var(--yellow-soft);color:var(--amber-ink)}
+
+details{background:var(--paper);border-radius:12px;padding:10px 14px}
+details summary{cursor:pointer;font-weight:700}
+details ol{font-size:.8rem;color:var(--ink-2);padding-left:1.4em;overflow-wrap:anywhere}
+a{color:var(--blue-ink)}
+:focus-visible{outline:3px solid var(--blue-ink);outline-offset:2px}
+.tag{font-size:.7rem;font-weight:700;border-radius:6px;padding:0 6px;background:var(--grey-soft);color:var(--grey)}
+
+.lede{font-size:1.02rem}
+.points{background:var(--yellow-soft);border:1.5px solid #ecd58f;border-radius:16px;padding:16px 20px}
+.points h2{font-size:1.1rem}
+.points ol{margin:10px 0 0;padding-left:1.4em;display:grid;gap:6px;font-size:1rem}
+.points b{color:var(--coral-ink)}
+.ins .cite{display:block;font-size:.76rem;color:var(--ink-3);margin-top:4px}
+.prose{grid-template-columns:minmax(0,1fr)}
+.src{white-space:normal}
+@media (min-width:641px){.road.r6{grid-template-columns:repeat(6,minmax(0,1fr))}}
+.fig>*,.pair>*,.pair>*>*,section>*,details{min-width:0;max-width:100%}
+.tw,.scroll{overflow-x:auto;max-width:100%}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{font:inherit;font-size:.82rem;font-weight:700;border:1.5px solid var(--rule);background:var(--surface);color:var(--ink);border-radius:99px;padding:4px 12px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.clubs{display:grid;gap:4px}
+.crow{display:grid;grid-template-columns:8.5em 1fr 4.6em;gap:8px;align-items:center;font-size:.84rem}
+.crow .nm{font-weight:700;text-align:right;white-space:nowrap}
+.crow .track{position:relative;height:16px}
+.crow .c{position:absolute;left:0;top:0;height:16px;background:var(--turf);border-radius:0 4px 4px 0}
+.crow .r{position:absolute;top:3px;height:10px;background:var(--turf-soft);border-radius:0 4px 4px 0}
+.crow .v{font-weight:700;color:var(--ink-2);font-variant-numeric:tabular-nums;white-space:nowrap}
+.crow.dr .c{background:var(--green)}
+@media (max-width:520px){.crow{grid-template-columns:6.6em 1fr 4.4em;font-size:.76rem}.crow .nm{white-space:normal;line-height:1.15;word-break:keep-all;overflow-wrap:anywhere}}
+.key{display:flex;gap:14px;flex-wrap:wrap;font-size:.8rem;color:var(--ink-2)}
+.key i{display:inline-block;width:14px;height:10px;border-radius:2px;margin-right:5px;vertical-align:middle}
+.tw{overflow-x:auto}
+.tbl{border-collapse:collapse;font-size:.78rem;font-variant-numeric:tabular-nums;min-width:640px}
+.tbl th,.tbl td{border:1px solid var(--rule);padding:4px 6px;text-align:center;white-space:nowrap}
+.tbl thead th,.tbl tbody th{background:var(--paper)}
+.tbl tbody th{text-align:left}
+.pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.pair{grid-template-columns:1fr}}
+.insight{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.insight{grid-template-columns:1fr}}
+.ins{background:var(--paper);border-radius:14px;padding:14px;display:grid;gap:8px;align-content:start}
+.ins .top{display:flex;gap:12px;align-items:center}
+.ins .ic{flex:none;width:52px;height:52px;border-radius:14px;background:var(--surface);display:grid;place-items:center;border:1.5px solid var(--rule)}
+.ins .ic svg{width:30px;height:30px}
+.ins .big{font-size:1.7rem;font-weight:800;color:var(--coral-ink);line-height:1.1;font-variant-numeric:tabular-nums}
+.ins .big small{font-size:.8rem;color:var(--ink-2);font-weight:700}
+.ins h3{font-size:.98rem}
+.ins p{font-size:.86rem}
+.ins .tip{background:var(--yellow-soft);border-radius:10px;padding:8px 10px;font-size:.86rem;font-weight:700}
+.tipbox{position:fixed;pointer-events:none;background:var(--ink);color:#fff;font-size:.78rem;padding:4px 8px;border-radius:6px;z-index:20;max-width:260px}
+.nw{display:inline-block}
+/* サイト共通の頭とフッター */
+.g-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:4px 8px;border-bottom:2px dashed var(--rule)}
+.g-brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:800;font-size:1rem}
+.g-brand img{width:36px;height:36px}
+.g-back{font-size:.86rem;color:var(--ink-2)}
+.g-foot{margin-top:24px;padding-block:24px;border-top:2px dashed var(--rule);font-size:.78rem;color:var(--ink-3);display:grid;gap:6px}
+.g-foot a{color:inherit}
+.next-read{display:block;margin-top:16px;background:var(--yellow-soft);border:1.5px solid var(--yellow);border-radius:16px;padding:14px 18px;color:var(--ink);text-decoration:none;font-weight:700}
+.next-read b{display:block;font-size:.8rem;color:var(--coral-ink)}
+
+/* クラブの選び方で足したもの */
+.memo{background:#fff4d2;border:1.5px dashed #f6c343;border-radius:14px;padding:12px 16px;margin:16px 0;font-size:.88rem;color:#7a5600}
+.memo ul{margin:4px 0 0;padding-left:1.2em}
+.next-read{display:block;margin-top:12px;background:var(--yellow-soft);border:1.5px solid var(--yellow);border-radius:16px;padding:14px 18px;color:var(--ink);text-decoration:none;font-weight:700}
+.next-read b{display:block;font-size:.8rem;color:var(--coral-ink)}
+.chk-head{font-size:1rem;margin:16px 0 8px}
+.dd svg{width:88px;height:120px}
+.fig svg[viewBox^="0 0 680"]{min-width:560px}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/></g></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></g></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><rect x="3" y="6" width="18" height="13" rx="2.5"/><circle cx="8.5" cy="12" r="2"/><path d="M13 11h5M13 14.5h4"/></g></symbol>
+    <symbol id="i-yen" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 7l3.5 5 3.5-5M12 12v5.5M9 12.5h6M9 15h6"/></g></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="8" width="10" height="13" rx="3"/><path d="M9 8V3M12 8V2M15 8V4M7 13h10"/></g></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><path d="M7 17a5 5 0 0 1 10 0M3 17h18M12 7V4M5.5 10.5L3.8 8.8M18.5 10.5l1.7-1.7M6 21h12"/></g></symbol>
+    <symbol id="i-medal" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3l3 7M16 3l-3 7"/><circle cx="12" cy="15" r="6"/><path d="M12 12.5v5"/></g></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></g></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 21a7 7 0 0 1 14 0"/></g></symbol>
+    <symbol id="i-score" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 9h16M4 15h16M10 3v18"/></g></symbol>
+    <symbol id="i-group" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="8" r="2.8"/><circle cx="16" cy="8" r="2.8"/><path d="M3 20a5 5 0 0 1 10 0M11 20a5 5 0 0 1 10 0"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+    <symbol id="i-shirt" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linejoin="round"><path d="M8 3l-5 3 2 5 3-1v11h8V10l3 1 2-5-5-3a4 4 0 0 1-8 0z"/></g></symbol>
+    <symbol id="i-rain" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><path d="M7 15a4 4 0 0 1 .5-8 5.5 5.5 0 0 1 10.3 1.5A3.3 3.3 0 0 1 17 15z"/><path d="M9 18l-1 3M13 18l-1 3M17 18l-1 3"/></g></symbol>
+  </defs>
+</svg>
+<div class="wrap">
+  <nav class="g-head" aria-label="サイト">
+    <a class="g-brand" href="../"><img src="../favicon.svg" alt="">ジュニアゴルフ大会カレンダー</a>
+    <a class="g-back" href="../">← 大会を探す</a>
+  </nav>
+<header class="hero">
+  <div class="lead">
+    <span class="kicker">保護者のための目安</span>
+    <h1><span class="nw">ジュニアの</span><span class="nw">クラブの選び方</span></h1>
+    <p class="muted lede">「どのサイズを買えばいいの？」「大人のクラブを切って使ってもいい？」「何本そろえればいいの？」。ジュニア用クラブを作るメーカーやアメリカのプロゴルフ協会の案内、ゴルフ規則、研究をもとに、選び方の目安をまとめました。</p>
+  </div>
+  <figure class="fig" style="margin:0"><span class="fig-no">図1</span><svg viewBox="0 0 360 220" role="img" aria-label="靴をはいた子どもが身長計の横に立ち、ジュニア用クラブを持っている様子">
+  <rect width="360" height="220" rx="14" fill="#fff4d2"/>
+  <path d="M0 186 Q180 170 360 184 V220 H0z" fill="#dcebd2"/>
+  <g transform="translate(70 22)"><rect x="0" y="0" width="22" height="168" rx="4" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/>
+    <path d="M0 8h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 28h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 48h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 68h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 88h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 108h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 128h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 148h10" stroke="#1d2a44" stroke-width="2"/></g>
+  <path d="M96 52h40" stroke="#b8352b" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(140 40)">
+    <circle cx="26" cy="22" r="16" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/>
+    <path d="M10 18 a16 13 0 0 1 32 0 h8" fill="#f6c343" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M6 112 V62 a20 20 0 0 1 40 0 V112" fill="#2b4590" stroke="#1d2a44" stroke-width="3"/>
+    <path d="M10 112v28M42 112v28" stroke="#1d2a44" stroke-width="5" stroke-linecap="round"/>
+    <path d="M2 142h18M34 142h18" stroke="#1d2a44" stroke-width="7" stroke-linecap="round"/>
+    <path d="M46 70 L96 138" stroke="#56636e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M46 70 L60 89" stroke="#1d2a44" stroke-width="7" stroke-linecap="round"/>
+    <path d="M92 134 l14 6 l-4 6 l-14 -4z" fill="#1d2a44"/>
+  </g>
+  <text x="248" y="64" font-size="13" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">靴をはいて</text>
+  <text x="248" y="84" font-size="13" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">身長を測る</text>
+</svg></figure>
+</header>
+<section><div class="points"><h2>このページのポイント</h2><ol>
+  <li>年齢ではなく、<b>靴をはいた身長</b>で選ぶ</li>
+  <li><b>できるだけ軽く・短く。</b>長すぎ・重すぎに注意する</li>
+  <li>合う<b>シャフトの硬さは子どもによって違う</b>。試打して確かめる</li>
+  <li>本数は<b>少しずつ増やす</b>。大会で持てるのは<b>14本まで</b></li>
+</ol></div></section>
+
+<section id="c1"><div class="step-head"><div class="step-badge"><div><small>STEP</small><span>1</span></div></div><h2>年齢ではなく「身長」で選ぶ</h2></div>
+  <div class="prose">
+    <p>ジュニア用クラブは、年齢ではなく身長でサイズが分かれています。たとえば U.S. Kids Golf は「靴をはいた状態で身長を測り、その身長に合うサイズを選ぶ」と案内しています<span class="src">［出典1］</span>。サイズは身長3インチ（約7.6cm）ごとに分かれています。</p>
+    <p>平均身長でも、6歳と11歳では約30cm違います<span class="src">［出典2］</span>。図2のように、年齢とともに身長は大きく変わり、13歳ごろからは男女の差も開きます。</p>
+  </div>
+  <figure class="fig" style="margin:0"><span class="fig-no">図2</span><div class="scroll"><svg viewBox="0 0 680 250" role="img" aria-label="U.S. Kids Golf の身長サイズの区切りと、6〜14歳の男女の平均身長"><rect x="73.9" y="34" width="52.6" height="170" fill="#fff4d2" data-tip="サイズ 36〜39インチ（約91〜99cm）"/><rect x="126.5" y="34" width="52.6" height="170" fill="#fbf8ef" data-tip="サイズ 39〜42インチ（約99〜107cm）"/><rect x="179.0" y="34" width="52.6" height="170" fill="#fff4d2" data-tip="サイズ 42〜45インチ（約107〜114cm）"/><rect x="231.6" y="34" width="52.6" height="170" fill="#fbf8ef" data-tip="サイズ 45〜48インチ（約114〜122cm）"/><rect x="284.1" y="34" width="52.6" height="170" fill="#fff4d2" data-tip="サイズ 48〜51インチ（約122〜130cm）"/><rect x="336.7" y="34" width="52.6" height="170" fill="#fbf8ef" data-tip="サイズ 51〜54インチ（約130〜137cm）"/><rect x="389.2" y="34" width="52.6" height="170" fill="#fff4d2" data-tip="サイズ 54〜57インチ（約137〜145cm）"/><rect x="441.8" y="34" width="52.6" height="170" fill="#fbf8ef" data-tip="サイズ 57〜60インチ（約145〜152cm）"/><rect x="494.3" y="34" width="52.6" height="170" fill="#fff4d2" data-tip="サイズ 60〜63インチ（約152〜160cm）"/><rect x="546.9" y="34" width="52.6" height="170" fill="#fbf8ef" data-tip="サイズ 63〜66インチ（約160〜168cm）"/><rect x="599.4" y="34" width="52.6" height="170" fill="#fff4d2" data-tip="サイズ 66〜69インチ（約168〜175cm）"/><line x1="73.9" y1="34" x2="73.9" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="73.9" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">91</text><line x1="126.5" y1="34" x2="126.5" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="126.5" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">99</text><line x1="179.0" y1="34" x2="179.0" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="179.0" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">107</text><line x1="231.6" y1="34" x2="231.6" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="231.6" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">114</text><line x1="284.1" y1="34" x2="284.1" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="284.1" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">122</text><line x1="336.7" y1="34" x2="336.7" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="336.7" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">130</text><line x1="389.2" y1="34" x2="389.2" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="389.2" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">137</text><line x1="441.8" y1="34" x2="441.8" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="441.8" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">145</text><line x1="494.3" y1="34" x2="494.3" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="494.3" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">152</text><line x1="546.9" y1="34" x2="546.9" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="546.9" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">160</text><line x1="599.4" y1="34" x2="599.4" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="599.4" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">168</text><line x1="652.0" y1="34" x2="652.0" y2="204" stroke="#e0c66a" stroke-width="1"/><text x="652.0" y="222" text-anchor="middle" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">175</text><text x="664" y="242" text-anchor="end" font-size="11" fill="#6b7488" font-family="M PLUS Rounded 1c, sans-serif">身長（cm、靴をはいた状態）</text><text x="64" y="24" font-size="12" font-weight="700" fill="#7a5600" font-family="M PLUS Rounded 1c, sans-serif">黄色と白の帯＝U.S. Kids Golf のサイズ（身長約7.6cmごと）</text><text x="8" y="96" font-size="13" font-weight="700" fill="#2b4590" font-family="M PLUS Rounded 1c, sans-serif">男子</text><line x1="247.4" y1="92" x2="588.8" y2="92" stroke="#2b4590" stroke-width="2" opacity=".35"/><circle cx="247.4" cy="92" r="7" fill="#2b4590" stroke="#fff" stroke-width="2" data-tip="男子 6歳：平均 116.6cm"/><text x="247.4" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">6歳</text><circle cx="289.5" cy="92" r="7" fill="#2b4590" stroke="#fff" stroke-width="2" data-tip="男子 7歳：平均 122.7cm"/><text x="289.5" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">7歳</text><circle cx="328.1" cy="92" r="7" fill="#2b4590" stroke="#fff" stroke-width="2" data-tip="男子 8歳：平均 128.3cm"/><text x="328.1" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">8歳</text><circle cx="367.4" cy="92" r="7" fill="#2b4590" stroke="#fff" stroke-width="2" data-tip="男子 9歳：平均 134.0cm"/><text x="367.4" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">9歳</text><circle cx="405.4" cy="92" r="7" fill="#2b4590" stroke="#fff" stroke-width="2" data-tip="男子 10歳：平均 139.5cm"/><text x="405.4" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">10歳</text><circle cx="450.9" cy="92" r="7" fill="#2b4590" stroke="#fff" stroke-width="2" data-tip="男子 11歳：平均 146.1cm"/><text x="450.9" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">11歳</text><circle cx="504.0" cy="92" r="7" fill="#2b4590" stroke="#fff" stroke-width="2" data-tip="男子 12歳：平均 153.8cm"/><text x="504.0" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">12歳</text><circle cx="554.3" cy="92" r="7" fill="#2b4590" stroke="#fff" stroke-width="2" data-tip="男子 13歳：平均 161.1cm"/><text x="554.3" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">13歳</text><circle cx="588.8" cy="92" r="7" fill="#2b4590" stroke="#fff" stroke-width="2" data-tip="男子 14歳：平均 166.1cm"/><text x="588.8" y="78" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">14歳</text><text x="8" y="164" font-size="13" font-weight="700" fill="#e2574c" font-family="M PLUS Rounded 1c, sans-serif">女子</text><line x1="240.6" y1="160" x2="521.9" y2="160" stroke="#e2574c" stroke-width="2" opacity=".35"/><circle cx="240.6" cy="160" r="7" fill="#e2574c" stroke="#fff" stroke-width="2" data-tip="女子 6歳：平均 115.6cm"/><text x="240.6" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">6歳</text><circle cx="281.9" cy="160" r="7" fill="#e2574c" stroke="#fff" stroke-width="2" data-tip="女子 7歳：平均 121.6cm"/><text x="281.9" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">7歳</text><circle cx="322.6" cy="160" r="7" fill="#e2574c" stroke="#fff" stroke-width="2" data-tip="女子 8歳：平均 127.5cm"/><text x="322.6" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">8歳</text><circle cx="366.1" cy="160" r="7" fill="#e2574c" stroke="#fff" stroke-width="2" data-tip="女子 9歳：平均 133.8cm"/><text x="366.1" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">9歳</text><circle cx="415.0" cy="160" r="7" fill="#e2574c" stroke="#fff" stroke-width="2" data-tip="女子 10歳：平均 140.9cm"/><text x="415.0" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">10歳</text><circle cx="459.9" cy="160" r="7" fill="#e2574c" stroke="#fff" stroke-width="2" data-tip="女子 11歳：平均 147.4cm"/><text x="459.9" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">11歳</text><circle cx="494.3" cy="160" r="7" fill="#e2574c" stroke="#fff" stroke-width="2" data-tip="女子 12歳：平均 152.4cm"/><text x="494.3" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">12歳</text><circle cx="512.3" cy="160" r="7" fill="#e2574c" stroke="#fff" stroke-width="2" data-tip="女子 13歳：平均 155.0cm"/><text x="512.3" y="182" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">13歳</text><circle cx="521.9" cy="160" r="7" fill="#e2574c" stroke="#fff" stroke-width="2" data-tip="女子 14歳：平均 156.4cm"/><text x="521.9" y="146" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">14歳</text></svg></div><figcaption>点は文部科学省「令和7年度学校保健統計」の全国平均身長（年齢は4月1日時点）。帯は U.S. Kids Golf のサイズの区切り（インチをcmに換算）。メーカーによって区切り方は違うので、買うときはそのメーカーのサイズ表で確かめてください。</figcaption></figure>
+</section>
+
+<section id="c2"><div class="step-head"><div class="step-badge"><div><small>STEP</small><span>2</span></div></div><h2>長さとグリップ：短く握るのは約2.5cmまで</h2></div>
+  <div class="prose">
+    <p>アメリカのプロゴルフ協会（PGA of America）の保護者向けの記事は、クラブの長さを「どれだけ短く握るか」で見るよう説明しています<span class="src">［出典3］</span>。</p>
+  </div>
+  <figure class="fig" style="margin:0"><span class="fig-no">図3</span><div class="dodont"><div class="dd ok"><svg viewBox="0 0 88 120" aria-hidden="true">
+      <rect x="38" y="10" width="12" height="104" rx="3" fill="#56636e"/>
+      <rect x="36" y="10" width="16" height="56" rx="4" fill="#1d2a44"/>
+      <rect x="26" y="34" width="36" height="30" rx="10" fill="#f3d2b5" stroke="#1d2a44" stroke-width="2.5"/>
+      <path d="M18 14v20M14 14h8M14 34h8" stroke="#3b6b1f" stroke-width="2.5"/>
+      <text x="64" y="28.0" font-size="11" font-weight="700" fill="#3b6b1f" font-family="M PLUS Rounded 1c, sans-serif">約2.5cm</text>
+    </svg><div><div class="mark">ちょうどよい</div><p>1インチ（約2.5cm）ほど短く握れば打てる長さ。たいてい2シーズンほど使えます。</p></div></div><div class="dd ng"><svg viewBox="0 0 88 120" aria-hidden="true">
+      <rect x="38" y="10" width="12" height="104" rx="3" fill="#56636e"/>
+      <rect x="36" y="10" width="16" height="56" rx="4" fill="#1d2a44"/>
+      <rect x="26" y="58" width="36" height="30" rx="10" fill="#f3d2b5" stroke="#1d2a44" stroke-width="2.5"/>
+      <path d="M18 14v44M14 14h8M14 58h8" stroke="#b8352b" stroke-width="2.5"/>
+      <text x="64" y="40.0" font-size="11" font-weight="700" fill="#b8352b" font-family="M PLUS Rounded 1c, sans-serif">5cm以上</text>
+    </svg><div><div class="mark">長すぎる</div><p>2インチ（約5cm）より短く握らないと打てない。直しにくいくせがつくおそれがあります。長すぎるドライバーは、タイミングも崩しやすくなります。</p></div></div></div></figure>
+  <div class="prose">
+    <p>「すぐ大きくなるから」と長めを買うより、今の身長に合うものを選び、少しだけ余裕がある程度にするのが目安です。</p>
+    <p>握る部分（グリップ）の太さも見ましょう。太すぎると野球のバットを握るような持ち方になり、スイングが変わってしまいます<span class="src">［出典3］</span>。</p>
+  </div>
+</section>
+
+<section id="c3"><div class="step-head"><div class="step-badge"><div><small>STEP</small><span>3</span></div></div><h2>重さとシャフト：軽く・短く。硬さは子どもに合わせる</h2></div>
+  <div class="prose">
+    <p>重さとシャフト（クラブの棒の部分）の考え方は、<b>「できるだけ軽く・短く」「大人用を切ったクラブは硬さに注意」「硬さは子どもに合わせる」</b>の3つにまとまります。PGA of America の記事は、次のように説明しています<span class="src">［出典3］</span>。</p>
+  </div>
+  <figure class="fig" style="margin:0"><span class="fig-no">図4</span><div class="grid3"><div class="card"><h3>重すぎるクラブ</h3><p>トップ（振り上げた位置）まで上げにくくなります。</p></div><div class="card"><h3>ジュニア用のシャフト</h3><p>手で曲げられるほど、やわらかく作られています。</p></div><div class="card"><h3>大人用を4〜5インチ切ると</h3><p>シャフトがとても硬くなり、ボールを高く上げにくくなります。</p></div></div></figure>
+  <div class="prose">
+    <p><b>軽く・短く：</b>ゴルフの体づくりを研究する Titleist Performance Institute（TPI）は、「ジュニアには、できるだけ長いあいだ、できるだけ軽く短いクラブを使わせ、スイングが体の成長とともに育つようにする」ことをすすめています。重すぎるとスイングのくせを招き、直すのに何年もかかるためです<span class="src">［出典4］</span>。</p>
+    <p><b>大人用を切ったクラブは硬さに注意：</b>体が大きくなり、ジュニア用では合わなくなって、大人用を切って使う子もいます。国内のシャフトメーカー三菱ケミカルは、大人用のシャフトを短く切ると必要以上に硬くなる場合がある、と説明しています。同社は、合うクラブが少ない身長135〜155cmの子に向けて、スイングのタイミングに合わせて選べるジュニア専用のシャフトを作りました<span class="src">［出典5］</span>。切ったクラブを使うときは、球が上がるか、トップまで無理なく振り上げられるかを確かめましょう。</p>
+    <p><b>硬さは子どもに合わせる：</b>ジュニアを対象にシャフトの硬さを比べた研究では、30人中21人が特定の1本で最も良い結果を出し、その1本は筋力・腕の長さ・経験によって違いました<span class="src">［出典6］</span>。年齢だけでなく、体格と力に合わせて選ぶほうが理にかなっています。</p>
+  </div>
+</section>
+
+<section id="c4"><div class="step-head"><div class="step-badge"><div><small>STEP</small><span>4</span></div></div><h2>本数：少しずつ増やす。大会では14本まで</h2></div>
+  <div class="prose"><p>PGA of America の記事は、本数を少しずつ増やす順番を紹介しています<span class="src">［出典3］</span>。ジュニア用のセットも、5本・7本など少ない本数で売られていることが多いです（例：U.S. Kids Golf のセット）<span class="src">［出典1］</span>。</p></div>
+  <figure class="fig" style="margin:0"><span class="fig-no">図5</span><div class="scroll"><svg viewBox="0 0 680 250" role="img" aria-label="クラブの本数を2本から少しずつ増やし、10歳ごろには10〜12本。大会で持てるのは14本まで"><defs><marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6b7488"/></marker></defs><line x1="30" y1="30.0" x2="670" y2="30.0" stroke="#b8352b" stroke-width="2" stroke-dasharray="6 5"/><text x="670" y="22.0" text-anchor="end" font-size="12" font-weight="700" fill="#b8352b" font-family="M PLUS Rounded 1c, sans-serif">大会で持てるのは14本まで</text><line x1="30" y1="210" x2="670" y2="210" stroke="#e8e2d2" stroke-width="2"/><rect x="40" y="184.3" width="96" height="25.7" rx="6" fill="#2b4590" data-tip="2本"/><text x="88.0" y="176.3" text-anchor="middle" font-size="14" font-weight="800" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">2本</text><text x="88.0" y="228" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">始めたばかり</text><path d="M142 194h18" stroke="#6b7488" stroke-width="2" marker-end="url(#ar)"/><rect x="166" y="171.4" width="96" height="38.6" rx="6" fill="#2b4590" data-tip="3本"/><text x="214.0" y="163.4" text-anchor="middle" font-size="14" font-weight="800" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">3本</text><text x="214.0" y="228" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">＋7番アイアン</text><path d="M268 194h18" stroke="#6b7488" stroke-width="2" marker-end="url(#ar)"/><rect x="292" y="158.6" width="96" height="51.4" rx="6" fill="#2b4590" data-tip="4本"/><text x="340.0" y="150.6" text-anchor="middle" font-size="14" font-weight="800" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">4本</text><text x="340.0" y="228" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">＋ユーティリティ</text><path d="M394 194h18" stroke="#6b7488" stroke-width="2" marker-end="url(#ar)"/><rect x="418" y="145.7" width="96" height="64.3" rx="6" fill="#2b4590" data-tip="5本"/><text x="466.0" y="137.7" text-anchor="middle" font-size="14" font-weight="800" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">5本</text><text x="466.0" y="228" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">＋3番ウッドかド</text><text x="466.0" y="242" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">ライバー</text><path d="M520 194h18" stroke="#6b7488" stroke-width="2" marker-end="url(#ar)"/><rect x="544" y="55.7" width="96" height="154.3" rx="6" fill="#e3eafb" data-tip="10〜12本"/><rect x="544" y="81.4" width="96" height="128.6" rx="6" fill="#2b4590" data-tip="10〜12本"/><text x="592.0" y="47.7" text-anchor="middle" font-size="14" font-weight="800" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">10〜12本</text><text x="592.0" y="228" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">10歳ごろ（経験の</text><text x="592.0" y="242" text-anchor="middle" font-size="11" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">ある子）</text></svg></div><figcaption>始めたばかり（4〜5歳ごろ）はパターとピッチングウェッジの2本。経験のある子で10歳ごろ、番手ごとの飛距離の差がはっきりしてきたら10〜12本、と PGA of America は紹介しています。</figcaption></figure>
+  <div class="prose">
+    <p><b>大会で持てるのは14本まで</b>です。ゴルフ規則では、15本以上を持ってスタートすると、違反があったホールごとに2打の罰、1ラウンドで最大4打の罰になります（ストロークプレーの場合）<span class="src">［出典7］</span>。練習用のクラブをバッグに入れたままにしないよう、スタート前に本数を数えましょう。</p>
+  </div>
+</section>
+
+<section id="c5"><div class="step-head"><div class="step-badge"><div><small>STEP</small><span>5</span></div></div><h2>買い替えと、次のステップ</h2></div>
+  <figure class="fig" style="margin:0"><span class="fig-no">図6</span><div class="grid3"><div class="card"><h3>身長がサイズの区切りを超えた</h3><p>サイズは身長で決まるので、次のサイズを考える時期です。</p></div><div class="card"><h3>短く握る長さが約5cmを超えた</h3><p>長すぎのサインです。成長でちょうどよくなるのを待つより、合う長さを選びます。</p></div><div class="card"><h3>身長約152cm・ヘッドスピード約40m/s</h3><p>約152cm（60インチ）を超えたら1本ずつ合わせる効果が大きく、ヘッドスピード約40m/s（時速90マイル）で大人用へ、が目安です。</p></div></div><figcaption>身長約152cmの目安は PGA of America［出典3］、ヘッドスピードの目安は U.S. Kids Golf［出典1］によります。</figcaption></figure>
+  <div class="prose">
+    <p>スイングが速くなってきた子には、ジュニア用のまま<b>少し硬く・少し重い上級モデル</b>に移る選択肢もあります。たとえば U.S. Kids Golf の Tour Series は、ドライバーのヘッドスピードが約31m/s（時速70マイル）を超える子向けです<span class="src">［出典8］</span>。</p>
+    <p>ただし、合う硬さは子どもによって違います。大人を対象にした研究でも、シャフトの硬さを変えると手元の動きが変わり、その変わり方は人それぞれでした。研究者は「1人ずつ試して確かめるべき」としています<span class="src">［出典9］</span>。買う前に試打して、球の高さ・方向・振りやすさを比べましょう。</p>
+    <p>硬く長いクラブで遠くへ飛ばす上手な子もいます。多くは体が大きく、力があり、速く振れる子で、そのクラブが体格と速さに合っていると考えられます。<b>上手な子のセッティングをまねるのではなく、自分の子の身長・スイングの速さ・球の高さで決めましょう。</b></p>
+  </div>
+</section>
+
+<section id="c6"><div class="step-head"><div class="step-badge"><div><small>STEP</small><span>6</span></div></div><h2>メーカーによる考え方の違い</h2></div>
+  <div class="prose">
+    <p>ジュニア用クラブの作り方は、メーカーによって大きく2つに分かれます。<b>身長ごとに決まったサイズから選ぶ「既製サイズ型」</b>と、<b>子ども1人ずつに合わせて組み立てる「注文型」</b>です。ここでは公式に説明されている内容だけを並べます。</p>
+  </div>
+  <figure class="fig" style="margin:0"><span class="fig-no">図7</span><div class="grid3"><div class="card"><h3>U.S. Kids Golf（既製サイズ型）</h3><p>身長で9つのサイズに分け、サイズごとに長さ・重さ・シャフトの硬さ・ライ角・グリップの太さを変えています<span class="src">［出典8］</span>。スイングが速い子向けには、少し硬く、少し重い上級モデル Tour Series があります<span class="src">［出典8］</span>。</p></div><div class="card"><h3>PING Prodi G（注文型）</h3><p>身長・手首から床までの長さ・ドライバーの飛距離などから仕様を決めて組み立てます<span class="src">［出典10］</span>。長さは1本ごとに幅があり（7番アイアンで約74〜91cm）、ライ角は5段階、シャフトは Regular と Stiff の2種類です<span class="src">［出典10］</span>。大人用と同じ考え方の技術を使い、5本以上買うと成長に合わせた無料の調整（シャフト交換・長さ・重さ・グリップ）が1回受けられます<span class="src">［出典10］</span>。</p></div><div class="card"><h3>Flynn Golf（注文型）</h3><p>スイング動画と体格などの情報をもとに、1本ずつ組み立てて直接販売しています<span class="src">［出典11］</span>。ヘッドの重さ・シャフトの硬さ・長さを選べ、ドライバーは大きめのヘッドが特徴です。創業者は、<b>長すぎるドライバーを選ぶことをよくある失敗</b>に挙げています<span class="src">［出典11］</span>。</p></div></div><figcaption>各社の公式ページ（Flynn Golf は公式サイトと創業者インタビュー）の記載によります。2026年10月時点。</figcaption></figure>
+  <div class="prose">
+    <p>どちらの型でも、出発点は<b>身長とスイングの速さ</b>です。既製サイズ型は区切りが分かりやすく、注文型は1人ずつ細かく合わせられます。どのメーカーを選ぶ場合も、そのメーカーのサイズ表や計測方法で確かめてください。特定のメーカー・商品をおすすめするものではありません。</p>
+  </div>
+</section>
+
+<section><h2>保護者のためのチェックリスト</h2>
+  <h3 class="chk-head">家でできること</h3>
+  <div class="checks">
+    <div class="chk"><svg><use href="#i-person"/></svg><b>身長</b><span>靴をはいて測り、メーカーのサイズ表で確かめた</span></div>
+    <div class="chk"><svg><use href="#i-search"/></svg><b>長さ</b><span>構えたとき、短く握るのは約2.5cmまで</span></div>
+    <div class="chk"><svg><use href="#i-card"/></svg><b>グリップ</b><span>太すぎない（バットのような握り方にならない）</span></div>
+    <div class="chk"><svg><use href="#i-bag"/></svg><b>本数</b><span>大会の前に数えた（14本まで）</span></div>
+    <div class="chk"><svg><use href="#i-cal"/></svg><b>買い替え</b><span>サイズの区切りを超えた、または短く握るのが約5cmを超えたら見直す</span></div>
+  </div>
+  <h3 class="chk-head">お店・練習場でやること</h3>
+  <div class="checks">
+    <div class="chk"><svg><use href="#i-score"/></svg><b>重さ</b><span>トップまで無理なく振り上げられる</span></div>
+    <div class="chk"><svg><use href="#i-medal"/></svg><b>硬さ</b><span>試打して、球の高さ・方向・振りやすさを比べた</span></div>
+    <div class="chk"><svg><use href="#i-doc"/></svg><b>大人用を切ったクラブ</b><span>使うなら、球が上がるか・振り上げられるかを確かめた</span></div>
+  </div>
+  <a class="next-read" href="yardage-by-age.html"><b>あわせて読む</b>年齢別の飛距離とコースの長さの目安 →</a>
+</section>
+
+<section><details><summary>出典一覧（11件）</summary><ol>
+<li>U.S. Kids Golf「Advanced Fitting Center」 <a href="https://www.uskidsgolf.com/pages/advanced-fitting-center" target="_blank" rel="noopener">https://www.uskidsgolf.com/pages/advanced-fitting-center</a> ／「Getting Started with Junior Golf」 <a href="https://www.uskidsgolf.com/pages/getting-started" target="_blank" rel="noopener">https://www.uskidsgolf.com/pages/getting-started</a> ／「Ultralight-7 Junior Clubs」 <a href="https://www.uskidsgolf.com/collections/ultralight" target="_blank" rel="noopener">https://www.uskidsgolf.com/collections/ultralight</a></li>
+<li>文部科学省「令和7年度学校保健統計（学校保健統計調査の結果）」（2026年2月13日公表） <a href="https://www.mext.go.jp/content/20260213-mxt_chousa01-000046876_1.pdf" target="_blank" rel="noopener">https://www.mext.go.jp/content/20260213-mxt_chousa01-000046876_1.pdf</a></li>
+<li>PGA of America「Finding Clubs that Fit Your Junior Golfer」（2021年7月3日） <a href="https://www.pga.com/story/finding-golf-clubs-that-fit-your-junior-golfer" target="_blank" rel="noopener">https://www.pga.com/story/finding-golf-clubs-that-fit-your-junior-golfer</a></li>
+<li>Titleist Performance Institute「Three Common Club Fitting Mistakes That Derail Improvement」 <a href="https://www.mytpi.com/en/articles/swing/three-common-club-fitting-mistakes-that-derail-improvement" target="_blank" rel="noopener">https://www.mytpi.com/en/articles/swing/three-common-club-fitting-mistakes-that-derail-improvement</a></li>
+<li>三菱ケミカル「Diamana™ Junior 新発売」ニュースレター（2018年3月2日） <a href="https://www.mitsubishichemicalgolf.jp/pdf/MCC_jp_1519970786.pdf" target="_blank" rel="noopener">https://www.mitsubishichemicalgolf.jp/pdf/MCC_jp_1519970786.pdf</a> ／ゴルフエンタテインメントウィークリー（GEW）「本気で作った『ディアマナジュニア』」 <a href="https://www.gew.co.jp/column/g_43537" target="_blank" rel="noopener">https://www.gew.co.jp/column/g_43537</a></li>
+<li>Stanbridge K, Jones R, Mitchell S (2004) "The effect of shaft flexibility on junior golfers' performance", Journal of Sports Sciences 22(5):457–464. <a href="https://doi.org/10.1080/02640410410001675306" target="_blank" rel="noopener">https://doi.org/10.1080/02640410410001675306</a>（結果は Buszard ほか（2016）Sports Medicine 46(6):829–843 の記載による）</li>
+<li>R&amp;A「Rules of Golf, Rule 4」 <a href="https://www.randa.org/rog/the-rules-of-golf/rule-4" target="_blank" rel="noopener">https://www.randa.org/rog/the-rules-of-golf/rule-4</a>（日本語版のゴルフ規則は日本ゴルフ協会が発行）</li>
+<li>U.S. Kids Golf「Tour Series TS5 60 Driver」 <a href="https://www.uskidsgolf.com/ts5-60-driver-w5-graphite-shaft" target="_blank" rel="noopener">https://www.uskidsgolf.com/ts5-60-driver-w5-graphite-shaft</a> ／「Ultralight Overview」 <a href="https://www.uskidsgolf.com/ultralight-overview" target="_blank" rel="noopener">https://www.uskidsgolf.com/ultralight-overview</a></li>
+<li>MacKenzie SJ, Boucher DE (2016) "The influence of golf shaft stiffness on grip and clubhead kinematics", Journal of Sports Sciences 35(2). <a href="https://people.stfx.ca/smackenz/Publications/MacKenzie%202016%20The%20influence%20of%20golf%20shaft%20stiffness%20on%20grip%20and%20clubhead%20kinematics.pdf" target="_blank" rel="noopener">https://people.stfx.ca/smackenz/Publications/MacKenzie%202016%20The%20influence%20of%20golf%20shaft%20stiffness%20on%20grip%20and%20clubhead%20kinematics.pdf</a></li>
+<li>PING「Prodi G Junior Irons」 <a href="https://ping.com/en-us/golf-clubs/juniors/prodi-g-irons" target="_blank" rel="noopener">https://ping.com/en-us/golf-clubs/juniors/prodi-g-irons</a> ／「PING advances Prodi G junior clubs; introduces junior custom-fitting app」（2024年7月） <a href="https://ping.com/en-us/discover-ping/news/ping-advances-prodi-g-junior-clubs-introduces-junior-custom-fitting-app" target="_blank" rel="noopener">https://ping.com/en-us/discover-ping/news/ping-advances-prodi-g-junior-clubs-introduces-junior-custom-fitting-app</a></li>
+<li>Flynn Golf「About」 <a href="https://www.flynn-golf.com/Home/About" target="_blank" rel="noopener">https://www.flynn-golf.com/Home/About</a> ／TheJuniorGolfer.com「Interview with Mike Flynn Founder of Flynn Golf」（2019年4月） <a href="https://thejuniorgolfer.com/mike-flynn-of-flynn-golf-interview/" target="_blank" rel="noopener">https://thejuniorgolfer.com/mike-flynn-of-flynn-golf-interview/</a></li>
+</ol></details><p class="small muted">※2026年10月時点の情報です。最新の情報は、各メーカー・団体の公式ページで確認してください。特定の商品をおすすめするものではありません。</p></section>
+
+  <footer class="g-foot">
+    <p class="links"><a href="../">大会を探す</a>　<a href="first-tournament.html">はじめての方へ</a>　<a href="yardage-by-age.html">年齢別の飛距離の目安</a>　<a href="https://forms.gle/VmovrR1eMaNUZNGb7" target="_blank" rel="noopener">大会情報の提供</a>　<a href="../disclaimer.html">免責事項</a>　<a href="../privacy.html">プライバシーポリシー</a></p>
+    <p><small>&copy; 2026 ジュニアゴルフ大会カレンダー運営委員会. All rights reserved.</small></p>
+  </footer>
+</div>
+<script>
+const tip = document.createElement('div'); tip.className='tipbox'; tip.hidden=true; document.body.append(tip);
+document.addEventListener('pointermove', e=>{const el=e.target.closest('[data-tip]'); if(!el){tip.hidden=true;return;}
+  tip.textContent=el.dataset.tip; tip.hidden=false; tip.style.left=Math.min(e.clientX+12, innerWidth-270)+'px'; tip.style.top=(e.clientY+14)+'px';});
+</script>
+</body>
+</html>
