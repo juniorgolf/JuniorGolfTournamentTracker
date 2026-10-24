@@ -3,9 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>How to Enter a Junior Golf Tournament in Japan | Junior Golf Tournament Calendar</title>
-<meta name="description" content="A guide for families living in Japan: how school grades work, who can enter, how entry and payment usually work, and the Japanese words you will see on tournament pages.">
+<title>Your First Junior Golf Tournament in Japan | Junior Golf Tournament Calendar</title>
+<meta name="description" content="A step-by-step guide with illustrations for families living in Japan: choosing a first junior golf tournament, reading the guidelines, school grades, memberships, entry and payment, what to bring, the day itself, results, and the Japanese words you will see.">
 <link rel="canonical" href="https://jrgolf.jp/en/guide/how-to-enter.html">
+<link rel="alternate" hreflang="ja" href="https://jrgolf.jp/guide/first-tournament.html">
+<link rel="alternate" hreflang="en" href="https://jrgolf.jp/en/guide/how-to-enter.html">
 <link rel="icon" href="../../favicon.svg" type="image/svg+xml">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MBVQKV6REJ"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MBVQKV6REJ');</script>
@@ -15,104 +17,556 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet">
 <style>
-/* 英語版のガイド（2026-10-23 作成）。日本語版のガイドと同じ「おやこ手帳」の色・字体。明るい地のみ */
+/* 英語版「はじめての大会」（2026-10-24）。図・アイコン・CSS は日本語版 guide/first-tournament.html と同じ（mk_first_en2.py が読み込んで生成） */
 :root{
   --bg:#fffdf7; --surface:#ffffff; --paper:#fbf8ef;
   --ink:#1d2a44; --ink-2:#4c5872; --ink-3:#6b7488; --rule:#e8e2d2;
-  --yellow:#f6c343; --yellow-soft:#fff4d2; --coral-ink:#b8352b; --blue-ink:#2b4590; --blue-soft:#e3eafb;
+  --yellow:#f6c343; --yellow-soft:#fff4d2; --amber-ink:#7a5600;
+  --coral:#e2574c; --coral-ink:#b8352b; --coral-soft:#fce3e0;
+  --blue-ink:#2b4590; --blue-soft:#e3eafb;
+  --green:#3b6b1f; --green-soft:#e8f0e1; --teal:#00796b; --teal-soft:#e0f1ee;
+  --purple:#6a47a8; --purple-soft:#eee9f7; --brown:#8f5000; --brown-soft:#f7ecdd;
+  --grey:#56636e; --grey-soft:#eceff1;
+  --turf:#7fb069; --turf-soft:#dcebd2; --sand:#e9d8a6;
   --font:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Noto Sans JP",system-ui,sans-serif;
   color-scheme:light;
 }
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.75}
-.wrap{max-width:860px;margin:0 auto;padding:24px max(16px,env(safe-area-inset-left,0px)) 64px}
-h1,h2{line-height:1.35;margin:0;text-wrap:balance}
-h1{font-size:clamp(1.6rem,4.6vw,2.2rem);font-weight:800}
-h2{font-size:1.3rem;font-weight:800}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.85;letter-spacing:.01em}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+h1,h2,h3{text-wrap:balance;line-height:1.4;margin:0}
+h1{font-size:clamp(1.6rem,4.6vw,2.3rem);font-weight:800}
+h2{font-size:1.4rem;font-weight:800}
+h3{font-size:1.08rem;font-weight:700}
 p{margin:0}
-section{display:grid;gap:14px;padding-block:32px;border-top:2px dashed var(--rule)}
-.prose{display:grid;gap:12px;max-width:44em;color:var(--ink-2)}
-.prose b{color:var(--ink)}
-.hero{display:grid;gap:12px;padding-block:28px}
-.kicker{display:inline-block;justify-self:start;background:var(--yellow);border-radius:99px;padding:2px 12px;font-size:.8rem;font-weight:700}
-.lead{color:var(--ink-2);max-width:44em}
-.note{background:var(--blue-soft);color:var(--blue-ink);border-radius:14px;padding:12px 16px;font-size:.92rem}
+.muted{color:var(--ink-2)}
+.nw{display:inline-block}
+.small{font-size:.86rem}
+.src{color:var(--ink-3);font-size:.78rem;white-space:nowrap}
+section{display:grid;gap:18px;padding-block:36px;border-top:2px dashed var(--rule)}
+.prose{display:grid;gap:12px;max-width:44em}
+
+
+.fig{position:relative;background:var(--surface);border:1.5px solid var(--rule);border-radius:18px;padding:18px;display:grid;gap:12px;min-width:0}
+.fig figcaption{font-size:.84rem;color:var(--ink-2)}
+.fig svg{display:block;width:100%;height:auto}
 .scroll{overflow-x:auto}
-table{width:100%;border-collapse:collapse;font-size:.92rem;background:var(--surface);border:1.5px solid var(--rule);border-radius:14px;overflow:hidden}
+
+
+/* ヒーロー */
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px;align-items:center;padding-block:28px 12px}
+.hero .lead{display:grid;gap:12px}
+.kicker{display:inline-block;background:var(--yellow);border-radius:99px;padding:2px 12px;font-size:.8rem;font-weight:700;justify-self:start}
+@media (max-width:640px){.hero{grid-template-columns:1fr}}
+
+/* 道のり */
+.road{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;position:relative}
+.road::before{content:"";position:absolute;left:7%;right:7%;top:30px;border-top:3px dotted var(--yellow)}
+.road li{position:relative;display:grid;justify-items:center;gap:6px;text-align:center;font-size:.8rem;font-weight:700;line-height:1.35}
+.road .ic{width:60px;height:60px;border-radius:50%;background:var(--surface);border:2.5px solid var(--ink);display:grid;place-items:center}
+.road .ic svg{width:30px;height:30px}
+.road .n{font-size:.7rem;color:var(--coral-ink);letter-spacing:.06em}
+.road a{color:inherit;text-decoration:none}
+@media (max-width:640px){
+  .road{grid-template-columns:1fr;gap:10px}
+  .road::before{left:29px;right:auto;top:20px;bottom:20px;border-top:0;border-left:3px dotted var(--yellow)}
+  .road li{grid-template-columns:60px 1fr;justify-items:start;text-align:left;align-items:center;column-gap:12px;font-size:.95rem}
+  .road .n{grid-column:2;grid-row:1;align-self:end}
+  .road .ic{grid-row:1 / span 2}
+  .road .t{grid-column:2}
+}
+
+/* STEP見出し */
+.step-head{display:flex;gap:14px;align-items:center}
+.step-badge{flex:none;width:64px;height:64px;border-radius:18px;background:var(--yellow);display:grid;place-items:center;text-align:center;line-height:1.1;font-weight:800}
+.step-badge small{display:block;font-size:.6rem;letter-spacing:.1em}
+.step-badge span{font-size:1.6rem}
+
+/* カード並び */
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.grid3,.grid2{grid-template-columns:1fr}}
+.card{background:var(--paper);border-radius:14px;padding:14px;display:grid;gap:8px;align-content:start;min-width:0}
+.card .pic{height:84px;display:grid;place-items:center}
+.card .pic svg{height:84px;width:auto}
+.card h3{font-size:1rem}
+.card p{font-size:.88rem}
+
+/* 要項チェック */
+.checks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.checks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.chk{background:var(--paper);border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:28px 1fr;gap:4px 8px;align-items:start;min-width:0}
+.chk svg{width:28px;height:28px;grid-row:1 / span 2}
+.chk b{font-size:.9rem}
+.chk span{font-size:.78rem;color:var(--ink-2);line-height:1.5}
+
+/* 会員カード */
+.mem{background:var(--surface);border:2px solid var(--c);border-radius:14px;overflow:hidden;display:grid;align-content:start;min-width:0}
+.mem .band{background:var(--c);color:#fff;padding:8px 14px;font-weight:700;font-size:.92rem;display:flex;justify-content:space-between;gap:8px}
+.mem .band small{opacity:.9;font-weight:500}
+.mem .body{padding:12px 14px;display:grid;gap:6px;font-size:.88rem}
+.mem .price{font-size:1.5rem;font-weight:800;color:var(--c);line-height:1.2;font-variant-numeric:tabular-nums}
+.mem .price small{font-size:.8rem;font-weight:700;color:var(--ink-2)}
+
+/* する・しない */
+.dodont{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:520px){.dodont{grid-template-columns:1fr}}
+.dd{border-radius:14px;padding:14px;display:grid;grid-template-columns:88px 1fr;gap:12px;align-items:center}
+.dd.ok{background:var(--green-soft)} .dd.ng{background:var(--coral-soft)}
+.dd .mark{font-weight:800;font-size:.95rem}
+.dd.ok .mark{color:var(--green)} .dd.ng .mark{color:var(--coral-ink)}
+.dd p{font-size:.88rem}
+
+/* 種類 */
+.types{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.type{border-left:6px solid var(--c);background:var(--surface);border-radius:4px 12px 12px 4px;padding:10px 14px;display:grid;gap:4px;box-shadow:0 0 0 1.5px var(--rule) inset}
+.type b{color:var(--c)}
+.type span{font-size:.84rem;color:var(--ink-2);line-height:1.6}
+
+/* 費用 */
+.cost{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.ct{background:var(--paper);border-radius:12px;padding:12px 14px;display:grid;gap:6px}
+.ct .nm{font-size:.86rem;font-weight:700}
+.ct .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.pill{border-radius:99px;padding:1px 10px;font-size:.8rem;font-weight:700;font-variant-numeric:tabular-nums}
+.p-fee{background:var(--blue-soft);color:var(--blue-ink)}
+.p-play{background:var(--turf-soft);color:var(--green)}
+.p-all{background:var(--yellow-soft);color:var(--amber-ink)}
+
+details{background:var(--paper);border-radius:12px;padding:10px 14px}
+details summary{cursor:pointer;font-weight:700}
+details ol{font-size:.8rem;color:var(--ink-2);padding-left:1.4em;overflow-wrap:anywhere}
+a{color:var(--blue-ink)}
+:focus-visible{outline:3px solid var(--blue-ink);outline-offset:2px}
+.tag{font-size:.7rem;font-weight:700;border-radius:6px;padding:0 6px;background:var(--grey-soft);color:var(--grey)}
+
+/* サイト共通の頭とフッター */
+.g-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:4px 8px;border-bottom:2px dashed var(--rule)}
+.g-brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:800;font-size:1rem}
+.g-brand img{width:36px;height:36px}
+.g-back{font-size:.86rem;color:var(--ink-2)}
+.g-nav{display:flex;gap:14px}
+.g-foot{margin-top:24px;padding-block:24px;border-top:2px dashed var(--rule);font-size:.78rem;color:var(--ink-3);display:grid;gap:6px}
+.g-foot a{color:inherit}
+.next-read{display:block;background:var(--yellow-soft);border:1.5px solid var(--yellow);border-radius:16px;padding:14px 18px;color:var(--ink);text-decoration:none;font-weight:700}
+.next-read b{display:block;font-size:.8rem;color:var(--coral-ink)}
+
+/* 英語版だけの部品（表・注意・用語集・ナビ） */
+.note{background:var(--blue-soft);color:var(--blue-ink);border-radius:14px;padding:12px 16px;font-size:.92rem;max-width:44em}
+.tip{background:var(--yellow-soft);border:1.5px solid var(--yellow);border-radius:16px;padding:12px 16px;max-width:44em;font-size:.92rem}
+table{width:100%;border-collapse:collapse;font-size:.9rem;background:var(--surface);border:1.5px solid var(--rule);border-radius:14px;overflow:hidden}
 th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--rule);vertical-align:top}
 th{background:var(--paper)}
 td.jp{font-weight:700;white-space:nowrap} td.ro{color:var(--ink-3);font-style:italic;white-space:nowrap}
-ul,ol{margin:0;padding-left:1.3em;display:grid;gap:8px;color:var(--ink-2);max-width:44em}
-li b{color:var(--ink)}
-.steps{list-style:none;padding:0;counter-reset:s}
-.steps li{counter-increment:s;position:relative;padding-left:44px;min-height:32px}
-.steps li::before{content:counter(s);position:absolute;left:0;top:0;width:32px;height:32px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;font-weight:800;font-size:.9rem}
-.tip{background:var(--yellow-soft);border:1.5px solid var(--yellow);border-radius:16px;padding:12px 16px;max-width:44em}
-.cta{display:inline-block;justify-self:start;background:var(--ink);color:#fff;text-decoration:none;font-weight:700;border-radius:999px;padding:10px 20px}
-.g-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:4px 8px;border-bottom:2px dashed var(--rule)}
-.g-brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:800}
-.g-brand img{width:36px;height:36px}
+.prose ul{margin:0;padding-left:1.3em;display:grid;gap:8px}
 .g-nav{display:flex;gap:14px;font-size:.86rem} .g-nav a{color:var(--ink-2)}
-.g-foot{margin-top:24px;padding-block:24px;border-top:2px dashed var(--rule);font-size:.78rem;color:var(--ink-3);display:grid;gap:6px}
-.g-foot a{color:inherit}
-@media (max-width:560px){td.ro{white-space:normal}}
+.memo{background:var(--coral-soft);color:var(--coral-ink);border-radius:12px;padding:10px 14px;font-size:.88rem}
+.card h3 .small,.dd .small{font-weight:500}
+details{min-width:0;max-width:100%}
+.chk b,.chk span{grid-column:2}
+.mem .band{flex-direction:column;gap:0}
+@media (max-width:640px){.checks{grid-template-columns:1fr}}
+@media (max-width:560px){td.ro,td.jp,.src{white-space:normal}}
 </style>
 </head>
 <body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-search" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="10.5" cy="10.5" r="6"/><path d="M15 15l5 5"/></g></symbol>
+    <symbol id="i-doc" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></g></symbol>
+    <symbol id="i-card" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><rect x="3" y="6" width="18" height="13" rx="2.5"/><circle cx="8.5" cy="12" r="2"/><path d="M13 11h5M13 14.5h4"/></g></symbol>
+    <symbol id="i-yen" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 7l3.5 5 3.5-5M12 12v5.5M9 12.5h6M9 15h6"/></g></symbol>
+    <symbol id="i-bag" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="8" width="10" height="13" rx="3"/><path d="M9 8V3M12 8V2M15 8V4M7 13h10"/></g></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><path d="M7 17a5 5 0 0 1 10 0M3 17h18M12 7V4M5.5 10.5L3.8 8.8M18.5 10.5l1.7-1.7M6 21h12"/></g></symbol>
+    <symbol id="i-medal" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3l3 7M16 3l-3 7"/><circle cx="12" cy="15" r="6"/><path d="M12 12.5v5"/></g></symbol>
+    <symbol id="i-cal" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></g></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="8" r="3.5"/><path d="M5 21a7 7 0 0 1 14 0"/></g></symbol>
+    <symbol id="i-score" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M4 9h16M4 15h16M10 3v18"/></g></symbol>
+    <symbol id="i-group" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="8" cy="8" r="2.8"/><circle cx="16" cy="8" r="2.8"/><path d="M3 20a5 5 0 0 1 10 0M11 20a5 5 0 0 1 10 0"/></g></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></g></symbol>
+    <symbol id="i-shirt" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linejoin="round"><path d="M8 3l-5 3 2 5 3-1v11h8V10l3 1 2-5-5-3a4 4 0 0 1-8 0z"/></g></symbol>
+    <symbol id="i-rain" viewBox="0 0 24 24"><g fill="none" stroke="#1d2a44" stroke-width="2" stroke-linecap="round"><path d="M7 15a4 4 0 0 1 .5-8 5.5 5.5 0 0 1 10.3 1.5A3.3 3.3 0 0 1 17 15z"/><path d="M9 18l-1 3M13 18l-1 3M17 18l-1 3"/></g></symbol>
+  </defs>
+</svg>
+
 <div class="wrap">
   <nav class="g-head" aria-label="Site">
     <a class="g-brand" href="../"><img src="../../favicon.svg" alt="">Junior Golf Tournament Calendar</a>
-    <span class="g-nav"><a href="../">← Find tournaments</a><a href="../../" lang="ja">日本語</a></span>
+    <span class="g-nav"><a href="../">← Find tournaments</a><a href="../../guide/first-tournament.html" lang="ja">日本語</a></span>
   </nav>
-
+  
   <header class="hero">
-    <span class="kicker">For families living in Japan</span>
-    <h1>How to enter a junior golf tournament in Japan</h1>
-    <p class="lead">Most tournament pages and entry forms in Japan are written only in Japanese. This page explains how school grades work, who can enter, how entry usually works, and the words you will see.</p>
-    <p class="note">Rules differ by tournament. Always read the official guidelines (<span lang="ja">要項</span>) for the event you want to enter.</p>
+    <div class="lead">
+      <span class="kicker">For families living in Japan</span>
+      <h1><span class="nw">Your first</span> <span class="nw">junior golf tournament</span> <span class="nw">in Japan</span></h1>
+      <p class="muted">Your child wants to play in a tournament, but the pages and entry forms are all in Japanese. This guide walks you through the whole process in order, from choosing a tournament to the day itself.</p>
+    </div>
+    <figure class="fig" style="margin:0">
+      <svg viewBox="0 0 360 230" role="img" aria-label="A parent and child walking along a grass path toward a calendar">
+        <rect x="0" y="0" width="360" height="230" rx="14" fill="#fff4d2"/>
+        <circle cx="300" cy="52" r="24" fill="#f6c343"/>
+        <path d="M0 170 Q90 130 180 160 T360 150 V230 H0z" fill="#dcebd2"/>
+        <path d="M0 196 Q120 168 240 190 T360 186 V230 H0z" fill="#7fb069"/>
+        <path d="M40 230 Q120 190 200 182 T330 150" fill="none" stroke="#fffdf7" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 16"/>
+        
+        <g transform="translate(248 78)">
+          <rect x="0" y="8" width="78" height="70" rx="10" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M0 30h78" stroke="#1d2a44" stroke-width="3"/>
+          <rect x="1.5" y="9.5" width="75" height="19" rx="8" fill="#e2574c"/>
+          <path d="M20 2v14M58 2v14" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="39" cy="54" r="13" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+          <circle cx="35" cy="50" r="2" fill="#1d2a44"/><circle cx="43" cy="52" r="2" fill="#1d2a44"/><circle cx="38" cy="58" r="2" fill="#1d2a44"/>
+        </g>
+        
+        <g transform="translate(70 92)">
+          <circle cx="24" cy="14" r="13" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M4 92 V48 a20 20 0 0 1 40 0 V92" fill="#2b4590" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M44 56 L62 70" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+        </g>
+        
+        <g transform="translate(128 120)">
+          <rect x="34" y="4" width="18" height="48" rx="7" fill="#e2574c" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M38 4V-8M43 4V-12M48 4V-6" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="18" cy="12" r="11" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M6 9 a12 10 0 0 1 24 0 h6" fill="#f6c343" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M3 66 V36 a15 15 0 0 1 30 0 V66" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M3 42 L-8 52" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+        </g>
+      </svg>
+    </figure>
   </header>
 
-  <section>
-    <h2>1. Check the school grade, not just the age</h2>
-    <div class="prose"><p>Japan’s school year starts on April 1. Many tournaments divide players by <b>school grade</b> (<span lang="ja">学年</span>), which is decided by date of birth. For the 2026 school year (April 2026 to March 2027):</p></div>
-    <div class="scroll"><table><thead><tr><th>Grade</th><th>Born between</th></tr></thead><tbody><tr><td>Elementary 1st grade <span lang="ja">(小1)</span></td><td>Apr 2, 2019 – Apr 1, 2020</td></tr><tr><td>Elementary 2nd grade <span lang="ja">(小2)</span></td><td>Apr 2, 2018 – Apr 1, 2019</td></tr><tr><td>Elementary 3rd grade <span lang="ja">(小3)</span></td><td>Apr 2, 2017 – Apr 1, 2018</td></tr><tr><td>Elementary 4th grade <span lang="ja">(小4)</span></td><td>Apr 2, 2016 – Apr 1, 2017</td></tr><tr><td>Elementary 5th grade <span lang="ja">(小5)</span></td><td>Apr 2, 2015 – Apr 1, 2016</td></tr><tr><td>Elementary 6th grade <span lang="ja">(小6)</span></td><td>Apr 2, 2014 – Apr 1, 2015</td></tr><tr><td>Junior high 1st grade <span lang="ja">(中1)</span></td><td>Apr 2, 2013 – Apr 1, 2014</td></tr><tr><td>Junior high 2nd grade <span lang="ja">(中2)</span></td><td>Apr 2, 2012 – Apr 1, 2013</td></tr><tr><td>Junior high 3rd grade <span lang="ja">(中3)</span></td><td>Apr 2, 2011 – Apr 1, 2012</td></tr></tbody></table></div>
-    <div class="prose"><p>Other tournaments, such as U.S. Kids Golf, use age divisions. The guidelines say on which date the age is counted. If your child attends an international school and you are not sure which grade applies, ask the organizer before entering.</p></div>
-  </section>
+  <div class="prose">
+    <p>Each organizer has its own entry method and rules. This page explains what most tournaments have in common, with real examples from 2026 guidelines. Before you enter, always read the guidelines (<span lang="ja">要項</span>, <i>yōkō</i>) for the tournament: they list the dates, who can enter, fees and how to apply.</p>
+    <p class="tip"><b>Tip:</b> your browser’s translate function works on most official pages. For PDFs, a translation app with a camera mode helps. Numbers in brackets point to the sources at the bottom.</p>
+  </div>
 
   <section>
-    <h2>2. Check who can enter</h2>
-    <ul>
+    <h2>The steps to your first tournament</h2>
+    <figure class="fig" style="margin:0">
+      <ol class="road">
+        <li><a href="#s1"><span class="ic"><svg><use href="#i-search"/></svg></span></a><span class="n">STEP 1</span><span class="t">Choose a tournament</span></li>
+        <li><a href="#s2"><span class="ic"><svg><use href="#i-doc"/></svg></span></a><span class="n">STEP 2</span><span class="t">Read the guidelines</span></li>
+        <li><a href="#s3"><span class="ic"><svg><use href="#i-card"/></svg></span></a><span class="n">STEP 3</span><span class="t">Register, if needed</span></li>
+        <li><a href="#s4"><span class="ic"><svg><use href="#i-yen"/></svg></span></a><span class="n">STEP 4</span><span class="t">Enter and pay</span></li>
+        <li><a href="#s5"><span class="ic"><svg><use href="#i-bag"/></svg></span></a><span class="n">STEP 5</span><span class="t">Get ready</span></li>
+        <li><a href="#s6"><span class="ic"><svg><use href="#i-sun"/></svg></span></a><span class="n">STEP 6</span><span class="t">On the day</span></li>
+        <li><a href="#s7"><span class="ic"><svg><use href="#i-medal"/></svg></span></a><span class="n">STEP 7</span><span class="t">Check the results</span></li>
+      </ol>
+      <figcaption>Tap a circle to jump to that step.</figcaption>
+    </figure>
+  </section>
+
+  <section id="s1">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>1</span></div></div><h2>Choose a tournament</h2></div>
+    <div class="prose"><p>Tournaments range from small local events to series where you qualify for a national final. For a first tournament, these three checks help.</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="grid3">
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><rect x="14" y="14" width="92" height="58" rx="10" fill="#e3eafb" stroke="#1d2a44" stroke-width="3"/><circle cx="40" cy="42" r="11" fill="#fff" stroke="#1d2a44" stroke-width="3"/><path d="M60 36h32M60 48h22" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/><circle cx="98" cy="18" r="13" fill="#f6c343" stroke="#1d2a44" stroke-width="3"/><path d="M92 18h12" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/></svg></div>
+          <h3>① Can you enter without a membership?</h3>
+          <p>The JGA’s Japan Junior Championship and National Elementary Tournament are, in principle, for JGA junior members only <span class="src">[1]</span>. The JJGA’s Ryo Ishikawa Cup qualifiers are open to non-members <span class="src">[9]</span>.</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><circle cx="40" cy="22" r="11" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/><path d="M24 80V52a16 16 0 0 1 32 0v28" fill="#2b4590" stroke="#1d2a44" stroke-width="3"/><rect x="60" y="34" width="12" height="38" rx="5" fill="#e2574c" stroke="#1d2a44" stroke-width="3"/><path d="M56 56l8-6" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/><circle cx="92" cy="40" r="9" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/><path d="M80 80V62a12 12 0 0 1 24 0v18" fill="#fff" stroke="#1d2a44" stroke-width="3"/></svg></div>
+          <h3>② Can a parent stay close?</h3>
+          <p>At the JGAI Cup, players in grade 4 and below must have a parent as caddie <span class="src">[12]</span>. Some junior high tournaments do not allow caddies at all <span class="src">[14]</span>.</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><rect x="26" y="8" width="68" height="70" rx="8" fill="#fff" stroke="#1d2a44" stroke-width="3"/><path d="M26 26h68M26 44h68M26 62h68M50 8v70" stroke="#1d2a44" stroke-width="2"/><text x="72" y="40" font-family="M PLUS Rounded 1c,sans-serif" font-size="13" font-weight="800" fill="#b8352b" text-anchor="middle">5</text><text x="72" y="58" font-family="M PLUS Rounded 1c,sans-serif" font-size="13" font-weight="800" fill="#b8352b" text-anchor="middle">4</text><path d="M86 70l14 -14" stroke="#f6c343" stroke-width="6" stroke-linecap="round"/></svg></div>
+          <h3>③ Does it match your child’s level?</h3>
+          <p>Some set a score condition, such as “under 120 strokes for one round” (Kanto Elementary Tournament) <span class="src">[4]</span> or “an 18-hole average of 100 or better” (Kanto Junior Championship) <span class="src">[3]</span>.</p>
+        </div>
+      </div>
+      <figcaption>A caddie (<span lang="ja">キャディー</span>) carries the player’s bag and may give advice.</figcaption>
+    </figure>
+    <div class="prose"><ul>
       <li><b>Area conditions are common.</b> Prefecture tournaments often require the player to live in (<span lang="ja">在住</span>) or attend school in (<span lang="ja">在学</span>) that prefecture.</li>
       <li><b>Nationality.</b> The guidelines we have checked for major organizers do not mention nationality. That is not a guarantee, so read the guidelines for each tournament.</li>
-      <li><b>Some series need a membership first.</b> For example, JGA junior membership for JGA junior championships, JJGT membership for the JJGT tour, and school golf club registration for school federation (<span lang="ja">高ゴ連</span>) tournaments.</li>
-    </ul>
+    </ul></div>
+    <figure class="fig" style="margin:0">
+      <svg viewBox="0 0 640 170" role="img" aria-label="Choosing Level and Area on this site shows only the tournaments your child can enter">
+        <rect x="0" y="0" width="640" height="170" rx="12" fill="#fbf8ef"/>
+        <g font-family="M PLUS Rounded 1c,sans-serif" font-size="14" fill="#1d2a44">
+          <text x="24" y="36" font-weight="700">Level</text>
+          <rect x="24" y="46" width="150" height="38" rx="10" fill="#fff" stroke="#1d2a44" stroke-width="2"/><text x="40" y="70">Elementary</text><path d="M150 61l6 6 6-6" fill="none" stroke="#1d2a44" stroke-width="2"/>
+          <text x="24" y="114" font-weight="700">Area</text>
+          <rect x="24" y="124" width="150" height="38" rx="10" fill="#fff" stroke="#1d2a44" stroke-width="2"/><text x="40" y="148">Kanto</text><path d="M150 139l6 6 6-6" fill="none" stroke="#1d2a44" stroke-width="2"/>
+          <path d="M200 103h70" stroke="#e2574c" stroke-width="4" stroke-linecap="round"/><path d="M260 92l14 11-14 11" fill="none" stroke="#e2574c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <g transform="translate(300 24)">
+            <rect width="316" height="40" rx="10" fill="#fff" stroke="#e8e2d2" stroke-width="2"/><rect x="10" y="12" width="44" height="16" rx="8" fill="#fce3e0"/><text x="32" y="25" font-size="10" text-anchor="middle" fill="#b8352b" font-weight="700">Open</text><rect x="66" y="14" width="140" height="12" rx="6" fill="#e8e2d2"/><rect x="220" y="14" width="80" height="12" rx="6" fill="#efebdf"/>
+            <rect y="50" width="316" height="40" rx="10" fill="#fff" stroke="#e8e2d2" stroke-width="2"/><rect x="66" y="64" width="170" height="12" rx="6" fill="#e8e2d2"/><rect x="250" y="64" width="50" height="12" rx="6" fill="#efebdf"/>
+            <rect y="100" width="316" height="40" rx="10" fill="#fff" stroke="#e8e2d2" stroke-width="2"/><rect x="66" y="114" width="120" height="12" rx="6" fill="#e8e2d2"/><rect x="200" y="114" width="100" height="12" rx="6" fill="#efebdf"/>
+          </g>
+        </g>
+      </svg>
+      <figcaption>On this site, choose Elementary or Junior high under “Level” and a region under “Area” to see only the tournaments your child can enter. Tap a tournament name to see the organizer, course and entry period.</figcaption>
+    </figure>
+  </section>
+
+  <section id="s2">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>2</span></div></div><h2>Read the guidelines</h2></div>
+    <div class="prose"><p>Once you have picked a tournament, open the guidelines on the official page, often a PDF. They cover at least these things. Taking notes as you read helps.</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="checks">
+        <div class="chk"><svg><use href="#i-cal"/></svg><b>Dates and course</b><span>The qualifier and final may be on different dates and courses.</span></div>
+        <div class="chk"><svg><use href="#i-person"/></svg><b>Who can enter</b><span>Grade or age, area, score conditions, membership.</span></div>
+        <div class="chk"><svg><use href="#i-group"/></svg><b>Divisions</b><span>By grade, or by age on a set date.</span></div>
+        <div class="chk"><svg><use href="#i-doc"/></svg><b>Entry period and method</b><span>From when to when. Entry site, My Page, fax and so on.</span></div>
+        <div class="chk"><svg><use href="#i-search"/></svg><b>Capacity</b><span>First come, first served, or a lottery.</span></div>
+        <div class="chk"><svg><use href="#i-yen"/></svg><b>Entry fee and green fee</b><span>How and when to pay. The green fee is often paid separately on the day.</span></div>
+        <div class="chk"><svg><use href="#i-bag"/></svg><b>Caddies</b><span>Whether a parent may, must, or may not caddie.</span></div>
+        <div class="chk"><svg><use href="#i-clock"/></svg><b>Rules for the day</b><span>Check-in time, what to bring, dress, where to watch.</span></div>
+        <div class="chk"><svg><use href="#i-rain"/></svg><b>Cancellation</b><span>What happens if rain cancels play, including refunds.</span></div>
+      </div>
+      <figcaption>Nine things to check in the guidelines (<span lang="ja">要項</span>).</figcaption>
+    </figure>
+    <h3>Japanese school grades</h3>
+    <div class="prose"><p>Japan’s school year starts on April 1, and many tournaments divide players by school grade (<span lang="ja">学年</span>), decided by date of birth. For the 2026 school year (April 2026 to March 2027):</p></div>
+    <div class="scroll"><table><thead><tr><th>Grade</th><th>Born between</th></tr></thead><tbody><tr><td>Elementary 1st grade <span lang="ja">(小1)</span></td><td>Apr 2, 2019 – Apr 1, 2020</td></tr><tr><td>Elementary 2nd grade <span lang="ja">(小2)</span></td><td>Apr 2, 2018 – Apr 1, 2019</td></tr><tr><td>Elementary 3rd grade <span lang="ja">(小3)</span></td><td>Apr 2, 2017 – Apr 1, 2018</td></tr><tr><td>Elementary 4th grade <span lang="ja">(小4)</span></td><td>Apr 2, 2016 – Apr 1, 2017</td></tr><tr><td>Elementary 5th grade <span lang="ja">(小5)</span></td><td>Apr 2, 2015 – Apr 1, 2016</td></tr><tr><td>Elementary 6th grade <span lang="ja">(小6)</span></td><td>Apr 2, 2014 – Apr 1, 2015</td></tr><tr><td>Junior high 1st grade <span lang="ja">(中1)</span></td><td>Apr 2, 2013 – Apr 1, 2014</td></tr><tr><td>Junior high 2nd grade <span lang="ja">(中2)</span></td><td>Apr 2, 2012 – Apr 1, 2013</td></tr><tr><td>Junior high 3rd grade <span lang="ja">(中3)</span></td><td>Apr 2, 2011 – Apr 1, 2012</td></tr></tbody></table></div>
+    <div class="prose"><p>Other tournaments, such as U.S. Kids Golf, use age divisions. If your child attends an international school and you are not sure which grade applies, ask the organizer before entering.</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="scroll">
+      <svg viewBox="0 0 640 150" style="min-width:520px" role="img" aria-label="The ages 12–14 division of the 2026 Kanto Junior Championship covers players born from April 2, 2011 to April 1, 2014">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="28" font-size="14" font-weight="700">Date of birth</text>
+          <path d="M30 92H610" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <g font-size="12" fill="#4c5872" text-anchor="middle">
+            <path d="M70 86v12M190 86v12M310 86v12M430 86v12M550 86v12" stroke="#4c5872" stroke-width="2"/>
+            <text x="70" y="118">2010</text><text x="190" y="118">2011</text><text x="310" y="118">2012</text><text x="430" y="118">2013</text><text x="550" y="118">2014</text>
+          </g>
+          <rect x="220" y="52" width="360" height="30" rx="10" fill="#f6c343"/>
+          <text x="400" y="72" font-size="14" font-weight="800" text-anchor="middle">Ages 12–14 division</text>
+          <path d="M220 48v48M580 48v48" stroke="#b8352b" stroke-width="3" stroke-linecap="round"/>
+          <text x="220" y="142" font-size="12.5" font-weight="700" fill="#b8352b" text-anchor="middle">Apr 2, 2011</text>
+          <text x="580" y="142" font-size="12.5" font-weight="700" fill="#b8352b" text-anchor="middle">Apr 1, 2014</text>
+        </g>
+      </svg>
+      </div>
+      <figcaption><b>Watch the base date.</b> The guidelines say on which date the age or grade is counted (<span lang="ja">〇〇現在</span>). The 12–14 division of the 2026 Kanto Junior Championship was for players born between April 2, 2011 and April 1, 2014 <span class="src">[3]</span>. The Kanto Elementary Tournament was for grades 4 to 6 “as of April 2, 2026” <span class="src">[4]</span>. Two children in the same grade can end up in different divisions.</figcaption>
+    </figure>
+  </section>
+
+  <section id="s3">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>3</span></div></div><h2>Register for a membership, if needed</h2></div>
+    <div class="prose"><p>For members-only tournaments, register before you enter. Registration can take a few days, so do it well before the deadline.</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="grid3">
+        <div class="mem" style="--c:#3b6b1f"><div class="band">JGA junior member <small>Japan Golf Association</small></div><div class="body"><span class="muted">Ages 6–18</span><span class="price">¥2,000<small> / year</small></span><span>Plus a ¥1,000 joining fee (tax included). Online only. A parent or guardian registers a new member <span class="src">[1]</span>.</span></div></div>
+        <div class="mem" style="--c:#1d5fa8"><div class="band">JJGA <small>Japan Junior Golf Association</small></div><div class="body"><span class="muted">Age 8 (grade 3) to 18</span><span class="price">¥8,000<small> / first year</small></span><span>Register for a “My Page” (<span lang="ja">マイページ</span>) account first, then apply for membership there <span class="src">[10]</span>.</span></div></div>
+        <div class="mem" style="--c:#00796b"><div class="band">JJGT <small>Japan Junior Golf Tour</small></div><div class="body"><span class="muted">Free to register</span><span class="price">¥10,800<small> / year</small></span><span>A ranking registration fee to play the tour’s ranking events. Register online <span class="src">[11]</span>.</span></div></div>
+      </div>
+      <figcaption>Fees as of October 2026. To play in school tournaments, register with your area’s high school and junior high school golf federation (<span lang="ja">高ゴ連</span>). You can join as an individual even if your school has no golf club <span class="src">[15]</span>.</figcaption>
+    </figure>
+  </section>
+
+  <section id="s4">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>4</span></div></div><h2>Enter and pay</h2></div>
+    <div class="prose"><p><b>Each organizer uses its own entry system.</b> JGA events use Golf Genius (an online entry system) <span class="src">[2]</span>, the JJGA uses its “My Page” <span class="src">[9]</span>, and the JGAI Cup uses Sports Entry (<span lang="ja">スポーツエントリー</span>) <span class="src">[12]</span>. Some tournaments still take entries by fax <span class="src">[7]</span>. Forms often ask for your child’s name in katakana (<span lang="ja">フリガナ</span>).</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="grid2">
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 200 84" aria-hidden="true"><g stroke="#1d2a44" stroke-width="2.5"><g fill="#e3eafb"><circle cx="22" cy="30" r="8"/><circle cx="50" cy="30" r="8"/><circle cx="78" cy="30" r="8"/><circle cx="106" cy="30" r="8"/></g><g fill="#e3eafb"><path d="M10 64a12 12 0 0 1 24 0zM38 64a12 12 0 0 1 24 0zM66 64a12 12 0 0 1 24 0zM94 64a12 12 0 0 1 24 0z"/></g><g fill="#efebdf" stroke="#6b7488" stroke-dasharray="4 3"><circle cx="160" cy="30" r="8"/><path d="M148 64a12 12 0 0 1 24 0z"/></g></g><path d="M132 14v58" stroke="#e2574c" stroke-width="4" stroke-linecap="round"/><text x="134" y="82" font-family="M PLUS Rounded 1c,sans-serif" font-size="11" font-weight="800" fill="#b8352b" text-anchor="middle">Full</text></svg></div>
+          <h3>First come, first served <span lang="ja" class="small muted">先着順</span></h3>
+          <p>Places can fill on the day entry opens. The Reitaku Mizunami Junior (the All Japan Elementary Tournament’s Chubu-Hokuriku qualifier) took the first 20 players in each division <span class="src">[7]</span>.</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 200 84" aria-hidden="true"><rect x="60" y="22" width="80" height="56" rx="8" fill="#fff4d2" stroke="#1d2a44" stroke-width="3"/><rect x="84" y="20" width="32" height="7" rx="3.5" fill="#1d2a44"/><text x="100" y="58" font-family="M PLUS Rounded 1c,sans-serif" font-size="16" font-weight="800" fill="#7a5600" text-anchor="middle">Lottery</text><g transform="rotate(-12 150 18)"><rect x="132" y="6" width="36" height="22" rx="4" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/><path d="M140 17h20" stroke="#e2574c" stroke-width="3" stroke-linecap="round"/></g><g transform="rotate(10 40 18)"><rect x="24" y="8" width="36" height="22" rx="4" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/></g></svg></div>
+          <h3>Lottery <span lang="ja" class="small muted">抽選</span></h3>
+          <p>Some tournaments hold a draw when there are many entries, such as the Tohoku qualifier run by Miyagi Television <span class="src">[8]</span>.</p>
+        </div>
+      </div>
+    </figure>
+    <figure class="fig" style="margin:0">
+      <div class="scroll">
+      <svg viewBox="0 0 640 180" style="min-width:520px" role="img" aria-label="Ryo Ishikawa Cup example: entries from September 25 to October 9, 2026, qualifiers in October and November">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="26" font-size="14" font-weight="700">Example: Ryo Ishikawa Cup qualifiers (2026)</text>
+          
+          <path d="M40 110H604" stroke="#e8e2d2" stroke-width="10" stroke-linecap="round"/>
+          <g font-size="12" fill="#4c5872" text-anchor="middle"><text x="40" y="160">Sep</text><text x="226" y="160">Oct</text><text x="418" y="160">Nov</text></g>
+          <path d="M226 100v20M418 100v20" stroke="#6b7488" stroke-width="2"/>
+          <rect x="189" y="100" width="87" height="20" rx="10" fill="#2b4590"/>
+          <text x="264" y="88" font-size="13" font-weight="800" fill="#2b4590" text-anchor="end">Entries 9/25–10/9</text>
+          <rect x="226" y="126" width="378" height="12" rx="6" fill="#7fb069"/>
+          <text x="415" y="62" font-size="13" font-weight="800" fill="#3b6b1f" text-anchor="middle">Qualifiers Oct–Nov</text>
+          <path d="M415 68v54" stroke="#3b6b1f" stroke-width="2" stroke-dasharray="3 3"/>
+          <path d="M276 92v34" stroke="#b8352b" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="276" cy="92" r="5" fill="#b8352b"/>
+          <text x="290" y="96" font-size="12.5" font-weight="800" fill="#b8352b">Closes 10/9</text>
+        </g>
+      </svg>
+      </div>
+      <figcaption><b>Deadlines come early.</b> The Ryo Ishikawa Cup took entries for its October–November 2026 qualifiers from September 25 to October 9 <span class="src">[9]</span>. Many tournaments close a few weeks before the event, so check the guidelines early. The “Entry calendar” tab on this site shows opening and closing dates by month.</figcaption>
+    </figure>
+    <div class="prose">
+      <p><b>Don’t forget to pay.</b> Some tournaments cancel the entry if payment is not confirmed by the deadline <span class="src">[9, 11]</span>. Payment is often by Japanese bank transfer (<span lang="ja">銀行振込</span>) or at a convenience store, so check the method and deadline as soon as you enter.</p>
+      <p><b>Pairings and tee times</b> (<span lang="ja">組合せ</span>) are usually posted on the official page before the tournament.</p>
+    </div>
+  </section>
+
+  <section id="s5">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>5</span></div></div><h2>Get ready the day before</h2></div>
+    <figure class="fig" style="margin:0">
+      <div class="grid3">
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><path d="M38 24h44l6 52H32z" fill="#f7ecdd" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><path d="M34 52q26-8 52 0l2 24H32z" fill="#e9d8a6"/><path d="M38 24h44l6 52H32z" fill="none" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><path d="M46 24q14-16 28 0" fill="none" stroke="#1d2a44" stroke-width="3"/></svg></div>
+          <h3>Divot sand bag <span lang="ja" class="small muted">目土袋</span></h3><p>A small bag of sand to fill the marks left when a shot takes out turf.</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><rect x="44" y="10" width="32" height="34" rx="9" fill="#e2574c" stroke="#1d2a44" stroke-width="3"/><path d="M52 44v30M68 44v30" stroke="#1d2a44" stroke-width="4" stroke-linecap="round"/><circle cx="60" cy="27" r="7" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/></svg></div>
+          <h3>Ball-mark repair tool <span lang="ja" class="small muted">グリーンフォーク</span></h3><p>A small tool to fix the marks balls make on the green.</p>
+        </div>
+        <div class="card">
+          <div class="pic"><svg viewBox="0 0 120 84" aria-hidden="true"><path d="M60 22q-18-10-36-4v56q18-6 36 4q18-10 36-4V18q-18-6-36 4z" fill="#e3eafb" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><path d="M60 22v56" stroke="#1d2a44" stroke-width="3"/><path d="M32 34q10-3 20 0M32 46q10-3 20 0M68 34q10-3 20 0M68 46q10-3 20 0" stroke="#2b4590" stroke-width="2.5" stroke-linecap="round" fill="none"/></svg></div>
+          <h3>Rule book <span lang="ja" class="small muted">ルールブック</span></h3><p>All three are required at the Ryo Ishikawa Cup qualifiers <span class="src">[9]</span>.</p>
+        </div>
+      </div>
+      <figcaption>Some guidelines say balls and drivers must be on the R&amp;A’s conforming lists (<span lang="ja">適合リスト</span>). The R&amp;A sets the Rules of Golf <span class="src">[3, 9]</span>.</figcaption>
+    </figure>
+    <figure class="fig" style="margin:0">
+      <div class="grid2">
+        <div class="dd ok"><svg viewBox="0 0 88 70" aria-hidden="true"><path d="M14 40a30 22 0 0 1 60 0z" fill="#f6c343" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><path d="M70 40h14" stroke="#1d2a44" stroke-width="4" stroke-linecap="round"/><path d="M14 40h60" stroke="#1d2a44" stroke-width="3"/></svg><div><div class="mark">Players wear a cap</div><p>Players wear a cap during play <span class="src">[9]</span>.</p></div></div>
+        <div class="dd ng"><svg viewBox="0 0 88 70" aria-hidden="true"><path d="M26 10h16l2 52H34l-2-30-2 30H20l2-52z" fill="#2b4590" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><ellipse cx="62" cy="56" rx="16" ry="7" fill="#f7ecdd" stroke="#1d2a44" stroke-width="3"/><path d="M52 52q10-10 20 0" fill="none" stroke="#1d2a44" stroke-width="3"/><circle cx="44" cy="36" r="30" fill="none" stroke="#b8352b" stroke-width="4"/><path d="M23 15l42 42" stroke="#b8352b" stroke-width="4"/></svg><div><div class="mark">No denim or sandals, parents too</div><p>You cannot enter the course in clothes the course does not allow <span class="src">[9]</span>.</p></div></div>
+      </div>
+    </figure>
+    <figure class="fig" style="margin:0">
+      <div class="scroll">
+      <svg viewBox="0 0 640 170" style="min-width:540px" role="img" aria-label="Working back from the tee time: for an 8:00 start, be near the tee at 7:50 and check in by 7:15">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="26" font-size="14" font-weight="700">Example: 8:00 tee time (using the Ryo Ishikawa Cup rules)</text>
+          <path d="M60 96H600" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <path d="M96 96l-14 -8v16z" fill="#1d2a44"/>
+          <g text-anchor="middle">
+            <circle cx="120" cy="96" r="22" fill="#fff" stroke="#1d2a44" stroke-width="3"/><g transform="translate(108 84)"><use href="#i-sun" width="24" height="24"/></g>
+            <text x="120" y="142" font-size="13" font-weight="800">Leave home</text><text x="120" y="160" font-size="11.5" fill="#4c5872">Allow for travel</text>
+            <circle cx="320" cy="96" r="22" fill="#fce3e0" stroke="#b8352b" stroke-width="3"/><text x="320" y="101" font-size="13" font-weight="800" fill="#b8352b">7:15</text>
+            <text x="320" y="142" font-size="13" font-weight="800">Check-in closes</text><text x="320" y="160" font-size="11.5" fill="#4c5872">45 min before start</text>
+            <circle cx="460" cy="96" r="22" fill="#fff4d2" stroke="#7a5600" stroke-width="3"/><text x="460" y="101" font-size="13" font-weight="800" fill="#7a5600">7:50</text>
+            <text x="460" y="142" font-size="13" font-weight="800">Go to the tee</text><text x="460" y="160" font-size="11.5" fill="#4c5872">Be nearby 10 min early</text>
+            <circle cx="570" cy="96" r="22" fill="#7fb069" stroke="#1d2a44" stroke-width="3"/><text x="570" y="101" font-size="13" font-weight="800" fill="#fff">8:00</text>
+            <text x="570" y="142" font-size="13" font-weight="800">Tee off</text>
+          </g>
+          <text x="330" y="60" font-size="12" fill="#4c5872" text-anchor="middle">← Work back from check-in to decide when to leave home</text>
+        </g>
+      </svg>
+      </div>
+      <figcaption>The tee time (<span lang="ja">スタート時刻</span>, when your child starts on the first hole) is announced in advance. Check-in (<span lang="ja">受付</span>) closes earlier. The times in the figure are only an example.</figcaption>
+    </figure>
+  </section>
+
+  <section id="s6">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>6</span></div></div><h2>On the day</h2></div>
+    <div class="prose"><p><b>Check in on time.</b> At the Ryo Ishikawa Cup qualifiers, players check in at least 45 minutes before the tee time and wait near the tee 10 minutes before <span class="src">[9]</span>. At the Reitaku Mizunami Junior, check-in closes 30 minutes before the tee time, and late players are disqualified (<span lang="ja">失格</span>) <span class="src">[7]</span>.</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="dodont">
+        <div class="dd ok"><svg viewBox="0 0 88 80" aria-hidden="true"><path d="M0 62q44-14 88 0v18H0z" fill="#dcebd2"/><path d="M6 50h76" stroke="#3b6b1f" stroke-width="3" stroke-dasharray="6 5"/><circle cx="28" cy="20" r="8" fill="#f3d2b5" stroke="#1d2a44" stroke-width="2.5"/><path d="M16 50V38a12 12 0 0 1 24 0v12" fill="#2b4590" stroke="#1d2a44" stroke-width="2.5"/><circle cx="64" cy="58" r="6" fill="#f3d2b5" stroke="#1d2a44" stroke-width="2.5"/><path d="M56 78V72a8 8 0 0 1 16 0v6" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/></svg><div><div class="mark">Watch from the allowed areas</div><p>Spectator areas may be marked, and you may not be allowed onto the course.</p></div></div>
+        <div class="dd ng"><svg viewBox="0 0 88 80" aria-hidden="true"><circle cx="26" cy="24" r="9" fill="#f3d2b5" stroke="#1d2a44" stroke-width="2.5"/><path d="M12 60V46a14 14 0 0 1 28 0v14" fill="#2b4590" stroke="#1d2a44" stroke-width="2.5"/><path d="M44 10h34a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H58l-8 8v-8h-6a6 6 0 0 1-6-6V16a6 6 0 0 1 6-6z" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/><path d="M52 16l18 14M70 16L52 30" stroke="#b8352b" stroke-width="4" stroke-linecap="round"/></svg><div><div class="mark">No advice during play</div><p>A parent who is not the caddie may not give the child advice during the round <span class="src">[9]</span>.</p></div></div>
+      </div>
+      <figcaption>However much you want to help, cheer quietly from where spectators are allowed.</figcaption>
+    </figure>
+    <div class="prose"><p><b>Bad weather.</b> How the tournament handles rain or lightning, such as cancelling or shortening play, is in the guidelines <span class="src">[9]</span>. Check for messages from the organizer on the morning.</p></div>
+  </section>
+
+  <section id="s7">
+    <div class="step-head"><div class="step-badge"><div><small>STEP</small><span>7</span></div></div><h2>Check the results</h2></div>
+    <div class="prose"><p>Results are usually posted on the organizer’s official page. On this site, the details of a finished tournament link to the official results. After the first tournament, thinking about the next goal is part of the fun: many tournaments let players who do well in a regional qualifier go on to a final or a national championship.</p></div>
+    <figure class="fig" style="margin:0">
+      <svg viewBox="0 0 640 220" role="img" aria-label="Kanto Elementary Tournament example: up to 120 players from prefecture qualifiers go to the Kanto final, and top finishers go to the National Elementary Tournament">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="26" font-size="14" font-weight="700">Example: Kanto Elementary Tournament (2026 conditions)</text>
+          <rect x="30" y="150" width="190" height="56" rx="10" fill="#dcebd2" stroke="#1d2a44" stroke-width="2.5"/>
+          <text x="125" y="176" font-size="14" font-weight="800" text-anchor="middle">Prefecture qualifiers</text><text x="125" y="195" font-size="11.5" fill="#4c5872" text-anchor="middle">Start the autumn before</text>
+          <rect x="225" y="100" width="190" height="106" rx="10" fill="#fff4d2" stroke="#1d2a44" stroke-width="2.5"/>
+          <text x="320" y="128" font-size="14" font-weight="800" text-anchor="middle">Kanto final</text><text x="320" y="147" font-size="11.5" fill="#4c5872" text-anchor="middle">Up to 120 players</text>
+          <rect x="420" y="50" width="190" height="156" rx="10" fill="#fce3e0" stroke="#1d2a44" stroke-width="2.5"/>
+          <text x="515" y="78" font-size="14" font-weight="800" text-anchor="middle">National</text><text x="515" y="96" font-size="14" font-weight="800" text-anchor="middle">Elementary Tournament</text><text x="515" y="115" font-size="11.5" fill="#4c5872" text-anchor="middle">Top finishers in the final</text>
+          <g transform="translate(497 140)"><use href="#i-medal" width="36" height="36"/></g>
+        </g>
+      </svg>
+      <figcaption>Up to 120 players who pass the prefecture qualifiers go to the final, and top finishers go to the JGA’s National Elementary Tournament <span class="src">[4]</span>. The Nagano qualifier took entries in October 2026 <span class="src">[5]</span>.</figcaption>
+    </figure>
   </section>
 
   <section>
-    <h2>3. How entry usually works</h2>
-    <ol class="steps">
-      <li><b>Open the official page</b> from our list and find the guidelines (<span lang="ja">要項</span>), often a PDF.</li>
-      <li><b>Check the entry period</b> (<span lang="ja">申込期間</span>). Some tournaments are first come, first served (<span lang="ja">先着順</span>) and close early when full.</li>
-      <li><b>Apply</b> on the organizer’s web form or member page. Some still use fax or post. Forms often ask for your child’s name in katakana (<span lang="ja">フリガナ</span>).</li>
-      <li><b>Pay the entry fee</b> (<span lang="ja">参加料</span>), often by Japanese bank transfer (<span lang="ja">銀行振込</span>) or at a convenience store. The course green fee (<span lang="ja">プレー費</span>) may be separate.</li>
-      <li><b>Check pairings and tee times</b> (<span lang="ja">組合せ</span>). They are usually posted on the official page before the tournament.</li>
-    </ol>
-    <p class="tip"><b>Tip:</b> your browser’s translate function works on most official pages. For PDFs, a translation app with a camera mode helps.</p>
+    <h2>More to know</h2>
+    <h3>From qualifier to final (typical examples)</h3>
+    <figure class="fig" style="margin:0">
+      <div class="types">
+        <div class="type" style="--c:#3b6b1f"><b>Japan Junior Championship (JGA)</b><span>Prefecture-block qualifiers → Kanto Junior Championship final → top finishers go to the Japan Junior (2026 Kanto example) <span class="src">[3]</span></span></div>
+        <div class="type" style="--c:#3b6b1f"><b>Kanto Elementary Tournament (KGA)</b><span>Prefecture qualifiers → final (up to 120 players) → top finishers go to the National Elementary Tournament <span class="src">[4]</span></span></div>
+        <div class="type" style="--c:#b0306a"><b>All Japan Elementary Tournament (JLPGA)</b><span>Qualifiers in 9 regions → final (76 players in 2026). Grades 3–4 and 5–6, boys and girls separately <span class="src">[6]</span></span></div>
+        <div class="type" style="--c:#1d5fa8"><b>Ryo Ishikawa Cup (JJGA)</b><span>Qualifiers at 39 courses → final (February–March 2027). In the 8–11 division, the winner at each course (winning score of 100 or better) and top players in the national ranking <span class="src">[9]</span></span></div>
+      </div>
+      <figcaption>The colors on the left match the organizer types on this site.</figcaption>
+    </figure>
+    <h3>Kinds of tournaments</h3>
+    <figure class="fig" style="margin:0">
+      <div class="types">
+        <div class="type" style="--c:#00796b"><b>Junior tours and development groups</b><span>JJGA regional events and JJGT qualifiers, held all year. The JJGA says it runs “about 100 regional events a year” <span class="src">[10]</span>.</span></div>
+        <div class="type" style="--c:#3b6b1f"><b>Golf association championships</b><span>The JGA’s Japan Junior, and regional junior and elementary championships. Many require JGA junior membership <span class="src">[1]</span>.</span></div>
+        <div class="type" style="--c:#6a47a8"><b>School tournaments</b><span>Run by high school and junior high school golf federations. Registration is required <span class="src">[15]</span>.</span></div>
+        <div class="type" style="--c:#8f5000"><b>Company tournaments</b><span>For example, the Studio Alice Junior Cup with the JLPGA. Some choose players by lottery <span class="src">[13]</span>.</span></div>
+        <div class="type" style="--c:#56636e"><b>Overseas tournaments</b><span>U.S. Kids Golf (a U.S. organization) local tours and international events, held around the world <span class="src">[16]</span>.</span></div>
+      </div>
+    </figure>
+    <h3>Handicap</h3>
+    <div class="prose"><p>A handicap shows a player’s level as a number. Under the World Handicap System it is called a Handicap Index. It is often not needed for a first tournament, but it is needed for higher-level events.</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="scroll">
+      <svg viewBox="0 0 640 150" style="min-width:520px" role="img" aria-label="Of the most recent 20 scores, the best 8 are averaged to calculate the index">
+        <g font-family="M PLUS Rounded 1c,sans-serif" fill="#1d2a44">
+          <text x="20" y="26" font-size="14" font-weight="700">Most recent 20 scores</text>
+          <g stroke="#1d2a44" stroke-width="2">
+            <g fill="#efebdf">
+              <circle cx="34" cy="62" r="11"/><circle cx="62" cy="62" r="11"/><circle cx="118" cy="62" r="11"/><circle cx="174" cy="62" r="11"/><circle cx="202" cy="62" r="11"/><circle cx="258" cy="62" r="11"/>
+              <circle cx="34" cy="98" r="11"/><circle cx="90" cy="98" r="11"/><circle cx="146" cy="98" r="11"/><circle cx="174" cy="98" r="11"/><circle cx="230" cy="98" r="11"/><circle cx="258" cy="98" r="11"/>
+            </g>
+            <g fill="#f6c343">
+              <circle cx="90" cy="62" r="11"/><circle cx="146" cy="62" r="11"/><circle cx="230" cy="62" r="11"/><circle cx="62" cy="98" r="11"/><circle cx="118" cy="98" r="11"/><circle cx="202" cy="98" r="11"/><circle cx="286" cy="62" r="11"/><circle cx="286" cy="98" r="11"/>
+            </g>
+          </g>
+          <path d="M318 80h70" stroke="#e2574c" stroke-width="4" stroke-linecap="round"/><path d="M378 69l14 11-14 11" fill="none" stroke="#e2574c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="410" y="48" width="210" height="64" rx="12" fill="#fff4d2" stroke="#1d2a44" stroke-width="2.5"/>
+          <text x="515" y="74" font-size="14" font-weight="800" text-anchor="middle">From the best 8 scores</text>
+          <text x="515" y="96" font-size="12" fill="#4c5872" text-anchor="middle">Maximum 54.0</text>
+          <text x="20" y="140" font-size="12" fill="#4c5872">● Yellow = the best 8 (order is only an example)</text>
+        </g>
+      </svg>
+      </div>
+      <figcaption>You can get one by belonging to a club approved by the JGA and submitting scores for a total of 54 holes <span class="src">[17]</span>. JGA junior members who do not belong to a club can apply for J-sys on the member site, enter scores themselves and get a Handicap Index. J-sys registration is required for the Japan Junior and the National Elementary Tournament <span class="src">[1]</span>.</figcaption>
+    </figure>
+    <h3>What it costs</h3>
+    <div class="prose"><p>Besides the entry fee, there is often a separate green fee paid to the course. Real examples from official guidelines:</p></div>
+    <figure class="fig" style="margin:0">
+      <div class="cost">
+        <div class="ct"><span class="nm">JGAI Cup (2026)</span><div class="row"><span class="pill p-fee">Entry ¥3,300</span>+<span class="pill p-play">Green fee ¥3,500 (lunch included)</span></div><span class="src">[12]</span></div>
+        <div class="ct"><span class="nm">Tohoku Qualifier, All Japan Elementary (JLPGA, 2026)</span><div class="row"><span class="pill p-fee">Entry ¥3,000</span>+<span class="pill p-play">Green fee ¥6,000 (before tax)</span></div><span class="src">[8]</span></div>
+        <div class="ct"><span class="nm">Kanto Elementary Tournament, Final (2026)</span><div class="row"><span class="pill p-fee">Entry ¥5,500</span>+<span class="pill p-play">Green fee paid on the day</span></div><span class="src">[4]</span></div>
+        <div class="ct"><span class="nm">Ryo Ishikawa Cup, Qualifier (2026)</span><div class="row"><span class="pill p-fee">Members ¥7,000 / non-members ¥7,500</span>+<span class="pill p-play">Green fee paid on the day</span></div><span class="src">[9]</span></div>
+        <div class="ct"><span class="nm">Reitaku Mizunami Junior (2026)</span><div class="row"><span class="pill p-all">¥7,500 in total (entry, lunch and more)</span></div><span class="src">[7]</span></div>
+        <div class="ct"><span class="nm">Studio Alice Junior Cup, Qualifier (2026)</span><div class="row"><span class="pill p-all">¥12,000 in total (green fee, lunch and more)</span></div><span class="src">[13]</span></div>
+      </div>
+      <figcaption><span class="pill p-fee">Blue</span> is the entry fee (<span lang="ja">参加費</span>), <span class="pill p-play">green</span> is the green fee paid to the course (<span lang="ja">プレー費</span>), and <span class="pill p-all">yellow</span> is one combined amount. On top of this come membership fees (such as ¥2,000 a year for JGA junior membership) <span class="src">[1]</span> and travel costs.</figcaption>
+    </figure>
+  </section>
+
+  <section id="words">
+    <h2>Words you will see</h2>
+    <div class="scroll"><table><thead><tr><th>Japanese</th><th>Reading</th><th>Meaning</th></tr></thead><tbody><tr><td class="jp" lang="ja">要項</td><td class="ro">yōkō</td><td>Entry guidelines, often a PDF. Eligibility, fees, divisions and rules are all here.</td></tr><tr><td class="jp" lang="ja">申込 / エントリー</td><td class="ro">mōshikomi / entorī</td><td>Entry, application</td></tr><tr><td class="jp" lang="ja">申込期間</td><td class="ro">mōshikomi kikan</td><td>Entry period</td></tr><tr><td class="jp" lang="ja">締切</td><td class="ro">shimekiri</td><td>Deadline</td></tr><tr><td class="jp" lang="ja">先着順</td><td class="ro">senchaku-jun</td><td>First come, first served</td></tr><tr><td class="jp" lang="ja">抽選</td><td class="ro">chūsen</td><td>Lottery (draw)</td></tr><tr><td class="jp" lang="ja">定員</td><td class="ro">teiin</td><td>Maximum number of players</td></tr><tr><td class="jp" lang="ja">参加料 / 参加費</td><td class="ro">sankaryō / sankahi</td><td>Entry fee</td></tr><tr><td class="jp" lang="ja">プレー費</td><td class="ro">purē-hi</td><td>Green fee paid to the course (may be separate from the entry fee)</td></tr><tr><td class="jp" lang="ja">当日精算</td><td class="ro">tōjitsu seisan</td><td>Paid at the course on the day</td></tr><tr><td class="jp" lang="ja">銀行振込</td><td class="ro">ginkō furikomi</td><td>Bank transfer</td></tr><tr><td class="jp" lang="ja">コンビニ払い</td><td class="ro">konbini barai</td><td>Payment at a convenience store</td></tr><tr><td class="jp" lang="ja">在住</td><td class="ro">zaijū</td><td>Lives in (an area)</td></tr><tr><td class="jp" lang="ja">在学</td><td class="ro">zaigaku</td><td>Attends school in (an area)</td></tr><tr><td class="jp" lang="ja">学年</td><td class="ro">gakunen</td><td>School grade</td></tr><tr><td class="jp" lang="ja">〇〇現在 / 基準日</td><td class="ro">… genzai / kijunbi</td><td>The date on which age or grade is counted</td></tr><tr><td class="jp" lang="ja">〇〇の部</td><td class="ro">… no bu</td><td>Division, e.g. 男子小学生の部 = boys’ elementary division</td></tr><tr><td class="jp" lang="ja">予選 / 決勝</td><td class="ro">yosen / kesshō</td><td>Qualifier / final</td></tr><tr><td class="jp" lang="ja">会員登録</td><td class="ro">kaiin tōroku</td><td>Membership registration</td></tr><tr><td class="jp" lang="ja">マイページ</td><td class="ro">mai pēji</td><td>Your account page on the organizer’s site</td></tr><tr><td class="jp" lang="ja">フリガナ</td><td class="ro">furigana</td><td>Your name written in katakana</td></tr><tr><td class="jp" lang="ja">組合せ</td><td class="ro">kumiawase</td><td>Pairings and tee times</td></tr><tr><td class="jp" lang="ja">スタート時刻</td><td class="ro">sutāto jikoku</td><td>Tee time</td></tr><tr><td class="jp" lang="ja">受付</td><td class="ro">uketsuke</td><td>Check-in</td></tr><tr><td class="jp" lang="ja">キャディー</td><td class="ro">kyadī</td><td>Caddie: carries the bag and may give advice</td></tr><tr><td class="jp" lang="ja">目土袋</td><td class="ro">medo-bukuro</td><td>Divot sand bag</td></tr><tr><td class="jp" lang="ja">グリーンフォーク</td><td class="ro">gurīn fōku</td><td>Ball-mark repair tool</td></tr><tr><td class="jp" lang="ja">適合リスト</td><td class="ro">tekigō risuto</td><td>R&amp;A list of conforming balls or drivers</td></tr><tr><td class="jp" lang="ja">雨天決行</td><td class="ro">uten kekkō</td><td>Played even in rain</td></tr><tr><td class="jp" lang="ja">中止</td><td class="ro">chūshi</td><td>Cancelled</td></tr><tr><td class="jp" lang="ja">失格</td><td class="ro">shikkaku</td><td>Disqualified</td></tr><tr><td class="jp" lang="ja">棄権 / 欠場</td><td class="ro">kiken / ketsujō</td><td>Withdrawal</td></tr></tbody></table></div>
   </section>
 
   <section>
-    <h2>4. Words you will see</h2>
-    <div class="scroll"><table><thead><tr><th>Japanese</th><th>Reading</th><th>Meaning</th></tr></thead><tbody><tr><td class="jp" lang="ja">要項</td><td class="ro">yōkō</td><td>Entry guidelines, often a PDF. Eligibility, fees, divisions and rules are all here.</td></tr><tr><td class="jp" lang="ja">申込 / エントリー</td><td class="ro">mōshikomi / entorī</td><td>Entry, application</td></tr><tr><td class="jp" lang="ja">申込期間</td><td class="ro">mōshikomi kikan</td><td>Entry period</td></tr><tr><td class="jp" lang="ja">締切</td><td class="ro">shimekiri</td><td>Deadline</td></tr><tr><td class="jp" lang="ja">先着順</td><td class="ro">senchaku-jun</td><td>First come, first served</td></tr><tr><td class="jp" lang="ja">参加料</td><td class="ro">sankaryō</td><td>Entry fee</td></tr><tr><td class="jp" lang="ja">プレー費</td><td class="ro">purē-hi</td><td>Green fee paid to the course (may be separate from the entry fee)</td></tr><tr><td class="jp" lang="ja">銀行振込</td><td class="ro">ginkō furikomi</td><td>Bank transfer</td></tr><tr><td class="jp" lang="ja">コンビニ払い</td><td class="ro">konbini barai</td><td>Payment at a convenience store</td></tr><tr><td class="jp" lang="ja">在住</td><td class="ro">zaijū</td><td>Lives in (an area)</td></tr><tr><td class="jp" lang="ja">在学</td><td class="ro">zaigaku</td><td>Attends school in (an area)</td></tr><tr><td class="jp" lang="ja">学年</td><td class="ro">gakunen</td><td>School grade</td></tr><tr><td class="jp" lang="ja">〇〇の部</td><td class="ro">… no bu</td><td>Division, e.g. 男子小学生の部 = boys’ elementary division</td></tr><tr><td class="jp" lang="ja">予選 / 決勝</td><td class="ro">yosen / kesshō</td><td>Qualifier / final</td></tr><tr><td class="jp" lang="ja">会員登録</td><td class="ro">kaiin tōroku</td><td>Membership registration</td></tr><tr><td class="jp" lang="ja">フリガナ</td><td class="ro">furigana</td><td>Your name written in katakana</td></tr><tr><td class="jp" lang="ja">組合せ</td><td class="ro">kumiawase</td><td>Pairings and tee times</td></tr><tr><td class="jp" lang="ja">雨天決行</td><td class="ro">uten kekkō</td><td>Played even in rain</td></tr><tr><td class="jp" lang="ja">棄権 / 欠場</td><td class="ro">kiken / ketsujō</td><td>Withdrawal</td></tr></tbody></table></div>
+    <a class="next-read" href="yardage-by-age.html"><b>Read next</b>Distance by age and course length →</a>
   </section>
 
   <section>
-    <h2>Find a tournament</h2>
-    <div class="prose"><p>See dates, entry periods and official links on a map and an entry calendar.</p></div>
-    <a class="cta" href="../">Find tournaments →</a>
+    <details><summary>Sources (17)</summary><ol><li>Japan Golf Association (JGA), <span lang="ja">「JGAジュニア会員の募集について」</span> JGA junior membership (Japanese) <a href="https://www.jga.or.jp/junior/members_junior/" target="_blank" rel="noopener">https://www.jga.or.jp/junior/members_junior/</a></li><li>JGA, <span lang="ja">「本選競技日程・エントリー」</span> championship schedule and entry (Japanese) <a href="https://www.jga.or.jp/championship/champ_schedule/" target="_blank" rel="noopener">https://www.jga.or.jp/championship/champ_schedule/</a></li><li>Kanto Golf Association (KGA), <span lang="ja">「2026年度 関東ジュニアゴルフ選手権 競技規定」</span> 2026 Kanto Junior Championship conditions (Japanese) <a href="https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2629_rule.pdf" target="_blank" rel="noopener">https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2629_rule.pdf</a> (event page <a href="https://www.kga.gr.jp/junior/junior_championship.php" target="_blank" rel="noopener">https://www.kga.gr.jp/junior/junior_championship.php</a>)</li><li>KGA, <span lang="ja">「2026年 関東小学生ゴルフ大会 競技規定」</span> 2026 Kanto Elementary Tournament conditions (Japanese) <a href="https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2631_rule.pdf" target="_blank" rel="noopener">https://s3-us-west-2.amazonaws.com/kga.gr.jp/compe/2631_rule.pdf</a> (event page <a href="https://www.kga.gr.jp/junior/elementary_championship.php" target="_blank" rel="noopener">https://www.kga.gr.jp/junior/elementary_championship.php</a>)</li><li>Nagano Golf Association, <span lang="ja">「2027長野県小学生大会（兼 関東小学生大会 長野県予選）」</span> (Japanese) <a href="https://www.naganogolf.jp/games/1068/" target="_blank" rel="noopener">https://www.naganogolf.jp/games/1068/</a></li><li>Japan LPGA (JLPGA), <span lang="ja">「全日本小学生ゴルフトーナメント」</span> All Japan Elementary Tournament (Japanese) <a href="https://www.lpga.or.jp/junior/alljapanjunior/" target="_blank" rel="noopener">https://www.lpga.or.jp/junior/alljapanjunior/</a> / regional qualifiers <a href="https://www.lpga.or.jp/junior/alljapanjunior/qualify" target="_blank" rel="noopener">https://www.lpga.or.jp/junior/alljapanjunior/qualify</a></li><li><span lang="ja">麗澤瑞浪ジュニアゴルフ大会</span> Reitaku Mizunami Junior Tournament, guidelines (on the JLPGA site; Japanese) <a href="https://cdn.lpga.or.jp/lpga/cms/2026/06/16/727b9bec3e3062db333eb42df84449300d6cc9c1.pdf" target="_blank" rel="noopener">https://cdn.lpga.or.jp/lpga/cms/2026/06/16/727b9bec3e3062db333eb42df84449300d6cc9c1.pdf</a></li><li>Miyagi Television, <span lang="ja">「全日本小学生ゴルフトーナメント東北予選大会」</span> Tohoku qualifier (Japanese) <a href="https://www.mmt-tv.co.jp/event/articles/uozre44y754rj1jz.html" target="_blank" rel="noopener">https://www.mmt-tv.co.jp/event/articles/uozre44y754rj1jz.html</a></li><li>Japan Junior Golf Association (JJGA), <span lang="ja">「石川遼カップ ジュニアゴルフチャンピオンシップ」</span> Ryo Ishikawa Cup (Japanese) <a href="https://www.jjga.org/convention/2026/ishikawaryocup/" target="_blank" rel="noopener">https://www.jjga.org/convention/2026/ishikawaryocup/</a> / qualifier guidelines <a href="https://www.jjga.org/convention/2026/ishikawaryocup/pdf/Qualifying_about.pdf" target="_blank" rel="noopener">https://www.jjga.org/convention/2026/ishikawaryocup/pdf/Qualifying_about.pdf</a> / qualifier rules <a href="https://www.jjga.org/convention/2026/ishikawaryocup/pdf/Qualifying_rules.pdf" target="_blank" rel="noopener">https://www.jjga.org/convention/2026/ishikawaryocup/pdf/Qualifying_rules.pdf</a></li><li>JJGA, <span lang="ja">「入会案内」</span> membership (Japanese) <a href="https://www.jjga.org/admission" target="_blank" rel="noopener">https://www.jjga.org/admission</a></li><li>Japan Junior Golf Tour (JJGT), <span lang="ja">「ご利用ガイド」</span> user guide (Japanese) <a href="http://www.jjgt.net/guide/index.php" target="_blank" rel="noopener">http://www.jjgt.net/guide/index.php</a></li><li>Ichihara Junior Golf Association, <span lang="ja">「JGAIカップ」</span> JGAI Cup (Japanese) <a href="https://www.jgai.or.jp/ijgt202611/" target="_blank" rel="noopener">https://www.jgai.or.jp/ijgt202611/</a></li><li>Studio Alice, <span lang="ja">「ジュニアカップ 2026」</span> Studio Alice Junior Cup 2026 (Japanese) <a href="https://www.studio-alice.co.jp/golf/2026/junior/index.html" target="_blank" rel="noopener">https://www.studio-alice.co.jp/golf/2026/junior/index.html</a></li><li>Osaka High School and Junior High School Golf Federation, <span lang="ja">「令和8年度 大阪府・和歌山県中学校ゴルフ選手権秋季大会要項」</span> 2026 autumn junior high championship guidelines (Japanese) <a href="http://www.osaka-kogoren.com/news/pdf/508.pdf" target="_blank" rel="noopener">http://www.osaka-kogoren.com/news/pdf/508.pdf</a></li><li>Japan High School and Junior High School Golf Federation, <span lang="ja">「個人加盟申込み」</span> individual membership (Japanese) <a href="https://nihon-kougoren.jp/inquiry_apply.html" target="_blank" rel="noopener">https://nihon-kougoren.jp/inquiry_apply.html</a></li><li>U.S. Kids Golf, “Registration Information” <a href="https://tournaments.uskidsgolf.com/tournaments/local-tours/registration-information" target="_blank" rel="noopener">https://tournaments.uskidsgolf.com/tournaments/local-tours/registration-information</a></li><li>JGA, <span lang="ja">「ハンディキャップ規則 リファレンスガイド（プレーヤー向け）」</span> Handicap rules reference guide for players (effective January 2024; Japanese) <a href="https://www.jga.or.jp/data/wp-content/uploads/2024/03/Player_Reference_Guide-202401.pdf" target="_blank" rel="noopener">https://www.jga.or.jp/data/wp-content/uploads/2024/03/Player_Reference_Guide-202401.pdf</a></li></ol></details>
+    <p class="small muted">Information as of October 2026. Fees, dates and conditions change from year to year. Check the official page of each tournament for the latest.</p>
   </section>
 
   <footer class="g-foot">
-    <p>English names and descriptions on this site are unofficial. The official guidelines always take priority. Information as of October 2026.</p>
+    <p>English names and descriptions on this site are unofficial. The official guidelines always take priority.</p>
     <p class="links"><a href="../">Find tournaments</a>　<a href="yardage-by-age.html">Distance by age</a>　<a href="choosing-clubs.html">Choosing clubs</a>　<a href="https://forms.gle/VmovrR1eMaNUZNGb7" target="_blank" rel="noopener">Suggest a tournament</a>　<a href="../../disclaimer.html" lang="ja">免責事項 (Disclaimer, Japanese)</a>　<a href="../../privacy.html" lang="ja">プライバシーポリシー (Privacy, Japanese)</a></p>
     <p><small>&copy; 2026 Junior Golf Tournament Calendar. All rights reserved.</small></p>
   </footer>
