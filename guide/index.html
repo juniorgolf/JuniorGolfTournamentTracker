@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>保護者のためのガイド｜ジュニアゴルフ大会カレンダー</title>
+<meta name="description" content="ジュニアゴルフをはじめる保護者のためのガイド。ゴルフで育つ力、はじめての大会の申し込みから当日まで、年齢別の飛距離の目安、クラブの選び方を、読む順に紹介します。">
+<link rel="canonical" href="https://jrgolf.jp/guide/">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MBVQKV6REJ"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MBVQKV6REJ');</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9497500384977113"
+     crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+/* 保護者のためのガイド目次（2026-10-24）。デザインは各ガイドと共通（mkindex.py が growth.html から読み込んで生成） */
+:root{
+  --bg:#fffdf7; --surface:#ffffff; --paper:#fbf8ef;
+  --ink:#1d2a44; --ink-2:#4c5872; --ink-3:#6b7488; --rule:#e8e2d2;
+  --yellow:#f6c343; --yellow-soft:#fff4d2; --amber-ink:#7a5600;
+  --coral:#e2574c; --coral-ink:#b8352b; --coral-soft:#fce3e0;
+  --blue-ink:#2b4590; --blue-soft:#e3eafb;
+  --green:#3b6b1f; --green-soft:#e8f0e1; --teal:#00796b; --teal-soft:#e0f1ee;
+  --purple:#6a47a8; --purple-soft:#eee9f7; --brown:#8f5000; --brown-soft:#f7ecdd;
+  --grey:#56636e; --grey-soft:#eceff1;
+  --turf:#7fb069; --turf-soft:#dcebd2; --sand:#e9d8a6;
+  --font:"M PLUS Rounded 1c","Hiragino Maru Gothic ProN","Noto Sans JP",system-ui,sans-serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16px;line-height:1.85;letter-spacing:.01em}
+.wrap{max-width:860px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:24px 64px}
+h1,h2,h3{text-wrap:balance;line-height:1.4;margin:0}
+h1{font-size:clamp(1.6rem,4.6vw,2.3rem);font-weight:800}
+h2{font-size:1.4rem;font-weight:800}
+h3{font-size:1.08rem;font-weight:700}
+p{margin:0}
+.muted{color:var(--ink-2)}
+.nw{display:inline-block}
+.small{font-size:.86rem}
+.src{color:var(--ink-3);font-size:.78rem;white-space:nowrap}
+section{display:grid;gap:18px;padding-block:36px;border-top:2px dashed var(--rule)}
+.prose{display:grid;gap:12px;max-width:44em}
+
+
+.fig{position:relative;background:var(--surface);border:1.5px solid var(--rule);border-radius:18px;padding:18px;display:grid;gap:12px;min-width:0}
+.fig figcaption{font-size:.84rem;color:var(--ink-2)}
+.fig svg{display:block;width:100%;height:auto}
+.scroll{overflow-x:auto}
+
+
+/* ヒーロー */
+.hero{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:20px;align-items:center;padding-block:28px 12px}
+.hero .lead{display:grid;gap:12px}
+.kicker{display:inline-block;background:var(--yellow);border-radius:99px;padding:2px 12px;font-size:.8rem;font-weight:700;justify-self:start}
+@media (max-width:640px){.hero{grid-template-columns:1fr}}
+
+/* 道のり */
+.road{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;position:relative}
+.road::before{content:"";position:absolute;left:7%;right:7%;top:30px;border-top:3px dotted var(--yellow)}
+.road li{position:relative;display:grid;justify-items:center;gap:6px;text-align:center;font-size:.8rem;font-weight:700;line-height:1.35}
+.road .ic{width:60px;height:60px;border-radius:50%;background:var(--surface);border:2.5px solid var(--ink);display:grid;place-items:center}
+.road .ic svg{width:30px;height:30px}
+.road .n{font-size:.7rem;color:var(--coral-ink);letter-spacing:.06em}
+.road a{color:inherit;text-decoration:none}
+@media (max-width:640px){
+  .road{grid-template-columns:1fr;gap:10px}
+  .road::before{left:29px;right:auto;top:20px;bottom:20px;border-top:0;border-left:3px dotted var(--yellow)}
+  .road li{grid-template-columns:60px 1fr;justify-items:start;text-align:left;align-items:center;column-gap:12px;font-size:.95rem}
+  .road .n{grid-column:2;grid-row:1;align-self:end}
+  .road .ic{grid-row:1 / span 2}
+  .road .t{grid-column:2}
+}
+
+/* STEP見出し */
+.step-head{display:flex;gap:14px;align-items:center}
+.step-badge{flex:none;width:64px;height:64px;border-radius:18px;background:var(--yellow);display:grid;place-items:center;text-align:center;line-height:1.1;font-weight:800}
+.step-badge small{display:block;font-size:.6rem;letter-spacing:.1em}
+.step-badge span{font-size:1.6rem}
+
+/* カード並び */
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:640px){.grid3,.grid2{grid-template-columns:1fr}}
+.card{background:var(--paper);border-radius:14px;padding:14px;display:grid;gap:8px;align-content:start;min-width:0}
+.card .pic{height:84px;display:grid;place-items:center}
+.card .pic svg{height:84px;width:auto}
+.card h3{font-size:1rem}
+.card p{font-size:.88rem}
+
+/* 要項チェック */
+.checks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.checks{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.chk{background:var(--paper);border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:28px 1fr;gap:4px 8px;align-items:start;min-width:0}
+.chk svg{width:28px;height:28px;grid-row:1 / span 2}
+.chk b{font-size:.9rem}
+.chk span{font-size:.78rem;color:var(--ink-2);line-height:1.5}
+
+/* 会員カード */
+.mem{background:var(--surface);border:2px solid var(--c);border-radius:14px;overflow:hidden;display:grid;align-content:start;min-width:0}
+.mem .band{background:var(--c);color:#fff;padding:8px 14px;font-weight:700;font-size:.92rem;display:flex;justify-content:space-between;gap:8px}
+.mem .band small{opacity:.9;font-weight:500}
+.mem .body{padding:12px 14px;display:grid;gap:6px;font-size:.88rem}
+.mem .price{font-size:1.5rem;font-weight:800;color:var(--c);line-height:1.2;font-variant-numeric:tabular-nums}
+.mem .price small{font-size:.8rem;font-weight:700;color:var(--ink-2)}
+
+/* する・しない */
+.dodont{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+@media (max-width:520px){.dodont{grid-template-columns:1fr}}
+.dd{border-radius:14px;padding:14px;display:grid;grid-template-columns:88px 1fr;gap:12px;align-items:center}
+.dd.ok{background:var(--green-soft)} .dd.ng{background:var(--coral-soft)}
+.dd .mark{font-weight:800;font-size:.95rem}
+.dd.ok .mark{color:var(--green)} .dd.ng .mark{color:var(--coral-ink)}
+.dd p{font-size:.88rem}
+
+/* 種類 */
+.types{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}
+.type{border-left:6px solid var(--c);background:var(--surface);border-radius:4px 12px 12px 4px;padding:10px 14px;display:grid;gap:4px;box-shadow:0 0 0 1.5px var(--rule) inset}
+.type b{color:var(--c)}
+.type span{font-size:.84rem;color:var(--ink-2);line-height:1.6}
+
+/* 費用 */
+.cost{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.ct{background:var(--paper);border-radius:12px;padding:12px 14px;display:grid;gap:6px}
+.ct .nm{font-size:.86rem;font-weight:700}
+.ct .row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.pill{border-radius:99px;padding:1px 10px;font-size:.8rem;font-weight:700;font-variant-numeric:tabular-nums}
+.p-fee{background:var(--blue-soft);color:var(--blue-ink)}
+.p-play{background:var(--turf-soft);color:var(--green)}
+.p-all{background:var(--yellow-soft);color:var(--amber-ink)}
+
+details{background:var(--paper);border-radius:12px;padding:10px 14px}
+details summary{cursor:pointer;font-weight:700}
+details ol{font-size:.8rem;color:var(--ink-2);padding-left:1.4em;overflow-wrap:anywhere}
+a{color:var(--blue-ink)}
+:focus-visible{outline:3px solid var(--blue-ink);outline-offset:2px}
+.tag{font-size:.7rem;font-weight:700;border-radius:6px;padding:0 6px;background:var(--grey-soft);color:var(--grey)}
+
+/* サイト共通の頭とフッター */
+.g-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:4px 8px;border-bottom:2px dashed var(--rule)}
+.g-brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:800;font-size:1rem}
+.g-brand img{width:36px;height:36px}
+.g-back{font-size:.86rem;color:var(--ink-2)}
+.g-nav{display:flex;gap:14px}
+.g-foot{margin-top:24px;padding-block:24px;border-top:2px dashed var(--rule);font-size:.78rem;color:var(--ink-3);display:grid;gap:6px}
+.g-foot a{color:inherit}
+.next-read{display:block;background:var(--yellow-soft);border:1.5px solid var(--yellow);border-radius:16px;padding:14px 18px;color:var(--ink);text-decoration:none;font-weight:700}
+.next-read b{display:block;font-size:.8rem;color:var(--coral-ink)}
+
+/* 育つ力のページ（2026-10-24）だけの部品 */
+.catch2{font-size:clamp(1rem,2.6vw,1.15rem);font-weight:700;line-height:1.8;margin:.2em 0 .4em}
+.subcatch{font-size:clamp(1.05rem,3vw,1.3rem);font-weight:800;color:var(--green)}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.stats{grid-template-columns:1fr}}
+.stat{background:var(--paper);border-radius:14px;padding:14px 16px;display:grid;gap:4px;align-content:start}
+.stat b{font-size:1.45rem;color:var(--green);line-height:1.3}
+.stat span{font-size:.84rem;color:var(--ink-2);line-height:1.6}
+.group{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--c);margin-top:6px}
+.group::before{content:"";width:14px;height:14px;border-radius:4px;background:var(--c)}
+.power{background:var(--surface);border:1.5px solid var(--rule);border-left:6px solid var(--c);border-radius:6px 18px 18px 6px;padding:16px 18px;display:grid;gap:10px;min-width:0}
+.p-head{display:grid;grid-template-columns:120px 1fr;gap:14px;align-items:center}
+.p-head .pic svg{width:120px;height:84px;display:block}
+@media (max-width:480px){.p-head{grid-template-columns:96px 1fr}.p-head .pic svg{width:96px;height:67px}}
+.power .no{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--c);color:#fff;font-weight:800;font-size:.9rem;margin-right:8px;vertical-align:.1em}
+.power > p{font-size:.95rem}
+.power .res{background:var(--blue-soft);border-radius:12px;padding:10px 14px;font-size:.9rem}
+.power .res b{color:var(--blue-ink);margin-right:.6em}
+.power .home{background:var(--yellow-soft);border-radius:12px;padding:10px 14px;font-size:.9rem}
+.power .home b{color:var(--amber-ink);margin-right:.6em}
+.chart{margin:0;background:var(--paper);border-radius:12px;padding:10px;max-width:420px}
+.chart svg{display:block;width:100%;height:auto}
+.tips{counter-reset:t;list-style:none;padding:0;margin:0;display:grid;gap:10px;max-width:44em}
+.tips li{counter-increment:t;background:var(--green-soft);border-radius:14px;padding:12px 16px 12px 54px;position:relative}
+.tips li::before{content:counter(t);position:absolute;left:14px;top:13px;width:28px;height:28px;border-radius:50%;background:var(--green);color:#fff;display:grid;place-items:center;font-weight:800}
+.go{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px}
+.go .next-read{margin:0}
+.g-nav{display:flex;gap:14px}
+.memo{background:var(--coral-soft);color:var(--coral-ink);border-radius:12px;padding:10px 14px;font-size:.88rem;margin-top:12px}
+.gl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-block:8px 28px}
+.gc{display:grid;grid-template-rows:auto 1fr;background:var(--surface);border:1.5px solid var(--rule);border-radius:20px;overflow:hidden;color:var(--ink);text-decoration:none;transition:border-color .15s,transform .15s}
+.gc:hover{border-color:var(--yellow);transform:translateY(-2px)}
+.gc .art{background:#fffaf0;border-bottom:1.5px solid var(--rule);padding:10px 14px}
+.gc .art svg{display:block;width:100%;height:auto;max-height:190px}
+.gc .txt{display:grid;gap:6px;padding:14px 18px 18px;align-content:start}
+.gc .gk{display:flex;align-items:center;gap:8px;font-size:.8rem;font-weight:700;color:var(--coral-ink)}
+.gc .gk b{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:var(--ink);color:#fff;font-size:.8rem}
+.gc h2{margin:0;font-size:1.25rem}
+.gc .sub{margin:0;font-weight:700;color:var(--green)}
+.gc p.d{margin:0;color:var(--ink-2);font-size:.92rem;line-height:1.8}
+.gc .go{margin-top:4px;font-weight:700;font-size:.9rem}
+.hero.solo{grid-template-columns:1fr;padding-bottom:4px}
+@media (max-width:720px){.gl{grid-template-columns:1fr}}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="g-head" aria-label="サイト">
+    <a class="g-brand" href="../"><img src="../favicon.svg" alt="">ジュニアゴルフ大会カレンダー</a>
+    <span class="g-nav"><a class="g-back" href="../">← 大会を探す</a></span>
+  </nav>
+  
+  <header class="hero solo">
+    <div class="lead">
+      <span class="kicker">保護者の方へ</span>
+      <h1><span class="nw">保護者のための</span><span class="nw">ガイド</span></h1>
+      <p class="muted">ジュニアゴルフをはじめるときに知っておきたいことを、4つのページにまとめました。上から順に読むと、ゴルフの良さから、大会への申し込み、コースの長さ、道具選びまで分かります。</p>
+    </div>
+  </header>
+  <section class="gl" aria-label="ガイド一覧">
+    <a class="gc" href="growth.html">
+      <div class="art"><svg viewBox="0 0 360 230" aria-hidden="true"><rect width="360" height="230" rx="14" fill="#fff4d2"/><circle cx="304" cy="48" r="22" fill="#f6c343"/><path d="M0 150Q90 112 190 140T360 128V230H0z" fill="#dcebd2"/><path d="M0 184Q120 156 240 178T360 172V230H0z" fill="#7fb069"/><ellipse cx="300" cy="134" rx="30" ry="7" fill="#b9d99f"/><path d="M306 134V96" stroke="#1d2a44" stroke-width="2.5"/><path d="M306 96l18 6-18 6z" fill="#e2574c"/><path d="M33.6 204.0V163.5a18.4 18.4 0 0 1 36.8 0V204.0" fill="#6a47a8" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><circle cx="52.0" cy="124.9" r="12.9" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/><path d="M39.1 124.9a12.9 12.9 0 0 1 25.8 0" fill="#eceff1" stroke="#1d2a44" stroke-width="3"/><path d="M77.2 206.0V160.2a20.8 20.8 0 0 1 41.6 0V206.0" fill="#2b4590" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><circle cx="98.0" cy="116.6" r="14.6" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/><path d="M164.0 210.0V179.2a14.0 14.0 0 0 1 28.0 0V210.0" fill="#fff" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><circle cx="178.0" cy="149.8" r="9.8" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/><path d="M168.2 148.8a9.8 8.3 0 0 1 19.6 0h5.9" fill="#f6c343" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/><path d="M190 168l18 32" stroke="#1d2a44" stroke-width="3.5" stroke-linecap="round"/><circle cx="214" cy="208" r="4.5" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/><path d="M222 200Q262 110 300 128" fill="none" stroke="#fffdf7" stroke-width="3" stroke-dasharray="2 8" stroke-linecap="round"/></svg></div>
+      <div class="txt"><span class="gk"><b>1</b>なぜゴルフ？</span><h2>ゴルフで育つ力</h2><p class="sub">ゴルフには、教科書にない授業がある。</p><p class="d">あいさつ、立ち直る力、自分で考える力。ジュニアゴルフで育つ7つの力と親子の時間を、海外の新しい研究とあわせて紹介します。</p><span class="go">読む →</span></div>
+    </a>
+    <a class="gc" href="first-tournament.html">
+      <div class="art"><svg viewBox="0 0 360 230" aria-hidden="true">
+        <rect x="0" y="0" width="360" height="230" rx="14" fill="#fff4d2"/>
+        <circle cx="300" cy="52" r="24" fill="#f6c343"/>
+        <path d="M0 170 Q90 130 180 160 T360 150 V230 H0z" fill="#dcebd2"/>
+        <path d="M0 196 Q120 168 240 190 T360 186 V230 H0z" fill="#7fb069"/>
+        <path d="M40 230 Q120 190 200 182 T330 150" fill="none" stroke="#fffdf7" stroke-width="10" stroke-linecap="round" stroke-dasharray="2 16"/>
+        <!-- カレンダー -->
+        <g transform="translate(248 78)">
+          <rect x="0" y="8" width="78" height="70" rx="10" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M0 30h78" stroke="#1d2a44" stroke-width="3"/>
+          <rect x="1.5" y="9.5" width="75" height="19" rx="8" fill="#e2574c"/>
+          <path d="M20 2v14M58 2v14" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="39" cy="54" r="13" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+          <circle cx="35" cy="50" r="2" fill="#1d2a44"/><circle cx="43" cy="52" r="2" fill="#1d2a44"/><circle cx="38" cy="58" r="2" fill="#1d2a44"/>
+        </g>
+        <!-- 保護者 -->
+        <g transform="translate(70 92)">
+          <circle cx="24" cy="14" r="13" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M4 92 V48 a20 20 0 0 1 40 0 V92" fill="#2b4590" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M44 56 L62 70" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+        </g>
+        <!-- 子ども＋バッグ -->
+        <g transform="translate(128 120)">
+          <rect x="34" y="4" width="18" height="48" rx="7" fill="#e2574c" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M38 4V-8M43 4V-12M48 4V-6" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="18" cy="12" r="11" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M6 9 a12 10 0 0 1 24 0 h6" fill="#f6c343" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M3 66 V36 a15 15 0 0 1 30 0 V66" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+          <path d="M3 42 L-8 52" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+        </g>
+      </svg></div>
+      <div class="txt"><span class="gk"><b>2</b>大会に出る</span><h2>はじめての大会</h2><p class="sub">申し込みから当日まで</p><p class="d">大会の選び方、要項の読み方、申し込み、前日の準備、当日の流れまで、7つのステップで説明します。</p><span class="go">読む →</span></div>
+    </a>
+    <a class="gc" href="yardage-by-age.html">
+      <div class="art"><svg viewBox="0 0 360 220" aria-hidden="true">
+    <rect width="360" height="220" rx="14" fill="#fff4d2"/>
+    <path d="M0 176 Q180 150 360 170 V220 H0z" fill="#dcebd2"/>
+    <path d="M0 192 Q180 176 360 190 V220 H0z" fill="#7fb069"/>
+    <path d="M58 168 Q170 20 270 172" fill="none" stroke="#1d2a44" stroke-width="2.5" stroke-dasharray="6 6"/>
+    <path d="M270 172 L326 176" stroke="#b8352b" stroke-width="3" stroke-dasharray="3 5" stroke-linecap="round"/>
+    <circle cx="326" cy="176" r="6" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/>
+    <g transform="translate(26 112)">
+      <circle cx="18" cy="12" r="11" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/>
+      <path d="M6 9 a12 10 0 0 1 24 0 h6" fill="#f6c343" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M4 66 V36 a14 14 0 0 1 28 0 V66" fill="#fff" stroke="#1d2a44" stroke-width="3"/>
+      <path d="M28 40 L50 4" stroke="#1d2a44" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="51" cy="2" r="4" fill="#1d2a44"/>
+    </g>
+    <path d="M58 200 H268" stroke="#1d2a44" stroke-width="2"/><path d="M58 194v12M268 194v12" stroke="#1d2a44" stroke-width="2"/>
+    <text x="163.0" y="214.0" font-family="M PLUS Rounded 1c,Hiragino Maru Gothic ProN,sans-serif" font-size="12" font-weight="800" fill="#1d2a44" text-anchor="middle" >キャリー（空中）</text>
+    <text x="298.0" y="214.0" font-family="M PLUS Rounded 1c,Hiragino Maru Gothic ProN,sans-serif" font-size="12" font-weight="800" fill="#b8352b" text-anchor="middle" >ラン</text>
+  </svg></div>
+      <div class="txt"><span class="gk"><b>3</b>コースの長さ</span><h2>飛距離の目安</h2><p class="sub">年齢別の飛距離とコースの長さ</p><p class="d">その子の今の飛距離に合うコースの長さはどのくらいか。年齢別の目安と、日本の大会の長さを図で比べます。</p><span class="go">読む →</span></div>
+    </a>
+    <a class="gc" href="choosing-clubs.html">
+      <div class="art"><svg viewBox="0 0 360 220" aria-hidden="true">
+  <rect width="360" height="220" rx="14" fill="#fff4d2"/>
+  <path d="M0 186 Q180 170 360 184 V220 H0z" fill="#dcebd2"/>
+  <g transform="translate(70 22)"><rect x="0" y="0" width="22" height="168" rx="4" fill="#fff" stroke="#1d2a44" stroke-width="2.5"/>
+    <path d="M0 8h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 28h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 48h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 68h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 88h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 108h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 128h10" stroke="#1d2a44" stroke-width="2"/><path d="M0 148h10" stroke="#1d2a44" stroke-width="2"/></g>
+  <path d="M96 52h40" stroke="#b8352b" stroke-width="3" stroke-linecap="round"/>
+  <g transform="translate(140 40)">
+    <circle cx="26" cy="22" r="16" fill="#f3d2b5" stroke="#1d2a44" stroke-width="3"/>
+    <path d="M10 18 a16 13 0 0 1 32 0 h8" fill="#f6c343" stroke="#1d2a44" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M6 112 V62 a20 20 0 0 1 40 0 V112" fill="#2b4590" stroke="#1d2a44" stroke-width="3"/>
+    <path d="M10 112v28M42 112v28" stroke="#1d2a44" stroke-width="5" stroke-linecap="round"/>
+    <path d="M2 142h18M34 142h18" stroke="#1d2a44" stroke-width="7" stroke-linecap="round"/>
+    <path d="M46 70 L96 138" stroke="#56636e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M46 70 L60 89" stroke="#1d2a44" stroke-width="7" stroke-linecap="round"/>
+    <path d="M92 134 l14 6 l-4 6 l-14 -4z" fill="#1d2a44"/>
+  </g>
+  <text x="248" y="64" font-size="13" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">靴をはいて</text>
+  <text x="248" y="84" font-size="13" font-weight="700" fill="#1d2a44" font-family="M PLUS Rounded 1c, sans-serif">身長を測る</text>
+</svg></div>
+      <div class="txt"><span class="gk"><b>4</b>道具をそろえる</span><h2>クラブの選び方</h2><p class="sub">身長・長さ・重さ・硬さの目安</p><p class="d">ジュニア用クラブのサイズの選び方と、最初にそろえる本数の目安を、メーカーや協会の案内をもとに説明します。</p><span class="go">読む →</span></div>
+    </a>
+  </section>
+
+  <footer class="g-foot">
+    <p class="links"><a href="../">大会を探す</a>　<a href="growth.html">ゴルフで育つ力</a>　<a href="first-tournament.html">はじめての大会</a>　<a href="yardage-by-age.html">年齢別の飛距離の目安</a>　<a href="choosing-clubs.html">クラブの選び方</a>　<a href="https://forms.gle/VmovrR1eMaNUZNGb7" target="_blank" rel="noopener">大会情報の提供</a>　<a href="../disclaimer.html">免責事項</a>　<a href="../privacy.html">プライバシーポリシー</a></p>
+    <p><small>&copy; 2026 ジュニアゴルフ大会カレンダー運営委員会. All rights reserved.</small></p>
+  </footer>
+</div>
+</body>
+</html>
